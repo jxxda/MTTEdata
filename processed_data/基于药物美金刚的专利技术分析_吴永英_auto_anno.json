@@ -1,0 +1,173 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于药物美金刚的专利技术分析_吴永英_merged.json",
+    "page_num": 0,
+    "image_index": 0,
+    "thought": "论文聚焦于药物美金刚（Memantine）的专利技术分析，核心并非描述具体技术实现细节，而是从专利布局角度梳理其技术演进路径。文中明确指出未来发展方向包括：1）前体（prodrug，即前药设计，改善药代动力学性质）；2）晶型（polymorphs，涉及稳定性、溶解度与生物利用度）；3）药物联用（combination therapy，如与其他AD药物如多奈哌齐联用以增强疗效）；4）高效制备方法（synthetic route optimization，涉及工艺创新与成本控制）。这些方向共同构成围绕‘美金刚分子’展开的外围专利策略体系，属于典型的药物专利生命周期延伸策略——在核心化合物专利到期后，通过衍生技术构建专利网。因此，技术体系结构应以‘美金刚药物技术体系’为根节点，下分四大支柱性技术分支，每支代表一类关键专利布局方向。",
+    "tree": {
+      "root": "美金刚药物技术体系",
+      "children": [
+        {
+          "name": "前体设计（前药技术）",
+          "children": []
+        },
+        {
+          "name": "晶型开发",
+          "children": []
+        },
+        {
+          "name": "药物联用方案",
+          "children": []
+        },
+        {
+          "name": "高效制备方法",
+          "children": []
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于药物美金刚的专利技术分析_吴永英_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "论文聚焦于美金刚（Memantine）的专利布局与技术演进，核心围绕其化学结构（1-氨基-3,5-二甲基金刚烷胺）、生物活性发现、适应症拓展及制剂/联用策略。Lilly最早合成该化合物但未开发其药理用途；Merz作为关键申请人，系统构建了以‘化合物→用途→制剂→联用’为主线的技术体系：从1973年首次保护其治疗运动机能亢进（帕金森）的用途，逐步扩展至阿尔茨海默病（AD）、脑缺血、免疫调节等多适应症，并深化至剂量优化、代谢调控（如抑制葡萄糖代谢降低）及联合用药（如AMPA受体增强剂）。技术演进体现为：基础化合物→单一用途验证→多适应症拓展→精准给药与协同增效。图2显示申请人分布，但技术架构核心由Merz主导形成闭环专利网。",
+    "tree": {
+      "root": "美金刚（Memantine）技术体系",
+      "children": [
+        {
+          "name": "基础化合物与合成",
+          "children": [
+            {
+              "name": "化学结构：1-氨基-3,5-二甲基金刚烷胺",
+              "children": []
+            },
+            {
+              "name": "早期合成（Lilly, 1966）",
+              "children": [
+                {
+                  "name": "US3391142A：金刚烷基仲胺抗病毒中间体",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "药理活性与适应症拓展",
+          "children": [
+            {
+              "name": "中枢神经系统调节",
+              "children": [
+                {
+                  "name": "运动机能亢进/帕金森病（Merz, 1973）",
+                  "children": [
+                    {
+                      "name": "US4122193A：首次用途专利",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "阿尔茨海默病（AD）治疗",
+                  "children": [
+                    {
+                      "name": "脑缺血与神经保护（Merz, 1991）",
+                      "children": [
+                        {
+                          "name": "US5061703A：预防/治疗脑缺血，含AD适应症",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "轻度至中度AD（Merz, 2005）",
+                      "children": [
+                        {
+                          "name": "WO2005067908A2：标准单药疗法",
+                          "children": []
+                        },
+                        {
+                          "name": "代谢调控：抑制葡萄糖代谢降低",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "免疫调节新用途（Merz, 1996）",
+                  "children": [
+                    {
+                      "name": "WO9707791A1：中性粒细胞活性调节",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "药物组合与协同策略",
+          "children": [
+            {
+              "name": "NMDA受体调节剂联用",
+              "children": [
+                {
+                  "name": "一氧化氮合酶抑制剂 + 美金刚（Lilly, 2000）",
+                  "children": [
+                    {
+                      "name": "WO0061126A2：神经疾病治疗组合",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AMPA受体增强剂联用（Lilly, 2004）",
+              "children": [
+                {
+                  "name": "WO2005013961A1：认知障碍/AD联合疗法",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "制剂与递送技术",
+          "children": [
+            {
+              "name": "盐型优化（如盐酸盐）",
+              "children": []
+            },
+            {
+              "name": "药学上可接受的盐与剂型开发",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "专利布局策略",
+          "children": [
+            {
+              "name": "Merz：全链条覆盖（用途/制剂/制备/联用）",
+              "children": []
+            },
+            {
+              "name": "Lilly：早期合成+后期组合创新",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

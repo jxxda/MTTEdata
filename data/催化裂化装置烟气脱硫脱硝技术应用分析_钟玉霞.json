@@ -1,0 +1,53 @@
+{
+  "title": "催化裂化装置烟气脱硫脱硝技术应用分析_钟玉霞",
+  "source_pdf": "data/raw\\催化裂化装置烟气脱硫脱硝技术应用分析_钟玉霞.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "催化裂化装置烟气脱硫脱硝技术应用分析\n钟玉霞\n（中国石化扬子石化有限公司，江苏\n南京\n210044）\n摘\n要：为提高催化裂化装置烟气脱硫脱硝效果，对催化裂化装置烟气脱硫脱硝技术应用进行了分析。研究发现，当\n湿法脱硫吸收剂pH 为7.0～9.0、石膏浆液体积分数为20%、循环浆液泵出口压力均值为0.6 MPa 时脱硫效果较好；\nSCR 脱硝技术采用体积分数为5%以下的氨气作还原剂，单台进料量在30～35 m3/ h 时，烟气脱硫脱硝效率最高，有\n效提升烟气脱硫脱硝效果，降低烟气对自然环境的影响，有利于自然环境的保护。\n关键词：催化裂化装置；脱硫脱硝技术；湿法脱硫；SCR 脱硝\n中图分类号：X701\n文献标识码：A\n文章编号：1004-7050（2026）03-0273-03\n0\n引言\n催化裂化装置运行过程中会产生大量含有硫化\n物与硝化物的烟气，若直接排放这些烟气，容易引发\n酸雨等自然灾害，对自然环境具有较大破坏性。因此，\n催化裂化烟气排放前，化工企业应采取合理的方式对\n烟气脱硫脱硝处理。现代工业领域存在多种烟气脱硫\n脱硝技术，如干法烟气脱硫、半干法烟气脱硫、湿法烟\n气脱硫、低温氧化脱硝、选择性非催化还原脱硝、选择\n性催化还原脱硝（SCR）等，其中，湿法烟气脱硫\n+SCR 技术原理较为简单，脱硫脱硝效果较高，投入成\n本相对较低，因而在现代工业领域广泛应用[1-3]。但随\n着社会的快速发展，人们环保理念的不断提高，对烟\n气脱硫脱硝要求越来越高，导致现有湿法脱硫+SCR\n脱硝技术体现出一定滞后性，难以满足现代社会发展\n要求，应对传统湿法脱硫+SCR 脱硝技术进行优化。\n基于此，研究了催化裂化装置烟气脱硫脱硝技术的应\n用，对进一步提高烟气脱硫脱硝效果具有重要意义。\n1\n湿法脱硫+SCR 技术概况\n湿法脱硫+SCR 技术是现代工业领域常见的烟\n气脱硫脱硝工艺，其中，对烟气脱硫时，主要是利用\n水、碱性溶液与烟气中的SO2 发生化学反应，从而将\nSO2 转换成不溶于水的化合物，通过对反应后的浑浊\n液体过滤，即可实现脱硫的目的。湿法脱硫方法有很\n多，每种方法具有不同特点，双碱法，操作要求较低，\n投入成本较低，脱硫率较高，但容易产生二次污染，一\n般适用于中小化工企业；氨洗涤法，脱硫系统能耗较\n低，烟气脱硫效果很好，但氨气造价高，且产生的亚硫\n酸铁销售前景不明[4]。钠法碱洗脱硫工艺被广泛应用，\n酸性氧化物（SO2）溶解于水生成酸，与注入碱（氢氧化\n钠）进行酸碱中和反应，生成盐，达到除去烟气中SO2\n的目的。SCR 技术是通过向烟气内添加相应的还原\n剂，在特定脱硝催化条件下，使其与NOx 发生化学反\n应，使N 元素转化成对环境无污染的氮气，从而达\n到烟气脱硝的目的。该方法脱硝率较高，通常超过\n80%～95%，且适用较为广泛，是当前最好的烟气脱硝\n技术[5]。表1、表2 分别是某石化的设计参数、再生烟\n气的控制指标。\n2\n催化裂化再生烟气脱硫脱硝流程\n某石化是280 万t/a 催化裂化装置，原料脱硫工\n艺流程图如图1 所示，含硫并载有催化剂粉尘的热烟\n气，通过管道输送至脱硫除尘单元，首先进入布袋除\n尘器，在布袋除尘器中脱除颗粒物，使得烟气中的粉\n尘质量浓度降低至20 mg/m3，进入EDV 系统。烟气进\n入EDV 系统后，首先经过激冷段，在此处，4 个激冷\n喷头将烟气从入口温度激冷至饱和温度，然后进入洗\n收稿日期：2025- 10- 22\n作者简介：钟玉霞，女，1996 年出生，毕业于南京林业大学，本科，助理工程师，从事石油化工工艺工作。\n总第244 期\n2026 年第3 期\n山西化工\nShanxi Chemical Industry\nTotal 244\nNo.3，2026\nDOI:10.16525/j.cnki.cn14- 1109/tq.2026.03.091\n表1\n烟气设计参数\n项目\n正常工况\n最大工况\n烟气流量（湿）/（m3/h）\n415 886\n457 474\n单台烟气流量（湿）/（m3/h）\n207 943\n228 737\n脱硝温度/℃\n320~380\n320~380\n73.198\n73.198\n13.705\n13.705\n11.39\n11.39\n1.707\n1.707\n≤95\n≤95\n1 134.4\n1 134.4\n2 099.9\n2 099.9\n~200\n~200\n~230\n~230\n230\n230\n烟气成分\n体积分数\n/%\nN2\nCO2\nH2O\nO2\nCO\n污染物质\n量浓度/\n（mg/m3）\nSO2（正常，湿基）\nSO2（最大，湿基）\nNOx（正常，湿基）\nNOx（最大，湿基）\n催化剂细粉（湿基）\n表2\n净化烟气控制指标\n指标\n标准\n二氧化硫质量浓度（干基）/（mg/m3）\n≤50\n氮氧化物质量浓度（干基）/（mg/m3）\n≤100\n粉尘排放质量浓度（干基）/（mg/m3）\n≤20\n镍及其化合物质量浓度（干基）/（mg/m3）\n<0.3\n林格曼/ 级\n0～1\n环境治理",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "第46 卷\n山西化工\nsxhgbjb@126.com\n涤塔吸收段脱除二氧化硫和大颗粒粉尘，在除尘模块\n脱除细小粉尘颗粒和剩余的SO2 后进入高效除尘除\n雾器去除水滴，最后排入大气。洗涤排液在加入絮凝\n剂处理后进入澄清器中，被絮凝的块状物沉淀聚集到\n池底，定期排入过滤箱进行分离，滤饼被送走。澄清池\n中的澄清液流入氧化罐中，与注入质量分数为20%的\nNaOH 溶液、氧化风机输送的压缩空气共同反应，控\n制液体的pH 值及COD 值。\n装置的烟气处理为1 套SCR 脱硝系统，其中含\n有一个氨区和两台脱硝反应器，一定流量的氨气送入\n氨空混合器，来自稀释风机的稀释风在稀释风加热系\n统中加热至300 ℃之后，进入氨空混合器与氨气混\n合，使氨气体积分数降到5%以下，随后氨空混合气通\n过喷氨格栅喷入SCR 反应器上游的烟气中。充分混\n合后的还原剂氨气和烟气中NOx 在SCR 反应器中反\n应，去除烟气中的NOx，生成N2 和H2O。SCR 工艺使用\n催化剂，催化剂反应温度控制区间在325~410 ℃之\n间，当温度过低时，无法有效促使NH3 与NOx 的反\n应；当温度过高时，容易引起催化剂烧结。\n3\n湿法脱硫+SCR 技术的应用\n3.1\n湿法脱硫技术的应用\n3.1.1\n吸收剂NaOH 的pH 值对烟气中SO2 的影响\n该石化于2024 年投产使用，开工以来稳定运行，\n截取了该石化一年以来运行数据进行分析，图2、图3\n是运行一年以来激冷段pH 值、烟囱出口端SO2 质量\n浓度的月均值变化情况。根据装置工艺卡片设计值要\n求，激冷段pH 值控制在6～9，有利于烟气中SO2 的\n脱除。该石化为了将烟气中SO2 质量浓度值控制在\n20 mg/m3 以下，实际生产中pH 值控制在8 左右。\n3.1.2\n循环浆液出口泵压力的影响\n急冷喷嘴负责向高温烟气喷射适量的冷却液，通\n过冷却液的蒸发，以快速降低高温烟气的温度，以此\n为烟气后续处理作业的进行提供帮助[5]。洗涤塔的循\n环液经循环泵输送回激冷段入口，因此循环泵的出口\n压力也将影响到烟气中SO2 的脱除效率，图4 是截取\n运行过程中pH 值平均值为8 时循环泵出口压力与\nSO2 质量浓度的变换情况所制折线图，从图4 中可以\n看出，该石化企业循环泵出口压力均值控制在0.63 MPa\n时，烟气中SO2 吸收率较高。\n3.2\nSCR 技术的实际应用\n该石化企业SCR 脱硝反应时，以氨气作为还原\n剂，在催化剂的作用下，与烟气混合物反应将氮氧化\n物生成氮气和水。还原剂氨气一年多以来的月平均变\n化量和烟气中NO 的月平均变化量如图5 所示，从图\n5 中可以发现当氨气用量均值在30～35 m3/h 时，该\n石化企业的烟气中NO 质量浓度较低。\n4\n实践应用中出现的问题及应对措施\n该石化在生产中采用的布袋除尘+SCR 脱硝技\n术+ 湿法脱硫工艺，按照上述工艺方案实行烟气脱硫\n脱硝处理，布袋除尘后，处理了绝大部分颗粒物，为后\n续湿法脱硫除尘打下优良基础，通过实践发现，后续\n烟脱排泥模块容易，泥饼外送周期延长；但在实践中\n图1\n烟气脱硫工艺流程图\nP- 702A/B\n除尘模块泵\n补水\nC701\n洗涤塔\n余热\n锅炉\n激冷段\n补水\n注碱\n催化烟气\n塔底浆液\nP- 701A/B/C\n洗涤塔循环泵\n絮凝剂\nD702C\nD702B\nD702A\n氧\n化\n罐\n氧\n化\n罐\n氧\n化\n罐\n胀鼓式\n过滤器\n浆液缓\n冲池\nV702\n至污水处理\n泥饼送至界区外\n滤液池\n排液池\nD703\n图4\n循环浆液泵出口压力的影响\nSO2 质量浓度\n循环浆液泵出口压力\n循环浆液泵出口压力/MPa\n0.62\n0.61\n0.61\n0.60\n0.60\n0.59\n0.59\n22.00\n20.00\n18.00\n16.00\n14.00\n12.00\n10.00\nSO2 质量浓度/（mg/m3）\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12.28\n16.61\n13.45\n13.34 13.49\n15.46\n15.14\n17.49 17.06\n20.34\n20.48\n0.61\n0.61\n0.60\n0.60\n0.60\n0.60\n0.60\n0.60\n0.60\n0.60\n0.60\n图2\n激冷段pH 值变化情况\n图3\n出口烟气中SO2 质量浓度变化情况\n2024- 03\n2024- 04\n2024- 05\n2024- 06\n2024- 07\n2024- 08\n2024- 09\n2024- 10\n2024- 11\n2024- 12\n2025- 01\n2025- 02\n2025- 03\n2025- 04\n2025- 05\n2025- 06\n日期\n9.00\n8.50\n8.00\n7.50\n7.00\n6.50\n6.00\n6.86\n7.06\n7.14\n7.32\n7.47\n7.88\n8.26\n8.16\n8.39\n7.43\n8.01\n8.10\n8.08\n8.00\n7.71\n7.68\npH\n2024- 03\n2024- 04\n2024- 05\n2024- 06\n2024- 07\n2024- 08\n2024- 09\n2024- 10\n2024- 11\n2024- 12\n2025- 01\n2025- 02\n2025- 03\n2025- 04\n2025- 05\n2025- 06\n日期\n20.00\n18.00\n16.00\n14.00\n12.00\n10.00\n8.00\n6.00\n4.00\n2.00\n0.00\n14.90\n17.97\n14.28\n13.03\n11.74\n13.45\n7.06\n10.02\n11.52\n9.91\n11.38\n8.17\n5.21\n9.47\n8.21\n7.13\nSO2 质量浓度/（mg/m3）\n274\n·\n·",
+      "images": [
+        {
+          "path": "data/processed\\催化裂化装置烟气脱硫脱硝技术应用分析_钟玉霞_p1_i0.jpx",
+          "width": 992,
+          "height": 743,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\催化裂化装置烟气脱硫脱硝技术应用分析_钟玉霞_p1_i1.jpx",
+          "width": 945,
+          "height": 495,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\催化裂化装置烟气脱硫脱硝技术应用分析_钟玉霞_p1_i2.jpx",
+          "width": 827,
+          "height": 431,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\催化裂化装置烟气脱硫脱硝技术应用分析_钟玉霞_p1_i3.jpx",
+          "width": 827,
+          "height": 444,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "text": "2026 年第3 期\n发现，烟囱排气中有“蓝尾”现象，该现象是再生烟气\n中的SO3 与蒸汽形成硫酸雾气溶胶，排入空气，阳光\n照射下发生的散射现象。为了解决这一现象，该装置\n使用了干碱注射工艺，在布袋除尘前端的烟道中注入\nNaHCO3，该物质在高温烟气中分解并吸附SO3，反应\n形成硫酸盐。生成的硫酸盐与未反应完的NaHCO3 一\n起随热烟气陆陆续续进入到布袋除尘器和脱硫塔中\n被去除，有效解决了由SO3 造成的蓝烟现象。\n5\n结论\n1）利用湿法脱硫+SCR 脱硝技术对催化裂化烟气\n处理时，湿法脱硫吸收剂pH 调节为6.0～9.0、循环泵\n出口压力0.6 MPa、石膏浆液体积分数调节为20%；将\nSCR 脱硝中的还原剂为体积分数为5%以下的氨气，单\n台脱硝反应器的氨气进料量为30～35 m3/h 时，该石化\n企业的烟气脱硫脱硝效果显著，烟气符合排放标准。\n2）在生产中，应该严格按照装置工艺卡片的控制\n范围执行，在遵守工艺规程和岗位操作法的同时，发\n现异常及时处理调整及上报，保证装置平稳运行，确\n保降低三废对环境造成破坏。\n参考文献\n[1]\n吴斌，张攀.焦炉煤气热风炉烟气脱硫脱硝工艺选择及应用[J].\n工业锅炉，2025（2）：31- 34.\n[2]\n姜秋桥，赵东越，凤孟龙，等.基于源头治理的催化裂化烟气及二\n次污染物绿色减排技术[J].中国环保产业，2023（8）：17- 19.\n[3]\n朱文，张帅，张玮，等.催化裂化装置再生烟气净化方案研究[J].\n化工安全与环境，2023，36（5）：57- 60.\n[4]\n丁莎莎.烧结烟气CFB 脱硫+SCR 脱硝系统处理效率及稳定性分\n析[J].冶金管理，2023（3）：50- 52.\n[5]\n颜军文.催化裂化装置烟气脱硫脱硝运行问题及对策[J].齐鲁石\n油化工，2022，50（2）：121- 125.\nApplication Analysis of Flue Gas Desulfurization and Denitrification Technology in Catalytic\nCracking Unit\nZhong Yuxia\n（Sinopec Yangtze Petrochemical Co., Ltd., Nanjing Jiangsu 210044, China）\nAbstract: In order to improve the desulfurization and denitrification effect of catalytic cracking unit flue gas, the application of\ndesulfurization and denitrification technology in catalytic cracking unit flue gas was analyzed. Research has found that the desulfurization\neffect is better when the pH of the wet desulfurization absorbent is 7.0~9.0, the volume fraction of gypsum slurry is 20%, and the average\noutlet pressure of the circulating slurry pump is 0.6 Mpa. SCR denitrification technology uses ammonia gas with a concentration of less than\n5v% as a reducing agent. When the single feed rate is between 30~35 m3/h, the flue gas desulfurization and denitrification efficiency is the\nhighest, effectively improving the flue gas desulfurization and denitrification effect, reducing the impact of flue gas on the natural\nenvironment, and benefiting the protection of the natural environment.\nKey words: catalytic cracking unit; desulfurization and denitrification technology; wet desulfurization; SCR denitration\n图5\n氨气进料量对出口烟气中NOx 的影响情况\n2024- 03\n2024- 04\n2024- 05\n2024- 06\n2024- 07\n2024- 08\n2024- 09\n2024- 10\n2024- 11\n2024- 12\n2025- 01\n2025- 02\n2025- 03\n2025- 04\n2025- 05\n2025- 06\n日期\n40.00\n35.00\n30.00\n25.00\n20.00\n15.00\n10.00\n5.00\n0.00\n氨气用量\nNO 质量浓度\n24.28\n13.69\n9.73\n15.00\n16.29\n17.43\n10.19\n10.759.23\n7.8010.02\n10.56\n12.04\n12.37\n10.30\n15.44\n16.80\n20.67\n17.12\n12.04\n15.22\n12.25\n25.85\n36.34\n35.44\n33.97\n31.77\n36.90\n37.80\n36.79\n25.54\n18.23\n氨气用量/（m3/h）\nNO 质量浓度/（mg/m3）\nAnalysis of Stability Changes in Mining with Different Roadway Layouts in Steeply Inclined\nCoal Seams\nZheng Qiang\n（Shanxi Lu'an Group Yuwu Coal Industry Co., Ltd., Changzhi Shanxi 046100, China）\nAbstract: For the mining of steeply inclined coal seams, the pseudo inclined small face mixed mining technology is adopted. By arranging\nthe working face in an inclined manner and utilizing the self weight force of the coal seam, the mining stability and recovery rate are\nimproved, achieving advantages such as reducing the mining ratio, improving resource",
+      "images": [
+        {
+          "path": "data/processed\\催化裂化装置烟气脱硫脱硝技术应用分析_钟玉霞_p2_i0.jpx",
+          "width": 827,
+          "height": 396,
+          "page": 2
+        }
+      ]
+    }
+  ]
+}

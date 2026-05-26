@@ -1,0 +1,691 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\沉浸式视听体验的革命：2026江苏卫视跨年演唱会“双Vivid”直播技术解析_窦勇_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "论文描述的是大型演唱会直转播系统的整体技术架构，核心围绕‘双Vivid’（视频HDR Vivid + 音频Audio Vivid）体验实现，强调全链路4K HDR视频与三维声音频的协同。技术体系分为两大支柱：音频系统与视频系统，二者均以高可靠性（主备冗余）、分布式采集+集中控制为设计原则。音频系统采用‘接口箱→调音台矩阵→核心控制中枢’三层结构，其中DirectOut PRODIGY.MP作为信号路由与冗余切换中枢；视频系统采用模块化EFP箱载架构，集成导播、录制与调度功能。两者通过统一时间同步与播出控制系统协同工作，共同构成直播系统的‘神经中枢’与‘执行单元’。",
+    "tree": {
+      "root": "大型演唱会直转播系统技术架构",
+      "children": [
+        {
+          "name": "音频子系统",
+          "children": [
+            {
+              "name": "前端信号采集层",
+              "children": [
+                {
+                  "name": "SSL接口箱（18台，分布式部署）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "中端处理与混音层",
+              "children": [
+                {
+                  "name": "SSL Live系列调音台（7台）",
+                  "children": [
+                    {
+                      "name": "舞台监听",
+                      "children": []
+                    },
+                    {
+                      "name": "转播混音",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "SSL System T S400调音台（1台）",
+                  "children": [
+                    {
+                      "name": "Audio Vivid三维声制作",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "核心控制与冗余层",
+              "children": [
+                {
+                  "name": "DirectOut PRODIGY.MP（1台）",
+                  "children": [
+                    {
+                      "name": "信号路由管理",
+                      "children": []
+                    },
+                    {
+                      "name": "多协议格式转换（MADI/Dante/SDI等）",
+                      "children": []
+                    },
+                    {
+                      "name": "主备链路无缝切换",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "全链路主备冗余设计",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "视频子系统",
+          "children": [
+            {
+              "name": "前端采集层",
+              "children": [
+                {
+                  "name": "32有线+3无线讯道摄像机",
+                  "children": []
+                },
+                {
+                  "name": "专业4K HDR镜头（佳能/富士）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "中后端处理层",
+              "children": [
+                {
+                  "name": "EFP箱载式集成系统",
+                  "children": [
+                    {
+                      "name": "导播切换台",
+                      "children": []
+                    },
+                    {
+                      "name": "4K HDR视频录制单元",
+                      "children": []
+                    },
+                    {
+                      "name": "信号调度与监看矩阵",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "全链路4K HDR标准支持",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "系统特性",
+              "children": [
+                {
+                  "name": "模块化设计",
+                  "children": []
+                },
+                {
+                  "name": "快速部署与拆卸能力",
+                  "children": []
+                },
+                {
+                  "name": "高稳定性与灵活性",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "协同与保障层",
+          "children": [
+            {
+              "name": "统一时间同步系统",
+              "children": []
+            },
+            {
+              "name": "播出总控与倒计时系统",
+              "children": []
+            },
+            {
+              "name": "双Vivid内容协同引擎（视频HDR Vivid + 音频Audio Vivid）",
+              "children": []
+            },
+            {
+              "name": "全链路冗余与故障容错机制",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\沉浸式视听体验的革命：2026江苏卫视跨年演唱会“双Vivid”直播技术解析_窦勇_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "论文描述了一个面向超高清（4K HDR Vivid + 5.1.4 Audio Vivid）内容的端到端制播传输技术体系。核心在于‘双Vivid’标准（Vivid Audio + Vivid HDR）的协同处理：从制作端的多声道音频与HDR视频信号整合（SDI加嵌），经专用编码器同步压缩为符合双Vivid标准的码流，再通过RTMP协议传输至APP端；终端侧则强调解码还原与体验优化。整个体系以‘高质量内容生产→高效编码→可靠传输→精准呈现’为主线，突出全链路闭环控制与主备冗余设计，关键技术节点包括信号整合、双模编码、流媒体分发与终端适配。",
+    "tree": {
+      "root": "超高清双Vivid全链路制播技术体系",
+      "children": [
+        {
+          "name": "内容制作与信号整合",
+          "children": [
+            {
+              "name": "5.1.4 Audio Vivid 音频信号生成"
+            },
+            {
+              "name": "4K HDR Vivid 视频信号生成"
+            },
+            {
+              "name": "SDI加嵌（Embedding）技术",
+              "children": [
+                {
+                  "name": "多通道音频嵌入视频SDI流"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "双Vivid编码与冗余保障",
+          "children": [
+            {
+              "name": "Audio & HDR Vivid专用编码器",
+              "children": [
+                {
+                  "name": "同步压缩音频与视频"
+                },
+                {
+                  "name": "输出符合Vivid Audio & Vivid HDR标准码流"
+                }
+              ]
+            },
+            {
+              "name": "主备双编码器部署",
+              "children": [
+                {
+                  "name": "热备份机制保障高可用性"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "网络传输与分发",
+          "children": [
+            {
+              "name": "RTMP协议推流",
+              "children": [
+                {
+                  "name": "低延迟实时推送至流媒体服务器集群"
+                }
+              ]
+            },
+            {
+              "name": "流媒体服务器集群",
+              "children": [
+                {
+                  "name": "支持‘ai荔枝’APP接入"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "质量监控与闭环反馈",
+          "children": [
+            {
+              "name": "中视广信解码器监看",
+              "children": [
+                {
+                  "name": "远端实时解码与信号质量评估"
+                },
+                {
+                  "name": "传输稳定性监测"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "终端呈现与体验优化",
+          "children": [
+            {
+              "name": "‘ai荔枝’APP客户端",
+              "children": [
+                {
+                  "name": "双Vivid解码与渲染"
+                },
+                {
+                  "name": "4K超高清+HDR Vivid显示适配"
+                },
+                {
+                  "name": "5.1.4沉浸式音频播放"
+                }
+              ]
+            },
+            {
+              "name": "用户体验增强技术",
+              "children": [
+                {
+                  "name": "自适应码率/画质调节"
+                },
+                {
+                  "name": "低延迟播放优化"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\沉浸式视听体验的革命：2026江苏卫视跨年演唱会“双Vivid”直播技术解析_窦勇_merged.json",
+    "page_num": 3,
+    "image_index": 1,
+    "thought": "该论文描述的是面向超高清（4K HDR Vivid + 5.1.4 Audio Vivid）直播的全链路技术体系，核心围绕‘双Vivid’标准（即视频HDR Vivid与音频Audio Vivid协同编码与传输）。技术流程分为三大模块：现场制作（含多源音频/视频混合、实时渲染与监听）、EFP（电子现场制作）信号处理（加嵌、切台）、传输室（主备双编码器+解码监看），最终经CDN与HLS协议分发至移动端APP。关键技术创新点包括：SDI加嵌整合音视频流、专用‘双Vivid’编码器同步处理、主备冗余架构保障可靠性、终端侧通过HLS适配实现高质量呈现。整体结构呈线性流程但含并行冗余与监控反馈闭环。",
+    "tree": {
+      "root": "双Vivid超高清直播技术体系",
+      "children": [
+        {
+          "name": "1. 现场制作与信号生成",
+          "children": [
+            {
+              "name": "多源音频输入",
+              "children": [
+                {
+                  "name": "观众效果"
+                },
+                {
+                  "name": "其他音源"
+                },
+                {
+                  "name": "主持人话筒"
+                },
+                {
+                  "name": "歌手话筒"
+                },
+                {
+                  "name": "乐队"
+                },
+                {
+                  "name": "音乐音源"
+                }
+              ]
+            },
+            {
+              "name": "音频处理单元",
+              "children": [
+                {
+                  "name": "音乐预混音台"
+                },
+                {
+                  "name": "终混混音台"
+                },
+                {
+                  "name": "Audio Vivid双耳实时渲染器"
+                },
+                {
+                  "name": "Audio Vivid解码监听器（2秒延时）"
+                },
+                {
+                  "name": "5.1.4监听环境"
+                }
+              ]
+            },
+            {
+              "name": "视频输入与处理",
+              "children": [
+                {
+                  "name": "摄像机视频"
+                },
+                {
+                  "name": "现场视频切换台"
+                }
+              ]
+            },
+            {
+              "name": "信号整合",
+              "children": [
+                {
+                  "name": "SDI加嵌（5.1.4 Audio Vivid + 4K HDR Vivid → 单路SDI）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. EFP与传输处理",
+          "children": [
+            {
+              "name": "EFP信号调度",
+              "children": [
+                {
+                  "name": "加嵌器"
+                },
+                {
+                  "name": "4K SDI输入"
+                }
+              ]
+            },
+            {
+              "name": "传输室编码系统",
+              "children": [
+                {
+                  "name": "当虹V编码器（主）"
+                },
+                {
+                  "name": "当虹V编码器（备）"
+                },
+                {
+                  "name": "中视广信AudioVivid编码器（2台冷备）"
+                }
+              ]
+            },
+            {
+              "name": "编码输出",
+              "children": [
+                {
+                  "name": "双Vivid 4K SRT码流（两路：4K+2.0, 4K+5.1.4）"
+                },
+                {
+                  "name": "功能支持：解嵌/延时/角标/垫片/音视频同步/双V编码/封装"
+                }
+              ]
+            },
+            {
+              "name": "实时质量监控",
+              "children": [
+                {
+                  "name": "中视广信解码器（远端监看）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 网络分发与终端呈现",
+          "children": [
+            {
+              "name": "流媒体传输",
+              "children": [
+                {
+                  "name": "RTMP推流至服务器集群"
+                },
+                {
+                  "name": "CDN分发"
+                },
+                {
+                  "name": "HLS协议适配"
+                }
+              ]
+            },
+            {
+              "name": "用户终端",
+              "children": [
+                {
+                  "name": "ai荔枝新版APP（Android）"
+                },
+                {
+                  "name": "终端体验优化：双耳渲染、低延迟播放、音画同步"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 系统保障机制",
+          "children": [
+            {
+              "name": "主备冗余架构（编码器、链路）"
+            },
+            {
+              "name": "实时监看与反馈闭环"
+            },
+            {
+              "name": "ST2110 5.1.4 wav标准兼容"
+            },
+            {
+              "name": "MADI/SDI多路信号备份"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\沉浸式视听体验的革命：2026江苏卫视跨年演唱会“双Vivid”直播技术解析_窦勇_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "论文聚焦于2026江苏卫视跨年演唱会的‘双Vivid’直转播技术体系，核心是Audio Vivid（沉浸式三维音频）与HDR Vivid（高动态范围视频）两大国产标准的协同落地。技术体系可划分为四大支柱：(1) 内容制作层：基于‘声床+对象’的Audio Vivid三维声制作与动态元数据驱动的HDR Vivid画质优化；(2) 传输与系统架构层：全链路4K EFP（电子现场制作）系统，支持多路信号冗余与自动切换；(3) 客户端渲染与交互层：集成双耳渲染、3DoF头部追踪、HOA/声道/对象多模态渲染引擎，支持格式自适应播放；(4) 质量保障层：专业监听环境（5.1.4 + GLM校准）、实时监测（RTW）、多重冗余机制（EARSTM及交叉备份）。四者构成‘制作→传输→呈现→保障’闭环技术栈，体现端到端自主可控的超高清沉浸式直播能力。",
+    "tree": {
+      "root": "双Vivid超高清沉浸式直播技术体系",
+      "children": [
+        {
+          "name": "内容制作层",
+          "children": [
+            {
+              "name": "Audio Vivid三维声制作",
+              "children": [
+                {
+                  "name": "声床+对象混合架构"
+                },
+                {
+                  "name": "动态元数据嵌入"
+                }
+              ]
+            },
+            {
+              "name": "HDR Vivid画质优化",
+              "children": [
+                {
+                  "name": "动态元数据驱动色调映射"
+                },
+                {
+                  "name": "全链路4K EFP采集与处理"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "传输与系统架构层",
+          "children": [
+            {
+              "name": "全链路4K EFP系统"
+            },
+            {
+              "name": "多重冗余保障",
+              "children": [
+                {
+                  "name": "EARSTM自动冗余切换"
+                },
+                {
+                  "name": "交叉备份方案（返送/扩声/播出）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "客户端呈现与交互层",
+          "children": [
+            {
+              "name": "自适应播放策略",
+              "children": [
+                {
+                  "name": "普通格式 / 菁彩Vivid格式选择"
+                }
+              ]
+            },
+            {
+              "name": "沉浸式音频渲染",
+              "children": [
+                {
+                  "name": "双耳渲染（普通耳机支持）"
+                },
+                {
+                  "name": "3DoF头部追踪（俯仰/偏航/翻滚）"
+                },
+                {
+                  "name": "多模态渲染引擎"
+                },
+                {
+                  "name": "HOA / 声道 / 对象格式兼容"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "质量监控与保障层",
+          "children": [
+            {
+              "name": "专业音频监听",
+              "children": [
+                {
+                  "name": "5.1.4真力Sam监听环境"
+                },
+                {
+                  "name": "GLM声学校准"
+                },
+                {
+                  "name": "RTW实时指标监测（响度/相位/电平）"
+                },
+                {
+                  "name": "耳机监听切换模拟用户听感"
+                }
+              ]
+            },
+            {
+              "name": "全链路安全网",
+              "children": [
+                {
+                  "name": "前端至后端端到端监控"
+                },
+                {
+                  "name": "故障无感知切换机制"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\沉浸式视听体验的革命：2026江苏卫视跨年演唱会“双Vivid”直播技术解析_窦勇_merged.json",
+    "page_num": 2,
+    "table_index": 0,
+    "thought": "表格与上下文共同揭示了音频系统的技术分类逻辑：以功能角色为核心划分层级，从信号采集（接口箱）→ 信号处理与混音（调音台矩阵）→ 系统控制与路由（核心控制中枢）→ 可靠性保障（冗余设计）。其中‘调音台’进一步细分为不同应用场景（舞台监听、转播混音、Audio Vivid制作），体现任务导向的子类划分；‘冗余设计’作为贯穿全系统的架构原则，独立成类但作用于所有核心层级。因此技术体系呈现‘采集-处理-控制-保障’四层递进结构，根节点应为‘音频系统架构’。",
+    "tree": {
+      "root": "音频系统架构",
+      "children": [
+        {
+          "name": "信号采集层",
+          "children": [
+            {
+              "name": "SSL接口箱",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "信号处理与混音层",
+          "children": [
+            {
+              "name": "SSL Live系列调音台",
+              "children": [
+                {
+                  "name": "舞台监听",
+                  "children": []
+                },
+                {
+                  "name": "转播混音",
+                  "children": []
+                },
+                {
+                  "name": "音乐混音",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "SSL System T S400",
+              "children": [
+                {
+                  "name": "Audio Vivid三维声制作",
+                  "children": []
+                },
+                {
+                  "name": "国际声转播",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "核心控制与路由层",
+          "children": [
+            {
+              "name": "DirectOut PRODIGY.MP",
+              "children": [
+                {
+                  "name": "信号路由",
+                  "children": []
+                },
+                {
+                  "name": "格式转换（MADI/Dante/SDI等）",
+                  "children": []
+                },
+                {
+                  "name": "主备切换控制",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "系统可靠性保障层",
+          "children": [
+            {
+              "name": "主备冗余设计",
+              "children": [
+                {
+                  "name": "核心设备冗余",
+                  "children": []
+                },
+                {
+                  "name": "传输链路冗余",
+                  "children": []
+                },
+                {
+                  "name": "无缝故障切换机制",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

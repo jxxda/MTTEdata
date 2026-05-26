@@ -1,0 +1,690 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析三叶青治疗类风湿性关节炎作用机制_严蕊_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "该论文属于中医药网络药理学研究领域，聚焦于三叶青治疗类风湿性关节炎（RA）的机制解析。核心技术体系围绕‘药物-成分-靶点-通路-功能’五级关联展开：首先通过数据库挖掘获取药物（三叶青）的有效成分；继而预测并筛选成分作用的潜在靶点（如ALB、AKT1、SRC等46个核心靶点）；构建‘成分-靶点’相互作用网络（图1）与‘药物-疾病-靶点’交集韦恩图（图2）；进一步基于PPI网络（图3）识别关键靶点模块；最后通过GO功能富集与KEGG通路富集分析，将靶点映射到生物学过程（如炎症反应、细胞迁移）、分子功能（如激酶结合）及信号通路（如癌症通路、内分泌相关通路），形成从分子到表型的系统性解释框架。整体体现‘多成分-多靶点-多通路’的现代中药作用机制研究范式。",
+    "tree": {
+      "root": "中医药网络药理学技术体系",
+      "children": [
+        {
+          "name": "1. 药物与成分挖掘",
+          "children": [
+            {
+              "name": "天然药物来源（如三叶青）"
+            },
+            {
+              "name": "有效成分鉴定（如黄酮、皂苷类）"
+            },
+            {
+              "name": "成分数据库整合（TCMSP、BATMAN等）"
+            }
+          ]
+        },
+        {
+          "name": "2. 靶点预测与筛选",
+          "children": [
+            {
+              "name": "靶点预测算法（如SwissTargetPrediction、PharmMapper）"
+            },
+            {
+              "name": "多属性评分筛选（ADME、结合亲和力等）"
+            },
+            {
+              "name": "核心靶点提取（如ALB, AKT1, SRC, PTGS2, MMP9, EGFR等46个）"
+            }
+          ]
+        },
+        {
+          "name": "3. 网络构建与拓扑分析",
+          "children": [
+            {
+              "name": "成分-靶点网络（图1：节点形状/面积表征类型与关联强度）"
+            },
+            {
+              "name": "药物-疾病-靶点交集分析（图2：韦恩图）"
+            },
+            {
+              "name": "PPI蛋白互作网络（图3：degree与combine score表征重要性）"
+            },
+            {
+              "name": "关键模块识别（如中心性分析、MCODE聚类）"
+            }
+          ]
+        },
+        {
+          "name": "4. 功能与通路富集分析",
+          "children": [
+            {
+              "name": "GO富集分析"
+            },
+            {
+              "name": "→ 细胞组分（囊腔、膜筏等）"
+            },
+            {
+              "name": "→ 分子功能（激酶结合、转录因子结合等）"
+            },
+            {
+              "name": "→ 生物学过程（炎症反应、细胞迁移调控等）"
+            },
+            {
+              "name": "KEGG通路富集（209条通路）"
+            },
+            {
+              "name": "→ 癌症通路、内分泌通路等疾病相关通路"
+            }
+          ]
+        },
+        {
+          "name": "5. 机制整合与验证",
+          "children": [
+            {
+              "name": "多靶点协同作用模型"
+            },
+            {
+              "name": "关键通路-表型关联推断（如TLR4/NF-κB→炎症）"
+            },
+            {
+              "name": "实验验证导向（分子对接、细胞/动物模型）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析三叶青治疗类风湿性关节炎作用机制_严蕊_merged.json",
+    "page_num": 3,
+    "image_index": 1,
+    "thought": "该论文聚焦于中药三叶青治疗类风湿性关节炎（RA）的药理机制研究，采用网络药理学方法构建‘药物-成分-靶点-通路’多层级分析框架。核心技术点包括：(1) 基于化学成分筛选与靶点预测构建‘三叶青-成分-靶点’网络（图1），其中有效成分与靶点关联强度由图形面积表征；(2) 通过韦恩图整合药物靶点与疾病靶点（图2），识别交集核心靶点（如ALB、AKT1、SRC等46个）；(3) 利用PPI网络分析核心靶点互作关系（图3），结合degree与combine score量化节点重要性；(4) 进行GO功能与KEGG通路富集分析（2.5节），从细胞组分、分子功能、生物学过程及信号通路层面阐释作用机制。整体技术体系以‘成分→靶点→通路→功能’为逻辑主线，形成‘数据驱动→网络构建→功能验证’的闭环分析流程。",
+    "tree": {
+      "root": "网络药理学驱动的中药作用机制解析体系",
+      "children": [
+        {
+          "name": "1. 成分-靶点网络构建",
+          "children": [
+            {
+              "name": "1.1 中药成分筛选与鉴定",
+              "children": []
+            },
+            {
+              "name": "1.2 靶点预测与映射",
+              "children": []
+            },
+            {
+              "name": "1.3 三叶青-成分-靶点互作网络（图1）",
+              "children": [
+                {
+                  "name": "节点类型：药物（圆形）、成分（菱形）、靶点（八边形）",
+                  "children": []
+                },
+                {
+                  "name": "关联强度量化：图形面积大小",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 核心靶点识别",
+          "children": [
+            {
+              "name": "2.1 药物靶点与疾病靶点交集分析（图2）",
+              "children": [
+                {
+                  "name": "韦恩图可视化：药物靶点 vs RA相关靶点",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2.2 多属性筛选（4个属性值）",
+              "children": [
+                {
+                  "name": "筛选出46个核心靶点（如AKT1, PTGS2, EGFR, TLR4等）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2.3 PPI网络拓扑分析（图3）",
+              "children": [
+                {
+                  "name": "节点度（degree）：节点面积表征重要性",
+                  "children": []
+                },
+                {
+                  "name": "互作强度（combine score）：连线粗细表征",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 功能与通路富集分析",
+          "children": [
+            {
+              "name": "3.1 GO功能注释",
+              "children": [
+                {
+                  "name": "细胞组成（如囊腔、膜筏）",
+                  "children": []
+                },
+                {
+                  "name": "分子功能（如激酶结合、转录因子结合）",
+                  "children": []
+                },
+                {
+                  "name": "生物学过程（如炎症反应、细胞迁移调控）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3.2 KEGG通路富集",
+              "children": [
+                {
+                  "name": "209条信号通路",
+                  "children": []
+                },
+                {
+                  "name": "主富集通路：癌症通路、内分泌系统通路等",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 机制整合与验证",
+          "children": [
+            {
+              "name": "4.1 ‘成分→靶点→通路→表型’因果链推断",
+              "children": []
+            },
+            {
+              "name": "4.2 炎症与免疫调控核心机制聚焦（如TLR4/NF-κB、AKT/MAPK通路）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析三叶青治疗类风湿性关节炎作用机制_严蕊_merged.json",
+    "page_num": 3,
+    "image_index": 2,
+    "thought": "该论文属于中药网络药理学研究领域，核心是构建‘药物-成分-靶点-通路’多层次关联网络。技术流程包括：1）从中药（三叶青）中筛选有效成分；2）预测成分作用的潜在靶点（如ALB、AKT1等46个核心靶点）；3）通过PPI网络分析靶点互作关系（图3）；4）进行GO功能与KEGG通路富集分析，揭示生物学机制（如炎症反应、癌症通路等）。图1为三元网络（药物-成分-靶点），图2为韦恩图（疾病-靶点交集），图3为靶点蛋白互作网络。整体技术体系以‘网络构建与系统生物学分析’为核心，分层递进：从分子层面（成分→靶点）到系统层面（靶点互作→功能/通路富集）。",
+    "tree": {
+      "root": "中药网络药理学技术体系",
+      "children": [
+        {
+          "name": "1. 成分挖掘与筛选",
+          "children": [
+            {
+              "name": "中药化学成分数据库检索",
+              "children": []
+            },
+            {
+              "name": "ADME/TOPK性质预测",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 靶点预测与筛选",
+          "children": [
+            {
+              "name": "多源靶点数据库整合（如SwissTargetPrediction, PharmMapper）",
+              "children": []
+            },
+            {
+              "name": "网络拓扑属性筛选（Degree, Betweenness等）",
+              "children": []
+            },
+            {
+              "name": "核心靶点识别（如ALB, AKT1, SRC, PTGS2等46个）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3. 网络构建与可视化",
+          "children": [
+            {
+              "name": "三元网络：药物-成分-靶点（图1）",
+              "children": []
+            },
+            {
+              "name": "韦恩图：疾病-靶点交集分析（图2）",
+              "children": []
+            },
+            {
+              "name": "PPI网络：靶点蛋白互作（图3）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4. 功能与通路富集分析",
+          "children": [
+            {
+              "name": "GO富集分析（BP/MF/CC）",
+              "children": [
+                {
+                  "name": "生物学过程：炎症反应、细胞迁移调控等",
+                  "children": []
+                },
+                {
+                  "name": "分子功能：激酶结合、转录因子结合等",
+                  "children": []
+                },
+                {
+                  "name": "细胞组分：膜筏、分泌颗粒腔等",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "KEGG通路富集（209条）",
+              "children": [
+                {
+                  "name": "癌症通路",
+                  "children": []
+                },
+                {
+                  "name": "炎症相关通路（如TLR4信号）",
+                  "children": []
+                },
+                {
+                  "name": "代谢与信号转导通路（如PI3K-AKT, MAPK）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5. 机制验证与整合推断",
+          "children": [
+            {
+              "name": "关键通路-靶点-成分关联映射",
+              "children": []
+            },
+            {
+              "name": "多靶点协同作用机制阐释",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析三叶青治疗类风湿性关节炎作用机制_严蕊_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "该论文聚焦于中药三叶青（SYQ）治疗类风湿关节炎（RA）的机制研究，采用网络药理学方法构建‘药物-成分-靶点-通路’四层关联网络。核心逻辑链为：三叶青（药物）→ 22个有效成分（如槲皮素、山奈酚等）→ 27个关键靶点（如EGFR、AKT1、MAPK1等）→ 10条显著富集信号通路（如PI3K-AKT、TNF、HIF-1、AGE-RAGE等）。图7网络结构清晰呈现层级关系：粉色中心节点SYQ辐射至橙色成分节点，再连接蓝色靶点节点，最终汇聚至绿色通路节点；部分靶点（如AKT1、EGFR）为多通路共享枢纽，体现多成分-多靶点-多通路的协同作用模式。技术体系以KEGG/GO富集分析为基础，结合Cytoscape可视化，形成从成分鉴定到通路机制解析的完整链条。",
+    "tree": {
+      "root": "三叶青治疗RA的网络药理学机制体系",
+      "children": [
+        {
+          "name": "药物层",
+          "children": [
+            {
+              "name": "三叶青（SYQ）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "成分层",
+          "children": [
+            {
+              "name": "22个有效成分",
+              "children": [
+                {
+                  "name": "鼠李柠檬素（SYQ29）"
+                },
+                {
+                  "name": "山奈酚（SYQ8）"
+                },
+                {
+                  "name": "白藜芦醇（SYQ24）"
+                },
+                {
+                  "name": "亚麻酸甲酯（SYQ20）"
+                },
+                {
+                  "name": "槲皮素（SYQ7）"
+                },
+                {
+                  "name": "其他成分（SYQ3,5,6,9,11,15,16,17,18,19,20,21,22,23,24,27,28,29,30）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "靶点层",
+          "children": [
+            {
+              "name": "27个关键靶点",
+              "children": [
+                {
+                  "name": "EGFR"
+                },
+                {
+                  "name": "MAPK1"
+                },
+                {
+                  "name": "PIK3R1"
+                },
+                {
+                  "name": "IGF1R"
+                },
+                {
+                  "name": "AKT1"
+                },
+                {
+                  "name": "AR"
+                },
+                {
+                  "name": "TNF"
+                },
+                {
+                  "name": "HIF-1"
+                },
+                {
+                  "name": "JAK2"
+                },
+                {
+                  "name": "MMPs（如MMP1,2,3,9）"
+                },
+                {
+                  "name": "SRC"
+                },
+                {
+                  "name": "PTGS2"
+                },
+                {
+                  "name": "NFKB1"
+                },
+                {
+                  "name": "ESR1"
+                },
+                {
+                  "name": "ICAM1"
+                },
+                {
+                  "name": "REL A"
+                },
+                {
+                  "name": "PPARG"
+                },
+                {
+                  "name": "MTOR"
+                },
+                {
+                  "name": "PIK3R1"
+                },
+                {
+                  "name": "AKT1"
+                },
+                {
+                  "name": "SERPINE1"
+                },
+                {
+                  "name": "IGF1R"
+                },
+                {
+                  "name": "KDR"
+                },
+                {
+                  "name": "BCL2L1"
+                },
+                {
+                  "name": "F2R"
+                },
+                {
+                  "name": "TLR4"
+                },
+                {
+                  "name": "MAPK14"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "通路层",
+          "children": [
+            {
+              "name": "10条显著富集通路（P值最小）",
+              "children": [
+                {
+                  "name": "PI3K-AKT信号通路"
+                },
+                {
+                  "name": "TNF信号通路"
+                },
+                {
+                  "name": "HIF-1信号通路"
+                },
+                {
+                  "name": "AGE-RAGE信号通路"
+                },
+                {
+                  "name": "癌症相关通路（Pathways in cancer）"
+                },
+                {
+                  "name": "前列腺癌通路"
+                },
+                {
+                  "name": "EGFR酪氨酸激酶抑制剂耐药"
+                },
+                {
+                  "name": "内分泌抵抗"
+                },
+                {
+                  "name": "蛋白聚糖在癌症中的作用"
+                },
+                {
+                  "name": "催乳素信号通路"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "技术支撑层",
+          "children": [
+            {
+              "name": "数据库与工具：TCMSP、SwissTargetPrediction、GeneCards、KEGG、GO"
+            },
+            {
+              "name": "富集分析：KEGG通路富集、GO功能富集"
+            },
+            {
+              "name": "网络构建与可视化：Cytoscape 3.7.1"
+            },
+            {
+              "name": "PPI网络分析：STRING数据库 + Cytoscape"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析三叶青治疗类风湿性关节炎作用机制_严蕊_merged.json",
+    "page_num": 4,
+    "image_index": 1,
+    "thought": "该论文聚焦于中药三叶青治疗类风湿关节炎（RA）的机制研究，采用网络药理学方法构建‘药物-成分-靶点-通路’多层关联网络。核心技术链为：1）从三叶青中筛选22个有效成分（如槲皮素、山奈酚等）；2）通过数据库预测/实验验证获得27个关键作用靶点（如EGFR、AKT1、MAPK1、AR等）；3）KEGG富集分析识别出10条显著相关信号通路（含PI3K-AKT、TNF、HIF-1、AGE-RAGE等）；4）利用Cytoscape整合三者形成四元网络模型。图7的可视化结构明确体现层级关系：药物→成分→靶点→通路；图4的PPI网络进一步揭示靶点间的蛋白互作关系，说明靶点并非孤立作用，而是构成功能模块。因此，该领域技术体系以‘网络药理学’为核心，融合成分鉴定、靶点预测、通路富集与网络建模四大支柱。",
+    "tree": {
+      "root": "网络药理学驱动的中药机制解析体系",
+      "children": [
+        {
+          "name": "1. 药物资源层",
+          "children": [
+            {
+              "name": "三叶青（中药实体）"
+            }
+          ]
+        },
+        {
+          "name": "2. 成分解析层",
+          "children": [
+            {
+              "name": "有效成分库（22个）",
+              "children": [
+                {
+                  "name": "鼠李柠檬素（SYQ29）"
+                },
+                {
+                  "name": "山奈酚（SYQ8）"
+                },
+                {
+                  "name": "白藜芦醇（SYQ24）"
+                },
+                {
+                  "name": "亚麻酸甲酯（SYQ20）"
+                },
+                {
+                  "name": "槲皮素（SYQ7）"
+                },
+                {
+                  "name": "其他17个成分"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 靶点识别层",
+          "children": [
+            {
+              "name": "关键作用靶点（27个）",
+              "children": [
+                {
+                  "name": "EGFR"
+                },
+                {
+                  "name": "AKT1"
+                },
+                {
+                  "name": "MAPK1"
+                },
+                {
+                  "name": "PIK3R1"
+                },
+                {
+                  "name": "IGF1R"
+                },
+                {
+                  "name": "AR"
+                },
+                {
+                  "name": "其他21个靶点（如SRC, JAK2, MMPs等）"
+                }
+              ]
+            },
+            {
+              "name": "靶点互作网络（PPI）",
+              "children": [
+                {
+                  "name": "蛋白-蛋白相互作用模块（图4）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 通路富集与机制层",
+          "children": [
+            {
+              "name": "显著信号通路（Top 10，KEGG富集）",
+              "children": [
+                {
+                  "name": "PI3K-AKT通路"
+                },
+                {
+                  "name": "TNF通路"
+                },
+                {
+                  "name": "HIF-1通路"
+                },
+                {
+                  "name": "AGE-RAGE通路"
+                },
+                {
+                  "name": "MAPK通路"
+                },
+                {
+                  "name": "JAK-STAT通路"
+                },
+                {
+                  "name": "癌症相关通路（含蛋白聚糖、mTOR等）"
+                },
+                {
+                  "name": "代谢通路（糖尿病并发症相关）"
+                },
+                {
+                  "name": "缺氧响应通路"
+                },
+                {
+                  "name": "其他显著通路"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5. 网络整合与可视化层",
+          "children": [
+            {
+              "name": "‘药物-成分-靶点-通路’四元网络（图7）",
+              "children": [
+                {
+                  "name": "Cytoscape建模（v3.7.1）"
+                },
+                {
+                  "name": "节点类型编码：药物(粉圆)、成分(橙六边)、靶点(蓝矩)、通路(绿菱)"
+                }
+              ]
+            },
+            {
+              "name": "多组学数据支撑",
+              "children": [
+                {
+                  "name": "GO功能注释（图5）"
+                },
+                {
+                  "name": "KEGG通路富集（图6气泡图）"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

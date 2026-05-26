@@ -1,0 +1,100 @@
+{
+  "title": "专利视角下全球工厂化农业技术发展态势分析_褚农农",
+  "source_pdf": "data/raw\\专利视角下全球工厂化农业技术发展态势分析_褚农农.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "引用本文格式　褚农农，闫华，杨信廷，等．专利视角下全球工厂化农业技术发展态势分析[ J]．农业工程，2023，13（9）：107-113． DOI ：\n10.19998/j.cnki.2095-1795.2023.09.018． CHU Nongnong，YAN Hua，YANG Xinting，et al．Development trend of global factory agriculture technology from patent\nperspective[J]．Agricultural Engineering，2023，13（9）：107-113．\n专利视角下全球工厂化农业技术发展态势分析\n褚农农1,2， 闫　华1， 杨信廷1， 王姝言1， 孙晓冬1， 陈文焘1\n（1.   北京市农林科学院信息技术研究中心，北京  100097；     2.   中国农业科学院农业信息研究所，北京  100081）\n摘　要：  工厂化农业已成为未来农业发展的战略方向，发展工厂化农业是推进现代农业转型升级、提高农业“三率”的\n重要途径。通过专利文献分析，了解和掌握工厂化农业的发展现状及研究态势。选取PatSnap（智慧芽）数据库作为专利\n数据源，对工厂化农业技术进行分析；基于文献计量和可视化的方法，从专利的时间序列分布、申请人类型、国家/区域\n分布、申请机构、发明人和热点技术领域6 个方面纵观工厂化农业的发展趋势与竞争态势。结果表明，工厂化农业技术\n专利数量呈逐年递增的趋势；公司是进行农业工厂化技术专利布局数量最大的主体，院校和科研院所是进行基础研究的\n主要群体；美国是专利申请量最多的国家，同时也是专利布局最大的市场。我国工厂化农业在核心关键技术及产出效能\n上与发达国家仍存在一定差距，因此将工厂化农业提升到国家重要业态和重大战略地位，重点突破一批对外依存度高的\n核心关键技术，加快产业化进程，最终实现技术落地。\n关键词：工厂化农业；文献计量；专利分析；发展态势；智慧芽；植物工厂\n中图分类号：S316　　文献标识码：A　　文章编号：2095-1795（2023）09-0107-07\nDOI：10.19998/j.cnki.2095-1795.2023.09.018\nDevelopment Trend of Global Factory Agriculture Technology from\nPatent Perspective\nCHU Nongnong1,2，YAN Hua1，YANG Xinting1，WANG Shuyan1，SUN Xiaodong1，CHEN Wentao1\n（1．Information Technology Research Center，Beijing Academy of Agriculture and Forestry Sciences，Beijing 100097，China；\n2．Institute of Agricultural Information，Chinese Academy of Agricultural Sciences，Beijing 100081，China）\nAbstract：Factory agriculture has become strategic direction of agricultural development in the future．Developing factory agriculture is\nan important way to promote transformation and upgrading of modern agriculture and improve the \"three rates\" of agriculture．By analyz-\ning patents，development status and research trend of factory agriculture was understood and grasped．PatSnap database was selected as\npatent data source to analyze technology of factory agriculture．Based on method of bibliometric and visualization，development trend\nand  competition  situation  of  factory  agriculture  were  reviewed  from  six  aspects：patent  time  series  distribution，applicant  type，\nnational/regional distribution，applicant institution，inventor and hot technology field．Results indicated that number of factory agricul-\ntural technology patents increased year by year．Companies were main body of agricultural industrial technology patent layout，and col-\nleges and research institutes were main groups of basic research．The United States was the country with the largest number of patent ap-\nplications as well as the largest market for patent distribution．There is still a certain gap between China's factory agriculture and de-\nveloped countries in terms of core key technologies and output efficiency．Therefore，factory agriculture should be elevated to an import-\nant national business form and strategic position，focus on breaking through a group of core key technologies with high external depend-\nence，accelerate industrialization process，and ultimately achieve technology landing．\nKeywords：factory agriculture，bibliometric，patent analysis，development situation，PatSnap，p",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "和化肥农药的生物化学农业；第3 阶段是以农业机械\n为劳动工具的机械化农业；第4 阶段是以互联网、大\n数据、云计算、人工智能等高新技术应用为主的智慧\n农业[2]。当前，世界农业正在朝着智慧化的方向发展，\n工厂化农业正是在这一条件下产生的[3]。20 世纪70 年\n代工厂化农业技术开始引入我国，工厂化农业是在我\n国农业不断发展的基础上形成的，是在一定规模化生\n产的基础上，以标准化、机械化、科技化的手段，辅\n以智慧农业相关高新技术，实现农产品从耕种管收全\n流程的工业化农业管理模式。目前工厂化农业的发展\n程度已经成为衡量一个国家农业现代化发展的重要标\n志，工厂化农业是我国农业高科技发展的必经之路。\n专利文献是一种了解特定领域关键技术的专业文\n献，是技术信息最为有效的标准化载体[4-5]。技术市场\n素来有“产品未动、专利先行”的准则，即新技术新\n产品极易被竞争对手抄袭侵权，必须以一种国家乃至\n国际保护的形式来获得技术创新的法律保障，以便后\n续实现该技术产品的市场投放与盈利[6-8]。研究以专利\n文献计量的方法，统计和分析全球工厂化农业的发展\n情况，从专利的时间序列分布、申请人类型、国家/区\n域分布、申请机构、发明人和热点技术领域6 个方面\n纵观工厂化农业的发展趋势与竞争态势。旨在从全球\n视角分析工厂化农业技术的发展现状、研究热点、发\n展趋势，以及国内外的发展异同，为我国工厂化农业\n技术研发提供一定参考。\n1　数据来源与工具\n1.1　数据来源\n智慧芽数据库是PatSnap 旗下的一款专利检索与分\n析产品，数据库收录了116 个国家/地区，总数超过\n1.5 亿条专利数据，集成了世界知识产权组织、中国知\n识产权局、美国知识产权局、欧洲知识产权局、日本\n知识产权局及韩国知识产权局等世界主流专利数据库，\n数据涵盖较为广泛，能较好地为本研究进行专利分析\n提供数据基础[9-10]。以智慧芽数据库为数据源，检索和\n分析工厂化农业技术在全球的专利分布情况，把握工\n厂化农业科技发展的研究趋势和前沿热点，为提出符\n合我国国情的工厂化农业科技发展的目标、任务和组\n织实施机制提供参考。\n1.2　分析工具\n智慧芽数据库自带专利分析功能，对单篇专利可\n实现引证和同族分析功能，多篇专利可以实现多字段、\n多维度的矩阵分析、聚类分析等高级分析功能。这为\n本研究提供了一项重要技术工具。利用Excel 强大的数\n据整合、发展趋势、图文报表和数据报表等功能，对\n数据集进行基本的统计分析。\n2　工厂化农业技术领域分解\n工厂化农业按照应用场景，具体划分为植物工厂\n化农业、水产工厂化农业、畜禽工厂化农业和食用菌\n工厂化农业4 个技术领域，如图1 所示。\n图1　工厂化农业技术领域分解图\nFig. 1    Decomposition diagram of industrial agricultural\ntechnology field\n植物工厂是目前工厂化农业应用最广泛的技术领域，\n目前植物工厂是植物栽培技术发展的最高阶段，通过\n集成化、全流程化的技术在半封闭或全封闭环境下，\n实现作物高质、高产的农业系统性发展。水产工厂起\n源于20 世纪60 年代美国的初步流水网箱养殖，随着\n传感器技术、膜技术、自动化技术和生物工程等技术\n的不断发展和完善，水产工厂化技术逐步迈入了机械\n化、信息化和智能化的全新时代。随着生物工程、基\n因工程、大数据和人工智能等技术在畜牧业中的不断\n发展和应用，畜禽业逐渐由传统的饲养方式转变为封\n闭式、工厂化的大型自动化管理模式，在种苗引进、\n繁育、饲料配制、疫病防疫、环境控制、饲养管理及\n经营管理等全流程的饲养管理。食用菌产业是我国的\n一大特色农业产业，食用菌工厂是指在封闭的厂房内，\n通过对温度、湿度、光照等菌类最适宜的生长环境进\n行调控，并辅以标准化、机械化、设施化和智能化等\n技术，实现食用菌高效生产、加工和销售的全流程自\n动化管理。\n3　专利发展趋势分析\n工厂化农业在植物、水产、畜禽和食用菌领域各\n有不同的适用对象和技术概念，以对象+技术概念对工\n厂化农业在不同领域的表现形式进行专利检索，是情\n报检索中产权率和查准率的重要手段。在植物工厂领\n域，是以叶类蔬菜、瓜类蔬菜、茄果类蔬菜、豆类蔬\n菜、葱蒜类蔬菜和芽类蔬菜等设施蔬菜为对象，以\nLED 人工光为主要手段，辅以传感器技术、环境调控\n技术对植物光合作用进行需求调控等技术概念的应用；\n在水产工厂领域，是以虾类、螯蟹类、鱼类、参类、\n水产植物及水产藻带类等为对象，以养殖水态控制、\n科学饲料配比、辅以药物添加剂，促使养殖周期科学\n108\n农业工程\n科研与教学",
+      "images": [
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p1_i0.jpx",
+          "width": 945,
+          "height": 341,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "text": "化，以此为技术概念的应用；在畜禽工厂领域，是以\n兔、牛、羊和猪等哺乳类，以及鸡、鸭、鹅和鸽子等\n禽类动物为对象，以杂交技术、科学饲料配比、各类\n疫病防治为手段，以缩短生长发育期，促进肉蛋奶品\n质等技术概念的应用；在食用菌工厂领域，是以木腐\n食用菌、草腐食用菌、秸秆食用菌、粪生食用菌和土\n生食用菌等为对象，以优化配比培养料、选取最优栽\n培方式，在菌类生长过程中进行实时生长环境控制等\n技术概念的应用。\n在工厂化农业技术应用领域进一步划分的前提下，\n分别对4 类技术领域进行专利检索，检索数据库为\nPatSnap，检索时间范围为2012—2021 年间共10 年的\n数据。对检索结果进行去重、去除同族专利、过滤无\n关专利等数据清洗工作后，共得到113 494 项专利。采\n用Excel 和智慧芽分析工具对检索结果进一步统计\n分析。\n3.1　时间序列分析\n工厂化农业技术可以追溯到20 世纪70 年代，\n1972—1999 年，专利数量较少，均在1 万项以下。\n2000 年开始，专利申请开始稳步提升，到2011 年专利\n数量达到1 万余项。从全球工厂化农业专利申请趋势\n来看（图2），2012 年以后，专利数量整体处于上升\n态势，其中2017 年达到顶峰，为12 462 项，部分年份\n稳中有降，其中2018、2019 和2021 年3 年均出现下降\n趋势，尤其是2019 年较2018 年降幅11.8%，2021 年\n较2020 年降幅20.6%，这可能与全球爆发的新冠疫情\n有较大关联。\n图2　工厂化农业技术专利申请时间演化\nFig. 2    Time evolution of patent application for industrialized\nagricultural technology\n中国从1989 年开始出现了第1 项关于食用菌的生\n产技术，为福建省漳州制糖工业研究所的郑渊鸣等申\n请的全滤泥生产蘑菇菌种的方法。近10 年，中国工厂\n化农业技术专利申请数量为39 679 项，约占全球的\n35.0%，2012—2017 年专利数量逐年稳步提升，2017\n年申请专利达到顶峰，为5 927 项，2018—2021 年专利\n申请数量又开始下降，2021 年仅为3 692 项。\n3.2　申请人类型分析\n专利申请人包括公司、院校/科研院所、个人、政\n府机构及其他（包括医院、银行等）5 类，对申请人类\n型进行分析，结果如图3 所示。公司和院校/科研院所是\n工厂化农业专利最主要的申请人类型，两者总计100 269\n项，占比85.1%，其中公司申请量（83 317 项）为院校/\n科研院所（16 952 项）的近5 倍。\n图3　专利申请人类型分布\nFig. 3    Distribution of patent applicant types\n公司是进行农业工厂化技术专利布局数量最大的\n群体，院校和科研院所是进行基础研究的主要群体，\n是专利申请的第2 大主体，其次个人和政府机构、其\n他社会组织申请专利数量为17 505 项，占比14.9%。\n3.3　国家/区域分布情况\n对专利技术分布的国家/区域进行统计分析，申请\n人的国家/区域分布情况如图4 所示，与专利受理国家/\n地区的分布情况，或者称为专利目标市场国家/地区的\n分布情况（图5）不同。在产品流通之前，技术人员根\n据技术和市场需求在不同的国家/地区申请专利并获得\n法律保护，这是技术市场的专利部署策略。\n图4　专利技术来源国家/地区分布\nFig. 4    Distribution of patent technology source countries/regions\n从专利来源国/地区来看（图4），共有20 个国家/\n地区申请专利数量超过1 000 项，其中美国申请量为世\n界第1，为39 679 项，占比35.0%，为全球总量的1/3；\n美国、中国、日本和德国4 个国家均超过10 000 项，\n褚农农　等：专利视角下全球工厂化农业技术发展态势分析\n109",
+      "images": [
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p2_i0.jpx",
+          "width": 945,
+          "height": 602,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p2_i1.jpx",
+          "width": 945,
+          "height": 455,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p2_i2.jpx",
+          "width": 945,
+          "height": 568,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_num": 3,
+      "text": "总和占比71.0%；其次瑞士、英国、俄罗斯、法国和韩\n国5 个国家均超过5 000 项；其余11 个国家均超过\n1 000 项。\n从专利的受理国家/地区来看（图5），专利技术\n市场主要分布于美国、印度、世界知识产权组织、中\n国、欧洲和以色列等国家/组织，美国既是最主要的专\n利申请国，也是专利技术最大的布局市场；印度和以\n色列申请专利数量分别位列13 和16 位，而技术市场\n分别位列2 和6 位，可见其市场价值之高，应用之广；\n中国专利申请量仅次于美国，位列世界第2，但市场布\n局占到第4 位，市场占有量仅为美国的17.4%，可见我\n国工厂化农业应用范围还较小、市场占有率还不高；\n得益于知识产权申请的国际化发展趋势，世界知识产\n权组织和欧洲专利局受理专利数量分别位列第3 和\n5 位。\n3.4　申请机构分析\n进行专利技术战略性布局是全世界各工厂化农业\n技术研发和产品生产机构的首要任务，除了商业秘密，\n选择申请专利权寻求法律保护是进行研发和生产的主\n要任务和重要前提。从申请人的所属机构来看，农用\n公司、农业大学和科研机构是专利申请最主要的机构，\n对申请专利数量超过1 000 项的机构共16 家，分析结\n果如表1 所示。\n前16 个机构中美国共10 家，瑞士3 家，俄罗斯、\n德国和法国各1 家。俄罗斯KVASENKOV  OLEG\nIVANOVICH 专利申请量最大，达5 810 项，排名全球\n第1。其次美国孟山都科技公司（3 612 项）、美国先\n锋国际良种公司（2 917 项）、美国加利福尼亚大学\n（2 704 项）和瑞士商诺华公司（2 005 项）4 家机构申\n请量均超过2 000 项。\n从中国专利权人近10 年的统计数据来看，中国专\n利权人申请专利数量超过50 项的共24 家（表2），中\n国工厂化农业技术的科研力量主要集中在高校和科研\n院所，其中高校/科研院所共19 家，企业5 家。浙江大\n学、广东东阳光药业有限公司和南京农业大学表现最\n为突出，均超过100 项。其余21 家机构均超过50 项。\n3.5　发明人分析\n对工厂化农业技术专利的发明人进行统计分析，\n选取申请专利数量超过200 项的发明人，共计10 人，\n统计结果如表3 所示。明显看出，排名前10 的发明人\n中，美国公司技术人员8 人，德国公司技术人员2 人。\n其中美国孟都山科技公司4 人，美国巴斯夫欧洲公司\n图5　专利技术受理国家/地区分布\nFig. 5    Distribution of patent technology acceptance countries/regions\n表 1　专利申请机构TOP 16\nTab. 1    Patent application agency TOP 16\n序号\n申请人\n专利申请数量/项所属国家\n1\nKVASENKOV OLEG IVANOVICH\n5 810\n俄罗斯\n2\n孟山都科技公司\n3 612\n美国\n3\n先锋国际良种公司\n2 917\n美国\n4\n加利福尼亚大学\n2 704\n美国\n5\n瑞士商诺华公司\n2 005\n瑞士\n6\n巴斯夫欧洲公司\n1 805\n德国\n7\n先正达参股股份有限公司\n1 715\n瑞士\n8\n健泰科生物技术公司\n1 556\n美国\n9\n美国陶氏益农公司\n1 517\n美国\n10\n法国国家健康医学研究院\n1 163\n法国\n11\n得克萨斯大学\n1 151\n美国\n12\n霍夫曼-拉罗奇有限公司\n1 101\n瑞士\n13\n麻省理工学院\n1 092\n美国\n14\n哈佛大学\n1 087\n美国\n15\n小利兰·斯坦福大学\n1 045\n美国\n16\n美国卫生及公共服务部\n1 010\n美国\n表 2　中国专利申请机构TOP 24\nTab. 2    Chinese patent application institutions TOP 24\n序号\n中国专利权人机构\n专利数量/项\n1\n浙江大学\n104\n2\n广东东阳光药业有限公司\n103\n3\n南京农业大学\n102\n4\n中国农业大学\n93\n5\n华中农业大学\n84\n6\n江苏省农业科学院\n79\n7\n龙灯农业化工国际有限公司\n78\n8\n江南大学\n77\n9\n上海市农业科学院\n76\n10\n香港中文大学\n68\n11\n福建农林大学\n68\n12\n四川农业大学\n66\n13\n国立台湾大学\n64\n14\n桂林洁宇环保科技有限责任公司\n62\n15\n青岛农业大学\n61\n16\n广西大学\n59\n17\n华南农业大学\n58\n18\n山东农业大学\n58\n19\n长沙瑞多康生物科技有限公司\n56\n20\n澳门科技大学\n53\n21\n山东省农业科学院农业资源与环境研\n究所\n52\n22\n清华大学\n52\n23\n默沙东药厂\n52\n24\n中国科学院遗传与发育生物学研究所\n50\n110\n农业工程\n科研与教学",
+      "images": [
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p3_i0.jpx",
+          "width": 945,
+          "height": 568,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_num": 4,
+      "text": "2 人，美国希乐克公司、美国MS 技术有限责任公司、\n德国拜尔农作物科学股份公司和德国罗氏生物制药有\n限公司各1 人。美国农业类企业发明人占到了绝大多\n数，其中美国MS 技术有限责任公司的MASON, JUSTIN\n申请量最高，为425 项。\n3.6　研究热点分析\n专利地图通过聚类算法将专利集合投射到地图上\n不同的网格（Grid）中，特征相似的专利会落在相同或\n者相邻的格子内，在此基础上将相近的格子划归成一\n个聚类（Cluster）。每个聚类提取专利中的关键词作为\n标签，根据各网格中专利数量的多少将其可视化成高\n低不同的山峰，最终形成专利地图。以智慧芽数据库\n自带的3D 专利地图分析工具对工厂化农业的4 个技术\n领域专利研究热点进行分析，结果如图6、图7、图8\n和图9 所示。\n植物工厂领域的专利研究热点主要集中在6 个方\n面：一是种子催芽技术；二是LED 植物光源技术；三\n是栽培装置；四是传感器；五是物联网；六是智能\n系统。\n水产工厂领域的专利研究热点主要集中在5 个方\n面：一是智能饲养、精准投喂、远程控制管理系统；\n二是水质净化生物反应器；三是封闭式养殖设备；四\n是增氧装置；五是养殖水理化处理。\n畜禽工厂领域的专利研究热点主要集中在5 个方\n面：一是养殖污水处理；二是自动饮水装置；三是精\n准自动投料、移动式采食槽；四是物联网智能个体健\n康管理系统；五是畜舍自动清洁装置。\n食用菌工厂领域的专利研究热点主要集中在5 个\n方面：一是培养基、营养基、栽培料；二是菌种培养\n与制备；三是栽培架、栽培床；四是药用或功能性菌\n及其制备；五是发酵技术。\n4　建议\n目前，我国在工厂化农业专利技术申请数量方面\n仅次于美国，但在专利市场布局方面排名还有一定距\n离，在产业化方面又存在较大差距，如我国设施蔬菜\n平均单产只有荷兰的1/3，人均管理温室的面积只有日\n本的1/5、西欧的1/8。我国工厂化农业的总面积和总\n产量均位居世界第1，发展成效显著。但是与美国、荷\n兰、以色列和日本等发达国家的工厂化农业相比，我\n表 3　专利发明人TOP 10\nTab. 3    Patent inventor TOP 10\n序号\n发明人\n所属单位\n专利数量/项\n1\nMASON, JUSTIN T.\n美国MS 技术有限责任公司\n425\n2\nHOLLAND, GREGORY J.\n孟都山科技公司\n318\n3\nEBY, WILLIAM H.\n孟都山科技公司\n258\n4\nSTELPFLUG, RICHARD G.\n孟都山科技公司\n255\n5\nKLEIN, CHRISTIAN\n德国罗氏生物制药有限公司\n241\n6\nWACHENDORFF-NEUMANN, ULRIKE\n德国拜尔农作物科学股份公司\n239\n7\nMEDOFF, MARSHALL\n美国希乐克公司\n238\n8\nGRAMMENOS, WASSILIOS\n美国巴斯夫欧洲公司\n232\n9\nSTANGLAND, GARY R.\n孟都山科技公司\n232\n10\nLOHMANN, JAN KLAAS\n美国巴斯夫欧洲公司\n212\n1. 习性、习惯、自由、特点　2. 花生、新品种、特点、核酸　3. 主体、\n柔性、水培蔬菜　4. 实用、芋头、粉状、胡萝卜、调味料　5. 栽培装\n置、种植装置、立体栽培、水培装置　6. LED 光源、红外线、弱光、\n红光、LED 系统　7. 智能、传感器、照明系统、物联网、光信号\n8. 营养液、水培、栽培方法、水培系统　9. 芽孢杆菌、植物生长促进、\n孢子、芽孢杆菌属　10. 线虫、农药、有效量、活性成分、生物控制剂\n11. 包衣、烯丙酯、异硫氰酸、涂覆、芦荟凝胶\n图6　植物工厂专利技术研究热点\nFig. 6    Research hotspots of patent technology in plant factories\n1. 近海、框架、封闭式、生产设备、先进　2. 温室、种养、循环水、\n蔬菜栽培　3. 预处理、分配器、食品、计算机、接收传感器　4. DHA、\n轮虫、生命周期、富含　5. 细菌、病毒、物理化学、去除氮、pH 值\n6. 龙虾、养殖污水、地带　7. 水净化、生物反应器、流水、装备、污\n水　8. 水净化、三角、聚氧、球形、换氧装置　9. 生物反应器、化合\n物、闭环系统、水性介质、软体动物\n图7　水产工厂专利技术研究热点\nFig. 7    Research hotspots on patent technology in aquatic factories\n褚农农　等：专利视角下全球工厂化农业技术发展态势分析\n111",
+      "images": [
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p4_i0.jpx",
+          "width": 945,
+          "height": 488,
+          "page": 4
+        },
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p4_i1.jpx",
+          "width": 945,
+          "height": 516,
+          "page": 4
+        }
+      ]
+    },
+    {
+      "page_num": 5,
+      "text": "国工厂化农业产出效能整体不高，比较优势不强，竞\n争优势弱。\n（1）将工厂化农业技术作为未来设施农业发展的\n重点方向。进一步提升工厂化农业技术的重要地位，\n优先设立工厂化农业科技支撑重点任务，力争在工厂\n化农业领域率先实现农业现代化。\n（2）加快突破技术瓶颈。加快突破农业传感器、\n动植物知识模型、智能控制和精准作业设备等核心关\n键技术。特别是中美贸易斗争、非洲猪瘟等，对发展\n无人值守猪场、智慧牧场、智能植物工厂等新业态的\n需求更加迫切。\n（3）加快培育工厂化农业高新技术企业和产业集\n群。加快布局以工厂智慧农业为主题的技术创新中心、\n农高区、农业科技园区、星创天地等创新创业基地平\n台，通过政府引导基金、农机补贴、后补助等方式，\n重点培育一批具有国际竞争优势的工厂化农业高新技\n术企业，壮大产业集群。\n5　结束语\n工厂化农业是在设施农业的基础上发展起来的，\n是设施农业的更高形式。工厂化农业是在一定规模化\n生产的基础上，融入智慧农业新技术，实现标准化、\n机械化和科技化的农业新的生产方式。为掌握全球工\n厂化农业专利技术的发展趋势和研究热点，检索和分\n析工厂化农业专利在全球的分布情况。\n（1）工厂化农业专利申请最早起源于20 世纪70\n年代，并于2000 年专利申请量开始稳步提升，到\n2019 年达到顶峰，受自然因素影响，近几年申请数量\n有所下降。中国工厂化农业技术专利申请较晚，1989\n年开始申请第1 项专利，其后申请量缓步提升，尤其\n近10 年来申请总量约占全球的10.7%。\n（2）公司/企业是进行工厂化农业专利布局的最大\n群体，其次是院校和科研院所，其中公司申请量（180 787\n项）为院校/科研院所（1 054 项）的近3 倍，企业是承\n担技术研发与成果转化落地的最大责任主体。\n（3）美国是工厂化农业技术专利申请量和市场布\n局量最高的国家，远超其他国家。中国专利申请量仅\n次于美国，排名第2，但市场布局不及申请量，排名\n第4。\n（4）全球专利申请人排名前16 的机构中，基本\n均为企业和院校/研究院所，其中美国机构最多，占到\n10 家。中国专利权人机构中排名前24 位的大部分为高\n校和科研院所，表现最为突出的是浙江大学、广东东\n阳光药业有限公司和南京农业大学。\n（5）全球排名前10 的专利发明人均为企业技术\n人员，其中美国企业人员8 人、德国企业人员2 人，\n并且均为农业科技、机械和生物制药公司技术人员。\n（6）在植物、水产、畜禽和食用菌4 个领域的工\n厂化农业的研究热点各有所侧重。\n参考文献\n熊春林，周雅婷，刘芬，等．发达国家智慧农业发展的PEST 分\n析及启示[J]．农业科技管理，2021，40（1）：5-9．\nXIONG Chunlin，ZHOU Yating，LIU Fen，et al．PEST analysis of\nsmart agriculture development in developed countries and its enlighten-\nment[J]．Management of Agricultural Science and Technology，2021，\n40（1）：5-9．\n［1］\n任妮，郭婷，孙艺伟．全球智慧农业发展对我国“十四五”学科\n布局的启示[J]．农业科技管理，2021，40（1）：1-4．\nREN Ni，GUO Ting，SUN Yiwei．Enlightenment of global smart agri-\n［2］\n1. 污水、污水处理系统、猪场废水、处理系统、处理方法　2. 有机肥、\n原料、羊粪　3. 微型猪、近交系、保育、羊床、节能环保　4. 乳猪、\n保育箱、通风系统、微生物发酵　5. 补饲、微型猪、近交系、侧板、\n保温箱　6. 健康、个体、生长性能、管理系统、物联网　7. 精确、出\n料箱、自动投料、定量、选料机　8. 出料口、猪槽、饲料桶、移动式、\n采集槽　9. 饮水系统、污水处理装置、污水、粪污、饮水装置\n10. 搅拌箱、出料口、混合装置、干湿、喂料\n图8　畜禽工厂专利技术研究热点\nFig. 8    Research hotspots on patent technology in livestock and\npoultry factories\n1. 新方法、生料、畦床、营养剂　2. 海鲜菇、牛粪、堆肥、营养基、\n配制　3. 鸡腿菇、菇渣、香菇栽培料、白玉、袋栽　4. 育苗基质、菇\n渣、牛羊粪、室内栽培　5. 杏鲍菇菌糖、培养基配方、营养添加剂　6.\n栽培基、金针菇栽培料、香菇栽培料、营养添加剂　7. 丝状真菌、病\n症、胶囊　8. 发酵方法、菌丝球、液体种子、科学、摇瓶　9. 羊肚菌、\n菌种培养、熟料袋栽、杏鲍菇菌糖　10. 反季节、隧道、大球盖菇、立\n体栽培、羊肚菌　11. 实用、栽培床、栽培架、立体栽培、立体\n图9　食用菌工厂专利技术研究热点\nFig. 9    Research hotspots on patent technology in edible\nmushroom factories\n112\n农业工程\n科研与教学",
+      "images": [
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p5_i0.jpx",
+          "width": 945,
+          "height": 508,
+          "page": 5
+        },
+        {
+          "path": "data/processed\\专利视角下全球工厂化农业技术发展态势分析_褚农农_p5_i1.jpx",
+          "width": 945,
+          "height": 512,
+          "page": 5
+        }
+      ]
+    },
+    {
+      "page_num": 6,
+      "text": "culture development on the discipline arrangement during the \"14th Five-\nYear Plan\" period in China[J]．Management of Agricultural Science and\nTechnology，2021，40（1）：1-4．\nWANG L，IDDIO E，EWERS B．Introductory overview：evapotran-\nspiration （ET） models  for  controlled  environment  agriculture （CEA）\n[J]．Computers and Electronics in Agriculture，2021，190：106 447．\n［3］\nZHANG H E，WONG K H，CHANG V．Patent analysis in the 5G\nnetwork[J]．Journal  of  Global  Information  Management，2021，\n29（6）：1-28．\n［4］\n孙艺伟，郭婷，戴红君，等．专利视角下全球智慧农业技术创新\n态势分析[J]．中国农业信息，2021，33（4）：40-52．\nSUN  Yiwei，GUO  Ting，DAI  Hongjun，et al．Analysis  of  global\ntechnology  innovation of smart agriculture from the perspective  of  pat-\nent[J]．China Agricultural Informatics，2021，33（4）：40-52．\n［5］\nFU B R，HSU S W，LIU C H，et al．Statistical analysis of patent data\nrelating  to  the  organic  Rankine  cycle[J]．Renewable  and  Sustainable\nEnergy Reviews，2014，39：986-994．\n［6］\nTRAPPEY C V，WU H Y，TAGHABONI-DUTTA F，et al．Using\npatent  data  for  technology  forecasting：China  RFID  patent  analysis\n[J]．Advanced Engineering Informatics，2011，25（1）：53-64．\n［7］\n姚乐野，潘志博，李奕苇．多层级视角下区块链技术发展的专利\n情报实证分析[J]．科技管理研究，2022，42（7）：171-180．\nYAO Leye，PAN Zhibo，LI Yiwei．Patent intelligence analysis of the\ndevelopment  of  blockchain  technology  from  a  multi-level  perspective\n[J]．Science and Technology Management Research，2022，42（7）：\n171-180．\n［8］\n王凌，王昊，王伊龙．基于PatSnap 的我国卒中领域专利发展态\n势分析[J]．中国卒中杂志，2022，17（4）：385-392．\nWANG Ling，WANG Hao，WANG Yilong．Development trends of\npatents in stroke field in China based on PatSnap[J]．Chinese Journal of\nStroke，2022，17（4）：385-392．\n［9］\n黄静雯，朱玉璟．Patentics 和PatSnap 两种专利检索平台的体验之\n对比[J]．中国高新区，2019（23）：249-250．\n［10］\n褚农农　等：专利视角下全球工厂化农业技术发展态势分析\n113",
+      "images": []
+    }
+  ]
+}

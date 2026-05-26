@@ -1,0 +1,1047 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 13,
+    "image_index": 0,
+    "thought": "论文聚焦于‘基于BERTopic模型的医疗人工智能领域专利文本主题分析’，其技术体系以BERTopic为核心方法论，整合了自然语言处理（NLP）与专利情报分析两大方向。关键技术环节包括：1）数据层：德温特专利数据作为原始输入；2）预处理层：涉及文本清洗、分词等常规NLP前处理；3）语义建模层：采用SBERT生成高质量文档嵌入（利用预训练语言模型捕捉上下文语义）；4）结构发现层：通过降维（如UMAP）与聚类（如HDBSCAN）识别潜在主题簇；5）主题表征层：基于关键词与类代表性文档生成可解释主题；6）分析输出层：结合IPC分类分布、申请人分析等专利计量指标进行领域洞察。图中‘IPC分布’位于中心位置，表明其是主题分析结果的重要验证与落地维度，体现技术路线从文本挖掘到专利情报应用的闭环。",
+    "tree": {
+      "root": "医疗人工智能专利文本主题分析技术体系",
+      "children": [
+        {
+          "name": "数据层",
+          "children": [
+            {
+              "name": "德温特专利数据库",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "预处理层",
+          "children": [
+            {
+              "name": "文本清洗与标准化",
+              "children": []
+            },
+            {
+              "name": "分词与停用词过滤",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "语义建模层",
+          "children": [
+            {
+              "name": "SBERT文档嵌入",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "主题发现层",
+          "children": [
+            {
+              "name": "降维（UMAP）",
+              "children": []
+            },
+            {
+              "name": "聚类（HDBSCAN）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "主题表征层",
+          "children": [
+            {
+              "name": "关键词提取与加权",
+              "children": []
+            },
+            {
+              "name": "主题-文档关联建模",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "分析与验证层",
+          "children": [
+            {
+              "name": "IPC分类分布分析",
+              "children": []
+            },
+            {
+              "name": "重要申请人识别",
+              "children": []
+            },
+            {
+              "name": "主题演化与趋势分析",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 20,
+    "image_index": 0,
+    "thought": "论文描述了BERTopic主题建模框架的五步流程：1）使用Sentence-BERT（SBERT）进行文档嵌入，利用Transformer自注意力机制获取上下文感知的语义向量；2）通过UMAP进行非线性降维，保留局部与全局结构；3）采用HDBSCAN进行密度聚类，适应主题数量未知且簇形状不规则的场景；4）结合c-tf-idf（类内TF-IDF加权）生成可解释的主题词表示；5）最终输出技术主题。外部输入包括专利文本数据及MMR（最大边际相关性）用于增强主题区分度。整个体系以BERTopic为核心，整合了预训练语言模型、降维、聚类与关键词加权技术，形成端到端的主题发现 pipeline。",
+    "tree": {
+      "root": "BERTopic 主题建模技术体系",
+      "children": [
+        {
+          "name": "输入层",
+          "children": [
+            {
+              "name": "专利文本数据",
+              "children": []
+            },
+            {
+              "name": "MMR（最大边际相关性）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "核心处理流程（五步框架）",
+          "children": [
+            {
+              "name": "1. SBERT 文档嵌入",
+              "children": [
+                {
+                  "name": "sentence-transformers 模型",
+                  "children": []
+                },
+                {
+                  "name": "BERT/Transformer 架构",
+                  "children": []
+                },
+                {
+                  "name": "自注意力机制",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2. UMAP 降维",
+              "children": [
+                {
+                  "name": "统一流形逼近与投影",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3. HDBSCAN 聚类",
+              "children": [
+                {
+                  "name": "基于密度的层次聚类",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "4. c-tf-idf 主题表示",
+              "children": [
+                {
+                  "name": "类内TF-IDF加权",
+                  "children": []
+                },
+                {
+                  "name": "关键词提取与权重计算",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "5. 技术主题输出",
+              "children": [
+                {
+                  "name": "可解释主题标签",
+                  "children": []
+                },
+                {
+                  "name": "主题分布与文档归属",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "支撑技术组件",
+          "children": [
+            {
+              "name": "数据预处理模块",
+              "children": []
+            },
+            {
+              "name": "语义相似性建模",
+              "children": []
+            },
+            {
+              "name": "高维向量压缩技术",
+              "children": []
+            },
+            {
+              "name": "无监督聚类算法",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 25,
+    "image_index": 0,
+    "thought": "该论文聚焦于主题建模技术在时间演化与跨文档集对比场景下的应用，核心围绕BERTopic展开。关键技术点包括：(1) 基于SBERT的语义嵌入作为底层表示基础；(2) BERTopic模型本身（含聚类与主题生成）；(3) 主题演化建模——通过按时间切片（Timestep）对文档分组，并在各时间片上应用c-TF-IDF进行局部主题表征；(4) 两种调优策略：Global Tuning（全局聚合）与Evolutionary Tuning（时序递进调优），体现动态演化思想；(5) 评估体系分为客观指标（主题一致性、多样性、困惑度）与主观指标（人类可解释性）。图中结构显示：主题是顶层抽象，向下分解为时间维度的文档划分，再经c-TF-IDF表征，最终通过两种调优路径整合为时序主题演化模型。整体构成‘语义表示→静态主题建模→时序切片→动态调优→多维评估’的技术闭环。",
+    "tree": {
+      "root": "主题演化建模技术体系",
+      "children": [
+        {
+          "name": "1. 语义表示层",
+          "children": [
+            {
+              "name": "SBERT嵌入模型",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 静态主题建模层",
+          "children": [
+            {
+              "name": "BERTopic模型",
+              "children": [
+                {
+                  "name": "UMAP降维",
+                  "children": []
+                },
+                {
+                  "name": "HDBSCAN聚类",
+                  "children": []
+                },
+                {
+                  "name": "c-TF-IDF关键词提取",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "对比模型",
+              "children": [
+                {
+                  "name": "LDA",
+                  "children": []
+                },
+                {
+                  "name": "DTM",
+                  "children": []
+                },
+                {
+                  "name": "Top2vec",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 时序演化层",
+          "children": [
+            {
+              "name": "文档时间切片",
+              "children": [
+                {
+                  "name": "按Topic分组",
+                  "children": []
+                },
+                {
+                  "name": "按Timestep分段",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "动态调优策略",
+              "children": [
+                {
+                  "name": "Global Tuning",
+                  "children": [
+                    {
+                      "name": "全局c-TF-IDF聚合",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Evolutionary Tuning",
+                  "children": [
+                    {
+                      "name": "时序递进调优（t-1 → t）",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 评估与验证层",
+          "children": [
+            {
+              "name": "客观评估指标",
+              "children": [
+                {
+                  "name": "主题一致性",
+                  "children": []
+                },
+                {
+                  "name": "主题多样性",
+                  "children": []
+                },
+                {
+                  "name": "困惑度",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "主观评估指标",
+              "children": [
+                {
+                  "name": "人类可解释性（弱/中/强）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "主题对比方法",
+              "children": [
+                {
+                  "name": "余弦相似度匹配",
+                  "children": []
+                },
+                {
+                  "name": "跨文档集/时段主题对齐",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 29,
+    "image_index": 0,
+    "thought": "该论文片段聚焦于医疗人工智能领域的专利数量趋势分析，属于技术发展态势的宏观统计研究，并未直接描述具体的技术架构或系统组成。文中核心信息是：时间维度上（2004–2023），国内外专利申请量持续增长，尤其2015年后加速；国内在2013年后反超国外，2021年达峰值（>3500项）；并指出数据滞后性（18个月保密期）导致2022–2023年曲线下降属统计假象。因此，该段落反映的是‘医疗人工智能’这一技术领域的发展热度与创新活跃度，而非其内部技术栈结构。结合领域常识，可推断其技术体系应以AI基础能力为底座，支撑医学场景应用，典型分层包括：底层算力与数据、中层算法模型、上层临床应用与系统集成。但原文未提供具体技术细节，故需基于领域共识进行合理外推。",
+    "tree": {
+      "root": "医疗人工智能技术体系",
+      "children": [
+        {
+          "name": "基础支撑层",
+          "children": [
+            {
+              "name": "计算与硬件平台",
+              "children": []
+            },
+            {
+              "name": "医学数据资源",
+              "children": [
+                {
+                  "name": "电子病历（EMR/EHR）",
+                  "children": []
+                },
+                {
+                  "name": "医学影像数据（CT/MRI/X-ray等）",
+                  "children": []
+                },
+                {
+                  "name": "基因组与组学数据",
+                  "children": []
+                },
+                {
+                  "name": "真实世界证据（RWE）数据",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "数据治理与隐私保护",
+              "children": [
+                {
+                  "name": "去标识化与匿名化",
+                  "children": []
+                },
+                {
+                  "name": "联邦学习框架",
+                  "children": []
+                },
+                {
+                  "name": "合规性标准（如HIPAA、GDPR）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "核心算法层",
+          "children": [
+            {
+              "name": "机器学习与深度学习",
+              "children": [
+                {
+                  "name": "监督/无监督/强化学习",
+                  "children": []
+                },
+                {
+                  "name": "图神经网络（GNN）用于知识图谱",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "医学专用模型",
+              "children": [
+                {
+                  "name": "医学影像分析模型（如U-Net, SwinUNETR）",
+                  "children": []
+                },
+                {
+                  "name": "自然语言处理模型（临床文本理解、ICD编码）",
+                  "children": []
+                },
+                {
+                  "name": "多模态融合模型",
+                  "children": []
+                },
+                {
+                  "name": "可解释AI（XAI）方法",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "知识驱动方法",
+              "children": [
+                {
+                  "name": "医学本体与知识图谱",
+                  "children": []
+                },
+                {
+                  "name": "规则引擎与推理系统",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "应用服务层",
+          "children": [
+            {
+              "name": "辅助诊断系统",
+              "children": [
+                {
+                  "name": "影像辅助诊断（如肺结节检测）",
+                  "children": []
+                },
+                {
+                  "name": "病理图像分析",
+                  "children": []
+                },
+                {
+                  "name": "心电图/脑电图智能判读",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "治疗决策支持",
+              "children": [
+                {
+                  "name": "个性化治疗方案推荐",
+                  "children": []
+                },
+                {
+                  "name": "药物研发辅助（靶点发现、分子生成）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "医院管理与运营优化",
+              "children": [
+                {
+                  "name": "智能分诊与预约调度",
+                  "children": []
+                },
+                {
+                  "name": "病患风险预测与预警",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "健康管理与远程医疗",
+              "children": [
+                {
+                  "name": "可穿戴设备数据分析",
+                  "children": []
+                },
+                {
+                  "name": "慢病管理AI助手",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "评估与监管层",
+          "children": [
+            {
+              "name": "临床验证与效果评估",
+              "children": [
+                {
+                  "name": "前瞻性/回顾性临床试验",
+                  "children": []
+                },
+                {
+                  "name": "真实世界性能监测",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "法规与伦理治理",
+              "children": [
+                {
+                  "name": "医疗器械软件认证（如FDA SaMD、NMPA）",
+                  "children": []
+                },
+                {
+                  "name": "算法偏见与公平性审计",
+                  "children": []
+                },
+                {
+                  "name": "责任归属与透明度要求",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 30,
+    "image_index": 0,
+    "thought": "论文聚焦医疗人工智能（AI in Healthcare）领域的专利趋势与创新主体分布，核心体现为：1）技术驱动力是人工智能（尤其是机器学习/深度学习）与大数据；2）主要应用场景包括医学图像处理、智能问诊、康养养老、基因测序、诊断支持等；3）创新主体呈现‘企业主导+高校支撑’格局，中国企业（如平安、百度、腾讯）在专利数量上领先，尤其在应用层落地；国际企业（如西门子医疗）则强于底层成像与临床IT系统。技术体系可归纳为：以AI算法为核心，依托数据资源，面向多类医疗场景，由产学研协同推进的分层架构。",
+    "tree": {
+      "root": "医疗人工智能技术体系",
+      "children": [
+        {
+          "name": "基础层：核心技术与数据",
+          "children": [
+            {
+              "name": "人工智能算法",
+              "children": [
+                {
+                  "name": "机器学习"
+                },
+                {
+                  "name": "深度学习"
+                },
+                {
+                  "name": "自然语言处理（NLP）"
+                },
+                {
+                  "name": "计算机视觉"
+                }
+              ]
+            },
+            {
+              "name": "大数据技术",
+              "children": [
+                {
+                  "name": "医疗数据采集与治理"
+                },
+                {
+                  "name": "多模态数据融合"
+                },
+                {
+                  "name": "隐私计算与安全"
+                }
+              ]
+            },
+            {
+              "name": "硬件与算力支持",
+              "children": [
+                {
+                  "name": "医学影像设备（CT/MRI/X光/超声）"
+                },
+                {
+                  "name": "边缘计算与云平台"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "应用层：核心场景",
+          "children": [
+            {
+              "name": "医学图像智能分析",
+              "children": [
+                {
+                  "name": "病灶检测与分割"
+                },
+                {
+                  "name": "影像辅助诊断"
+                },
+                {
+                  "name": "影像报告生成"
+                }
+              ]
+            },
+            {
+              "name": "智能问诊与健康管理",
+              "children": [
+                {
+                  "name": "对话式诊疗助手"
+                },
+                {
+                  "name": "症状自评与风险评估"
+                },
+                {
+                  "name": "慢性病管理"
+                }
+              ]
+            },
+            {
+              "name": "康养与老年健康",
+              "children": [
+                {
+                  "name": "居家健康监测"
+                },
+                {
+                  "name": "认知障碍早期筛查"
+                },
+                {
+                  "name": "康复训练辅助"
+                }
+              ]
+            },
+            {
+              "name": "精准医疗与组学分析",
+              "children": [
+                {
+                  "name": "基因测序数据分析"
+                },
+                {
+                  "name": "药物靶点发现"
+                },
+                {
+                  "name": "个体化治疗推荐"
+                }
+              ]
+            },
+            {
+              "name": "临床决策支持系统（CDSS）",
+              "children": [
+                {
+                  "name": "诊疗路径优化"
+                },
+                {
+                  "name": "检验结果智能解读"
+                },
+                {
+                  "name": "用药安全预警"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "生态层：创新主体与协同机制",
+          "children": [
+            {
+              "name": "企业主体",
+              "children": [
+                {
+                  "name": "综合科技企业（平安、百度、腾讯）"
+                },
+                {
+                  "name": "专业医疗设备厂商（西门子医疗等）"
+                },
+                {
+                  "name": "生物技术与诊断公司（如宸安生物、Deep Biome）"
+                }
+              ]
+            },
+            {
+              "name": "学术研究机构",
+              "children": [
+                {
+                  "name": "高校（电子科大、浙大、清华、天大等）"
+                },
+                {
+                  "name": "科研院所"
+                }
+              ]
+            },
+            {
+              "name": "产业协同模式",
+              "children": [
+                {
+                  "name": "投资并购（如百度收购GBI Health）"
+                },
+                {
+                  "name": "产学研联合实验室"
+                },
+                {
+                  "name": "标准与伦理治理框架"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 2,
+    "table_index": 0,
+    "thought": "表格内容实际为硕士学位论文答辩委员会成员名单，包含姓名、职称、单位及角色（如主席），并无技术分类信息；后续的空表格及中文占位符（如‘□□□’）亦未提供任何可识别的技术领域或分类体系。因此，无法从中提取有效技术分类结构。",
+    "tree": {
+      "root": "无技术分类体系",
+      "children": []
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 3,
+    "table_index": 0,
+    "thought": "表格本身为空（仅含占位符），但结合上下文可知：研究将国内医疗AI专利主题划分为‘六大板块共45个主题’，并明确提及多个技术方向。从摘要与正文可归纳出层级逻辑：顶层为‘医疗人工智能’；第一层按应用领域/技术路径可分为：医学成像、疾病诊疗（含骨科、甲状腺等专科）、分子生物（如小分子RNA）、中医智能化、自然语言处理（NLP）与语义理解、深度学习算法改进；其中疾病诊疗可进一步细分至具体科室（如骨科、脊柱健康）和检测类型（如甲状腺检测）；分子生物与免疫治疗构成对比（优势vs劣势）；NLP与深度学习属于底层AI关键技术。因此技术分类体系应以‘医疗人工智能’为根，下设‘应用层’（疾病诊疗、医学成像、中医智能等）与‘技术层’（AI基础算法、NLP、深度学习）两大主干，再依上下文细化子类。",
+    "tree": {
+      "root": "医疗人工智能",
+      "children": [
+        {
+          "name": "应用层",
+          "children": [
+            {
+              "name": "医学成像",
+              "children": []
+            },
+            {
+              "name": "疾病诊疗",
+              "children": [
+                {
+                  "name": "骨科诊疗（新兴重点）",
+                  "children": []
+                },
+                {
+                  "name": "甲状腺检测（优势领域）",
+                  "children": []
+                },
+                {
+                  "name": "脊柱健康（优势领域）",
+                  "children": []
+                },
+                {
+                  "name": "其他专科疾病诊疗",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "分子生物研究",
+              "children": [
+                {
+                  "name": "小分子RNA与疾病（优势）",
+                  "children": []
+                },
+                {
+                  "name": "免疫治疗与抗原结合（劣势）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "中医智能化",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "技术层",
+          "children": [
+            {
+              "name": "深度学习算法改进",
+              "children": []
+            },
+            {
+              "name": "自然语言处理（NLP）与语义理解",
+              "children": []
+            },
+            {
+              "name": "AI基础模型与算法创新",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 9,
+    "table_index": 0,
+    "thought": "表格本身内容模糊（含乱码与引用标记），但结合上下文可系统梳理技术分类逻辑：核心是‘人工智能’作为根技术，其下按技术方法（子领域AI技术）和应用领域（医疗场景）双重维度展开。文中明确提到‘计算机视觉、自然语言处理、机器学习等AI子技术’应用于‘医学影像、精准医疗、健康管理’等领域；同时强调‘医学影像+人工智能’为典型融合场景。政策与市场部分进一步佐证AI在医疗中的主流落地方向。因此，技术分类体系应以‘医疗人工智能’为根节点，第一层按技术方法划分（CV/NLP/ML等），第二层对应具体医疗应用场景，体现‘技术→应用’的层级关系。",
+    "tree": {
+      "root": "医疗人工智能",
+      "children": [
+        {
+          "name": "计算机视觉",
+          "children": [
+            {
+              "name": "医学影像分析",
+              "children": []
+            },
+            {
+              "name": "病理图像识别",
+              "children": []
+            },
+            {
+              "name": "手术导航与辅助",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "自然语言处理",
+          "children": [
+            {
+              "name": "电子病历结构化",
+              "children": []
+            },
+            {
+              "name": "临床决策支持",
+              "children": []
+            },
+            {
+              "name": "医患对话系统",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "机器学习",
+          "children": [
+            {
+              "name": "疾病预测与风险评估",
+              "children": []
+            },
+            {
+              "name": "个性化治疗推荐",
+              "children": []
+            },
+            {
+              "name": "药物研发与管理",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "多模态融合技术",
+          "children": [
+            {
+              "name": "影像+文本联合诊断",
+              "children": []
+            },
+            {
+              "name": "基因组+影像精准医疗",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 10,
+    "table_index": 0,
+    "thought": "表格内容虽被部分遮蔽（显示为乱码或占位符），但结合上下文可推断：论文聚焦‘医疗人工智能’领域，强调其为交叉学科，涉及‘人工智能+医学’；研究方法使用BERTopic模型挖掘主题，并关注‘应用场景’‘技术热点’‘专利主题分布’。文中明确提到‘医疗人工智能下的众多子领域的研究逐步兴起’，并列举了‘医疗诊断技术’作为典型代表；实践意义中提及‘产业技术层面更准确地划分人工智能在医疗领域的应用场景’，暗示分类可能按临床场景（如影像诊断、病理分析、药物研发等）或技术路径（如深度学习、自然语言处理、计算机视觉）展开。由于表格原始数据不可读，需依据上下文合理重构典型技术分类体系——参考主流医疗AI研究框架，通常以‘应用领域’为主干，下分具体临床任务与支撑技术。",
+    "tree": {
+      "root": "医疗人工智能",
+      "children": [
+        {
+          "name": "医学影像智能分析",
+          "children": [
+            {
+              "name": "X光/CT/MRI病灶检测"
+            },
+            {
+              "name": "病理切片图像识别"
+            },
+            {
+              "name": "超声影像辅助诊断"
+            }
+          ]
+        },
+        {
+          "name": "临床决策支持系统",
+          "children": [
+            {
+              "name": "电子病历NLP分析"
+            },
+            {
+              "name": "疾病风险预测模型"
+            },
+            {
+              "name": "治疗方案推荐"
+            }
+          ]
+        },
+        {
+          "name": "药物研发与基因组学",
+          "children": [
+            {
+              "name": "靶点发现与筛选"
+            },
+            {
+              "name": "分子生成与优化"
+            },
+            {
+              "name": "基因变异解读"
+            }
+          ]
+        },
+        {
+          "name": "手术与机器人辅助",
+          "children": [
+            {
+              "name": "术前规划与导航"
+            },
+            {
+              "name": "微创手术机器人控制"
+            },
+            {
+              "name": "术后康复监测"
+            }
+          ]
+        },
+        {
+          "name": "健康管理与远程医疗",
+          "children": [
+            {
+              "name": "可穿戴设备数据分析"
+            },
+            {
+              "name": "慢性病智能管理"
+            },
+            {
+              "name": "虚拟健康助手"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于BERTopic模型的医疗人工智能领域专利文本主题分析_董依诺_merged.json",
+    "page_num": 13,
+    "table_index": 0,
+    "thought": "表格内容实际为损坏/乱码的CSV片段（含大量无法识别的字符和空行），未提供有效的技术分类数据；结合上下文，论文聚焦于‘医疗人工智能’领域，并采用BERTopic主题模型分析德温特专利数据，但全文未明确给出结构化的技术分类体系。第二章仅提及‘对医疗人工智能技术研究……进行国内外研究现状综述’，但未在所给材料中呈现具体分类层级。因此，无法从表格或上下文中提取出明确的技术分类树；唯一可确认的根节点是‘医疗人工智能’，其下无可靠子类信息。为符合输出格式要求，基于学术惯例与章节逻辑，推断可能的顶层分类应围绕‘技术应用层’（如诊断、治疗、管理）与‘技术支撑层’（如算法、数据、硬件），但需强调此为合理推测而非原文直接提取。",
+    "tree": {
+      "root": "医疗人工智能",
+      "children": [
+        {
+          "name": "技术应用层",
+          "children": [
+            {
+              "name": "医学影像辅助诊断"
+            },
+            {
+              "name": "临床决策支持系统"
+            },
+            {
+              "name": "药物研发与发现"
+            },
+            {
+              "name": "患者管理与远程监护"
+            },
+            {
+              "name": "医院运营与资源优化"
+            }
+          ]
+        },
+        {
+          "name": "技术支撑层",
+          "children": [
+            {
+              "name": "机器学习与深度学习算法"
+            },
+            {
+              "name": "自然语言处理（NLP）"
+            },
+            {
+              "name": "计算机视觉"
+            },
+            {
+              "name": "知识图谱与语义推理"
+            },
+            {
+              "name": "多模态数据融合"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

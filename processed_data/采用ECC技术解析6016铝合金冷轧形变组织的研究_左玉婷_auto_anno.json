@@ -1,0 +1,41 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\采用ECC技术解析6016铝合金冷轧形变组织的研究_左玉婷_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\采用ECC技术解析6016铝合金冷轧形变组织的研究_左玉婷_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\采用ECC技术解析6016铝合金冷轧形变组织的研究_左玉婷_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

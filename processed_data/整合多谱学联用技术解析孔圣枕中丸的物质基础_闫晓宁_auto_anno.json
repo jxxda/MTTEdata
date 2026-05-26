@@ -1,0 +1,942 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 5,
+    "image_index": 0,
+    "thought": "该论文聚焦于中药复方‘孔圣枕中丸’的物质基础解析，核心技术路径为：以UHPLC-Q-TOF/MS（超高效液相色谱-四极杆飞行时间质谱）为核心分析平台，结合多谱学联用策略（包括精确质量测定、二级碎片解析、裂解规律推断），辅以自建数据库、文献比对与对照品确证，实现非挥发性成分的系统鉴定与半定量分析。技术体系呈‘数据采集→特征提取→结构解析→验证确证’的层级流程，其中质谱碎裂规律（如糖苷键断裂丢失特定质量片段）是关键判据；成分分类（如𠮿酮类、寡糖酯类等）体现化学结构导向的归类逻辑，反映从分子特征到化学类别再到整体物质基础的认知链条。",
+    "tree": {
+      "root": "中药复方物质基础解析技术体系",
+      "children": [
+        {
+          "name": "核心分析平台",
+          "children": [
+            {
+              "name": "UHPLC-Q-TOF/MS联用技术",
+              "children": [
+                {
+                  "name": "色谱分离模块（UHPLC）",
+                  "children": []
+                },
+                {
+                  "name": "高分辨质谱检测模块（Q-TOF/MS）",
+                  "children": [
+                    {
+                      "name": "正/负离子模式切换",
+                      "children": []
+                    },
+                    {
+                      "name": "一级质谱（精确分子量测定）",
+                      "children": []
+                    },
+                    {
+                      "name": "二级质谱（MS/MS碎片分析）",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "结构解析方法学",
+          "children": [
+            {
+              "name": "特征碎片规律库",
+              "children": [
+                {
+                  "name": "糖苷键断裂特征（如Api 132 Da, Glc 162 Da）",
+                  "children": []
+                },
+                {
+                  "name": "类别特异性裂解模式",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "多源信息整合策略",
+              "children": [
+                {
+                  "name": "自建化合物数据库匹配",
+                  "children": []
+                },
+                {
+                  "name": "文献参考比对",
+                  "children": []
+                },
+                {
+                  "name": "对照品标准品确证",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "结果输出与分类体系",
+          "children": [
+            {
+              "name": "化学成分鉴定",
+              "children": [
+                {
+                  "name": "𠮿酮类（25种）",
+                  "children": []
+                },
+                {
+                  "name": "寡糖酯类（25种）",
+                  "children": []
+                },
+                {
+                  "name": "苯丙素类及衍生物（17种）",
+                  "children": []
+                },
+                {
+                  "name": "三萜皂苷类（7种）",
+                  "children": []
+                },
+                {
+                  "name": "木脂素类（5种）",
+                  "children": []
+                },
+                {
+                  "name": "有机酸、酚、氨基酸、黄酮等小类",
+                  "children": []
+                },
+                {
+                  "name": "其他类（17种）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "半定量分析",
+              "children": [
+                {
+                  "name": "基于峰面积/响应强度的相对含量估算",
+                  "children": []
+                },
+                {
+                  "name": "仪器制造商校准支持",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 6,
+    "image_index": 0,
+    "thought": "该论文聚焦于中药远志中化学成分的质谱鉴定，核心是基于高分辨质谱（HR-MS）的结构解析技术体系。关键技术点包括：(1) 离子化模式选择（正/负离子模式）影响准分子离子检测；(2) 一级质谱（MS1）获取分子量信息（[M+H]⁺或[M−H]⁻）；(3) 二级质谱（MS/MS）通过碰撞诱导解离（CID）产生特征碎片离子；(4) 基于中性丢失规律（如Glc−162 Da、Fru−180 Da、H₂O−18 Da、Api−132 Da等）推断糖基与苷元连接方式；(5) 结合对照品比对与文献数据验证结构。整体构成‘样品前处理→质谱采集→碎片解析→结构鉴定’的技术链条，其中碎片裂解规律是连接质谱数据与化学结构的关键推理桥梁。",
+    "tree": {
+      "root": "远志化学成分质谱鉴定技术体系",
+      "children": [
+        {
+          "name": "质谱数据采集层",
+          "children": [
+            {
+              "name": "离子化模式选择",
+              "children": [
+                {
+                  "name": "正离子模式 ([M+H]⁺)"
+                },
+                {
+                  "name": "负离子模式 ([M−H]⁻)"
+                }
+              ]
+            },
+            {
+              "name": "一级质谱 (MS1)",
+              "children": [
+                {
+                  "name": "准分子离子峰识别 (m/z)"
+                },
+                {
+                  "name": "分子式推导 (高分辨质量数)"
+                }
+              ]
+            },
+            {
+              "name": "二级质谱 (MS/MS)",
+              "children": [
+                {
+                  "name": "碰撞诱导解离 (CID)"
+                },
+                {
+                  "name": "特征碎片离子检测"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "结构解析层",
+          "children": [
+            {
+              "name": "中性丢失分析",
+              "children": [
+                {
+                  "name": "糖基丢失 (Glc: −162 Da, Fru: −180 Da, Api: −132 Da)"
+                },
+                {
+                  "name": "脱水丢失 (H₂O: −18 Da)"
+                },
+                {
+                  "name": "有机酸丢失 (如阿魏酸: −194 Da)"
+                },
+                {
+                  "name": "糖脱水衍生物丢失 (如Fru−2H₂O: −144 Da)"
+                }
+              ]
+            },
+            {
+              "name": "裂解规律建模",
+              "children": [
+                {
+                  "name": "苷键断裂路径推断"
+                },
+                {
+                  "name": "母核-糖链-酯基连接关系重构"
+                }
+              ]
+            },
+            {
+              "name": "结构鉴定验证",
+              "children": [
+                {
+                  "name": "对照品比对"
+                },
+                {
+                  "name": "文献数据库检索 [e.g., Ref.13,14]"
+                },
+                {
+                  "name": "化合物命名与归属 (如polygalaxanthone III, sibiricose A5)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "化学成分分类层",
+          "children": [
+            {
+              "name": "寡糖酯类",
+              "children": [
+                {
+                  "name": "蔗糖母核骨架"
+                },
+                {
+                  "name": "糖苷键连接 (Glc/Fru/Api等)"
+                },
+                {
+                  "name": "有机酸酯化 (如阿魏酸)"
+                }
+              ]
+            },
+            {
+              "name": "呫吨酮类 (Xanthones)",
+              "children": [
+                {
+                  "name": "多甲氧基呫吨酮骨架"
+                },
+                {
+                  "name": "糖基化修饰 (如葡萄糖苷)"
+                },
+                {
+                  "name": "甲基化修饰 (如7-O-methyl)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 7,
+    "image_index": 0,
+    "thought": "论文聚焦于中药复方‘孔圣枕中丸’的物质基础解析，核心方法是基于多谱学联用技术（尤其是LC-MS/MS）进行化合物结构鉴定。关键技术点包括：(1) 以高分辨质谱获取准分子离子峰（[M+H]⁺或[M−H]⁻）确定分子量；(2) 通过二级质谱（MS/MS）分析特征性中性丢失（如162 Da Glc、146 Da Fuc−H₂O、31 Da −OCH₃等）与碎片离子（如m/z 455/425齐墩果酸苷元），建立不同化学类型（三萜皂苷类、苯丙素类等）的裂解规律库；(3) 结合文献比对完成结构确证。整体技术体系以‘样品前处理→色谱分离→高分辨质谱检测→谱图解析与数据库比对’为主线，其中质谱裂解规律是连接检测数据与化学结构鉴定的核心逻辑纽带。",
+    "tree": {
+      "root": "中药复方物质基础解析技术体系",
+      "children": [
+        {
+          "name": "1. 样品前处理与色谱分离",
+          "children": [
+            {
+              "name": "1.1 提取纯化（如溶剂提取、固相萃取）"
+            },
+            {
+              "name": "1.2 高效液相色谱（HPLC/UPLC）分离"
+            }
+          ]
+        },
+        {
+          "name": "2. 高分辨质谱检测",
+          "children": [
+            {
+              "name": "2.1 一级质谱（MS）获取准分子离子峰 [M+H]⁺/[M−H]⁻"
+            },
+            {
+              "name": "2.2 二级质谱（MS/MS）获取碎片离子与中性丢失信息"
+            }
+          ]
+        },
+        {
+          "name": "3. 化学成分分类与裂解规律建模",
+          "children": [
+            {
+              "name": "3.1 三萜皂苷类",
+              "children": [
+                {
+                  "name": "3.1.1 母核：齐墩果烷型"
+                },
+                {
+                  "name": "3.1.2 特征中性丢失：Glc (162 Da), Fuc−H₂O (146 Da), Xyl−H₂O (132 Da), HMG (144 Da), 肉桂酰基 (160 Da)"
+                },
+                {
+                  "name": "3.1.3 特征苷元碎片：m/z 455 (齐墩果酸), m/z 425"
+                }
+              ]
+            },
+            {
+              "name": "3.2 苯丙素类及衍生物",
+              "children": [
+                {
+                  "name": "3.2.1 基本骨架：C₆−C₃"
+                },
+                {
+                  "name": "3.2.2 特征取代基：−OCH₃, −OH, −O−CH₂−O−"
+                },
+                {
+                  "name": "3.2.3 特征中性丢失：−CH₃ (15 Da), −OCH₃ (31 Da), −H₂O, −C₂H₄等"
+                },
+                {
+                  "name": "3.2.4 碎片离子模式：逐步脱甲基/脱水/侧链断裂"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 结构鉴定与验证",
+          "children": [
+            {
+              "name": "4.1 文献数据库比对（如已知化合物m/z、碎片、保留时间）"
+            },
+            {
+              "name": "4.2 标准品对照验证"
+            },
+            {
+              "name": "4.3 谱图解析与结构推断（结合裂解路径图）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 8,
+    "image_index": 0,
+    "thought": "该论文片段聚焦于中药化学成分（木脂素类）的结构鉴定，核心依赖质谱技术：首先通过高分辨一级质谱（HRMS）获取准分子离子峰（如m/z 403.2126 [M+H]+）确定分子量与元素组成；再通过二级质谱（MS/MS）获取碎片离子（如m/z 209.1169、181.0840等），结合文献比对与裂解规律分析（如失去C11H14O4等中性丢失），推断化合物结构（如β-Asarone）。图4展示的MS/MS谱图及标注的碎片归属，体现了‘质谱数据采集→碎片解析→结构推测→文献验证’的技术流程。因此，该领域技术体系以质谱为核心，向上支撑成分鉴定，向下依赖数据库与理论裂解模型。",
+    "tree": {
+      "root": "中药活性成分结构鉴定技术体系",
+      "children": [
+        {
+          "name": "质谱分析层",
+          "children": [
+            {
+              "name": "高分辨一级质谱（HRMS）",
+              "children": [
+                {
+                  "name": "准分子离子检测（[M+H]⁺/[M-H]⁻）"
+                },
+                {
+                  "name": "精确质量测定与分子式推导"
+                }
+              ]
+            },
+            {
+              "name": "串联质谱（MS/MS）",
+              "children": [
+                {
+                  "name": "碎片离子采集（如m/z 209.1169, 181.0840）"
+                },
+                {
+                  "name": "中性丢失分析（如C₁₁H₁₄O₄）"
+                },
+                {
+                  "name": "裂解路径建模与图谱解析（见图5）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "结构鉴定层",
+          "children": [
+            {
+              "name": "数据库比对",
+              "children": [
+                {
+                  "name": "文献谱图库检索（如文献[16]）"
+                },
+                {
+                  "name": "标准品/已知化合物对照"
+                }
+              ]
+            },
+            {
+              "name": "结构推理",
+              "children": [
+                {
+                  "name": "木脂素类特征裂解规律应用"
+                },
+                {
+                  "name": "官能团与骨架重构（如β-Asarone结构确认）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "支撑层",
+          "children": [
+            {
+              "name": "色谱分离（LC/GC前置）"
+            },
+            {
+              "name": "计算化学辅助（理论碎片预测）"
+            },
+            {
+              "name": "化学分类学知识（如木脂素亚类特征）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 9,
+    "image_index": 0,
+    "thought": "论文聚焦于中药复方‘孔圣枕中丸’的物质基础解析，采用多谱学联用技术进行系统鉴定：1）非挥发性成分（如酚酸、黄酮等）通过LC-MS/MS（如图5所示MS/MS裂解分析）鉴定；2）挥发性成分通过GC-MS鉴定（图6），按化学结构分类为苯丙素类、萜类、酮类等；3）多肽成分通过HPLC-Q-Exactive MS（高分辨质谱）鉴定（图7），获得601条序列。三者构成互补的分析维度，共同覆盖小分子代谢物（极性/非极性）、挥发性有机物及生物大分子（多肽）。核心是‘多谱学联用技术’作为方法论主线，下分三大分析模块，每模块对应特定仪器平台与化合物类型。",
+    "tree": {
+      "root": "孔圣枕中丸物质基础解析技术体系",
+      "children": [
+        {
+          "name": "非挥发性小分子成分鉴定",
+          "children": [
+            {
+              "name": "LC-MS/MS（液相色谱-串联质谱）",
+              "children": [
+                {
+                  "name": "MS/MS裂解规律分析",
+                  "children": []
+                },
+                {
+                  "name": "成分类型：酚酸、黄酮、核苷等（如adenosine）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "挥发性成分鉴定",
+          "children": [
+            {
+              "name": "GC-MS（气相色谱-质谱）",
+              "children": [
+                {
+                  "name": "总离子流图分析（TIC）",
+                  "children": []
+                },
+                {
+                  "name": "成分类型：苯丙素类、萜类、酮类、呋喃衍生物、糖/羧酸/醇/酯等",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "多肽成分鉴定",
+          "children": [
+            {
+              "name": "HPLC-Q-Exactive MS（高效液相-高分辨轨道阱质谱）",
+              "children": [
+                {
+                  "name": "高分辨质量测定（m/z精度达ppm级）",
+                  "children": []
+                },
+                {
+                  "name": "多肽序列鉴定（601条，MW 500–3000 Da）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 2,
+    "table_index": 0,
+    "thought": "表格本身内容不完整（多为空单元格），但结合上下文可知，该研究对孔圣枕中丸（Sagacious Confucius’ Pillow Elixir）进行了系统化学成分分析，采用多种现代分析技术（UHPLC-Q-TOF/MS、GC-MS、HPLC-Q-Exactive MS、XRF）鉴定出四大类物质：非挥发性成分、挥发性成分、肽类及无机元素；其中非挥发性和挥发性成分又进一步按化学结构细分（如黄酮、苯丙素类、萜类等）。因此技术分类体系应以‘化学成分类型’为根节点，下分四类主干，每类再按具体化学结构或分析对象细化。注意：表格标题含中英文药名，但未提供有效分类字段；真正分类依据来自正文Results段的描述。",
+    "tree": {
+      "root": "化学成分类型",
+      "children": [
+        {
+          "name": "非挥发性成分",
+          "children": [
+            {
+              "name": "呫吨酮类",
+              "children": []
+            },
+            {
+              "name": "寡糖酯类",
+              "children": []
+            },
+            {
+              "name": "苯丙素类及其衍生物",
+              "children": []
+            },
+            {
+              "name": "三萜皂苷类",
+              "children": []
+            },
+            {
+              "name": "木脂素类",
+              "children": []
+            },
+            {
+              "name": "有机酸类",
+              "children": []
+            },
+            {
+              "name": "酚类",
+              "children": []
+            },
+            {
+              "name": "氨基酸类",
+              "children": []
+            },
+            {
+              "name": "黄酮类",
+              "children": []
+            },
+            {
+              "name": "其他非挥发性成分",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "挥发性成分",
+          "children": [
+            {
+              "name": "苯丙素类",
+              "children": []
+            },
+            {
+              "name": "萜类",
+              "children": []
+            },
+            {
+              "name": "酮类及其衍生物",
+              "children": []
+            },
+            {
+              "name": "呋喃衍生物",
+              "children": []
+            },
+            {
+              "name": "碳水化合物衍生物",
+              "children": []
+            },
+            {
+              "name": "羧酸类",
+              "children": []
+            },
+            {
+              "name": "脂肪醇类",
+              "children": []
+            },
+            {
+              "name": "酯类",
+              "children": []
+            },
+            {
+              "name": "其他挥发性成分",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "肽类",
+          "children": [
+            {
+              "name": "具活性、低毒性且可穿透血脑屏障的肽",
+              "children": []
+            },
+            {
+              "name": "其他肽",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "无机元素",
+          "children": [
+            {
+              "name": "检测到的13种无机元素",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 2,
+    "table_index": 1,
+    "thought": "表格及上下文共同揭示了孔圣枕中丸成分分析的技术分类逻辑：首先按药源类型（植物、动物、矿物）划分三大类；其次，针对不同药源的理化特性（如挥发性、分子量、极性），采用差异化的分析技术路径——挥发性成分用GC-MS，非挥发性小分子用UHPLC-Q-TOF/MS或HPLC-Q-Exactive MS，多肽类用高分辨质谱筛选活性片段，无机元素用XRF。因此技术体系以‘药源类型’为第一级分类，以‘成分理化属性’为第二级分类，再对应具体分析技术与目标成分类别。",
+    "tree": {
+      "root": "孔圣枕中丸成分分析技术体系",
+      "children": [
+        {
+          "name": "植物药来源成分",
+          "children": [
+            {
+              "name": "挥发性成分",
+              "children": [
+                {
+                  "name": "GC-MS分析",
+                  "children": [
+                    {
+                      "name": "苯丙素类"
+                    },
+                    {
+                      "name": "萜类"
+                    },
+                    {
+                      "name": "酮类及衍生物"
+                    },
+                    {
+                      "name": "呋喃衍生物"
+                    },
+                    {
+                      "name": "糖衍生物"
+                    },
+                    {
+                      "name": "羧酸"
+                    },
+                    {
+                      "name": "脂肪醇"
+                    },
+                    {
+                      "name": "酯类"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "非挥发性小分子",
+              "children": [
+                {
+                  "name": "UHPLC-Q-TOF/MS分析",
+                  "children": [
+                    {
+                      "name": "呫吨酮类"
+                    },
+                    {
+                      "name": "寡糖酯类"
+                    },
+                    {
+                      "name": "苯丙素类及其衍生物"
+                    },
+                    {
+                      "name": "三萜皂苷"
+                    },
+                    {
+                      "name": "木脂素"
+                    },
+                    {
+                      "name": "有机酸"
+                    },
+                    {
+                      "name": "酚类"
+                    },
+                    {
+                      "name": "氨基酸"
+                    },
+                    {
+                      "name": "黄酮类"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "动物药来源成分",
+          "children": [
+            {
+              "name": "多肽类（非挥发性大分子）",
+              "children": [
+                {
+                  "name": "HPLC-Q-Exactive MS分析",
+                  "children": [
+                    {
+                      "name": "活性肽筛选（具BBB通透性、非毒性）"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "矿物药来源成分",
+          "children": [
+            {
+              "name": "无机元素",
+              "children": [
+                {
+                  "name": "X射线荧光光谱（XRF）",
+                  "children": [
+                    {
+                      "name": "Ca, P, Mg, Fe, Al, Cl等13种元素"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 2,
+    "table_index": 2,
+    "thought": "表格及上下文表明，技术分类依据被测化学成分的物理化学性质（如挥发性、分子类型、元素属性）进行划分：1）非挥发性有机成分→LC-MS类技术（含UHPLC-Q-TOF/MS）；2）挥发性有机成分→GC-MS；3）多肽类生物大分子→HPLC-Q-Exactive MS（高分辨质谱用于肽组学）；4）无机元素→XRF（X射线荧光光谱）。因此，技术体系以‘分析对象性质’为一级分类依据，下设四类核心方法，每类对应特定成分类型。",
+    "tree": {
+      "root": "中成药化学成分分析技术体系",
+      "children": [
+        {
+          "name": "非挥发性有机成分分析",
+          "children": [
+            {
+              "name": "液相色谱-质谱联用技术（LC-MS）",
+              "children": [
+                {
+                  "name": "超高效液相色谱-四极杆飞行时间质谱（UHPLC-Q-TOF/MS）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "挥发性有机成分分析",
+          "children": [
+            {
+              "name": "气相色谱-质谱联用技术（GC-MS）"
+            }
+          ]
+        },
+        {
+          "name": "多肽组学分析",
+          "children": [
+            {
+              "name": "高效液相色谱-四极杆-静电场轨道阱质谱（HPLC-Q-Exactive MS）"
+            }
+          ]
+        },
+        {
+          "name": "无机元素分析",
+          "children": [
+            {
+              "name": "X射线荧光光谱（XRF）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 2,
+    "table_index": 3,
+    "thought": "表格列出了实验所用仪器设备，结合上下文可知这些设备服务于三类核心分析技术：1）色谱-质谱联用技术（用于化合物定性定量，如UHPLC-Q-TOF/MS、GC-MS、HPLC-Q-Exactive MS）；2）光谱技术（XRF用于无机元素分析）；3）样品前处理与辅助设备（天平、超声清洗机、研磨仪、离心机、超纯水仪等）。其中色谱-质谱联用可进一步按色谱类型（液相/气相）和质谱类型（Q-TOF、Orbitrap等）细分；光谱技术以XRF为代表；辅助设备按功能归为样品制备与纯化类。因此技术分类体系应以‘分析检测技术’为根节点，下设三大主干：色谱-质谱联用技术、光谱分析技术、样品前处理与辅助技术。",
+    "tree": {
+      "root": "分析检测技术",
+      "children": [
+        {
+          "name": "色谱-质谱联用技术",
+          "children": [
+            {
+              "name": "超高效液相色谱-四极杆飞行时间质谱（UHPLC-Q-TOF MS）",
+              "children": []
+            },
+            {
+              "name": "气相色谱-质谱（GC-MS）",
+              "children": []
+            },
+            {
+              "name": "液相色谱-四极杆-轨道阱高分辨质谱（HPLC-Q-Exactive MS）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "光谱分析技术",
+          "children": [
+            {
+              "name": "波长色散X射线荧光光谱（WDXRF）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "样品前处理与辅助技术",
+          "children": [
+            {
+              "name": "称量与纯化",
+              "children": [
+                {
+                  "name": "电子天平",
+                  "children": []
+                },
+                {
+                  "name": "超纯水系统",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "样品破碎与均质",
+              "children": [
+                {
+                  "name": "研磨仪",
+                  "children": []
+                },
+                {
+                  "name": "超声清洗机",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "分离与富集",
+              "children": [
+                {
+                  "name": "高速冷冻离心机",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\整合多谱学联用技术解析孔圣枕中丸的物质基础_闫晓宁_merged.json",
+    "page_num": 2,
+    "table_index": 4,
+    "thought": "表格本身仅包含样品信息（孔圣枕中丸及三种对照品批号），无直接技术分类；但结合上下文可知，该研究采用多技术联用策略对中药成分进行系统表征：1）色谱-质谱联用技术（UHPLC-Q-TOF/MS、GC-MS、HPLC-Q-Exactive MS）用于化合物与肽段鉴定；2）光谱技术（XRF）用于无机元素分析；3）生物信息学预测用于功能筛选（如血脑屏障通透性）。技术分类应以分析对象（化学成分类型）为一级分支，以分析技术为二级支撑。但题目要求‘技术分类体系’，故应聚焦于所用分析技术及其层级关系：顶层为‘多模态分析技术集成’，下分‘色谱-质谱联用技术’（含不同平台）、‘光谱分析技术’、‘生物信息学预测’三类；其中色谱-质谱进一步按检测对象（非挥发性成分、挥发性成分、肽段）细分。",
+    "tree": {
+      "root": "中药成分系统表征技术体系",
+      "children": [
+        {
+          "name": "色谱-质谱联用技术",
+          "children": [
+            {
+              "name": "UHPLC-Q-TOF/MS",
+              "children": [
+                "非挥发性成分鉴定（黄酮、苯丙素类、寡糖酯等）"
+              ]
+            },
+            {
+              "name": "GC-MS",
+              "children": [
+                "挥发性成分鉴定（萜类、苯丙素类、酮类等）"
+              ]
+            },
+            {
+              "name": "HPLC-Q-Exactive MS",
+              "children": [
+                "肽段鉴定与活性筛选"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "光谱分析技术",
+          "children": [
+            {
+              "name": "X射线荧光光谱（XRF）",
+              "children": [
+                "无机元素定量分析"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "生物信息学预测",
+          "children": [
+            {
+              "name": "血脑屏障通透性预测",
+              "children": [
+                "活性肽筛选"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

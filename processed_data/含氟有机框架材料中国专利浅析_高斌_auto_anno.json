@@ -1,0 +1,270 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\含氟有机框架材料中国专利浅析_高斌_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "论文聚焦于含氟有机框架材料（Fluorinated Organic Frameworks, FOFs），核心是通过在金属有机框架（MOFs）或共价有机框架（COFs）中引入含氟官能团/结构单元（如氟簇节点、氟代连接体、原位氟化等），以提升材料的稳定性、疏水性、选择性吸附与催化性能。技术体系围绕‘材料设计→合成方法→结构特征→性能增强→应用领域’展开：材料类型分为MOFs和COFs两大类；氟化策略包括节点氟化（如M–F配位簇）、连接体氟化（氟代单体）、后修饰氟化（原位氟化）；关键性能提升体现在气体吸附/分离（乙炔/CO₂、H₂）、催化、电池、质子传导等；当前阶段仍以高校主导的基础研究为主，产业化程度低。",
+    "tree": {
+      "root": "含氟有机框架材料（FOFs）技术体系",
+      "children": [
+        {
+          "name": "材料类型",
+          "children": [
+            {
+              "name": "含氟金属有机框架（F-MOFs）",
+              "children": [
+                {
+                  "name": "氟簇节点型（如[M₄(μ₃-F)₃(μ₃-SO₄)]³⁺）",
+                  "children": []
+                },
+                {
+                  "name": "氟配位中心型（如Fe–F、M–F八面体配位）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "含氟共价有机框架（F-COFs）",
+              "children": [
+                {
+                  "name": "氟代连接体构建（如六方/三方对称氟节点）",
+                  "children": []
+                },
+                {
+                  "name": "氟功能化芳环骨架（芳环氟化修饰）",
+                  "children": []
+                },
+                {
+                  "name": "立体多连接含氟单元组装（如四/六连接含氟单元）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "氟化策略",
+          "children": [
+            {
+              "name": "前修饰法（使用含氟单体直接合成）",
+              "children": []
+            },
+            {
+              "name": "后修饰法（原位氟化/表面氟化）",
+              "children": []
+            },
+            {
+              "name": "氟离子调控法（作为调节剂诱导氟簇形成）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "核心性能增强",
+          "children": [
+            {
+              "name": "结构稳定性提升（化学/水/酸碱稳定性）",
+              "children": []
+            },
+            {
+              "name": "疏水性增强",
+              "children": []
+            },
+            {
+              "name": "选择性吸附能力（H₂、C₂H₂、CO₂、含氟有机物等）",
+              "children": []
+            },
+            {
+              "name": "质子传导率提升",
+              "children": []
+            },
+            {
+              "name": "催化活性增强（光电反应）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "主要应用领域",
+          "children": [
+            {
+              "name": "气体吸附与分离",
+              "children": [
+                {
+                  "name": "乙炔/二氧化碳分离",
+                  "children": []
+                },
+                {
+                  "name": "氢气储存与吸附",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "催化（光/电催化）",
+              "children": []
+            },
+            {
+              "name": "能源器件（电池、燃料电池）",
+              "children": []
+            },
+            {
+              "name": "含氟有机物吸附与回收",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "研发与转化现状",
+          "children": [
+            {
+              "name": "主体为高校（基础研究阶段）",
+              "children": []
+            },
+            {
+              "name": "企业参与度低、产业化滞后",
+              "children": []
+            },
+            {
+              "name": "专利增长快但转化率低",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\含氟有机框架材料中国专利浅析_高斌_merged.json",
+    "page_num": 1,
+    "image_index": 1,
+    "thought": "论文聚焦于含氟有机框架材料（Fluorinated Organic Frameworks, FOFs），核心是通过引入含氟官能团（如F原子、氟簇、氟代节点等）对传统金属有机框架（MOFs）或共价有机框架（COFs）进行结构修饰与性能增强。关键技术点包括：1）氟化策略（原位氟化、氟代单体合成、氟离子调节剂）；2）结构类型（金属有机框架MOFs、共价有机框架COFs，及其二维/三维拓扑结构如hea、[6+3]亚胺缩合网络）；3）性能提升机制（F原子参与配位形成M–F键增强稳定性，F的电负性诱导氢键作用提升选择性吸附，疏水性改善水/酸碱稳定性）；4）应用导向（气体分离如C₂H₂/CO₂、H₂吸附储存、催化、电池等）。技术体系以‘含氟改性’为轴心，向上连接材料设计与合成方法，向下延伸至具体应用场景，高校主导研发但产业化薄弱。",
+    "tree": {
+      "root": "含氟有机框架材料（FOFs）",
+      "children": [
+        {
+          "name": "材料类型",
+          "children": [
+            {
+              "name": "含氟金属有机框架（F-MOFs）",
+              "children": [
+                {
+                  "name": "氟簇节点型（如[M₄(μ₃-F)₃(μ₃-SO₄)]³⁺）",
+                  "children": []
+                },
+                {
+                  "name": "原位氟化型（如μ₃-F配位四价金属中心）",
+                  "children": []
+                },
+                {
+                  "name": "端基/桥联氟配位型（如Fe–F键含6μ-F+8端基F）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "含氟共价有机框架（F-COFs）",
+              "children": [
+                {
+                  "name": "二维富氟COFs（[6+3]亚胺缩合，六方/三方对称）",
+                  "children": []
+                },
+                {
+                  "name": "三维拓扑COFs（如hea结构，含氟四/六连接单元）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "氟化策略",
+          "children": [
+            {
+              "name": "含氟单体设计合成",
+              "children": []
+            },
+            {
+              "name": "原位氟化修饰",
+              "children": []
+            },
+            {
+              "name": "氟离子作为结构调节剂",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "性能增强机制",
+          "children": [
+            {
+              "name": "结构稳定性提升（M–F键、疏水性）",
+              "children": []
+            },
+            {
+              "name": "选择性吸附增强（F···H–C氢键作用）",
+              "children": []
+            },
+            {
+              "name": "质子传导与催化活性优化",
+              "children": []
+            },
+            {
+              "name": "永久孔隙度与高比表面积维持",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "应用领域",
+          "children": [
+            {
+              "name": "气体吸附与分离",
+              "children": [
+                {
+                  "name": "乙炔/二氧化碳分离",
+                  "children": []
+                },
+                {
+                  "name": "氢气低温吸附与储存",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "催化（光电反应）",
+              "children": []
+            },
+            {
+              "name": "能源器件（电池）",
+              "children": []
+            },
+            {
+              "name": "含氟有机物选择性捕获",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "研发主体与转化现状",
+          "children": [
+            {
+              "name": "高校主导（浙大、南开等）",
+              "children": []
+            },
+            {
+              "name": "企业参与度低、产业化滞后",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

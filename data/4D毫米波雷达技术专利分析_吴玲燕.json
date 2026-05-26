@@ -1,0 +1,99 @@
+{
+  "title": "4D毫米波雷达技术专利分析_吴玲燕",
+  "source_pdf": "data/raw\\4D毫米波雷达技术专利分析_吴玲燕.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "知识产权与专利导航\n河南科技\nHenan Science and Technology\n总第917期第22期\n2025年11月\n收稿日期：2025-03-13\n基金项目：基于车路协同的雷达+视频融合感知关键技术的联合研发项目（BZ2020014）。\n作者简介：吴玲燕（1992—），女，硕士，知识产权师，研究方向：专利导航、高价值专利培育；吴浩达\n（1995—），男，硕士，知识产权师，研究方向：专利导航、高价值专利培育；郭泊池（1988—），男，本科，知识产\n权师，研究方向：知识产权管理、专利导航；顾丹丹（1991—），女，本科，知识产权师，研究方向：知识产权管\n理、专利挖掘。\n4D毫米波雷达技术专利分析\n吴玲燕\n1　吴浩达\n1　郭泊池\n1　顾丹丹\n2\n（1.南京奥凯知识产权服务有限公司，江苏　南京　211100；\n2.南京慧尔视智能科技有限公司，江苏　南京　211102）\n摘　要：【目的\n目的】通过全球专利数据解析4D毫米波雷达技术发展态势，揭示其技术演进路径与竞争\n格局，为行业突破产业化瓶颈提供决策支持。\n【方法\n方法】基于壹专利数据库，运用趋势分析、地域图谱\n及IPC 分类统计，系统性评估技术创新动态。\n【结果\n结果】数据显示，4D 毫米波雷达技术演进历经硬件\n破冰、市场觉醒与产业爆发等3 个阶段。在技术格局上，中国在系统结构与算法聚类领域占据主\n导，而天线阵列领域则呈现中美竞争胶着的态势。从竞争主体看，德国博世以227 件硬件专利形\n成市场垄断，而中国上海几何伙伴则凭借14 件核心算法专利实现了关键技术突破。从发展趋势\n看，以雷达系统为技术基座，人工智能相关专利的增速已达到传统技术的3 倍，成为主要增长引\n擎。\n【结论\n结论】我国应以“补短板—拓场景—树标准”三维突破，构建自主技术生态：上游突破高精度\n射频算法链技术打破垄断，下游布局场景化专利矩阵抢占矿区港口等垂直市场，中游通过轻量化\n算法研发与标准必要专利捆绑，在角分辨率等核心指标领域构建技术壁垒，实现从专利数量优势\n向标准主导型产业生态的跨越升级。\n关键词：4D毫米波雷达；天线阵列；专利分析；可视化；技术演进\n中图分类号：TN95；G255.53   文献标志码：A   文章编号：1003-5168（2025）22-0130-06\nDOI：10.19968/j.cnki.hnkj.1003-5168.2025.22.023\nPatent Analysis of 4D Millimeter Wave Radar Technology\nWU Lingyan\n1　WU Haoda\n1　GUO Bochi\n1　GU Dandan\n2\n(1.Nanjing Ourchem Intellectual Property Service Co., Ltd., Nanjing 211100, China;\n2.Nanjing Hurys Intelligence Technology Co., Ltd., Nanjing 211102, China)\nAbstract: [Purposes] This study analyzes the development trend of 4D millimeter wave radar technology\nthrough global patent data, revealing its technological evolution path and competitive landscape, to pro⁃\nvide decision-making support for overcoming industrialization bottlenecks. [Methods] Based on the\nPatyee database, trend analysis, geographical mapping, and IPC classification statistics were applied to\nsystematically evaluate technological innovation dynamics. [Findings] The data shows that the techno⁃\nlogical evolution of 4D millimeter wave radar has gone through three stages: hardware ice-breaking, mar⁃\nket awakening, and industrial outbreak. In terms of the technological pattern, China dominates the fields\nof system structure and algorithm clustering, while the field of antenna array presents a fiercely competi⁃\ntive situation between China and the United States. From the perspective of competitors, Germany′s",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "第22期\n· 131 ·\nBosch has formed a market monopoly with 227 hardware patents, while China′s Shanghai Geometric Part⁃\nners has achieved key technology breakthroughs with 14 core algorithm patents. From the development\ntrend perspective, with the radar system as the technical foundation, the growth rate of artificial\nintelligence-related patents has reached three times that of traditional technologies, becoming the main\ngrowth engine. [Conclusions] China should build an independent technology ecosystem through a three-\ndimensional breakthrough strategy of \"addressing weaknesses–expanding application scenarios–estab⁃\nlishing standards\": breaking the monopoly in upstream high-precision RF algorithm chain technology, de⁃\nploying a scenario-based patent matrix in downstream to capture vertical markets like mining areas and\nports, and developing lightweight algorithms in the midstream while bundling Standard Essential Patents\n(SEPs) to construct technical barriers in core indicator fields such as angular resolution, ultimately achiev⁃\ning a leapfrog upgrade from a quantitative patent advantage to a standard-dominated industrial ecology.\nKeywords: 4D millimeter wave radar; antenna array; patent analysis; visualization; technological evolu⁃\ntion\n0　引言\n在智能驾驶技术从辅助驾驶向高阶自动驾驶\n演进的过程中，环境感知系统的可靠性与精确性成\n为制约产业发展的核心瓶颈。传统毫米波雷达受\n限于二维探测维度与低角分辨率\n［1］，难以实现目标\n高度信息的精准解析，而激光雷达的高成本与摄像\n头的光学局限性促使行业寻求更具性价比的感知\n方案。在此背景下，4D 毫米波雷达凭借其多维信\n息感知能力、全天候适应性及接近激光雷达的点云\n密度，逐渐成为L3 级以上自动驾驶系统的关键传\n感器。全球头部企业如博世、华为、Arbe 等已将其\n列为下一代智能汽车的标配技术，并在车载感知、\n交通监控、工业检测等领域展开规模化应用探\n索\n［2］。然而，该技术仍面临硬件性能边界、算法适\n配性及标准体系缺失等共性挑战，技术路径的分化\n进一步加剧了产业生态的碎片化程度\n［3-4］。\n当前，4D 毫米波雷达技术正处于从技术创新\n向产业落地的临界阶段。学术界与产业界围绕天\n线设计、信号处理算法、多传感器融合等方向已取\n得显著突破，但技术演进轨迹的模糊性与市场竞争\n的不确定性使得战略预判至关重要\n［5］。专利作为\n技术创新的“晴雨表”，能通过申请趋势、地域分布、\n权利人关联等维度的信息揭示技术生命周期与竞\n争格局。已有研究表明，专利数据可精准捕捉行业\n从硬件筑基向算法驱动的转型节点，并预警技术壁\n垒。系统化的专利分析能够厘清技术主权的分布\n特征、识别高价值研发方向、预判商业化拐点，从而\n为研发机构及企业提供兼具理论深度与实践价值\n的决策支撑。\n1　资料和方法\n本研究以4D、毫米波、雷达为核心检索要素，\n并将4D 毫米波雷达技术分解为系统结构、天线阵\n列、算法聚类、场景构建等4 个二级技术。所使用\n的专利文献数据来源于壹专利全球专利智能分析\n平台，其涵盖全球的专利信息，拥有超1.9 亿条数\n据，检索截止日期为2025 年2 月28 日。在筛选保\n留数据的基础上，从申请趋势、地域分布、法律状\n态、申请人、技术领域等维度，对4D 毫米波雷达技\n术领域进行全面的技术分析。\n2　专利分析结果\n2.1　专利趋势分析\n2.1.1 全球4D 毫米波雷达技术专利申请及公开趋\n势分析\n截至检索日，全球范围内4D 毫米波雷达技术\n专利申请共903 件。图1（a）显示了该领域的全球\n专利申请与公开的发展趋势，结合相关技术和市场\n的发展历程，4D毫米波雷达的发展历程可分为3个\n关键阶段。\n①技术破冰期（2009—2018 年）。2009 年博世\n公司提交全球首个4D 毫米波雷达技术专利，通过\n创新性垂直天线阵列设计突破俯仰角测量技术壁\n垒。此阶段年专利申请量均低于20 件，技术尚处\n实验室验证阶段。Oculii 公司自2014 年成立后，开\n创性地通过算法优化提升分辨率，形成硬件+软件\n双线研发格局。\n②市场觉醒期（2019—2022 年）。伴随新能源\n汽车渗透率突破5% 行业临界点，专利申请量呈指\n吴玲燕，等.4D毫米波雷达技术专利分析",
+      "images": []
+    },
+    {
+      "page_num": 2,
+      "text": "· 132 ·\n第22期\n数级增长：2019 年激增至50 件，年增长率达150%；\n2022 年突破100 件。这期间涌现大陆、华为、特斯\n拉等12 家新入局者，技术路线从单一车载感知向\n多传感器融合、高精度定位等方向延伸，应用场景\n覆盖自动泊车、障碍物分类等8大功能模块。\n③产业爆发期（2023—2025 年）。2023 年专利\n申请量飙升至160 件，同时此阶段专利公开量持续\n飙升，技术迭代周期从36 个月缩短至18 个月。研\n发呈现两大特征：传统厂商（如博世）侧重芯片级集\n成，而科技公司（如Waymo）主攻人工智能驱动的高\n维数据处理。\n尽管发展迅猛，当前技术成熟度仍滞后于市场\n需求。但随着毫米波雷达精度突破0.1°角分辨率\n阈值，预计2025 年后将进入车规级量产与V2X 生\n态构建的新阶段，形成万亿级毫米波雷达增量\n市场。\n2.1.2 全球4D 毫米波雷达二级技术专利申请趋势\n分析\n本研究对4 个二级技术方向的专利申请趋势\n进行了分析，结果如图1（b）所示。2009—2023 年，\n4D 毫米波雷达四大技术方向专利申请呈现差异化\n发展路径。具体为，系统结构作为基础支撑技术，\n早期年均不足20 件，2017 年起随着新能源汽车智\n能化需求爆发实现跨越式增长，2022 年以97 件创\n下峰值，2023 年回落至80 件，折射出硬件架构研发\n进入高集成度转型期。天线阵列在2015 年凭借\nMIMO 技术突破首现25件小高峰，2019—2021年维\n持年均35 件的平稳迭代后，2023 年申请量小幅下\n降，显示硬件创新正让位于软件定义波束成形等新\n范式。算法聚类作为后发领域，2019年前年均不足\n10件，伴随深度学习技术渗透，2023年以60件反超\n其他方向。场景构建在2019—2022 年借自动驾驶\n东风实现40 件量级突破，舱内活体检测等新场景\n专利激增，预示技术价值开始向座舱生态延伸。整\n体而言，四大方向在2023 年呈现“硬件降温、算法\n领跑、场景重构”的格局拐点，折射出行业正从单一\n感知器件研发向智能驾驶系统级创新加速演进。\n2.2　全球专利布局分析\n根据图2 显示的4D 毫米波雷达专利地域布局\n数据，4个技术方向呈现显著的地缘技术竞争格局。\n在系统结构领域，中国以377 件专利申请量形成绝\n对垄断，美国（58 件）、德国（55 件）分列第2、3 位。\n值得注意的是，中国专利申请量超过美国、德国、日\n本三国总和的2.5 倍，且WIPO 国际专利仅占6.7%，\n反映出该领域已形成以中国为主导的技术生态。\n在天线阵列领域，中美呈现双雄争霸态势，中国（44\n件）以微弱优势领先美国（41 件），但德国（29 件）、\nWIPO（29 件）的专利布局量已接近美国的70%，暗\n示欧盟正通过多边合作增强技术话语权。在算法\n聚类领域，中国以192 件专利申请形成断崖式领\n先，占据全球总量的98.5%。这种技术垄断在深度\n学习点云处理、多目标跟踪等子领域尤为突出。在\n场景构建领域，中国以143 件专利申请覆盖自动驾\n驶、车路协同、舱内监测、智慧交通等多个领域，而\n其他国家以智能驾驶为主。\n2.3　全球专利主要申请人分析\n4D 毫米波雷达4 个二级技术专利的申请人呈\n现明显的分层竞争格局，如图3 所示。在系统结构\n领域，罗伯特博世以158 件专利申请占据绝对主导\n地位，远超第2 名OCULII 公司的22 件，上海几何伙\n伴、西安电子科大等中国产学研机构虽组成第二梯\n队，但头部集中度高达89%。在天线阵列领域，博\n（a）全球4D毫米波雷达专利申请与公开趋势\n（b）全球4D毫米波雷达二级技术专利申请趋势对比\n图1　全球4D毫米波雷达专利趋势\n250\n200\n150\n100\n50\n0\n专利申请量/件\n专利公开趋势\n专利申请趋势\n120\n100\n80\n60\n40\n20\n0\n专利申请量/件\n年份\n系统结构\n算法聚类\n天线阵列\n场景构建\n吴玲燕，等.4D毫米波雷达技术专利分析\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025\n年份\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\n2025",
+      "images": [
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p2_i0.jpx",
+          "width": 566,
+          "height": 401,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p2_i1.jpx",
+          "width": 563,
+          "height": 352,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_num": 3,
+      "text": "第22期\n· 133 ·\n世再以69 件专利形成单极优势，相当于大疆、大陆\n特维斯等后位竞争者的11.5 倍总和，而三星、印度\n理工正通过可重构智能表面技术布局未来突破点。\n算法聚类领域则出现逆转态势，上海几何伙伴以14\n件领跑，其深度学习点云处理专利量已超四川启睿\n克、无锡威孚等本土企业之和，但高校在传统算法\n（a）系统结构\n（b）天线阵列\n（c）算法聚类\n（d）场景构建\n图3　全球4D毫米波雷达二级技术专利主要申请人\n大陆汽车股份有限公司\n四川启睿克科技有限公司\n芜湖易来达雷达科技有限公司\n深圳承泰科技有限公司\n南京隼眼电子科技有限公司\n无锡威孚高科技集团股份有限公司\n西安电子科技大学\n上海几何伙伴智能驾驶有限公司\nOCULII CORP\n罗伯特博世有限公司\n主要申请人\nSCHOEBEL JOERG\n印度理工学院卡哈拉格普尔\nBINZER THOMAS\nFIRESTONE INDUSTRIAL PRODUCTS COMPANYLLC\n三星电子株式会社\nOCULII CORP\n深圳市大疆创新科技有限公司\n大陆特维斯股份有限公司\nHUGHES AIRCRAFT CO\n罗伯特博世有限公司\n燕山大学\n深圳市华杰智通科技有限公司\n西安电子科技大学\n清华大学\n南京航空航天大学\n梅赛德斯奔驰集团股份公司\n重庆长安汽车股份有限公司\n无锡威孚高科技集团股份有限公司\n四川启睿克科技有限公司\n上海几何伙伴智能驾驶有限公司\n主要申请人\n江苏大学\n南京航空航天大学\n南京隼眼电子科技有限公司\n上海黎明瑞达电子科技有限公司\n上海工物高技术产业发展有限公司\n无疆(武汉)技术有限公司\n科润智能控制股份有限公司\n陕西欧卡电子智能科技有限公司\n同济大学\n西安电子科技大学\n主要申请人\n0          50       100       150      200\n专利申请量/件\n0    10   20   30   40   50   60  70   80\n专利申请量/件\n0    2    4    6     8    10  12  14   16\n专利申请量/件\n0      1      2      3       4      5      6\n专利申请量/件\n吴玲燕，等.4D毫米波雷达技术专利分析\n（a）系统结构\n（c）算法聚类\n（b）天线阵列\n（d）场景构建\n图2　全球4D毫米波雷达二级技术专利布局地域对比\n法国\n印度\n韩国\nEPO\n日本\nWIPO\n德国\n美国\n中国\n专利应用国（地区）\n0        50     100     150     200     250    300     350     400\n法国\n俄罗斯\n印度\n韩国\n日本\nEPO\nWIPO\n德国\n美国\n中国\n专利应用国（地区）\n0              10             20             30             40             50\n加拿大\nEPO\nWIPO\n美国\n日本\n韩国\n中国\n专利应用国（地区）\n0       20       40       60       80      100    120     140     160\n美国\nWIPO\n中国\n专利应用国（地区）\n0              50            100            150           200           250\n专利申请量/件\n专利申请量/件\n专利申请量/件\n专利申请量/件",
+      "images": [
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p3_i1.jpx",
+          "width": 546,
+          "height": 289,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p3_i2.jpx",
+          "width": 560,
+          "height": 284,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p3_i3.jpx",
+          "width": 545,
+          "height": 284,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p3_i4.jpx",
+          "width": 577,
+          "height": 301,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p3_i5.jpx",
+          "width": 571,
+          "height": 307,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p3_i6.jpx",
+          "width": 579,
+          "height": 290,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p3_i7.jpx",
+          "width": 565,
+          "height": 299,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_num": 4,
+      "text": "· 134 ·\n第22期\n领域仍具优势。场景构建领域呈现高校主导特征，\n西安电子科技大学、同济大学包揽前2，其车路协同\n专利占比超70%，而企业端仅科润智能的智慧交通\n应用专利具备商业化潜力。整体数据显示，博世在\n硬件领域占据优势地位，而中国在算法与场景构建\n中正形成突围之势。\n2.4　核心技术专利分布分析\n分别统计4D 毫米波雷达8 项核心技术的专利\n数量，得到核心技术分布图（图4）。由图4可知，4D\n毫米波雷达核心技术呈现“算法主导、硬件支撑、场\n景分化”的分布特征。目标检测与参数估计以216\n件专利成为最核心的技术方向，覆盖雷达信号解析\n与目标运动建模。目标分类与识别算法和MIMO\n信号处理算法构成算法层的双支柱，前者聚焦深度\n学习驱动的物体属性判别，后者侧重多天线协同的\n信号增强。在硬件相关技术中，多传感器融合和点\n云聚类算法占比分别为11% 和9%，体现从单一感\n知向系统集成的过渡需求。而底层信号处理技术\n（超分辨波达方向估计及通道校准）仅27 件专利，\n暴露出高精度波束控制与抗干扰能力的研发短板。\n数据揭示，当前技术生态呈现“中间厚、两端薄”的\n格局——中游算法层高度饱和，而上游信号优化与\n下游场景工程仍存突破空间，未来须强化DOA 校\n准等基础技术与特定场景的协同创新。\n图4　全球4D毫米波雷达核心技术专利分布对比\n3　技术总结\n目前，主要通过以下4 种方案实现4D 成像，未\n来可能还会出现新的方案。\n3.1　软件虚拟孔径雷达方案\n本方案强调“软件定义的雷达”，主要厂家有\nOculii、Mobileye、Zadar 等。通过软件算法虚拟扩展\n雷达孔径，突破物理天线数量限制，提升角分辨率。\n例如，Oculii 核心专利CN111656217A 提出虚拟孔\n径阵列技术，通过动态相位调制生成虚拟天线，但\n点云置信度不足（专利数据显示虚警率＞15%）；\nMobileye 专利US20220317276A1 提出基于深度学\n习的虚拟孔径优化算法，将点云密度提升至200点/\n帧；Zadar 专利CN114578294A 引入时间分集技术，\n降低多径干扰对虚拟孔径的影响，适配复杂城市场\n景。但软件方案依赖高算力芯片，且点云质量与硬\n件方案存在代差。\n3.2　专用成像雷达芯片方案\n这项技术的主要研究者是Arbe、Vayyar 等企\n业。通过自研射频芯片集成收发链路（如Arbe 的\n48T48R 芯片），实现硬件级高分辨率成像。例如，\nArbe专利US11277902B2提出啁啾信号带宽压缩技\n术，将距离分辨率提升至5 cm；Vayyar 专利\nUS20220057422A1 提出三维MIMO 阵列芯片设计，\n支持多目标分类；中国专利CN113890489A 公开基\n于CMOS 工艺的77GHz 芯片级联方案，成本降低\n40%，芯片集成度最高。\n3.3　多芯片级联方案\n本方案主要通过多颗雷达芯片级联，物理扩展\n天线孔径以提升分辨率，主要研究主体包括博世、\n采埃孚、森思泰克、楚航科技等公司。例如，博世专\n利WO2023041327A2 提出相位相干级联技术，将俯\n仰角分辨率提升至1°；森思泰克专利CN216850338\nU 优化串馈微带天线设计，减少馈电损耗；楚航科\n技专利CN114966541A 提出低成本双芯片级联方\n案，适用于ADAS前装市场。\n3.4　超材料方案\n基于超材料（Metamaterial）动态调控电磁波相\n位，实现波束赋形与高精度成像。Metawave 专利\nUS20210286050A1 提出智能超材料雷达架构，支持\n动态波束扫描；奥迪专利EP4109090A1将超材料嵌\n入车载雷达罩，实现孔径隐形与抗干扰。超材料方\n案理论性能最优，但量产难度高，且专利集中于实\n验室阶段。\n4　结论与建议\n研究发现，4D 毫米波雷达技术已形成“硬件筑\n基—算法突破—场景延伸”的立体发展格局。系统\n结构以52%的专利占比构筑技术底座，中国在系统\n结构和算法聚类方面建立技术主权，但面临美国和\n欧盟在天线阵列、射频芯片方面的围堵压力。当前\n技术呈现四大路线分化：博世通过多级联方案构建\n硬件霸权，Oculii 以软件定义雷达实现10 倍分辨率\n提升，Arbe 专注芯片集成突破车规瓶颈，而\n点云聚类算法\n9%\n通道校准\n8%\n多传感器融合\n11%\n目标跟踪算法\n11%\n目标分类与识别算法\n16%\nMIMO信号处理\n16%\n目标检测与参数估计\n26%\n超分辨波达方向估计\n3%\n吴玲燕，等.4D毫米波雷达技术专利分析",
+      "images": [
+        {
+          "path": "data/processed\\4D毫米波雷达技术专利分析_吴玲燕_p4_i0.jpx",
+          "width": 482,
+          "height": 401,
+          "page": 4
+        }
+      ]
+    },
+    {
+      "page_num": 5,
+      "text": "第22期\n· 135 ·\nMetawave 借超材料技术开辟新路径。然而，核心瓶\n颈依然突出，材料工艺、多传感器融合制约量产进\n程，且中国在芯片级设计和标准必要专利方面存在\n关键短板。\n针对当前4D 毫米波雷达专利“中间厚、两端\n薄”的布局特征，建议采取“补短板、拓场景、树标\n准”的复合策略。上游聚焦超分辨波达方向估计与\n通道校准等基础技术，开发低复杂度波束赋形算\n法，突破海外企业对高精度射频链路的垄断。下游\n抢占目标跟踪、封闭场景感知等应用型专利，覆盖\n矿区、港口等垂直领域的定制化解决方案。中游算\n法层实施差异化突围，在饱和领域挖掘轻量化目标\n分类模型、抗遮挡MIMO 信号处理等细分方向，同\n步推动技术标准与专利捆绑，主导制定角分辨率、\n功耗等性能指标，将自有专利嵌入标准必要专利，\n形成“技术卡位—标准主导—生态闭环”的立体护\n城河，以实现从专利数量领先向技术生态主导的\n跨越。\n参考文献：\n［1］Dr.Wang. 4D 成像毫米波雷达系统的发展与趋势\n［J］.汽车与配件，2022（21）：50-53.\n［2］刘玉超，梅亨利，王景.车载毫米波雷达频率划分和\n产品现状分析［J］.科技与创新，2017（11）：70-71.\n［3］曹斌，沈红荣，詹雯，等.4D 毫米波成像雷达在智能\n汽车中的应用研究［J］.汽车制造业，2022（4）：18-20.\n［4］SUN S ， ZHANG Y D .4D Automotive radar sensing\nfor autonomous vehicles： a sparsity-oriented approach［J］.\nIEEE Journal of Selected Topics in Signal Processing，2021，\n15（4）：879-891.\n［5］中国汽车工程学会.智能网联汽车四智融合发展产\n业技术路线图［M］.北京：中国科学技术出版社，2024.\n吴玲燕，等.4D毫米波雷达技术专利分析\n（栏目编辑：文雯）",
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,971 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "论文聚焦光伏电池技术代际演进与专利创新格局。核心围绕三类电池技术：第一代晶硅（含P型、N型TOPCon）、第二代薄膜（CdTe、CIGS、GaAs）及第三代钙钛矿。其中，晶硅因产业链成熟主导当前市场，但受限于理论效率（~29.43%）与成本瓶颈；薄膜虽具柔性/弱光优势，但受制于效率、稀有材料或高成本，仅存于细分场景；钙钛矿凭借可调带隙、高理论效率（单结33%，叠层>45%）、低材料成本与优异光电特性，被视为最具颠覆潜力的技术路径，尤其与晶硅叠层是关键发展方向。专利分析揭示产业已进入‘技术驱动期’，中国成为全球创新中心，未来竞争重心转向高质量核心专利、标准制定与商业化能力。技术体系结构应以‘光伏电池技术代际演进’为根，下分三大主干，钙钛矿作为新兴核心进一步延伸出叠层等融合路径。",
+    "tree": {
+      "root": "光伏电池技术体系",
+      "children": [
+        {
+          "name": "第一代：晶硅电池",
+          "children": [
+            {
+              "name": "P型晶硅（如Al-BSF、PERC）",
+              "children": []
+            },
+            {
+              "name": "N型晶硅（如TOPCon、HJT、IBC）",
+              "children": [
+                {
+                  "name": "TOPCon（隧穿氧化层钝化接触）",
+                  "children": []
+                },
+                {
+                  "name": "HJT（异质结）",
+                  "children": []
+                },
+                {
+                  "name": "IBC（背接触）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "理论极限与瓶颈",
+              "children": [
+                {
+                  "name": "带隙限制（1.12 eV → ~29.43%）",
+                  "children": []
+                },
+                {
+                  "name": "高能耗/高物耗",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "第二代：薄膜电池",
+          "children": [
+            {
+              "name": "碲化镉（CdTe）",
+              "children": [
+                {
+                  "name": "量产效率低、成本劣势",
+                  "children": []
+                },
+                {
+                  "name": "BIPV等细分应用",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "铜铟镓硒（CIGS）",
+              "children": [
+                {
+                  "name": "依赖稀有金属铟",
+                  "children": []
+                },
+                {
+                  "name": "柔性/轻质优势",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "砷化镓（GaAs）",
+              "children": [
+                {
+                  "name": "极高制造成本",
+                  "children": []
+                },
+                {
+                  "name": "高效率但限于航天/聚光场景",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "共性优势",
+              "children": [
+                {
+                  "name": "用料少、温度系数优、弱光响应好",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "第三代：钙钛矿电池",
+          "children": [
+            {
+              "name": "材料特性",
+              "children": [
+                {
+                  "name": "带隙可调（1.2–2.3 eV）",
+                  "children": []
+                },
+                {
+                  "name": "高缺陷容忍度",
+                  "children": []
+                },
+                {
+                  "name": "原料丰富、无资源瓶颈",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "性能指标",
+              "children": [
+                {
+                  "name": "单结理论效率：33%",
+                  "children": []
+                },
+                {
+                  "name": "实验室效率：25.7%",
+                  "children": []
+                },
+                {
+                  "name": "继承薄膜优势：低温系数、高弱光响应",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "融合路径",
+              "children": [
+                {
+                  "name": "钙钛矿/晶硅叠层电池",
+                  "children": [
+                    {
+                      "name": "理论效率 > 45%",
+                      "children": []
+                    },
+                    {
+                      "name": "当前研发重点与产业化突破口",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "全钙钛矿叠层",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "挑战与前景",
+              "children": [
+                {
+                  "name": "稳定性与寿命问题",
+                  "children": []
+                },
+                {
+                  "name": "大面积制备与工艺一致性",
+                  "children": []
+                },
+                {
+                  "name": "最具潜力的颠覆性技术方向",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "产业创新支撑体系",
+          "children": [
+            {
+              "name": "专利与技术布局",
+              "children": [
+                {
+                  "name": "三阶段演进：政策启动→规模扩张→技术驱动",
+                  "children": []
+                },
+                {
+                  "name": "中国引领：完整产业链+工程化迭代能力",
+                  "children": []
+                },
+                {
+                  "name": "竞争焦点转移：数量→质量/标准/商业化",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "核心能力要素",
+              "children": [
+                {
+                  "name": "材料科学（带隙调控、稳定性提升）",
+                  "children": []
+                },
+                {
+                  "name": "器件物理与界面工程",
+                  "children": []
+                },
+                {
+                  "name": "制造工艺（低温沉积、卷对卷、大面积成膜）",
+                  "children": []
+                },
+                {
+                  "name": "系统集成（叠层结构设计、封装技术）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 2,
+    "image_index": 1,
+    "thought": "论文聚焦光伏电池技术代际演进与专利创新格局。核心技术体系围绕三类电池展开：第一代晶硅电池（含P型、N型TOPCon）为当前主流，受限于理论效率极限（~29.43%）；第二代薄膜电池（CdTe、CIGS、GaAs）因成本、材料或效率问题未能大规模替代，仅存于细分市场；第三代钙钛矿电池因其可调带隙、高理论效率（单结33%，叠层>45%）、低成本与优异弱光/温度性能，被视为颠覆性方向，尤其与晶硅叠层是近期重点路径。专利分析表明产业已进入‘技术驱动期’，中国成为创新中心，未来竞争核心转向高质量专利、标准话语权与商业化能力。因此，技术体系以‘电池材料与结构’为根，分三层演进：晶硅主导层、薄膜过渡层、钙钛矿突破层，其中钙钛矿叠层构成前沿增长极。",
+    "tree": {
+      "root": "光伏电池技术体系",
+      "children": [
+        {
+          "name": "第一代：晶硅电池",
+          "children": [
+            {
+              "name": "P型晶硅（如Al-BSF、PERC）",
+              "children": []
+            },
+            {
+              "name": "N型晶硅（如TOPCon、HJT、IBC）",
+              "children": [
+                {
+                  "name": "TOPCon（隧穿氧化层钝化接触）",
+                  "children": []
+                },
+                {
+                  "name": "HJT（异质结）",
+                  "children": []
+                },
+                {
+                  "name": "IBC（背接触）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "理论极限与瓶颈",
+              "children": [
+                {
+                  "name": "肖克利-奎伊瑟极限（~29.43%）",
+                  "children": []
+                },
+                {
+                  "name": "高能耗、高物耗、提效空间收窄",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "第二代：薄膜电池",
+          "children": [
+            {
+              "name": "碲化镉（CdTe）",
+              "children": [
+                {
+                  "name": "量产效率低、成本劣势",
+                  "children": []
+                },
+                {
+                  "name": "BIPV等细分应用",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "铜铟镓硒（CIGS）",
+              "children": [
+                {
+                  "name": "依赖稀有金属铟",
+                  "children": []
+                },
+                {
+                  "name": "柔性/轻质特性适配BIPV",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "砷化镓（GaAs）",
+              "children": [
+                {
+                  "name": "超高成本",
+                  "children": []
+                },
+                {
+                  "name": "高端场景（如航天）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "共性优势",
+              "children": [
+                {
+                  "name": "用料少、低温系数优、弱光响应好",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "第三代：钙钛矿电池",
+          "children": [
+            {
+              "name": "单结钙钛矿",
+              "children": [
+                {
+                  "name": "带隙可调（1.2–2.3 eV）",
+                  "children": []
+                },
+                {
+                  "name": "理论效率~33%",
+                  "children": []
+                },
+                {
+                  "name": "实验室效率25.7%",
+                  "children": []
+                },
+                {
+                  "name": "缺陷容忍性强、原料丰富",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "钙钛矿/晶硅叠层电池",
+              "children": [
+                {
+                  "name": "理论效率>45%",
+                  "children": []
+                },
+                {
+                  "name": "当前研发与产业化重点",
+                  "children": []
+                },
+                {
+                  "name": "解决稳定性与大面积制备挑战",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "核心优势整合",
+              "children": [
+                {
+                  "name": "继承薄膜电池优点（低温系数、弱光响应）",
+                  "children": []
+                },
+                {
+                  "name": "超越晶硅效率潜力与成本前景",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "支撑体系：技术创新与产业化生态",
+          "children": [
+            {
+              "name": "专利与标准体系",
+              "children": [
+                {
+                  "name": "全球‘三阶段’演进：政策启动→爆发调整→技术驱动",
+                  "children": []
+                },
+                {
+                  "name": "中国引领：数量→质量→标准话语权",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "制造与工程化能力",
+              "children": [
+                {
+                  "name": "完整产业链（硅料→组件）",
+                  "children": []
+                },
+                {
+                  "name": "快速迭代与成本控制能力",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "商业化路径焦点",
+              "children": [
+                {
+                  "name": "核心专利质量",
+                  "children": []
+                },
+                {
+                  "name": "颠覆性技术落地（如叠层量产）",
+                  "children": []
+                },
+                {
+                  "name": "度电成本（LCOE）竞争力",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "论文聚焦光伏电池及组件领域的技术创新与专利竞争格局，核心围绕三大前沿技术路线：TOPCon、BC（背接触）和钙钛矿电池。其中TOPCon是当前主流高效晶硅技术，由中日企业主导；中国头部企业（如天合光能、晶科能源）通过原子尺度材料改性、器件结构优化、工艺整合及与BC技术融合实现专利布局。关键技术点包括隧穿氧化层/多晶硅钝化接触结构、掺杂控制（硼/磷梯度掺杂、抑制内扩/过穿）、氢管理、光学-电学协同设计（如正面局部去掺杂、‘瓮城结构’金属阻挡）等。整体技术体系以‘高效晶硅电池’为根基，向上延伸至新型叠层/钙钛矿技术，向下支撑量产工艺与成本控制，形成‘材料→结构→工艺→集成’的层级关系。",
+    "tree": {
+      "root": "光伏电池及组件核心技术体系",
+      "children": [
+        {
+          "name": "高效晶硅电池技术",
+          "children": [
+            {
+              "name": "TOPCon电池",
+              "children": [
+                {
+                  "name": "钝化接触结构",
+                  "children": [
+                    {
+                      "name": "超薄隧穿氧化层（SiOx）"
+                    },
+                    {
+                      "name": "掺杂多晶硅层（n++/p++）"
+                    }
+                  ]
+                },
+                {
+                  "name": "原子尺度材料调控",
+                  "children": [
+                    {
+                      "name": "硼掺杂控制（抑制内扩、梯度掺杂）"
+                    },
+                    {
+                      "name": "磷掺杂控制（防过穿、n++/n+++梯度层）"
+                    },
+                    {
+                      "name": "氢致复合管理（缺陷态介质层捕获H）"
+                    }
+                  ]
+                },
+                {
+                  "name": "器件结构创新",
+                  "children": [
+                    {
+                      "name": "正面局部去掺杂（非接触区直接钝化）"
+                    },
+                    {
+                      "name": "‘瓮城结构’金属离子阻挡"
+                    },
+                    {
+                      "name": "掺杂层渐变结构（非晶/微晶过渡层）"
+                    }
+                  ]
+                },
+                {
+                  "name": "工艺集成与量产适配",
+                  "children": [
+                    {
+                      "name": "退火工艺优化"
+                    },
+                    {
+                      "name": "多层膜沉积控制"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "BC电池（背接触）",
+              "children": [
+                {
+                  "name": "全背电极结构"
+                },
+                {
+                  "name": "无栅线正面（高透光/低反射）"
+                },
+                {
+                  "name": "TOPCon-BC融合技术"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "新兴薄膜与叠层技术",
+          "children": [
+            {
+              "name": "钙钛矿电池",
+              "children": [
+                {
+                  "name": "有机-无机杂化吸光层"
+                },
+                {
+                  "name": "界面钝化与稳定性提升"
+                },
+                {
+                  "name": "钙钛矿/晶硅叠层（Perovskite/Si Tandem）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "支撑性技术基础",
+          "children": [
+            {
+              "name": "半导体材料工程（Si、掺杂剂、钝化介质）"
+            },
+            {
+              "name": "纳米级薄膜制备工艺（ALD、PECVD等）"
+            },
+            {
+              "name": "器件仿真与多物理场建模"
+            },
+            {
+              "name": "专利驱动的产业化路径（规模化扩产→技术迭代→成本竞争）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 3,
+    "image_index": 1,
+    "thought": "论文聚焦光伏电池及组件领域的技术创新竞争格局，核心围绕三大前沿技术路线：TOPCon、BC（背接触）与钙钛矿电池。其中TOPCon是当前主流产业化技术（2024年主导），由中国企业主导专利布局；技术实现依赖于原子尺度材料改性（如掺杂控制、氢管理）、器件结构优化（如钝化接触、光学/电学协同设计）与量产工艺整合，并呈现与BC技术融合趋势。主体竞争体现为‘日系传统巨头’（依托电子/化工/材料积累）与‘中国新兴龙头’（专业化一体化制造商）的双极格局，专利实力反映技术迭代与成本竞争能力。因此，技术体系以‘高效晶硅电池’为根节点，下分三大技术路径，TOPCon进一步细分为材料-结构-工艺三层关键技术支撑。",
+    "tree": {
+      "root": "高效晶硅与新型薄膜光伏电池技术体系",
+      "children": [
+        {
+          "name": "TOPCon电池技术",
+          "children": [
+            {
+              "name": "原子尺度材料改性",
+              "children": [
+                {
+                  "name": "掺杂层渐变结构优化"
+                },
+                {
+                  "name": "硼元素内扩抑制"
+                },
+                {
+                  "name": "氢致复合管理"
+                },
+                {
+                  "name": "磷掺杂过穿防止"
+                }
+              ]
+            },
+            {
+              "name": "器件物理结构设计",
+              "children": [
+                {
+                  "name": "正面局部去掺杂"
+                },
+                {
+                  "name": "瓮城结构金属离子阻挡"
+                },
+                {
+                  "name": "钝化接触集成设计"
+                }
+              ]
+            },
+            {
+              "name": "量产工艺整合与融合创新",
+              "children": [
+                {
+                  "name": "与BC电池技术融合"
+                },
+                {
+                  "name": "规模化制程兼容性优化"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BC电池技术",
+          "children": [
+            {
+              "name": "全背电极结构设计"
+            },
+            {
+              "name": "表面钝化与载流子传输协同优化"
+            },
+            {
+              "name": "高精度激光开膜与金属化工艺"
+            }
+          ]
+        },
+        {
+          "name": "钙钛矿电池技术",
+          "children": [
+            {
+              "name": "宽带隙/窄带隙叠层结构"
+            },
+            {
+              "name": "界面缺陷钝化与稳定性提升"
+            },
+            {
+              "name": "溶液法与真空法制备工艺"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 1,
+    "table_index": 0,
+    "thought": "表格虽以乱码形式呈现，但结合上下文摘要与关键词可明确技术分类逻辑：光伏电池按代际划分（第一代晶硅、第二代薄膜、第三代钙钛矿），其中第一代为主流；当前企业竞争焦点集中在晶硅电池的先进结构（TOPCon、BC电池）及第三代钙钛矿电池。TOPCon与BC电池属于第一代晶硅电池的升级路径（即高效晶硅电池子类），而钙钛矿代表独立的第三代技术路线。因此分类体系应以‘光伏电池技术’为根，下分三代，其中第一代进一步细分主流结构类型。",
+    "tree": {
+      "root": "光伏电池技术",
+      "children": [
+        {
+          "name": "第一代：晶硅电池",
+          "children": [
+            {
+              "name": "常规Al-BSF电池",
+              "children": []
+            },
+            {
+              "name": "PERC电池",
+              "children": []
+            },
+            {
+              "name": "TOPCon电池",
+              "children": []
+            },
+            {
+              "name": "BC电池（背接触）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "第二代：薄膜电池",
+          "children": [
+            {
+              "name": "非晶硅（a-Si）",
+              "children": []
+            },
+            {
+              "name": "碲化镉（CdTe）",
+              "children": []
+            },
+            {
+              "name": "铜铟镓硒（CIGS）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "第三代：新型高效/叠层电池",
+          "children": [
+            {
+              "name": "钙钛矿电池",
+              "children": []
+            },
+            {
+              "name": "钙钛矿/晶硅叠层电池",
+              "children": []
+            },
+            {
+              "name": "量子点电池",
+              "children": []
+            },
+            {
+              "name": "有机光伏（OPV）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 1,
+    "table_index": 1,
+    "thought": "表格与上下文共同表明：光伏电池技术按代际划分形成三级主干结构（第一代晶硅、第二代薄膜、第三代钙钛矿）；其中，当前企业竞争焦点（TOPCon、BC、钙钛矿）属于对代际技术的细分演进——TOPCon和BC是第一代晶硅电池的先进结构变体（属于晶硅体系内的技术升级），而钙钛矿属于第三代独立技术路线。因此分类逻辑为：以‘代际’为顶层分类，第一代下再细分主流技术路径（含其先进变体），第二代与第三代作为并列子类；其中钙钛矿既是第三代代表，又因产业化聚焦而单列；TOPCon与BC作为晶硅电池的高阶技术，应归入第一代下的子类。",
+    "tree": {
+      "root": "光伏电池技术",
+      "children": [
+        {
+          "name": "第一代：晶硅太阳能电池",
+          "children": [
+            {
+              "name": "传统晶硅电池",
+              "children": []
+            },
+            {
+              "name": "先进结构晶硅电池",
+              "children": [
+                {
+                  "name": "TOPCon电池",
+                  "children": []
+                },
+                {
+                  "name": "BC电池（背接触）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "第二代：薄膜太阳能电池",
+          "children": [
+            {
+              "name": "特定应用场景部署",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "第三代：新型/颠覆性太阳能电池",
+          "children": [
+            {
+              "name": "钙钛矿太阳能电池",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 1,
+    "table_index": 2,
+    "thought": "表格虽以乱码形式呈现，但结合上下文明确指出光伏技术呈‘三代并行’格局：第一代为晶硅电池（含TOPCon、BC等高效变体），第二代为薄膜电池，第三代为钙钛矿电池。摘要与引言强调当前竞争焦点集中于TOPCon、BC电池及钙钛矿电池的研发与产业化，其中晶硅电池仍为主流，薄膜用于特定场景，钙钛矿代表未来颠覆性方向。因此技术分类逻辑以‘代际演进+主流技术分支’为核心，根节点应为‘光伏电池技术’，下分三代，其中第一代进一步细分为主流晶硅及其先进结构（TOPCon、BC）。",
+    "tree": {
+      "root": "光伏电池技术",
+      "children": [
+        {
+          "name": "第一代：晶硅电池",
+          "children": [
+            {
+              "name": "传统PERC",
+              "children": []
+            },
+            {
+              "name": "TOPCon",
+              "children": []
+            },
+            {
+              "name": "BC电池（背接触）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "第二代：薄膜电池",
+          "children": [
+            {
+              "name": "CdTe（碲化镉）",
+              "children": []
+            },
+            {
+              "name": "CIGS（铜铟镓硒）",
+              "children": []
+            },
+            {
+              "name": "a-Si（非晶硅）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "第三代：新型光伏电池",
+          "children": [
+            {
+              "name": "钙钛矿电池",
+              "children": []
+            },
+            {
+              "name": "叠层电池（如晶硅/钙钛矿叠层）",
+              "children": []
+            },
+            {
+              "name": "量子点、有机光伏等前沿方向",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 1,
+    "table_index": 3,
+    "thought": "表格虽为乱码（可能因编码或OCR问题导致中文显示异常），但结合上下文明确指出‘技术呈现三代并行’：第一代为晶硅电池（主流，效率接近理论极限），第二代为薄膜电池（特定场景应用），第三代为钙钛矿电池（未来颠覆性方向）；且摘要进一步细化第一代中的主流技术路径包括TOPCon、BC电池等。因此技术分类逻辑以‘代际’为一级划分，每代下可按材料/结构细分具体技术路线。",
+    "tree": {
+      "root": "光伏电池技术",
+      "children": [
+        {
+          "name": "第一代：晶硅电池",
+          "children": [
+            {
+              "name": "PERC"
+            },
+            {
+              "name": "TOPCon"
+            },
+            {
+              "name": "BC电池（背接触）"
+            },
+            {
+              "name": "HJT（异质结）"
+            }
+          ]
+        },
+        {
+          "name": "第二代：薄膜电池",
+          "children": [
+            {
+              "name": "CdTe（碲化镉）"
+            },
+            {
+              "name": "CIGS（铜铟镓硒）"
+            },
+            {
+              "name": "a-Si（非晶硅）"
+            }
+          ]
+        },
+        {
+          "name": "第三代：新型高效电池",
+          "children": [
+            {
+              "name": "钙钛矿电池"
+            },
+            {
+              "name": "叠层电池（如钙钛矿/晶硅叠层）"
+            },
+            {
+              "name": "量子点电池"
+            },
+            {
+              "name": "有机光伏（OPV）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\光伏电池及组件的关键专利技术分析_李书青_merged.json",
+    "page_num": 1,
+    "table_index": 4,
+    "thought": "表格虽未完整显示具体技术条目（内容被乱码或占位符遮蔽），但结合上下文明确指出光伏技术呈现‘三代并行’结构：第一代为晶硅电池（含主流TOPCon、BC等高效结构），第二代为薄膜电池，第三代为钙钛矿电池。摘要与关键词进一步确认该三级分类是当前产业与专利布局的核心框架。因此，技术分类体系应以‘光伏电池技术’为根节点，按代际划分三大主干，并将TOPCon、BC归入第一代晶硅电池下的典型技术分支。",
+    "tree": {
+      "root": "光伏电池技术",
+      "children": [
+        {
+          "name": "第一代：晶硅电池（Crystalline Silicon）",
+          "children": [
+            {
+              "name": "TOPCon电池",
+              "children": []
+            },
+            {
+              "name": "BC电池（背接触）",
+              "children": []
+            },
+            {
+              "name": "其他晶硅结构（如PERC、HJT等）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "第二代：薄膜电池（Thin-Film）",
+          "children": [
+            {
+              "name": "CdTe（碲化镉）",
+              "children": []
+            },
+            {
+              "name": "CIGS（铜铟镓硒）",
+              "children": []
+            },
+            {
+              "name": "a-Si（非晶硅）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "第三代：新型光伏电池",
+          "children": [
+            {
+              "name": "钙钛矿电池（Perovskite）",
+              "children": []
+            },
+            {
+              "name": "叠层电池（如晶硅/钙钛矿叠层）",
+              "children": []
+            },
+            {
+              "name": "量子点、有机光伏等前沿技术",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

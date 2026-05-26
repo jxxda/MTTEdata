@@ -1,0 +1,111 @@
+{
+  "title": "东丽公司光敏聚酰亚胺中国专利分析_苑伟康",
+  "source_pdf": "data/raw\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "第 57 卷 第 10 期： 106-113\n2024 年 10 月 20 日\n绝缘材料\nInsulating Materials\nVol.57, No.10: 106-113\nOct 20, 2024\n东丽公司光敏聚酰亚胺中国专利分析\n苑伟康1， 徐建锋1， 杨\n斐1， 郭\n彦1， 黄\n颖1， 赵\n锴1， 翟\n磊2， 范\n琳2\n（1. 国家知识产权局，北京  100081；2. 中国科学院化学研究所，北京  100190）\n摘\n要：光敏聚酰亚胺（PSPI）广泛应用于电子、微电子及光学显示等领域，国外企业高度重视有关PSPI材料配方及应\n用的专利技术保护。本文以日本东丽公司在中国申请的PSPI专利为研究对象，详细分析了专利的申请数量变化、法律\n状态、技术主题分布等信息，并结合东丽公司代表性的PSPI产品与应用情况，明确了其发展历程、专利保护策略、专利\n技术构成，以此探讨PSPI材料的技术发展趋势与应用方向。\n关键词：光敏聚酰亚胺；中国专利；东丽公司；技术主题；发展趋势\nPatent analysis of photosensitive polyimide applied by Toray in China\nYUAN Weikang1, XU Jianfeng1, YANG Fei1, GUO Yan1,\nHUANG Ying1, ZHAO Kai1, ZHAI Lei2, FAN Lin2\n(1. China National Intellectual Property Administration, Beijing 100081, China;\n2. Institute of Chemistry, Chinese Academy of Sciences, Beijing 100190, China)\nAbstract: Photosensitive polyimide (PSPI) is widely used in electronics, microelectronics, optical display, and other fields.\nForeign companies attach great importance to the patent protection of PSPI material formulas and applications. In this paper,\nthe PSPI patents applied by Toray Industries Inc. in China were taken into research, and the changes in the number of patent\napplications, legal status, technical subject distribution, and other key information were analyzed in detail. Through\ncombining with Toray's representative PSPI products and their applications, the technical development, patent protection\nstrategy, key points of patent technology of Toray were clarified. Based on the above analysis, the technology development\ntrends and application direction of PSPI materials were explored and presented.\nKey words: PSPI; patents applied in China; Toray; technical subject; development trend\n0　引言\n随着电子产品朝着超薄化、轻量化、高集成化\n和多功能化方向发展，电子及微电子用高分子材料\n面临愈发苛刻的性能要求。聚酰亚胺因其优异的\n耐热、力学、绝缘、介电性能以及化学稳定性等特\n性，作为层间介质材料、再布线封装材料、屏蔽/钝\n化/缓冲/保护层、基板材料等广泛用于集成电路制\n造领域[1-5]。在众多聚酰亚胺材料中，分子结构中同\n时含有酰亚胺与光敏功能基团的光敏聚酰亚胺（PS‐\nPI）是一类重要的半导体或显示器件封装材料，其对\n紫外光、X 射线、电子束或离子束有良好的感光性，\n可以利用光刻工艺技术直接实现图形化，有效解决\n了传统光刻胶繁琐复杂的多步工艺流程，极大提升\n了微电子器件的制备效率，因而一直受到人们的\n关注[6-8]。\n根据感光化学机理或图形显影方式的不同，PS‐\nPI 材料可分为负性PSPI 和正性PSPI 两大类。负性\nPSPI 的特点是曝光区发生光交联反应导致溶解性\n能下降，而非曝光区的分子结构没有变化，依然保\n持良好的溶解性，选用适当的有机溶剂作显影液将\n其溶解除去，可使曝光部分保留下来成为光刻图\n案[9-10]。关于负性PSPI 的研究最早报道于1971 年，\n美国贝尔电话实验室开发了由聚酰胺酸溶液与重\n铬酸钾组成的负性光敏抗蚀剂体系[11]，其基本原理\n是二者在紫外光照射下可发生光化学交联反应，之\n后通过显影液除去未曝光部分，从而形成清晰的光\n刻图案。之后在1973年，德国西门子公司申请了第\n一件关于负性PSPI 材料的发明专利（DE\n2308830A），将烯丙基酯基团引入到聚酰胺酸的分\n子结构中制备得到对紫外光敏感的聚酰胺酯，该方\n法也成为后续PSPI合成的基础路线之一[12-13]。\n与此相反，正性PSPI的特点是曝光区的分子结\n基金项目：国家重点研发计划项目资助（2022YFB3603105）。\nDOI:10.16790/j.cnki.1009-9239.im.2024.10.014  中图分类号：TM215；TQ323.7",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "苑伟康等： 东丽公司光敏聚酰亚胺中国专利分析\n构发生光化学反应而使溶解性增大，在显影时被溶\n解除去，而非曝光区因不溶于碱水稀溶液或其他显\n影液，因而得以保留下来形成光刻图案[14-15]。关于\n正性PSPI 的研究最早公开报道于1975 年，美国\nGAF 公司申请了首件关于正性PSPI 材料的发明专\n利（US4093461A），开发了一种由聚酰胺酸、邻醌类\n或萘醌类二叠氮化合物等组成的光敏体系，曝光后\n采用碱性溶液显影，获得了良好的光刻图形。与负\n性PSPI 相比，正性PSPI 具有诸多应用优势，例如采\n用碱性水溶液作为显影剂，不仅环境相容性好，而\n且避免了负性体系采用的有机显影液对光刻图案\n的侵蚀，从而可获得更高的图形分辨率。因此，正\n性PSPI材料日益成为研发与应用的重点[16-18]。\n鉴于PSPI材料在微电子领域的重要作用，日本\n和美国的企业与科研机构很早便围绕PSPI 材料开\n展系统性研究与大规模商品化开发，涌现出一大批\n代表性的材料生产企业，包括日本东丽、富士胶片、\n旭化成、日立杜邦微系统等[19-21]。在推出大量不同\n系列PSPI 商品化产品的同时，国外公司高度重视\nPSPI 材料相关的专利技术保护，在中国地区申请了\n大量高价值、高技术壁垒的PSPI 配方与应用专利。\n已有工作证明，通过对国外专利信息的挖掘以及技\n术内容和专利布局的分析，有助于深入了解该领域\n的发展趋势和产品技术特点，对国内科研机构、生\n产或应用企业有着重要指导意义[22-26]。\n目前，国内在高端PSPI材料开发方面与国外产\n品仍存在明显差距，面临着诸多技术挑战，同时新\n申请的PSPI 核心专利也亟需突破国外已有的专利\n保护布局。为此，本文选取国外最具代表性的PSPI\n材料研发公司之一的日本东丽公司（Toray Indus‐\ntries Inc.）为分析对象，通过对东丽公司在中国（不\n含港澳台）所申请PSPI专利的数量变化、法律状态、\n技术主题等进行深入研究，梳理PSPI的技术发展趋\n势与特点，为国内PSPI 材料的研发与应用，以及针\n对性开展PSPI 材料的技术保护和专利布局提供\n参考。\n1　日本公司PSPI中国专利的总体分析\n本文专利样本来源于国家知识产权局专利检\n索系统和incoPat专利数据库，分别以光敏（性）聚酰\n亚胺、感光（性）聚酰亚胺、聚酰亚胺光刻胶等为关\n键词，通过国际专利分类号、申请人等为入口进行\n检索。检索日期自1985 年1 月1 日至2024 年4 月6\n日，即在此时间范围内已公开并录入检索系统和数\n据库的专利申请。对检索结果进行同族合并，每个\n同族计为一项。同时，分析的专利样本经人工核实\n后，已剔除掉无关噪音专利。\n根据申请人在中国（不含港澳台）提出的PSPI\n专利申请检索结果，以排名在前的8 家日本公司为\n代表，包括东丽株式会社、富士胶片株式会社、旭化\n成株式会社、日立化成杜邦微系统股份有限公司、\n日产化学工业株式会社、JSR 株式会社、住友电木株\n式会社、信越化学工业株式会社，分析了日本在PS‐\nPI 材料与应用领域的整体状况。上述公司在国内\n申请的PSPI专利数量如图1所示。\n日本是国外申请人在华申请PSPI 专利最多的\n国家，据统计，日本申请的PSIP 专利数量约占国外\n专利数量的近60%，反映出其在该领域的优势地位\n以及相关公司对专利技术保护的重视。从图1可以\n看出，上述8 家代表性日本公司的专利申请数量总\n计为319 件，其中，东丽作为PSPI 研发和应用领域\n最为活跃的日本公司，其专利申请数量最多，达到\n104件，约占8家日本公司专利申请总量的1/3；其次\n为富士胶片，专利申请数量为58 件，旭化成以53 件\n专利申请量紧随其后；其余5 家的PSPI 专利申请数\n量相差不大，基本在18～24件。\n2　东丽公司PSPI中国专利的申请数量\n针对东丽公司在不同年份所申请的PSPI 中国\n专利数量进行了统计，并同时给出了8 家代表性日\n本公司的整体申请数量变化情况，如图2 所示。从\n图2 可以看出，东丽公司PSPI 中国专利的申请数量\n变化与日本公司整体走势情况基本相同，表明东丽\n图1　代表性日本公司PSPI中国专利的申请数量\nFig.1　The number of PSPI patents applied in China from\nrepresentative Japanese companies\n107\n107",
+      "images": [
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p1_i0.jpx",
+          "width": 511,
+          "height": 356,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "text": "2024,57(10)\n绝缘材料\n公司中国PSPI 专利申请很大程度上影响了日本公\n司的总体变化趋势。\n根据东丽公司在中国所申请PSPI 专利的数量\n变化情况，其发展趋势可分为两个阶段：\n第一阶段（1997—2014 年）为起步及平稳期。\n东丽公司于1997 年提出第一件与PSPI 有关的中国\n专利申请（CN 1177751A），报道了一类树脂刻蚀溶\n液和刻蚀方法，利用该树脂刻蚀溶液可获得单面或\n双面形成光刻胶图案或金属层图案的聚酰亚胺膜。\n随后在1998年，东丽公司报道了一种室温下黏度时\n效稳定性与感光性能均优异的化学射线感应性聚\n合物组合物（CN1201061A），主组分包括光引发剂\n和/或光敏感剂，以及通过含有光交联性基团的胺化\n合物与聚酰胺酸的羧基相互作用进而获得的聚酰\n亚胺前体组合物。之后一直到2014年，东丽公司基\n本维持在每年3 件及以下的PSPI 相关专利申请数\n量。在该阶段，东丽公司并没有进行规模化和系统\n性的PSPI 专利布局，这反映出国内PSPI 领域在此\n时期未得到充分发展，行业应用成熟度不高、企业\n竞争不充分，尚没有引起国外优势公司在中国地区\n开展专利技术保护的重视。\n第二阶段（2015—2024 年）为快速发展期。自\n2015年期，东丽公司申请的PSPI中国专利数量有明\n显提升，且每年度均维持在较高的申请量水平。例\n如，2016 年和2017 年的专利申请量分别达到16 和\n18 件。该阶段的专利申请量占其申请总量的78%，\n反映出东丽公司开始加大对PSPI 领域的研发投入\n和中国地区的专利技术保护。与此同时，日本其他\n几家代表性PSPI 领域的企业申请人也在此阶段集\n中发力，相关专利申请量大幅增加，该阶段专利申\n请量占PSPI 中国专利申请总量的72%。上述结果\n从侧面也表明国内的PSPI 研发和应用领域已渐具\n竞争规模，国外公司积极开展专利布局以抢占市\n场。需要说明的是，图2中给出的2023与2024年度\n的专利申请量并未反映出当年的真实申请情况，主\n要是因专利申请公布（包含PCT 申请的国家公布和\n部分发明公布）以及公布数据录入数据库均存在时\n间滞后性，导致部分专利申请尚未正式公开，因而\n并未纳入实际统计范围。\n3　东丽公司PSPI中国专利的法律状态\n经统计发现，东丽公司所申请的PSPI中国专利\n均为发明专利，进一步针对该公司PSPI中国专利的\n法律状态进行了分析。专利的法律状态主要包括\n授权有效、实质审查和失效3类状态，其中失效状态\n可分为撤回、驳回、放弃、期限届满和未缴年费4 种\n情形。\n“期限届满”是专利获得授权后由于保护期限\n届满而失效，\n“未缴年费”和“放弃”是专利获得授权\n后专利权人主动放弃而失效。\n东丽公司PSPI中国专利的整体法律状态如图3\n所示。\n从图3 可以看出，处于“授权有效”状态的专利\n数量为57 件，占总申请量的54.8%，\n“实质审查”状\n态的专利数量为28 件，而“失效”专利有19 件。针\n对处于“失效”状态的专利进行分析，其中因“期限\n届满”而失效的专利数量为5 件，\n“未缴年费”和“放\n弃”的专利分别为6件和1件。综合以上3种失效情\n况，合并现有“授权有效”专利数量，东丽公司总计\n获得授权的专利数量为69 件，占其申请总量的\n66.3%，占审结量的90.8%。此外，在处于“失效”状\n态的专利中，被动“驳回”的专利数量仅为1件，仅占\n申请总量的不足1%。综合来看，东丽公司PSPI 中\n图3　东丽公司PSPI中国专利的整体法律状态\nFig.3　Legal status of PSPI patents applied in China from\nToray Industries Inc.\n图2　日本公司及东丽公司PSPI中国专利的申请数量变化\nFig.2　Change trends in the number of PSPI patents applied in\nChina from Japanese companies and Toray Industries Inc.\n108",
+      "images": [
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p2_i0.jpx",
+          "width": 638,
+          "height": 261,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p2_i1.jpx",
+          "width": 559,
+          "height": 444,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_num": 3,
+      "text": "苑伟康等： 东丽公司光敏聚酰亚胺中国专利分析\n国专利的授权率远高于我国发明专利申请的平均\n授权率，驳回率远低于发明专利申请的平均驳回\n率，反映出该公司在本领域巨大的技术优势，以及\n高的专利技术复杂度与良好的专利撰写水平。\n按照申请年份对东丽公司PSPI 中国专利的法\n律状态进行了统计，结果如图4 所示。从图4 可以\n看出，在2014 年之前的第一阶段，东丽公司所申请\nPSPI 中国专利的授权率为100%，主要可能归因于\n早期该领域的研发处于空白期，现有技术数量较\n少。在2015年之后的第二阶段，出现了驳回以及专\n利权人主动撤回的情况，说明随着专利申请量的增\n加，该领域研究逐渐充分，技术密度越来越大，获得\n专利授权的难度有所增高。另一方面，也可能是由\n于东丽公司围绕核心技术有意构建密集的专利保\n护池，导致部分专利申请与先前专利申请的区分度\n不够，因此对部分专利申请采取撤回处理，也间接\n反映了该公司对PSPI中国专利布局的主动性。\n授权专利的维持时间是该项专利技术含金量\n的体现之一。对东丽公司授权专利的维持时间进\n行统计，结果如图5 所示。从图5 可以看出，其总授\n权专利为69 件，目前还处于有效状态的有57 件，维\n持时间在6～9 年的专利数量占比最多。考虑发明\n专利的保护期限为20 年，对申请日在2005 年之前\n的专利申请进行分析才能够准确反映其维持情况。\n申请日在2005 年之前的专利申请总量为12 件且均\n获得授权，目前达到19～20 年保护期的专利为7\n件，其余5 件专利授权后由于专利权人主动放弃而\n失效。\n东丽公司主动放弃而失效的专利主要发生在\n早期阶段，表明其后续研发方向以及在华的专利布\n局策略进行了较大的调整。值得注意的是，维持时\n间为6～9 年的专利占东丽公司已授权专利的一半\n以上，这些专利仍有10 年及以上的保护期，同时含\n有大量的在审专利，国内相关企业需要重点关注。\n图6 为东丽公司PSPI 中国专利自申请日至公\n开日的历时时长情况。从图6 可以看出，历时时长\n在20个月左右的专利申请数量最多，18个月以上的\n专利数量占总申请量的91.3%，而申请提前公开的\n只占8.7%。这体现了东丽公司针对PSPI 中国专利\n的布局策略，即充分利用我国发明专利公开滞后的\n规则，对专利技术的研发方向和市场布局意图进行\n特意保护，同时也反映了该领域竞争的激烈性。\n4　东丽公司PSPI中国专利的技术主题\n针对东丽公司PSPI 中国专利的技术主题分布\n情况进行了统计，根据国际专利IPC分类号，对所涉\n及的技术领域进行分类，并以关键词作为技术主题\n归类的补充依据。由于同一件专利往往会涵盖多\n个技术主题，不可避免存在同一件专利被多个技术\n主题重复统计的现象。图7 给出了东丽公司PSPI\n图6　东丽公司PSPI中国专利自申请至公开的时长情况\nFig.6　The time before publication of PSPI patents applied in\nChina from Toray Industries Inc.\n图4　东丽公司PSPI中国专利的法律状态变化情况\nFig.4　Changes in the legal status of PSPI patents applied in\nChina from Toray Industries Inc.\n图5　东丽公司PSPI中国授权专利的维持时间\nFig.5　Duration of PSPI patents applied in China from\nToray Industries Inc.\n109\n109",
+      "images": [
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p3_i0.jpx",
+          "width": 550,
+          "height": 445,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p3_i1.jpx",
+          "width": 534,
+          "height": 281,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p3_i2.jpx",
+          "width": 532,
+          "height": 353,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_num": 4,
+      "text": "2024,57(10)\n绝缘材料\n中国专利涉及的最主要的技术主题分布情况。\n从图7 可以看出，东丽公司的PSPI 专利主要集\n中在三大领域：PSPI 配方设计与制备（包括树脂、聚\n合物、组合物、固化膜等）、显示装置、半导体元件及\n封装，特别是位于产业最上游的PSPI配方设计与制\n备是其最主要的申请方向。东丽公司PSPI 中国专\n利涉及的应用领域主要是显示和半导体领域，包括\n有机场致发光元件、半导体元件及其封装、光学元\n件、印刷电路等。此外，针对PSPI配方设计与制备，\n东丽公司所申请的PSPI 中国专利中大量采用含酰\n胺基团的二酐或二胺化合物。例如，CN109563353\nA、CN108779251A 等多篇专利均给出了图8 所示的\n二酐与二胺结构示意。\n针对东丽公司聚焦的主要应用领域，即半导体\n元件及封装、显示装置两大主题，进一步分析了各\n自主题下PSPI 中国专利的申请量随年份的变化情\n况，如图9 所示。从图9 可以看出，东丽公司在这两\n类主题下的PSPI专利申请数量变化趋势基本相同，\n均在2015年以后出现快速增长；显示装置主题的专\n利申请量稍高于半导体元件及封装主题领域。\n2015 年以后两类技术主题下的专利申请量差值有\n所扩大，说明东丽公司更重视在我国布局显示装置\n领域，并有意加强了此方面的专利布局。需要说明\n的是，最近几年东丽公司的PSPI 专利数量有所下\n降，特别是2023 和2024 两年出现了专利申请量为\n零的现象，这极有可能与相关专利尚未公开导致未\n能统计有关，这符合前面针对东丽公司专利自申请\n至公开的时长分析。\n此外，通过人工阅读专利的权利要求书及全\n文，根据专利内容对东丽公司所申请全部PSPI中国\n专利涉及的技术主题进行了更为准确地分类统计。\n图7　东丽公司PSPI中国专利的技术主题分布\nFig.7　Technical subjects of PSPI patents applied in\nChina from Toray Industries Inc.\n图8　东丽公司PSPI中国专利中代表性化合物结构\nFig.8　Representative compound structures of PSPI patents applied in China from Toray Industries Inc.\n110",
+      "images": [
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p4_i0.jpx",
+          "width": 545,
+          "height": 352,
+          "page": 4
+        },
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p4_i1.jpx",
+          "width": 1233,
+          "height": 233,
+          "page": 4
+        },
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p4_i2.jpx",
+          "width": 1233,
+          "height": 590,
+          "page": 4
+        }
+      ]
+    },
+    {
+      "page_num": 5,
+      "text": "苑伟康等： 东丽公司光敏聚酰亚胺中国专利分析\n其中，根据材料类型分为“正性PSPI”和“负性PSPI”\n两大类；根据材料应用领域大致分为“半导体封装”\n（含电子器件）与“显示装置”\n（含光学元件）两大领\n域。由于同一件专利会同时涉及一种或正、负两种\n类型PSPI，应用领域也会出现类似情况，同一件专\n利会被重复统计。结果表明，东丽公司的PSPI中国\n专利中涉及“正性PSPI”的专利数量为40件，而涉及\n“负性PSPI”的专利数量高达73 件；涉及“半导体封\n装”领域的专利数量为37 件，而涉及“显示装置”领\n域的专利数量达到60件。可以看出，东丽公司在中\n国更加重视对负性PSPI 材料及显示装置应用领域\n的专利技术保护，这不仅体现了该公司的PSPI产品\n研发与应用特点，更与国内显示领域飞速发展带来\n的旺盛需求有着重要关系。\n5　东丽公司的代表性PSPI产品特点\n为更好地理解专利技术内容与实际产品技术\n的关联，进一步对东丽公司代表性PSPI产品的特点\n与应用情况进行了分析。东丽公司商品化的PSPI\n材料产品牌号为PHOTONEECE™，主要包括正性的\nPW 系列和LT 系列，以及负性的PN 系列等，主要性\n能数据如表1 所示（来源于公司官网），已广泛应用\n于半导体/电子元件的保护膜或缓冲膜、晶圆级/面\n板级封装再布线层、电子元件层间绝缘材料等。\n其中，PW-1000 牌号是PW 系列正性PSPI 产品\n中的早期标准型产品[27]，之后推出了耐热性更高、化\n学稳定性更好、感度更高的其他牌号产品，包括厚\n膜型PW-1200、耐溶剂型PW-1500 及PW-1500s、高\n感度PW-2100 等。此外，东丽公司针对图像传感器\n领域推出了CS 系列正性PSPI 产品，该类产品具有\n高透明性、高折射率、高感光度及良好的化学稳定\n性等特点；针对显示器件领域还推出了DL 系列和\nSL 系列正性PSPI 产品，其特点是较低固化温度、高\n分辨率、良好的粘附性与化学稳定性。\nLT 系列是东丽公司针对下一代半导体制造应\n用需求，开发出的固化温度低和残留应力低的高端\n正性PSPI产品。随着半导体芯片愈发薄型化，绝缘\n层高温固化后的高残余应力会导致晶圆出现翘曲\n变形等问题，亟需具有低残余应力和高分辨率的可\n低温固化正性PSPI 保护涂层[28]。2012 年1 月，东丽\n公司推出了首款可在170℃低温固化、残余应力低\n至13 MPa 或更低的正性PSPI 产品。除高的耐热性\n和耐化学性外，该产品的残余应力仅为传统低温固\n化PSPI和PBO材料的一半，同时还具有出色的分辨\n率，可使用更为环保的碱性水系显影剂进行显影。\n据报道，除了赋予其新的预亚胺化聚合物分子结构\n外，东丽公司还在该类正性PSPI中使用了专有的交\n联设计，以防止材料在图案加工过程中120℃加热\n下发生反应，但可在170℃时发生充分反应，以此提\n高其耐热性到260～280℃。同时，东丽公司还开发\n了与可溶性预亚胺化聚合物具有纳米层级良好相\n容性的正性光活性化合物。使用该类光敏化合物\n的正性PSPI产品，通过使用普通碱性显影剂TMAH\n即可表现出良好的分辨率。与传统250℃固化的产\n品相比，LT 系列产品在170℃低温固化可获得更加\n优良的光刻效果，在5 μm膜层厚度下可获得图案宽\n度为3 μm的高分辨率图案。\n针对负性PSPI材料，东丽公司推出了可低温固\n化的PN 系列产品，该类负性PSPI的固化温度低、收\n缩率低、热稳定性高。传统负性PSPI材料往往具有\n较低的透光率，当厚度超过50 μm时光敏性会变差，\n导致无法进行精细加工，同时材料在固化后往往出\n现高的热应力和明显翘曲，严重影响加工过程中的\n图9　东丽公司两大主题PSPI中国专利的申请数量变化\nFig.9　Change trends in the number of PSPI patents about two\ntypes of technical subjects applied in China from\nToray Industries Inc.\n表1　东丽公司三类PSPI产品的主要性能数据\nTable 1　Key performance data of three types of PSPI\nproducts from Toray Industries Inc.\n性能\n固化温度(1h)/℃\n抗拉强度/MPa\n弹性伸长率/%\n弹性模量/GPa\n热膨胀系数/(×10-6℃-1)\n玻璃化转变温度/℃\n5%热失重温度/℃\nPW系列\n320～350\n≥150\n≥20\n3.8～4.0\n35～40\n≥300\n≥450\nLT系列\n170～250\n≥120\n≥60\n1.7～2.5\n55～60\n≥270\n≥340\nPN系列\n200～350\n≥110\n≥20\n3.3～3.9\n60～65\n≥312\n≥382\n111\n111",
+      "images": [
+        {
+          "path": "data/processed\\东丽公司光敏聚酰亚胺中国专利分析_苑伟康_p5_i0.jpx",
+          "width": 529,
+          "height": 320,
+          "page": 5
+        }
+      ]
+    },
+    {
+      "page_num": 6,
+      "text": "2024,57(10)\n绝缘材料\n可靠性。2022 年1 月，东丽公司对外公布了一种针\n对高速通信技术而开发的低热膨胀、低介电常数与\n介质损耗的全新负性PSPI材料，该产品通过提高透\n光率和控制光反应技术实现了100 μm 的高厚度，并\n可制造直径为10 μm 的通孔。通过控制树脂在曝光\n过程中的光反应交联密度和降低固化收缩率，该产\n品可将热应力降低到普通材料一半以下，显著减少\n翘曲等问题，从而实现高速通信电子元件和半导体\n封装布线的小型化，并大幅提高可靠性。\n综合对比东丽公司开发的正性与负性系列PS‐\nPI 产品，该公司的正性产品已广泛应用于微电子封\n装领域，是全球正性PSPI产品市场化最成功的企业\n之一。然而，前面针对东丽公司PSPI中国专利的分\n析结果却表明，涉及“正性PSPI”的专利数量远少于\n涉及“负性PSPI”的专利数量，这与该公司在正性产\n品方面的技术优势并不完全相符。值得注意的是，\n东丽公司所申请PSPI 中国专利偏向于显示领域的\n明显更多，据此推测东丽公司在我国的专利布局或\n申请策略可能不仅以PSPI 技术先进性或优势来主\n导，而且更与国内显示领域对PSPI产品的巨大需求\n有直接关联。此外，随着欧洲国家和美国因环保问\n题逐渐限制有机溶剂N-甲基-2-吡咯烷酮（NMP）\n的使用，东丽公司还于2022 年12 月推出了不含\nNMP 溶剂的PSPI 产品，以降低对环境的潜在影响，\n并可应用于特高电压领域的半导体器件。该类PS‐\nPI 产品通过应用增强光透明度技术可实现高厚度\n膜层制备，厚度为同类产品的两倍多即超过15 μm，\n也能实现与传统产品相同的高分辨率图案加工，同\n时与硅、铜或其他基材均有良好的高粘合性。\n6　结论\n（1）日本东丽公司PSPI中国专利的申请数量经\n历了较长的起步及平稳期，自2015年以后进入到快\n速发展期，反映出该公司对PSPI材料专利技术保护\n日益重视。\n（2）东丽公司PSPI中国专利的授权率远高于我\n国发明专利申请的平均授权率，而驳回率远低于国\n内平均水平，反映出该公司在本领域巨大的技术优\n势；专利自申请至公开的时长在18个月以上的数量\n占比高达91.3%，表明其专利布局策略为利用发明\n专利公开滞后的规则，对专利技术的研发方向和市\n场布局意图进行特意保护。\n（3）专利技术主题分析结果表明，PSPI 配方设\n计与制备是其最主要的申请方向，而涉及的应用领\n域主要集中在显示装置和半导体封装。进一步根\n据专利内容分析可知，涉及负性PSPI材料以及显示\n应用的专利数量明显更多。\n参考文献 References\n[1]    贺娟,陈文求,陈伟,等.低介电常数聚酰亚胺薄膜材料的研究进\n展[J].绝缘材料,2023,56(9):1-6.\nHE Juan, CHEN Wenqiu, CHEN Wei, et al. Research progress in\nlow dielectric constant polyimide film materials[J]. Insulating\nMaterials,2023,56(9):1-6.\n[2]    陆健,邹国享,庄永兵. 高频低介电半脂环聚酰亚胺薄膜的制备\n与性能[J].绝缘材料,2023,56(2):39-45.\nLU Jian, ZOU Guoxiang, ZHUANG Yongbing. Preparation and\nproperties of semi-alicyclic polyimide films with low dielectric\nconstant and low dielectric loss at high frequency[J]. Insulating\nMaterials,2023,56(2):39-45.\n[3]    王欣,刘谨洋,杜赞纯,等.氟化石墨烯绝缘导热性能及其聚酰亚\n胺复合材料性能研究进展[J].绝缘材料,2023,56(2):11-18.\nWANG Xin, LIU Jinyang, DU Zanchun, et al. Research progress\non insulating property and thermal conductivity of fluorinated\ngraphene and properties of its polyimide composites[J]. Insula-\nting Materials,2023,56(2):11-18.\n[4]    高梦岩,王畅鸥,贾妍,等.导热聚酰亚胺绝缘薄膜材料的研究进\n展[J].绝缘材料,2021,54(6):1-9.\nGAO Mengyan, WANG Changou, JIA Yan, et al. Research prog‐\nress in thermally conductive and insulating polyimide films[J].\nInsulating Materials,2021,54(6):1-9.\n[5]    王畅鸥,翟磊,高梦岩,等.聚酰亚胺薄膜材料的热膨胀行为研究\n进展[J].中国科学:化学,2022,52(3):437-451.\nWANG Changou, ZHAI Lei, GAO Mengyan, et al. Research\nprogress in thermal expansion behavior of polyimide films[J].\nScientia Sinica Chimica,2022,52(3):437-451.\n[6]    李佐邦,肖继君,白宗武.耐热感光高分子的合成与应用[J].河北\n工学院学报,1988,17(3):68-75.\nLI Zuobang, XIAO Jijun, BAI Zongwu. The synthesis and appli‐\ncation of heat-resistant photosensitive high polymer[J]. Journal of\nHebei Institute of Technology,1988,17(3):68-75.\n[7]    侯豪情,李悦生,丁孟贤. 光敏聚酰亚胺合成方法及应用的最新\n进展[J].功能高分子学报,1996,9(2):279-288.\nHOU Haoqing, LI Yuesheng, DING Mengxian. Recent develop‐\nments of the synthetic method and application of photosensitive\npolyimides[J]. Journal of Functional Polymers,1996,9(2):279-288.\n[8]    郭海泉,杨正华,高连勋.光敏聚酰亚胺光刻胶研究进展[J].应用\n化学,2021,38(9):1119-1137.\nGUO Haiquan, YANG Zhenghua, GAO Lianxun. Progress\nresearch on photosensitive polyimide[J]. Chinese Journal of\n",
+      "images": []
+    },
+    {
+      "page_num": 7,
+      "text": "苑伟康等： 东丽公司光敏聚酰亚胺中国专利分析\nLI Zuobang, ZHU Pukun, FENG Wei, et al. Development of\nstudies on photosensitive polyimides[J]. Polymeric Materials Sci‐\nence and Engineering,1994(6):6-12.\n[10]    韩兵,李铭新. 负性光敏聚酰亚胺研究与应用进展[J]. 工程塑\n料应用,2021,49(11):158-162.\nHAN Bing, LI Mingxin. Progress in research and application of\nnegative photosensitive polyimides[J]. Engineering Plastics\nApplication,2021,49(11):158-162.\n[11]    KERWIN R E, GOLDRICK M R. Thermally stable photoresist\npolymer[J]. Polymer Engineering and Science,1971,11(5):426-430.\n[12]    RUBNER R, AHNE H, KUHN E, et al. A photopolymer-the\ndirect way to polyimide patterns[J]. Photographic Science and\nEngineering,1979,23(5):303-309.\n[13]    冯威,李佐邦,朱普坤,等.光敏聚酰亚胺的最新进展[J]. 功能高\n分子学报,1996,9(1):125-136.\nFENG Wei, LI Zuobang, ZHU Pukun, et al. Recent progress in\nphotosensitive polyimides[J]. Journal of Functional Polymers,\n1996,9(1):125-136.\n[14]    王思恩,张嘉豪,傅智楠,等. 正性光敏型聚酰亚胺的研究和应\n用进展[J].高分子材料科学与工程,2023,39(10):173-181.\nWANG Sien, ZHANG Jiahao, FU Zhinan, et al. Progress in\nresearch and application of low-temperature curable photosensi‐\ntive polyimides[J]. Polymer Materials Science and Engineering,\n2023,39(10):173-181.\n[15]    刘金刚,袁向文,尹志华,等. 正性光敏聚酰亚胺研究与应用进\n展(一)[J].电子与封装,2008,8(12):1-6.\nLIU Jingang, YUAN Xiangwen, YIN Zhihua, et al. Research\nand development of positive-working photosensitive polyimides\n(1)[J]. Electronic & Packaging,2008,8(12):1-6.\n[16]    刘金刚,袁向文,尹志华,等. 正性光敏聚酰亚胺研究与应用进\n展(二)[J].电子与封装,2009,9(1):7-11.\nLIU Jingang, YUAN Xiangwen, YIN Zhihua, et al. Research\nand development of positive-working photosensitive polyimides\n(2)[J]. Electronic & Packaging,2009,9(1):7-11.\n[17]    郑凤,路庆华. 聚酰亚胺正性光刻胶材料的制备及性能研究综\n述[J].上海航天,2017,34(3):136-147.\nZHENG Feng, LU Qinghua. Progress review on preparation and\nlithographic performance of positive-tone photosensitive poly‐\nimides[J]. Aerospace Shanghai,2017,34(3):136-147.\n[18]    李铭新,韩兵,王珂.低温固化型光敏聚酰亚胺的研究与应用进\n展[J].工程塑料应用,2021,49(12):157-161.\nLI Mingxin, HAN Bing, WANG Ke. Progress in research and\napplication of low-temperature curable photosensitive polyimides\n[J]. Engineering Plastics Application,2021,49(12):157-161.\n[19]    YOSHIDA M, HIRATA T, FUJITA M, et al. High-modulus nega‐\ntive photosensitive polyimide for i-line[J]. Journal of Photopoly‐\nmer Science and Technology,2014,27(2):207-210.\n[20]    TOMIKAWA M, OKUDA R, OHNISHI H. Photosensitive poly‐\nimide for packaging applications[J]. Journal of Photopolymer\nScience and Technology,2015,28(1):73-77.\n[21]    MOTOBE T, OHE M, YAMAZAKI N, et al. Next generation\nphotosensitive dielectric materials for advanced packaging appli‐\ncations[J]. Journal of Photopolymer Science and Technology,\n2018,31(4):451-456.\n[22]    李燕芳,郑凯,凌辉,等. 透明聚酰亚胺薄膜的专利态势分析[J].\n中国塑料,2017,31(12):15-20.\nLI Yanfang, ZHENG Kai, LING Hui, et al. Patent situation\nanalysis of transparent polyimide films[J]. China Plastics,2017,\n31(12):15-20.\n[23]    郑凯,李燕芳,凌辉,等. 杜邦公司聚酰亚胺专利分析[J]. 中国塑\n料,2018,32(3):12-21.\nZHENG Kai, LI Yanfang, LING Hui, et al. Patent analysis of\npolyimide ",
+      "images": []
+    }
+  ]
+}

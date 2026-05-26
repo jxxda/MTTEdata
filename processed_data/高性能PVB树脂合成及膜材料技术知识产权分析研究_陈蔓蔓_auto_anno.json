@@ -1,0 +1,54 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\高性能PVB树脂合成及膜材料技术知识产权分析研究_陈蔓蔓_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\高性能PVB树脂合成及膜材料技术知识产权分析研究_陈蔓蔓_merged.json",
+    "page_num": 1,
+    "image_index": 1,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\高性能PVB树脂合成及膜材料技术知识产权分析研究_陈蔓蔓_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\高性能PVB树脂合成及膜材料技术知识产权分析研究_陈蔓蔓_merged.json",
+    "page_num": 2,
+    "image_index": 1,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

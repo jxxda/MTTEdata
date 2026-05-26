@@ -1,0 +1,149 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于隐含狄利克雷分布模型老年数字护理专利布局与发展趋势分析_苑秋辰_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "该论文聚焦于老年数字护理领域的专利分析，核心技术路径为：以德温特世界专利索引（DII）为数据源 → 通过结构化检索式获取目标专利 → 利用Python进行数据预处理（清洗、分词、停用词去除）→ 构建词袋模型 → 应用LDA主题模型进行无监督主题挖掘 → 结合IPC分类体系进行技术领域映射与布局分析。其中，LDA是核心分析方法，IPC提供官方技术分类框架，二者协同实现从文本语义到技术主题的结构化认知；数据来源（DII）、检索策略、NLP预处理、主题建模与可视化构成完整技术链条。",
+    "tree": {
+      "root": "老年数字护理专利智能分析技术体系",
+      "children": [
+        {
+          "name": "1. 数据获取层",
+          "children": [
+            {
+              "name": "1.1 数据源：德温特世界专利索引（DII）",
+              "children": []
+            },
+            {
+              "name": "1.2 检索策略：多字段布尔组合检索式",
+              "children": [
+                {
+                  "name": "标题字段（TI）：老年相关术语",
+                  "children": []
+                },
+                {
+                  "name": "主题字段（TS）：数字技术关键词",
+                  "children": []
+                },
+                {
+                  "name": "主题字段（TS）：护理相关术语",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 数据预处理层",
+          "children": [
+            {
+              "name": "2.1 信息提取：专利号、IPC、年份、标题、摘要",
+              "children": []
+            },
+            {
+              "name": "2.2 文本清洗与标准化",
+              "children": [
+                {
+                  "name": "统一小写",
+                  "children": []
+                },
+                {
+                  "name": "去冗余/噪声",
+                  "children": []
+                },
+                {
+                  "name": "jieba分词 + 停用词过滤",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 技术建模与分析层",
+          "children": [
+            {
+              "name": "3.1 词袋模型（Bag-of-Words）构建",
+              "children": []
+            },
+            {
+              "name": "3.2 LDA主题建模",
+              "children": [
+                {
+                  "name": "贝叶斯层次无监督学习",
+                  "children": []
+                },
+                {
+                  "name": "困惑度评估确定最优主题数",
+                  "children": []
+                },
+                {
+                  "name": "高权重词聚类 → 人工主题命名",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3.3 IPC分类体系整合",
+              "children": [
+                {
+                  "name": "部-类-亚类-主组-副组层级结构",
+                  "children": []
+                },
+                {
+                  "name": "技术领域映射与分布统计",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 工具与支撑层",
+          "children": [
+            {
+              "name": "Python生态：pandas/numpy",
+              "children": []
+            },
+            {
+              "name": "NLP模块：jieba",
+              "children": []
+            },
+            {
+              "name": "主题建模库：gensim",
+              "children": []
+            },
+            {
+              "name": "可视化：matplotlib",
+              "children": []
+            },
+            {
+              "name": "统计计算：math",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "5. 应用输出层",
+          "children": [
+            {
+              "name": "5.1 专利年度/国家/机构分布分析",
+              "children": []
+            },
+            {
+              "name": "5.2 技术主题演化趋势识别",
+              "children": []
+            },
+            {
+              "name": "5.3 老年数字护理创新布局建议",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

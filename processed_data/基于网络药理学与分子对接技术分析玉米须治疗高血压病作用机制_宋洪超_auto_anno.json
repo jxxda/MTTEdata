@@ -1,0 +1,559 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学与分子对接技术分析玉米须治疗高血压病作用机制_宋洪超_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "该论文描述的是中药（玉米须）药效物质基础与作用机制研究的典型网络药理学+分子对接验证流程。核心技术点包括：1）活性成分筛选与靶点预测（PubChem + SwissTargetPrediction）；2）疾病靶点获取与交集靶点提取（韦恩图）；3）构建‘药物-成分-靶点’多维网络（Cytoscape）；4）PPI网络构建与核心靶点识别（STRING + Cytoscape，基于degree/betweenness/closeness）；5）功能富集分析（DAVID + GO/KEGG）；6）分子对接验证（PDB + PubChem + CB-DOCK2 + PyMOL）。整体技术体系以‘成分→靶点→通路→验证’为主线，形成‘数据获取→网络构建→功能解析→实验验证’的闭环研究范式。",
+    "tree": {
+      "root": "中药网络药理学与分子对接整合分析体系",
+      "children": [
+        {
+          "name": "1. 数据获取与预处理",
+          "children": [
+            {
+              "name": "1.1 活性成分筛选",
+              "children": [
+                {
+                  "name": "PubChem（SMILES/3D结构）"
+                },
+                {
+                  "name": "SwissTargetPrediction（靶点预测）"
+                }
+              ]
+            },
+            {
+              "name": "1.2 疾病靶点获取",
+              "children": [
+                {
+                  "name": "疾病数据库（隐含，如DisGeNET、OMIM等）"
+                },
+                {
+                  "name": "VENNY2.2（交集靶点韦恩图）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 网络构建与拓扑分析",
+          "children": [
+            {
+              "name": "2.1 成分-靶点网络",
+              "children": [
+                {
+                  "name": "Cytoscape（节点：药物/成分/靶点/疾病；边：相互作用）"
+                }
+              ]
+            },
+            {
+              "name": "2.2 PPI网络构建",
+              "children": [
+                {
+                  "name": "STRING（人源PPI数据）"
+                },
+                {
+                  "name": "Cytoscape（可视化+拓扑参数计算）"
+                },
+                {
+                  "name": "核心靶点筛选（degree/betweenness/closeness中位数阈值）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 功能与通路注释",
+          "children": [
+            {
+              "name": "3.1 GO功能富集",
+              "children": [
+                {
+                  "name": "DAVID（BP/MF/CC三模块）"
+                },
+                {
+                  "name": "微生信平台（可视化）"
+                }
+              ]
+            },
+            {
+              "name": "3.2 KEGG通路富集",
+              "children": [
+                {
+                  "name": "DAVID（信号通路预测）"
+                },
+                {
+                  "name": "微生信平台（可视化）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 分子对接验证",
+          "children": [
+            {
+              "name": "4.1 受体准备",
+              "children": [
+                {
+                  "name": "RCSB PDB（高分辨率人源蛋白结构）"
+                }
+              ]
+            },
+            {
+              "name": "4.2 配体准备",
+              "children": [
+                {
+                  "name": "PubChem（3D分子结构下载）"
+                }
+              ]
+            },
+            {
+              "name": "4.3 对接计算与可视化",
+              "children": [
+                {
+                  "name": "CB-DOCK2（自动对接）"
+                },
+                {
+                  "name": "PyMOL（结合模式可视化）"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学与分子对接技术分析玉米须治疗高血压病作用机制_宋洪超_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "该论文采用网络药理学与分子对接相结合的策略研究中药（如‘玉米须’，图中右侧绿色三角形标注）治疗高血压的机制。核心技术流程为：① 构建‘药物活性成分-交集靶点’网络（图2），筛选关键活性成分与潜在作用靶点；② 基于交集靶点构建PPI蛋白互作网络（图3），通过度中心性（degree）识别核心靶点（AKT1、TNF、IL-6）；③ 进行GO功能富集（BP/CC/MF）与KEGG通路富集分析，揭示生物学过程、细胞定位及信号通路机制；④ 最后通过分子对接验证关键成分与核心靶点的结合能力（结合能<-5 kcal/mol）。整体构成‘成分→靶点→网络→功能→验证’的闭环技术体系，属于典型的中药系统药理学研究范式。",
+    "tree": {
+      "root": "中药网络药理学研究技术体系",
+      "children": [
+        {
+          "name": "1. 活性成分与靶点挖掘",
+          "children": [
+            {
+              "name": "药物成分数据库筛选",
+              "children": []
+            },
+            {
+              "name": "疾病靶点数据库整合",
+              "children": []
+            },
+            {
+              "name": "交集靶点提取",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 网络构建与拓扑分析",
+          "children": [
+            {
+              "name": "成分-靶点相互作用网络",
+              "children": []
+            },
+            {
+              "name": "PPI蛋白互作网络",
+              "children": [
+                {
+                  "name": "度中心性（degree）排序",
+                  "children": []
+                },
+                {
+                  "name": "核心靶点识别（如AKT1/TNF/IL-6）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 功能与通路富集分析",
+          "children": [
+            {
+              "name": "GO富集分析",
+              "children": [
+                {
+                  "name": "生物过程（BP）",
+                  "children": []
+                },
+                {
+                  "name": "细胞组分（CC）",
+                  "children": []
+                },
+                {
+                  "name": "分子功能（MF）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "KEGG通路富集分析",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4. 分子对接验证",
+          "children": [
+            {
+              "name": "核心成分-核心靶点对接",
+              "children": []
+            },
+            {
+              "name": "结合能计算（< -5 kcal/mol）",
+              "children": []
+            },
+            {
+              "name": "可视化（如PyMOL）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "5. 中药复方/单味药应用",
+          "children": [
+            {
+              "name": "玉米须等中药资源",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学与分子对接技术分析玉米须治疗高血压病作用机制_宋洪超_merged.json",
+    "page_num": 3,
+    "image_index": 1,
+    "thought": "该论文描述的是中药/天然药物作用机制研究的典型网络药理学分析流程：首先构建‘药物活性成分-交集靶点’网络（成分→靶点），再通过PPI网络筛选核心靶点（如AKT1、TNF、IL-6）；接着进行功能富集分析（GO：BP/CC/MF；KEGG通路），揭示潜在生物学过程与通路；最后用分子对接验证关键成分-靶点结合能力。整个技术体系以‘成分-靶点-通路-功能’为主线，融合生物信息学、系统生物学与计算化学方法，形成从宏观网络到微观结构验证的闭环研究框架。",
+    "tree": {
+      "root": "网络药理学驱动的中药机制解析体系",
+      "children": [
+        {
+          "name": "1. 成分-靶点关联建模",
+          "children": [
+            {
+              "name": "活性成分筛选",
+              "children": []
+            },
+            {
+              "name": "交集靶点识别",
+              "children": []
+            },
+            {
+              "name": "成分-靶点互作网络构建",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 蛋白互作网络（PPI）分析",
+          "children": [
+            {
+              "name": "PPI网络构建",
+              "children": []
+            },
+            {
+              "name": "拓扑参数分析（Degree等）",
+              "children": []
+            },
+            {
+              "name": "核心靶点筛选（如AKT1, TNF, IL-6）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3. 功能与通路富集分析",
+          "children": [
+            {
+              "name": "GO分析",
+              "children": [
+                {
+                  "name": "生物学过程（BP）",
+                  "children": []
+                },
+                {
+                  "name": "细胞组分（CC）",
+                  "children": []
+                },
+                {
+                  "name": "分子功能（MF）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "KEGG通路分析",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4. 分子对接与结构验证",
+          "children": [
+            {
+              "name": "结合能计算（< -5 kcal/mol为有效）",
+              "children": []
+            },
+            {
+              "name": "关键复合物可视化（如PyMOL）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学与分子对接技术分析玉米须治疗高血压病作用机制_宋洪超_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "该论文聚焦于中药玉米须治疗高血压的分子机制，采用网络药理学与分子对接技术进行研究。核心逻辑链为：活性成分（如α-生育酚醌、豆甾醇类）→ 核心靶点（AKT1、TNF、IL-6）→ 关键通路（钙离子信号通路、AGE-RAGE通路、神经递质信号传递）→ 生理效应（抑制炎症、抗氧化、调节血管平滑肌收缩、改善内皮功能）→ 降压作用。其中，TNF和IL-6作为促炎枢纽靶点，连接炎症与血管功能障碍；钙离子通路直接调控血管张力；AGE-RAGE通路则关联糖尿病合并高血压的特殊病理背景。分子对接验证了成分-靶点结合的可行性（结合能＜-5.0 kcal/mol），图7展示α-生育酚醌与TNF的结合细节（如SER-163氢键作用）。整体构成‘成分-靶点-通路-表型’四级技术体系。",
+    "tree": {
+      "root": "玉米须降压机制技术体系",
+      "children": [
+        {
+          "name": "1. 活性成分层",
+          "children": [
+            {
+              "name": "α-生育酚醌（强效抗氧化剂）"
+            },
+            {
+              "name": "豆甾醇类化合物"
+            },
+            {
+              "name": "其他9种活性成分（共11种）"
+            }
+          ]
+        },
+        {
+          "name": "2. 核心靶点层",
+          "children": [
+            {
+              "name": "TNF（促炎因子，关键枢纽）"
+            },
+            {
+              "name": "IL-6（促炎因子，关键枢纽）"
+            },
+            {
+              "name": "AKT1（信号转导关键激酶）"
+            },
+            {
+              "name": "钙通道相关蛋白（如CACNA1C等，隐含）"
+            }
+          ]
+        },
+        {
+          "name": "3. 关键通路层",
+          "children": [
+            {
+              "name": "钙离子信号通路（调控血管平滑肌收缩）"
+            },
+            {
+              "name": "AGE-RAGE通路（关联糖尿病血管并发症）"
+            },
+            {
+              "name": "神经递质信号传递通路"
+            },
+            {
+              "name": "炎症与氧化应激通路（由TNF/IL-6驱动）"
+            }
+          ]
+        },
+        {
+          "name": "4. 验证与分析技术层",
+          "children": [
+            {
+              "name": "网络药理学（构建成分-靶点-通路网络）"
+            },
+            {
+              "name": "GO功能富集分析（图4）"
+            },
+            {
+              "name": "KEGG通路富集分析（图5）"
+            },
+            {
+              "name": "分子对接模拟（图6,7；结合能＜-5.0 kcal/mol）"
+            },
+            {
+              "name": "结构可视化（如YMX-1–TNF结合位点SER-163氢键作用）"
+            }
+          ]
+        },
+        {
+          "name": "5. 病理机制与表型层",
+          "children": [
+            {
+              "name": "血管炎症反应（TNF/IL-6介导）"
+            },
+            {
+              "name": "氧化应激（α-生育酚醌清除自由基）"
+            },
+            {
+              "name": "血管内皮功能障碍"
+            },
+            {
+              "name": "血管平滑肌钙超载与张力升高"
+            },
+            {
+              "name": "血管重塑与血流受损"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学与分子对接技术分析玉米须治疗高血压病作用机制_宋洪超_merged.json",
+    "page_num": 4,
+    "image_index": 1,
+    "thought": "该论文聚焦于玉米须活性成分（如α-生育酚醌、豆甾醇类）通过多靶点、多通路机制发挥降压作用。核心逻辑链为：活性成分 → 调控关键靶点（AKT1、TNF、IL-6）→ 影响三大核心生物学过程：① 炎症反应（TNF/IL-6介导，导致内皮功能障碍与血管重塑）；② 钙离子信号通路（调控钙通道/钙超载，影响血管平滑肌收缩）；③ AGE-RAGE通路（关联糖尿病合并高血压，驱动氧化应激与血管损伤）。同时，抗氧化（α-生育酚醌清除自由基）与分子对接验证（结合能<-5.0 kcal/mol）构成机制支撑。技术体系以‘中药活性成分’为起点，整合网络药理学（GO/KEGG富集分析）、分子对接、通路机制解析，形成‘成分-靶点-通路-表型’的多维验证框架。",
+    "tree": {
+      "root": "玉米须降压作用机制技术体系",
+      "children": [
+        {
+          "name": "1. 活性成分层",
+          "children": [
+            {
+              "name": "α-生育酚醌（强效抗氧化剂）",
+              "children": []
+            },
+            {
+              "name": "豆甾醇类等11种化合物",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 核心靶点层",
+          "children": [
+            {
+              "name": "TNF（促炎因子）",
+              "children": []
+            },
+            {
+              "name": "IL-6（促炎因子）",
+              "children": []
+            },
+            {
+              "name": "AKT1（信号枢纽蛋白）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3. 关键通路层",
+          "children": [
+            {
+              "name": "炎症通路",
+              "children": [
+                {
+                  "name": "TNF/IL-6介导的炎症反应",
+                  "children": []
+                },
+                {
+                  "name": "血管内皮功能障碍与血管重塑",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "钙离子信号通路",
+              "children": [
+                {
+                  "name": "钙通道调控",
+                  "children": []
+                },
+                {
+                  "name": "抑制细胞内钙超载 → 血管舒张",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "AGE-RAGE通路",
+              "children": [
+                {
+                  "name": "氧化应激与炎症协同激活",
+                  "children": []
+                },
+                {
+                  "name": "糖尿病合并高血压血管并发症干预",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "神经递质信号传递通路",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4. 技术验证层",
+          "children": [
+            {
+              "name": "网络药理学分析",
+              "children": [
+                {
+                  "name": "GO功能富集（BP/CC/MF）",
+                  "children": []
+                },
+                {
+                  "name": "KEGG通路富集分析",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "分子对接模拟",
+              "children": [
+                {
+                  "name": "结合能评估（< -5.0 kcal/mol）",
+                  "children": []
+                },
+                {
+                  "name": "可视化结合模式（如α-生育酚醌-TNF）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "机制交叉验证",
+              "children": [
+                {
+                  "name": "抗氧化作用（清除自由基→抑制炎症）",
+                  "children": []
+                },
+                {
+                  "name": "多通路协同效应整合",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

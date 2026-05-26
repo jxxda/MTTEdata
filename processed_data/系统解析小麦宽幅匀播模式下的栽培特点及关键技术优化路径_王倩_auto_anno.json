@@ -1,0 +1,15 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\系统解析小麦宽幅匀播模式下的栽培特点及关键技术优化路径_王倩_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

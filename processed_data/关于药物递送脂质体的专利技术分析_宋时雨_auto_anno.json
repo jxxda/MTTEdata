@@ -1,0 +1,238 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\关于药物递送脂质体的专利技术分析_宋时雨_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "论文聚焦于mRNA药物递送中的脂质纳米颗粒（LNP）技术体系，核心在于可离子化阳离子脂质的设计与优化。LNP由四类脂质组成（可离子化阳离子脂质、辅助磷脂、胆固醇、PEG-脂质），其中可离子化脂质是关键功能组分，直接影响递送效率、安全性与靶向性。技术演进路径表现为：通过化学修饰（如引入酰胺键、肼/羟胺/乙醇胺连接键等）提升脂质的pH响应性、生物降解性与靶向能力；强调结构-功能关系（如降低毒性、延长循环时间、实现肺部靶向）；并以专利布局为驱动，反映产业界对脂质分子结构创新的高度关注。整体技术体系以LNP为载体平台，以可离子化脂质分子设计为核心分支，向下延伸至化学结构修饰策略与生物性能优化目标。",
+    "tree": {
+      "root": "mRNA递送脂质纳米颗粒（LNP）技术体系",
+      "children": [
+        {
+          "name": "LNP基础组成",
+          "children": [
+            {
+              "name": "可离子化阳离子脂质（核心组分）"
+            },
+            {
+              "name": "辅助性磷脂"
+            },
+            {
+              "name": "胆固醇"
+            },
+            {
+              "name": "聚乙二醇偶联脂质（PEG-脂质）"
+            }
+          ]
+        },
+        {
+          "name": "可离子化阳离子脂质分子设计",
+          "children": [
+            {
+              "name": "化学结构修饰策略",
+              "children": [
+                {
+                  "name": "酰胺键结构（如306-N16B）"
+                },
+                {
+                  "name": "连接键类型优化（肼、羟胺、乙醇胺等）"
+                },
+                {
+                  "name": "迈克尔加成反应合成路径"
+                }
+              ]
+            },
+            {
+              "name": "功能导向设计目标",
+              "children": [
+                {
+                  "name": "提高pH响应性与胞内释放效率"
+                },
+                {
+                  "name": "降低体内毒性与非特异性结合"
+                },
+                {
+                  "name": "延长血液循环半衰期"
+                },
+                {
+                  "name": "增强生物降解性（代谢为无毒产物）"
+                },
+                {
+                  "name": "实现组织靶向（如肺部靶向）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LNP性能与应用",
+          "children": [
+            {
+              "name": "mRNA包裹效率"
+            },
+            {
+              "name": "细胞摄取与内体逃逸能力"
+            },
+            {
+              "name": "体内递送效率"
+            },
+            {
+              "name": "临床应用（如mRNA疫苗）"
+            }
+          ]
+        },
+        {
+          "name": "知识产权与技术演进",
+          "children": [
+            {
+              "name": "专利布局焦点：脂质分子结构创新"
+            },
+            {
+              "name": "技术发展驱动力：新冠mRNA疫苗成功"
+            },
+            {
+              "name": "研究方法：基于关键词与CPC分类的专利分析"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\关于药物递送脂质体的专利技术分析_宋时雨_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "论文聚焦于药物递送脂质体（特别是LNP，即脂质纳米颗粒）的技术体系，核心围绕mRNA/siRNA等核酸药物的递送。关键技术点包括：1）LNP作为主流载体平台；2）关键组分——可电离阳离子脂质（决定细胞毒性与转染效率）、PEG脂质（调控稳定性与药代动力学）、辅助脂质（如胆固醇、磷脂）；3）专利布局集中在化合物结构、组分配比、组合物及应用层面；4）头部企业（如Arbutus、Alnylam、Moderna等）通过核心专利构建技术壁垒。技术体系呈层级结构：顶层为递送系统平台（LNP），中层为功能脂质组分设计，底层为具体分子结构与配方优化。",
+    "tree": {
+      "root": "核酸药物递送脂质体技术体系",
+      "children": [
+        {
+          "name": "核心递送平台",
+          "children": [
+            {
+              "name": "LNP（脂质纳米颗粒）",
+              "children": [
+                {
+                  "name": "可电离阳离子脂质",
+                  "children": [
+                    {
+                      "name": "结构设计（亲水头基调控）",
+                      "children": []
+                    },
+                    {
+                      "name": "降低细胞毒性策略",
+                      "children": []
+                    },
+                    {
+                      "name": "代表性专利（如Arbutus US8058069）",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "PEG修饰脂质",
+                  "children": [
+                    {
+                      "name": "延长循环时间",
+                      "children": []
+                    },
+                    {
+                      "name": "调控粒径与稳定性",
+                      "children": []
+                    },
+                    {
+                      "name": "代表性专利（如Alnylam US8642076B2）",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "辅助脂质",
+                  "children": [
+                    {
+                      "name": "胆固醇",
+                      "children": []
+                    },
+                    {
+                      "name": "磷脂（如DSPC）",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "其他脂质体类型（如阳离子脂质体）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "关键应用领域",
+          "children": [
+            {
+              "name": "mRNA疫苗（如Moderna/CureVac/BioNTech新冠疫苗）",
+              "children": []
+            },
+            {
+              "name": "siRNA药物（如Alnylam上市产品）",
+              "children": []
+            },
+            {
+              "name": "其他核酸疗法（DNA、miRNA等）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "知识产权与产业格局",
+          "children": [
+            {
+              "name": "核心专利持有者",
+              "children": [
+                {
+                  "name": "Arbutus（LNP组分与配比专利）",
+                  "children": []
+                },
+                {
+                  "name": "Alnylam（siRNA-LNP先驱）",
+                  "children": []
+                },
+                {
+                  "name": "Moderna等疫苗企业（应用型专利）",
+                  "children": []
+                },
+                {
+                  "name": "高校/研究机构（如加州大学、MIT）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "区域研发实力",
+              "children": [
+                {
+                  "name": "美国（主导，7928件）",
+                  "children": []
+                },
+                {
+                  "name": "中国（快速崛起，2957件）",
+                  "children": []
+                },
+                {
+                  "name": "日本（857件）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

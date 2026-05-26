@@ -1,0 +1,740 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于离群点视角的颠覆性专利预测研究_王丹_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "论文聚焦于‘新技术形式的颠覆性专利’预测，其核心技术路径分为两阶段：第一阶段基于‘离群点检测’识别技术空间中的新颖专利（即‘新技术专利’），依赖文本与分类号的向量化（BERT + TF-IDF）及多算法离群检测；第二阶段在新技术专利子集中，通过深度学习（DNN）结合创新性（文本特征）与向后影响力（如被引次数）进行最终颠覆性判断。整体架构以‘技术空间离群性’为起点，融合自然语言处理、异常检测与深度学习，形成‘特征提取→离群筛选→影响力建模→预测决策’的技术闭环。",
+    "tree": {
+      "root": "颠覆性专利预测技术体系",
+      "children": [
+        {
+          "name": "1. 技术表征与向量化",
+          "children": [
+            {
+              "name": "1.1 文本特征提取",
+              "children": [
+                {
+                  "name": "BERT语义编码"
+                },
+                {
+                  "name": "TF-IDF词频统计"
+                }
+              ]
+            },
+            {
+              "name": "1.2 结构化特征提取",
+              "children": [
+                {
+                  "name": "IPC/CPC分类号向量化"
+                }
+              ]
+            },
+            {
+              "name": "1.3 多源特征融合",
+              "children": [
+                {
+                  "name": "向量拼接/加权融合"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 离群专利识别（新技术专利筛选）",
+          "children": [
+            {
+              "name": "2.1 离群检测算法",
+              "children": [
+                {
+                  "name": "Isolation Forest"
+                },
+                {
+                  "name": "One-Class SVM"
+                },
+                {
+                  "name": "Local Outlier Factor (LOF)"
+                }
+              ]
+            },
+            {
+              "name": "2.2 增量迭代优化",
+              "children": [
+                {
+                  "name": "动态阈值调整"
+                },
+                {
+                  "name": "反馈式样本修正"
+                }
+              ]
+            },
+            {
+              "name": "2.3 领域适配过滤",
+              "children": [
+                {
+                  "name": "领域内新技术专利集生成"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 颠覆性特征测度",
+          "children": [
+            {
+              "name": "3.1 激进新颖性测度",
+              "children": [
+                {
+                  "name": "文本创新性分析（语义偏离度、概念组合新异性）"
+                }
+              ]
+            },
+            {
+              "name": "3.2 重大的向后影响力测度",
+              "children": [
+                {
+                  "name": "引用网络分析（前向/后向被引）"
+                },
+                {
+                  "name": "时间衰减加权影响力指标"
+                },
+                {
+                  "name": "技术扩散路径追踪"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 颠覆性专利预测模型",
+          "children": [
+            {
+              "name": "4.1 深度神经网络（DNN）",
+              "children": [
+                {
+                  "name": "输入层：融合特征向量"
+                },
+                {
+                  "name": "隐藏层：非线性映射"
+                },
+                {
+                  "name": "输出层：二分类（颠覆性/非颠覆性）"
+                }
+              ]
+            },
+            {
+              "name": "4.2 模型验证与应用",
+              "children": [
+                {
+                  "name": "人工智能领域实证"
+                },
+                {
+                  "name": "链式创新潜力评估"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于离群点视角的颠覆性专利预测研究_王丹_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "该论文构建了一个三阶段技术体系：首先进行数据预处理（含文本清洗与IPC分类提取），其次通过特征融合生成专利向量表示（结合SBERT文本嵌入与TF-IDF技术分类嵌入），再利用离群点检测算法（LOF/KNN/IF）筛选潜在颠覆性专利；最后进入深度学习预测阶段，使用DNN模型建模专利指标与颠覆性标签关系，并通过K-Means聚类与数据集修正优化模型。核心在于‘多源特征融合→离群检测初筛→深度学习精判’的级联架构，其中向量化是关键桥梁，连接预处理与智能分析。",
+    "tree": {
+      "root": "颠覆性专利智能识别技术体系",
+      "children": [
+        {
+          "name": "阶段1：数据收集与预处理",
+          "children": [
+            {
+              "name": "数据源",
+              "children": [
+                {
+                  "name": "Incopat数据库"
+                },
+                {
+                  "name": "标题+摘要文本"
+                },
+                {
+                  "name": "IPC分类号（IPC4）"
+                }
+              ]
+            },
+            {
+              "name": "文本清洗",
+              "children": [
+                {
+                  "name": "词形还原"
+                },
+                {
+                  "name": "停用词移除"
+                },
+                {
+                  "name": "数字/符号过滤"
+                }
+              ]
+            },
+            {
+              "name": "领域信息提取",
+              "children": [
+                {
+                  "name": "IPC子类提取（前4位）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "阶段2：离群专利筛选",
+          "children": [
+            {
+              "name": "特征向量化",
+              "children": [
+                {
+                  "name": "文本特征嵌入",
+                  "children": [
+                    {
+                      "name": "SBERT模型"
+                    }
+                  ]
+                },
+                {
+                  "name": "技术特征嵌入",
+                  "children": [
+                    {
+                      "name": "TF-IDF（IPC分类）"
+                    }
+                  ]
+                },
+                {
+                  "name": "特征融合",
+                  "children": [
+                    {
+                      "name": "降维（如PCA/UMAP）"
+                    },
+                    {
+                      "name": "向量拼接"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "离群点检测",
+              "children": [
+                {
+                  "name": "LOF"
+                },
+                {
+                  "name": "KNN"
+                },
+                {
+                  "name": "IF（Isolation Forest）"
+                }
+              ]
+            },
+            {
+              "name": "初步结果",
+              "children": [
+                {
+                  "name": "新技术专利集合[2009–2017]"
+                },
+                {
+                  "name": "新技术专利集合[2018–2022]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "阶段3：深度学习颠覆性预测",
+          "children": [
+            {
+              "name": "模型构建",
+              "children": [
+                {
+                  "name": "DNN模型"
+                },
+                {
+                  "name": "专利指标—颠覆性关系建模"
+                }
+              ]
+            },
+            {
+              "name": "辅助优化",
+              "children": [
+                {
+                  "name": "K-Means聚类（用于数据分组/修正）"
+                },
+                {
+                  "name": "数据集修正"
+                }
+              ]
+            },
+            {
+              "name": "判别与匹配",
+              "children": [
+                {
+                  "name": "颠覆性专利判别"
+                },
+                {
+                  "name": "颠覆性标签匹配"
+                }
+              ]
+            },
+            {
+              "name": "评估指标",
+              "children": [
+                {
+                  "name": "准确性"
+                },
+                {
+                  "name": "精确率"
+                },
+                {
+                  "name": "召回率"
+                },
+                {
+                  "name": "F1-score"
+                }
+              ]
+            },
+            {
+              "name": "最终输出",
+              "children": [
+                {
+                  "name": "未来颠覆性专利"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于离群点视角的颠覆性专利预测研究_王丹_merged.json",
+    "page_num": 5,
+    "image_index": 0,
+    "thought": "该论文聚焦于‘颠覆性专利识别与预测’技术体系，核心流程为：(1) 基于时间序列的增量式离群专利检测（利用多算法交集提升鲁棒性）；(2) 对离群结果进行数据修正（K-MEANS语义聚类 + 专家评审剔除噪声）；(3) 构建历史颠覆性专利标签（结合新颖性指标与影响力指标，如主题词低频出现率、扩散度ADF/DF及被引次数）；(4) 基于深度学习模型进行未来颠覆性潜力预测。整体呈现‘检测→净化→标注→建模’的递进式技术链，以专利向量空间建模为基础，融合传统机器学习、文本挖掘与深度学习方法。",
+    "tree": {
+      "root": "颠覆性专利智能识别与预测技术体系",
+      "children": [
+        {
+          "name": "1. 增量式离群专利检测",
+          "children": [
+            {
+              "name": "1.1 技术空间建模",
+              "children": []
+            },
+            {
+              "name": "1.2 多算法交集检测",
+              "children": [
+                {
+                  "name": "孤立森林",
+                  "children": []
+                },
+                {
+                  "name": "LOF局部异常因子",
+                  "children": []
+                },
+                {
+                  "name": "One-Class SVM",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "1.3 时间迭代机制",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 数据集修正与噪声过滤",
+          "children": [
+            {
+              "name": "2.1 语义主题聚类",
+              "children": [
+                {
+                  "name": "K-MEANS聚类",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "2.2 专家协同评审",
+              "children": []
+            },
+            {
+              "name": "2.3 领域相关性筛选",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3. 颠覆性专利标签构建",
+          "children": [
+            {
+              "name": "3.1 新颖性测度",
+              "children": [
+                {
+                  "name": "主题词低频阈值（<15%）",
+                  "children": []
+                },
+                {
+                  "name": "早期出现率分析",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3.2 影响力测度",
+              "children": [
+                {
+                  "name": "主题词扩散度（ADF/DF）",
+                  "children": []
+                },
+                {
+                  "name": "专利被引次数",
+                  "children": []
+                },
+                {
+                  "name": "流行分数指标",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3.3 专家验证标注",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4. 深度学习预测建模",
+          "children": [
+            {
+              "name": "4.1 特征工程",
+              "children": [
+                {
+                  "name": "技术轨迹偏离度",
+                  "children": []
+                },
+                {
+                  "name": "语义嵌入向量",
+                  "children": []
+                },
+                {
+                  "name": "时序演化特征",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "4.2 模型架构",
+              "children": [
+                {
+                  "name": "LSTM/GRU时序网络",
+                  "children": []
+                },
+                {
+                  "name": "图神经网络（GNN）",
+                  "children": []
+                },
+                {
+                  "name": "多模态融合模型",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "4.3 预测输出",
+              "children": [
+                {
+                  "name": "颠覆性潜力评分",
+                  "children": []
+                },
+                {
+                  "name": "技术路径预警",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于离群点视角的颠覆性专利预测研究_王丹_merged.json",
+    "page_num": 7,
+    "image_index": 0,
+    "thought": "论文聚焦于人工智能领域颠覆性专利的预测与评估，其技术体系以‘专利价值评估’为核心目标，构建了完整的数据驱动分析流程：首先通过专利数据库（Incopat）采集原始专利数据；其次进行多模态特征工程——包括语义文本（标题/摘要）经SBERT向量化、技术分类（IPC码）经TF-IDF向量化，并融合PCA降维；接着基于专利元数据（如保护范围、技术范围、商业范围、技术团队等指标）构建评估指标体系；最终输入深度神经网络（DNN）分类器，以准确率、精确率、召回率、F1-score等指标评估模型性能。整体呈现‘数据采集→特征提取→指标构建→模型训练→效果评估’的层级结构。",
+    "tree": {
+      "root": "颠覆性专利智能评估技术体系",
+      "children": [
+        {
+          "name": "1. 数据层",
+          "children": [
+            {
+              "name": "1.1 数据源",
+              "children": [
+                "Incopat专利数据库"
+              ]
+            },
+            {
+              "name": "1.2 数据预处理",
+              "children": [
+                "标题/摘要合并",
+                "缺失值过滤",
+                "IPC码截取前4位"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 特征工程层",
+          "children": [
+            {
+              "name": "2.1 语义特征提取",
+              "children": [
+                "SBERT文本向量化（384维）"
+              ]
+            },
+            {
+              "name": "2.2 技术分类特征提取",
+              "children": [
+                "TF-IDF IPC向量化（597维）"
+              ]
+            },
+            {
+              "name": "2.3 特征融合与降维",
+              "children": [
+                "PCA降维（保留≥80%方差贡献率）"
+              ]
+            },
+            {
+              "name": "2.4 专利元数据指标",
+              "children": [
+                "保护范围（地域覆盖）",
+                "技术范围（技术领域广度）",
+                "商业范围（专利族数量）",
+                "技术团队（发明人数量IS、专利权人数量AN）"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 模型层",
+          "children": [
+            {
+              "name": "3.1 分类模型",
+              "children": [
+                "深度神经网络（DNN）"
+              ]
+            },
+            {
+              "name": "3.2 训练策略",
+              "children": [
+                "8:2训练集/测试集划分"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 评估层",
+          "children": [
+            {
+              "name": "4.1 评价指标",
+              "children": [
+                "准确率（Accuracy）",
+                "精确率（Precision）",
+                "召回率（Recall）",
+                "F1-score"
+              ]
+            },
+            {
+              "name": "4.2 标签定义",
+              "children": [
+                "颠覆性专利标签（二分类）"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5. 应用层",
+          "children": [
+            {
+              "name": "5.1 领域聚焦",
+              "children": [
+                "人工智能领域专利预测"
+              ]
+            },
+            {
+              "name": "5.2 决策支持",
+              "children": [
+                "政府战略规划",
+                "企业研发决策"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于离群点视角的颠覆性专利预测研究_王丹_merged.json",
+    "page_num": 9,
+    "image_index": 0,
+    "thought": "论文聚焦于颠覆性专利的识别与分析，核心技术路径为：1）构建量化指标（整体/平均颠覆性要素占比）评估专利颠覆性程度；2）采用NLP技术（名词短语提取）预处理专利文本；3）应用LDA主题模型进行无监督聚类，结合一致性分数优化主题数（6个），并辅以专家知识标注主题；4）最终识别出6大前沿技术方向（多模态大模型、增强现实、生成式AI、自动驾驶、图像识别与处理、智能通信）。整个体系以‘颠覆性专利识别’为任务目标，底层依赖NLP文本处理，中层为机器学习聚类建模，上层为领域知识融合与技术方向归纳。",
+    "tree": {
+      "root": "颠覆性专利识别与技术方向挖掘",
+      "children": [
+        {
+          "name": "颠覆性程度量化",
+          "children": [
+            {
+              "name": "整体颠覆性要素占比",
+              "children": []
+            },
+            {
+              "name": "平均颠覆性要素占比",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "专利文本预处理",
+          "children": [
+            {
+              "name": "NLP关键词提取",
+              "children": [
+                {
+                  "name": "1–3词名词/名词短语抽取",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "主题建模与聚类",
+          "children": [
+            {
+              "name": "LDA模型",
+              "children": [
+                {
+                  "name": "主题数优化",
+                  "children": [
+                    {
+                      "name": "一致性分数（coherence score）",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "主题词提取",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "专家知识融合",
+              "children": [
+                {
+                  "name": "主题命名与语义解释",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "颠覆性技术方向",
+          "children": [
+            {
+              "name": "多模态预训练大模型",
+              "children": []
+            },
+            {
+              "name": "增强现实",
+              "children": []
+            },
+            {
+              "name": "生成式AI",
+              "children": []
+            },
+            {
+              "name": "自动驾驶",
+              "children": []
+            },
+            {
+              "name": "图像识别与处理",
+              "children": []
+            },
+            {
+              "name": "智能通信",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于离群点视角的颠覆性专利预测研究_王丹_merged.json",
+    "page_num": 0,
+    "table_index": 0,
+    "thought": "表格及上下文明确指出，研究以人工智能领域为案例，预测出的411条颠覆性专利‘主要涉及六大颠覆性方向’，并逐一列出：多模态预训练大模型、增强现实、生成式AI、自动驾驶、图像识别与处理、智能通信。这六项是实证结果中归纳出的技术分类层级，属于同一层级的并列子类，无进一步嵌套结构；根节点应为‘颠覆性技术’（全文核心主题），其直接子类即为这六大方向。文中未提及其他层级划分或父类归属，故构建单层树结构。",
+    "tree": {
+      "root": "颠覆性技术",
+      "children": [
+        {
+          "name": "多模态预训练大模型",
+          "children": []
+        },
+        {
+          "name": "增强现实",
+          "children": []
+        },
+        {
+          "name": "生成式AI",
+          "children": []
+        },
+        {
+          "name": "自动驾驶",
+          "children": []
+        },
+        {
+          "name": "图像识别与处理",
+          "children": []
+        },
+        {
+          "name": "智能通信",
+          "children": []
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\特斯拉与百度自动驾驶目标检测技术发展路径及专利布局研究_杏运_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\特斯拉与百度自动驾驶目标检测技术发展路径及专利布局研究_杏运_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "论文核心围绕特斯拉的占用网络（Occupancy Network）展开，旨在解决传统目标识别对未知障碍物失效的问题。技术体系以多相机视觉输入为起点，经校正→特征提取（RegNet + BiFPN）→2D→3D转换（Transformer空间注意力机制+3D查询）→时空融合→体素级占用预测。关键创新点包括：1）虚拟标准相机统一多视角输入；2）基于Transformer的BEV/3D空间建模；3）体素网格表示环境（连续占用+流场）；4）时空特征融合提升鲁棒性。图2 HydraNet与图3 BEV结构表明系统采用‘Trunk-Head’分层架构：Trunk负责共享特征提取（Backbone + BEV Transformer），多个Head并行输出不同任务（如可行驶区域、障碍物、运动流等）。整体构成‘感知-建模-决策支撑’三层技术栈。",
+    "tree": {
+      "root": "自动驾驶视觉感知系统（占用网络架构）",
+      "children": [
+        {
+          "name": "输入层：多模态视觉数据预处理",
+          "children": [
+            "多摄像头输入（主/前侧/后侧/宽距/窄距镜头）",
+            "图像校正（虚拟标准相机 + 外参标定去畸变）",
+            "时间对齐与特征同步"
+          ]
+        },
+        {
+          "name": "特征提取与空间建模层",
+          "children": [
+            "2D特征提取（RegNet + BiFPN）",
+            "空间注意力机制（Transformer）",
+            "3D查询嵌入生成",
+            "BEV/3D空间转换（2D→3D体素映射）",
+            "时空特征融合（跨帧时间戳对齐）"
+          ]
+        },
+        {
+          "name": "占用表征与输出层",
+          "children": [
+            "体素网格建模（Voxel Grid）",
+            "连续占用概率预测",
+            "占用流场估计（运动速度）",
+            "子体素形状与语义信息输出"
+          ]
+        },
+        {
+          "name": "任务解耦头部（Heads）",
+          "children": [
+            "可行驶空间预测 Head",
+            "障碍物检测 Head",
+            "道路结构识别 Head（车道线/边缘/环岛等）",
+            "交通流与运动学信息 Head",
+            "人行道与限制区域 Head"
+          ]
+        },
+        {
+          "name": "系统架构支撑模块",
+          "children": [
+            "特征队列（Feature Queue）用于时序记忆",
+            "视频模块（Video Module）处理动态场景",
+            "MLP解码器（反卷积/上采样）生成体素输出"
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\特斯拉与百度自动驾驶目标检测技术发展路径及专利布局研究_杏运_merged.json",
+    "page_num": 4,
+    "image_index": 1,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\特斯拉与百度自动驾驶目标检测技术发展路径及专利布局研究_杏运_merged.json",
+    "page_num": 4,
+    "image_index": 2,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\特斯拉与百度自动驾驶目标检测技术发展路径及专利布局研究_杏运_merged.json",
+    "page_num": 5,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "title": "2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮",
+  "source_pdf": "data/raw\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "产业与技术发展报告\n2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺\n合成专利技术进展\n孙亮\n（上海美悦生物科技发展有限公司，上海201206）\n收稿日期：2025-11-11；修回日期：2026-03-09\n作者简介：孙亮（1982－），男，硕士研究生，助理研究员，主要从事专利代理、检索咨询及知识产权诉讼工作。\n电子邮件：sunliang19821007@163.com\n肺癌作为癌症中的高发类型，其发病率和死亡\n率位居各类癌症前列，严重威胁人类生命健康\n[1]。\n在肺癌的众多亚型中，间变性淋巴瘤激酶\n（ALK）融合基因阳性非小细胞肺癌（NSCLC）因\n其独特的分子特征而备受关注\n[2]。ALK抑制剂的研\n发与应用，彻底改变了该类患者的治疗格局，带\n来了显著的临床获益。第一代ALK 抑制剂以克唑\n替尼为代表，于2011年获批上市，开启了ALK阳\n性非小细胞肺癌靶向治疗的新时代。为应对克唑\n替尼临床应用中的耐药问题，第二代ALK 抑制剂\n相继研发，主要包括色瑞替尼、艾乐替尼、布加\n替尼和恩沙替尼等\n[3-4]。目前，第三代ALK 抑制剂\n主要研发方向包括亚盛医药集团研发的FAK/ALK/\nROS1三联酪氨酸激酶抑制剂，该药正处于注册III\n期临床试验阶段，拟用于治疗对第一、二代ALK\n抑制剂耐药或不耐受的阳性非小细胞肺癌患者。\n临床前及早期临床研究提示，该候选药物对已上\n市ALK 抑制剂相关的主要耐药突变具有较好的抑\n制活性，展现出较高的临床开发价值。2,5-二氯-\nN-[2-(异丙基磺酰基)苯基]嘧啶-4-胺（化合物1）\n是第二代AKL 抑制剂（色瑞替尼）和第三代ALK\n抑制剂APG-2449 共有的关键中间体\n[5]。该化合物\n的合成效率与纯度，直接影响目标药物的生产成\n本与质量可控性\n[6]。本文旨在综述现有专利及文献\n中关于该化合物的合成方法，系统比较不同合成\n路线的优缺点，总结相关工艺优化过程中的经验\n与规律，为新一代ALK 抑制剂的研发及突破现有\n专利壁垒提供技术支撑。\n1\n化合物1的合成方法\n1.1\n强碱体系合成法\n吕彬华等\n[7-8]公开了以2-巯基苯胺为原料的合\n成路线。该路线经S-烷基化、N-芳基化和氧化3步\n反应得到目标产物，总收率约为60%。然而，反\n应过程中存在以下问题：一是原料2-巯基苯胺同\n时含有巯基和氨基，与2-碘丙烷进行S-烷基化时\n摘要\n综述了第二代间变性淋巴瘤激酶（ALK）抑制剂色瑞替尼及第三代ALK 抑制剂\nAPG-2449的关键中间体——2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺的合成方法。\n介绍了强碱体系法、酸酐保护法、加入晶种法及硫醚法等主要合成路线；分析了各方法在\n原料成本、反应收率、反应控制以及后处理等方面优劣差异。指出当前合成工艺主要面\n临反应区域选择性差、官能团兼容性不足及生产成本偏高等技术瓶颈；提出后续研发应\n优先发展高选择性催化体系、优化保护基策略及简化后处理流程，以实现高效、低成本的\n规模化生产。\n关键词\n2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺；间变性淋巴瘤激酶（ALK）抑制\n剂；色瑞替尼；硫醚氧化；区域选择性；专利分析\n中图分类号TQ463\n+.54\n文献标识码A\nDOI 10.3969/j.issn.1006-6829.2026.02.003\n产业与技术发展报告\n■■■■■■■■■■■■\n■■\n■■■■■■■■■■■■\n■■\n孙亮\n2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展\n·\n·12",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "2026年第32卷第2期\n化工生产与技术\nChemical Production and Technology\n易生成S-取代和N-取代的混合产物，需分离纯化\n方可进行下一步；二是中间体2-(异丙硫基)苯胺与\n2,4,5-三氯嘧啶发生N-芳基化反应时区域选择性不\n佳，易生成多取代副产物。反应的最后一步在间\n氯过氧苯甲酸（mCPBA）作用下将2,5-二氯-N-[2-\n(异丙基硫基)苯基]嘧啶-4-胺（化合物2）氧化制得\n目标化合物1。具体的合成路线见图1。\n图1\n化合物1以2-巯基苯胺为原料的合成路线\nFig 1 The synthetic route of compound 1 using\n2-mercaptobenzeneamine as the raw material\n黄岩岩\n[9]公开了类似的反应路线，并采用一锅\n法工艺：在碱性条件下，使2-巯基苯胺与2-溴代异\n丙烷反应后，滴加2,4,5-三氯嘧啶，升温回流继续\n反应；随后加入稀有金属催化剂（如钨酸钠、钨\n酸、钨酸钙、钼酸钠、钼酸铵或磷钨酸钠），滴加\n双氧水（w＝30%）进行氧化反应；最后经乙醇重\n结晶得到目标产物1。该一锅法路线在稀有金属催\n化下实现氧化步骤，简化了中间体的制备过程，\n克服了现有技术操作繁琐、安全性差的不足，反\n应收率可达88%，产品纯度达到99%。\n裴欣宇等\n[10]公开了一种合成路线，该路线以2-\n氟硝基苯为起始原料，与异丙基硫醇反应，制得\n2-(异丙硫基)硝基苯。由于2-氟硝基苯仅存在1 个\n反应位点，可有效避免S-取代及N-取代基衍生\n物。随后，将硝基还原得到2-(异丙硫基)苯胺；继\n而在碱的作用下，与2,4,5-三氯嘧啶反应生成2。\n该步反应区域选择性较差，不可避免地会生成多\n取代衍生物；第4 步采用mCPBA 进行反应，最终\n得到目标化合物1。具体的合成路线见图2。\n以邻卤硝基苯为起始原料的合成路线已有专\n利报道\n[11-14]。该路线首先以邻氯硝基苯或邻氟硝基\n苯与异丙硫醇反应，制得2-(异丙硫基)硝基苯；随\n后经mCPBA 氧化（或双氧水氧化），得到砜中间\n体；再通过钯碳催化加氢（或铁粉还原）将硝基\n还原为氨基，得到2-(异丙基磺酰基)苯胺（化合物\n3）；最后与2,4,5-三氯嘧啶发生N-芳基化反应，得\n到目标化合物1。然而，该传统路线存在以下问\n题：一是使用具有强烈刺激性臭味的异丙硫醇，\n操作环境恶劣；二是涉及极易爆炸的mCPBA，安\n全风险高；三是工艺路线冗长，总收率较低，整\n体而言不适合工业化生产。具体的合成路线见\n图3。\n图2\n化合物1以2-氟硝基苯为原料的合成路线\nFig 2 The synthesis route of compound 1 using\n2-fluoronitrobenzene as the raw material\n图3\n化合物1以2-氟硝基苯为原料的传统合成路线\nFig 3 The traditional synthetic route of compound 1 using\n2-fluoronitrobenzene as the raw material\n后续在此路线的基础上，对氧化、还原等关\n键步骤进行了优化。在氧化步骤中，谭立等\n[15]尝\n试采用过氧单磺酸钾替代mCPBA 氧化硫醚中间\n体，制得1-(异丙基磺酰基)-2-硝基苯。过氧单磺\n酸钾水溶性强、水中稳定性好，适合于水相或水-\n有机混合体系，且其氧化性较mCPBA温和，反应\n选择性更高。亦有研究者\n[16]在冰醋酸体系中使用\n双氧水（w＝35%）将2-(异丙硫基)硝基苯氧化为\n1-(异丙基磺酰基)-2-硝基苯。该双氧水氧化体系条\n·\n·13",
+      "images": [
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p1_i0.jpx",
+          "width": 843,
+          "height": 315,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p1_i1.jpx",
+          "width": 933,
+          "height": 372,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p1_i2.jpx",
+          "width": 636,
+          "height": 211,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p1_i3.jpx",
+          "width": 678,
+          "height": 241,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p1_i4.jpx",
+          "width": 636,
+          "height": 211,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p1_i5.jpx",
+          "width": 850,
+          "height": 292,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "text": "产业与技术发展报告\n件温和，同样适用于水相或水-有机混合体系；此\n外双氧水（w＝35%）成本较低、安全性高，更适\n合工业化生产。在还原步骤中，亦有研究者\n[17]采\n用Pd/C （Pd 的质量分数为10%）催化加氢工艺，\n将1-(异丙基磺酰基)-2-硝基苯还原为相应的苯胺\n中间体（化合物3）。另有研究者\n[18]在活性炭和无\n水三氯化铁存在下，滴加质量分数为60%的水合\n肼进行还原反应，所得化合物3在碱性条件下与2,\n4,5-三氯嘧啶反应，得到目标化合物1。上述步骤\n的优化有助于中间体纯化，反应时间短，成本可\n控，后处理简便，反应收率显著提高，展现出较\n好的工业化应用前景。\n1.2\n酸酐保护法\n王为波等\n[19]公开了以2-(异丙硫基)苯胺为原料\n的合成路线。该原料化合物在4-二甲氨基吡啶\n（DMAP）催化下与酸酐反应，使氨基受叔丁氧羰\n基（Boc）保护以避免被氧化，增加副产物的产\n生。之后再经mCPBA 氧化将硫基氧化为磺酰基，\n再采用脱Boc 保护基的策略得到中间体3，再与2,\n4,5-三氯嘧啶反应得到目标化合物1。该路线将氨\n基提前保护再氧化，可有效提高反应收率。具体\n的合成路线见图4。\n图4\nBoc保护氨基的合成路线\nFig 4 The synthetic route for protecting amino groups\n采用乙酸酐保护氨基的合成路线已有报道，\n如王元等\n[20]和吴学平等\n[21]所述。该路线以2-巯基苯\n胺为原料与2-碘代丙烷缩合反应得到2-(异丙硫基)\n苯胺；随后与乙酸酐/氯乙酰反应使得氨基酰胺\n化；之后在冰醋酸作用下分批加入四水合硼酸\n钠，或在二氯甲烷中加入mCPBA 进行氧化反应，\n将硫基氧化；之后在碱溶液中脱氨基保护基，得\n到中间体3；最后在醋酸钯／三苯基膦催化、碳酸\n铯作碱和甲苯为溶剂的条件下，将化合物3 与2,4,\n5-三氯嘧啶进行偶联反应，得到目标化合物1。\n最后一步亦可在醋酸钯、4,5-双二苯基膦-9,9-二\n甲基氧杂蒽、碳酸钾与甲苯体系中，使中间体3\n与2,4,5-三氯嘧啶发生偶联反应，得到目标化合物\n1。该方法可成为酸酐保护法结合Pd 催化偶联体\n系，由于避免了氨基被氧化，可将收率有效提高\n至81%。\n图5\n乙酸酐保护氨基的合成路线\nFig 5 The synthetic route for protecting amino groups with\nacetic anhydride\n刘耿熙等\n[22]公开的合成路线与前述乙酸酐保护\n氨基的方法基本一致，主要区别在于对最后一步\n偶联反应作了改进。原路线最后一步采用Pd 催化\n偶联反应，然而存在贵金属Pd 及有机配体难以回\n收的问题，不仅易造成重金属污染，且生产成本\n较高。针对上述不足，该专利提出在二甲基亚砜\n（DMSO）、N-甲基吡咯烷酮、2-甲基四氢呋喃、聚\n乙二醇400或水等溶剂体系中，以叔丁醇钠、叔丁\n醇钾或甲醇钠为碱，采用醋酸锌催化该偶联反\n应。用锌盐替代钯盐，不仅有效提高了反应收率\n与产品纯度，还有效降低了生产成本。\n1.3\n加入晶种法\n卡普福勒等\n[23]公开了以下合成路线：以2-氯硝\n基苯与异丙基亚磺酸钠为原料，溶于DMSO 中升\n温反应，随后加入异丙基亚磺酸钠的晶种，继续\n反应得到1-(异丙基磺酰基)-2-硝基苯；随后在乙醇\n中，以Pd/C为催化剂进行催化加氢，得到3；然后\n在1,8-二氮杂二环十一碳-7-烯（DBU）存在下与2,\n4,5-三氯嘧啶反应，反应完毕后加入正庚烷析出固\n体，所得粗产物经乙醇重结晶得到目标化合物1。\n该路线首次采用异丙基亚磺酸钠参与反应，从而\n有效替代了硫醇取代与氧化2步传统步骤。具体的\n合成路线见图6。\n孙亮\n2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展\n·\n·14",
+      "images": [
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p2_i0.jpx",
+          "width": 680,
+          "height": 233,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p2_i1.jpx",
+          "width": 704,
+          "height": 253,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p2_i2.jpx",
+          "width": 927,
+          "height": 251,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p2_i3.jpx",
+          "width": 713,
+          "height": 281,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_num": 3,
+      "text": "2026年第32卷第2期\n化工生产与技术\nChemical Production and Technology\n图6\n加入晶种法合成化合物1路线\nFig 6 Route for synthesizing compound 1 using the seed\naddition method\n1.4\n硫醚法\n冯亚兵等\n[24]公开了一种基于硫醚中间体的合成\n路线。首先，在NaH/DMSO 中，使4,5-二氯-2-(甲\n硫基)嘧啶与化合物3反应，得到2-甲硫基-5-氯-N-\n[2-(异丙基磺酰基)苯基]嘧啶-4-胺；随后将该中间\n体加入醋酸水溶液，加热反应使得甲硫基羟基\n化；再将羟基化中间体加入甲苯/三氯氧磷（或乙\n腈/三氯氧磷）中反应，经过滤后得到目标化合物\n1。该路线采用硫醚中间体替代传统硫酚中间体，\n避免使用具有恶臭的异丙硫醇，反应条件相对温\n和；同时，路线中涉及的2个关键中间体为该专利\n首次报道。\n图7\n化合物1基于硫醚中间体的合成路线\nFig 7 The synthesis route of compound 1 based on the sulfur ether intermediate\n2\n结\n论\n2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺\n是第二代AKL 抑制剂（色瑞替尼）和第三代ALK\n抑制剂APG-2449共有的关键中间体。目前，该化\n合物的合成方法在专利层面已取得一定进展，为\n其工业化生产提供了多种技术路径，但其合成难\n点主要集中于区域选择性、官能团兼容性及成本\n控制3个维度\n[25]。首先，区域选择性失控显著增加\n分离成本，由于2,4,5-三氯嘧啶分子中含有3 个氯\n原子，亲核取代反应面临多重区域选择性问题，\n易生成大量结构异构杂质，仅能通过反复柱层析\n进行分离，导致单步收率极低。其次，官能团兼\n容性差容易引发副反应风险，该中间体含有多个\n敏感官能团，巯基与氨基均易发生亲核取代反\n应，且极易被氧化剂氧化，致使后处理繁琐、分\n离困难。再次，ALK 抑制剂独特的分子结构设计\n使其合成过程遭遇多重化学瓶颈，难以稳定、低\n成本的规模化生产以满足临床用药需要。上述合\n成挑战决定了单一合成路径无法兼顾药物质量、\n成本与供应规模。因此，开发多元化合成方法是\n衔接临床需求与产业化的必然选择，并将对ALK\n抑制剂的质量与市场竞争力产生深远影响。展望\n未来，随着技术的持续发展，积极寻找价格低\n廉、来源广泛的替代原料，结合计算辅助设计、\n高通量实验技术及新型催化剂的应用，有望开发\n出更加绿色、高效、低成本的合成方法，为该中\n间体的大规模生产和临床应用提供坚实的技术支\n撑，进而推动抗肿瘤药物领域的进一步发展。\n参考文献\n[1] 陈雅琳,李巍,汪天洋,等. 间变性淋巴瘤激酶抑制剂的研\n究进展[J]. 化工进展, 2016,35(12):3985-3990.\n[2] 胡萍,张运剑. 间变性淋巴瘤激酶融合基因阳性的非小细\n胞肺癌的治疗进展[J]. 中国全科医学, 2017,20(2):232-\n236.\n[3] 刘嘉欣,李珊珊,王栋,等. Mdm2 过表达诱导ALK 阳性非\n小细胞肺癌克唑替尼耐药的实验研究[J]. 陆军军医大学\n学报, 2022,44(24):2500-2506.\n[4] 邢源,于文娟,颜娟,等. 恩沙替尼治疗间变性淋巴瘤激酶\n阳性非小细胞肺癌的研究进展[J]. 中国医药导报, 2024,\n21(5):36-40.\n[5] 陈雅琳,李巍,周雪琴,等. 2,5-二氯-N-[2-(异丙基磺酰基)苯\n基]嘧啶-4-胺的合成优化[J], 化学工业与工程, 2018,35\n(5):7-11.\n[6] 王永珍,赵砚瑾,胡文祥,等. 2,5-二氯-N-[2-(异丙基磺酰基)\n苯基]嘧啶-4-胺[J]. 昆明理工大学学报(自然科学版),\n2012,37(增刊):300-303.\n（下转第42页）\n·\n·15",
+      "images": [
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p3_i0.jpx",
+          "width": 953,
+          "height": 254,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\2,5-二氯-N-[2-(异丙基磺酰基)苯基]嘧啶-4-胺合成专利技术进展_孙亮_p3_i1.jpx",
+          "width": 1540,
+          "height": 342,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_num": 4,
+      "text": "经验交流\n等措施，量化控制各项参数，可有效将管道综合\n应力控制在标准范围，进而解决轴流泵振动超标\n问题。实践结果表明，该方案可操作性强、针对\n性突出，不仅能显著提升设备运行稳定性、延长\n使用寿命、降低运维成本，还可为同类高压、高\n流速、厚壁管道工况下的应力消减提供可靠的工\n程实践参考与理论支撑。需指出，当前研究对象\n及监测时段有限，研究对象仅限于聚烯烃行业中\n采用SA333 Gr.6、SA516 Gr.70、SA672 Class 22\nC70材质的环管反应器与轴流泵配套管道。未来研\n究可进一步扩宽方案适用范围，并建立长期应力\n监测体系，结合大数据技术实现应力动态调控。\n参考文献\n[1] 刘宏,王磊,张建国. SA333 Gr.6 低温钢高压厚壁管道焊接\n残余应力控制技术及工程应用[J]. 石油化工设备, 2022,\n51(3):45-52.\n[2] 王健,张勇,李刚. 聚丙烯环管反应器轴流泵入口管道焊接\n工艺优化[J]. 石油化工设备, 2020,49(2):56-60.\n[3] Smith J, Jones R. Pipeline Stress Analysis in High-Pressure\nFluid Transport Systems[J]. Journal of Pressure Vessel\nTechnology, 2022,144(3):031008.\n[4] SH/T 3541－2024 石油化工泵组施工及验收规范[S].\n[5] GB/T 13008－2010 混流泵、轴流泵技术条件[S].\n[6] 苏州苏尔寿泵业有限公司. AH11型轴流泵产品说明书及\n维护手册[Z]. 苏州:苏州苏尔寿泵业有限公司, 2023.\n[7] ISO 20816- 3:2022 Mechanical vibration －Measurement\nand evaluation of machine vibration Part 3: Industrial ma-\nchinery with a power rating above 15 kW and operating\nspeeds between 120 r/min and 30 000 r/min[S].\n[8] 张宏,李丽. 高压厚壁管道应力叠加机制及消减技术研究\n[J]. 石油化工设备, 2022,51(4):56-62.\n段宇飞等\n环管反应器轴流泵管道应力消减技术与工程实践\n（上接第15页）\n[7] 吕彬华. 氘代的二氨基嘧啶化合物以及包含该化合物的\n药物组合物:CN201310141192.3[P], 2014-10-22\n[8] 吕彬华,李成伟,曹本文,等. 氘代的二氨基嘧啶化合物以\n及包含该化合物的药物组合物:CN201480023017.7[P].\n2015-12-23.\n[9] 董岩岩. 一种2,5-二氯-N-(2-(异丙基磺酰基)苯基)嘧啶-4-\n胺的制备方法:CN201611173499.1[P]. 2017-06-16.\n[10] 裴欣宇,许全胜,姜春阳,等. 一种治疗非小细胞肺癌药物\n色瑞替尼(Ceritinib) 的新中间体及其制备方法:\nCN201410430727.3[P]. 2016-06-01.\n[11] Hansen S, Erlanson D, Cancilla M. Methods of chemotype\nevolution:PCT/US2009/038276[P]. 2009-10-01.\n[12] Gray N S, Zhou W J. Compounds that modulate EGFR\nactivity and methods for treating or preventing conditions\ntherewith:PCT/US2011/035357[P]. 2011-11-10.\n[13]Murki V, Vasam S, Komati S K, et al. Process for preparation\nof ceritinib:PCT/IB2016/053339[P]. 2016-12-15.\n[14] 翟鑫,左代英,宫平,等. 2,4-二芳氨基嘧啶衍生物及其\n制备方法和应用:CN201810014443.4[P]. 2018- 05- 18.\n[15] 谭立,李盈,周少青,等. 一类基于有机胂的CDK抑制剂及\n其制备方法和用途:CN201910925781.8[P]. 2021-03-30.\n[16] 卞春亭,孙海波,冯亚兵,等. 抗癌药物色瑞替尼中间体1-\n( 异丙基磺酰基)- 2- 硝基苯一锅法合成方法,\nCN201510062175.X [P], 2015-05-06.\n[17] 卡普福勒T,龚宝清,戴维斯M C,等. 制备嘧啶衍生物及其\n中间体的化学工艺:CN201580079275.1[P]. 2018-01-02.\n[18] 刘学军,洪辉意,陈晓冬,等. 色瑞替尼及其中间体的制备\n方法:CN201510897647.3[P]. 2017-06-16.\n[19]王为波,耿美玉,丁健,等. ALK激酶抑制剂:CN201380058088.6\n[P]. 2015-08-19.\n[20] 王元,宋金峰,唐文生,等. 一种2,5-二氯-N-(2-(异丙基磺\n酰基)苯基)嘧啶-4-胺的制备方法:CN201510339069.1\n[P]. 2015-09-09.\n[21] 吴学平,李德建. 一种色瑞替尼中间体的制备方法及应\n用:CN201811653572.4[P]. 2019-04-16.\n[22] 刘耿熙,陈兰华,季辉,等. 一种制备抗肿瘤药物色瑞替尼\n中间体的方法:CN201810633899.9 [P]. 2018-12-18.\n[23] Kapferer T, Gong B Q, Davis M C, et al. Chemical process\nfor preparing pyrimidine derivatives and intermediates\nthereof:WO2016138648A1[P]. 2016-09-09.\n[24] 冯亚兵,史科慧,朱文峰,等. 色瑞替尼中间体及其制备方\n法:CN201610546502.3 [P]. 2018-01-19.\n[25] Zhu M L, Li W, Zhao T M, et al. Fragment-based\nmodification of 2,4-diarylaminopyrimidine derivatives as\nALK and ROS1 dual inhibitors to overcome secondary\nmutants[J]. Bioorganic & Medicinal Chemistry, 2020,28\n(20):115719.\n■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■\n·\n·42",
+      "images": []
+    },
+    {
+      "page_num": 5,
+      "text": "2026，32（2）\nChemical Production and Technology\nABSTRACTS\nExperimental Study on Ultrasonic Disintegration and Concentration of Excess Sludge for\nCarbon Source Recovery and its Techno-Economic Analysis\nXU Yuchen\n1, LIANG Jun\n2,4, ZHOU Da\n3, ZHAO Jing\n1, JU Xiaowei\n1, SUN Chen\n4, YANG Bin\n2,4*\n(1. Zhejiang Quzhou Water Group Co., Ltd., Quzhou, Zhejiang 324000; 2. College of Chemical and Biological Engineering,\nZhejiang University, Hangzhou 310007; 3. Jiangshan Water Co., Ltd., Quzhou, Zhejiang 324000; 4. Institute of\nZhejiang University-Quzhou, Quzhou, Zhejiang 324000）\nAbstract: Aiming at the problems of low carbon-nitrogen ratio, high dependence on external carbon sources and high cost of sludge\ndisposal in urban sewage treatment plants, a side-stream endogenous carbon source recovery process based on ultrasonic disintegration\nand concentration of excess sludge is proposed. Taking a 150 000 t/d scale sewage treatment plant as the engineering background,\nthe ultrasonic disintegration characteristics and carbon source release patterns of ordinary sludge and concentrated sludge are compared.\nThe results show that the VS/TS of concentrated sludge is 57.47%, and the COD is 20 280 mg/L. After 300 seconds of ultrasonic\ntreatment, the SCOD release reaches 1 417 mg/L, which is about 30% higher than that of ordinary sludge. Engineering calculations show\nthat by selecting about 10% of the excess sludge for concentration-ultrasonic treatment and returning it to the biological system,\nabout 66% of the external carbon source can be replaced, and at the same time, about 10% of the sludge can be reduced. Technical and\neconomic analysis indicates that this process is feasible under the existing plant conditions, and the comprehensive operating cost can\nbe reduced by about 30%. This process can achieve the synergy of endogenous carbon source recovery and sludge reduction, providing\na feasible technical path for cost reduction and efficiency improvement in sewage treatment plants.\nKeywords: concentrated residual sludge; ultrasonic disruption; carbon source recovery; sludge reduction; technical and economic analysis\nFormation Mechanism and Control Optimization of Crud in Copper Solvent Extraction:\nAn Industrial Practice Study\nCHEN Shimin\n(Fujian Zijinlongli Chemical Co., Ltd., Longyan , Fujian 364000)\nAbstract: Aiming at the common industry problem of ineffective control of three-phase substances in the copper solvent extraction\nprocess, based on industrial practice, the composition characteristics and formation mechanism of the three-phase substances were\nanalyzed, and a combined treatment plan of source ore blending optimization and process flocculant regulation was proposed. The\nresults show that the mass fractions of the organic phase, aqueous phase and solid phase in the three-phase substances are 43.66%,\n37.03% and 19.27% respectively. Among them, the separated organic phase has good extraction performance and can be reused. The\nproportion of silica in the solid ",
+      "images": []
+    },
+    {
+      "page_num": 6,
+      "text": "ABSTRACTS\nChemical Production and Technology\n2026，32（2）\nthe third-generation ALK inhibitor APG-2449 - 2,5-dichloro-N-[2-(isopropylsulfonyl)phenyl]pyrimidine -4-amine. It introduces the\nmain synthetic routes such as the strong base system method, anhydride protection method, addition of seed crystals method and\nthioether method; analyzes the advantages and disadvantages of each method in terms of raw material cost, reaction yield, reaction\ncontrol and post-treatment. It points out that the current synthesis process mainly faces technical bottlenecks such as poor selectivity\nof reaction regions, insufficient compatibility of functional groups and high production costs; proposes that subsequent research and\ndevelopment should prioritize the development of highly selective catalytic systems, optimize protection strategies and simplify the\npost-treatment process to achieve efficient and low-cost large-scale production.\nKeywords: 2, 5-dichloro-N -[2-(isopropylsulfonyl) phenyl] pyrimidine-4-amine; anaplastic lymphoma kinase (ALK) inhibitors; ceritinib;\noxidation of sulfides; regional selectivity; patent analysis\nSafety Evaluation of Isopropyl Alcohol Storage Tank Area Based on the Dow Fire and Explosion Index Method\nXU Shu\n（Jiangsu Binhai Economic Development Zone Coastal Industrial Park Management Committee, Binhai, Jiangsu 224000）\nAbstract: A systematic safety assessment was conducted on the fire and explosion risks of the isopropyl alcohol storage tank area in a\ncertain chemical enterprise by applying the Dow Fire and Explosion Index Method. By selecting the storage tank area as the process\nunit, the material factor (MF), general process hazard factor, special process hazard factor, and process unit hazard factor were determined\nin sequence, and the fire and explosion index (F&EI) was calculated to be 120.32, with an exposure radius of approximately 30.8 meters\nand a medium risk level. On this basis, the safety measure compensation factor was introduced to quantitatively evaluate the risk\nreduction effects of existing safety facilities such as process control, material isolation, and fire protection measures. The results showed\nthat after taking effective safety compensation measures, the fire and explosion index of the storage tank area decreased to 68.6, with\na light risk level and an exposure radius reduced to 17.6 meters. Additionally, further safety countermeasures and improvement\nsuggestions for enhancing risk management were proposed. The evaluation results can provide a basis for optimizing the safety management\nof this tank area and similar equipment.\nKeywords: isopropyl alcohol; storage tank area; dow fire and explosion hazard index method; safety assessment; risk control\nAOX Removal and Membrane Fouling Control in the Treatment of Printing and Dyeing Wastewater by\nFenton Oxidation Coupled with A/O-MBR Process\nZHOU Dejun\n(Guangdong Yifang Environmental Technology Co., Ltd., Guangzhou 510000)\nAbstract: The printing and dyeing wastewater cont",
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\高校图书馆知识服务新模式——面向科研项目的专利挖掘服务_李茜_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\高校图书馆知识服务新模式——面向科研项目的专利挖掘服务_李茜_merged.json",
+    "page_num": 2,
+    "table_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "title": "专利视角下质子交换膜制备技术研究进展_魏涛",
+  "source_pdf": "data/raw\\专利视角下质子交换膜制备技术研究进展_魏涛.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "Vol．\n５４No．\n４\n化\n工\n新\n型\n材\n料\n第５４卷第４期\nNEW CHEMICAL MATERIALS\n２０２６年４月\n专利视角下质子交换膜制备技术研究进展\n魏　涛１　黄　晔１　郑化安１,２　师铜墙１　张　旭１\n(１．陕西氢能研究院有限公司,西安７１２０４６;２．西北大学化工学院,西安７１００６９)\n摘　要　质子交换膜(PEM)是聚合物电解质膜燃料电池及电解池的关键部件,通过专利数据库重点分析了质子\n交换膜制备技术专利申请情况的总体趋势、专利集中度、区域分布和主要专利申请人及近年重要申请人专利技术特\n点;分析了国内外部分重要申请人２０２３年及２０２４年在提高重要申请人在提高质子电导率,提高机械性能(包括尺寸\n稳定性),提高稳定性,操作方便成本低等质子交换制备技术效果的现状,以期为相关行业的发展提供参考和借鉴.\n关键词　质子交换膜,制备,专利,功效,分析\n中图分类号　TQ３１７\n文献标识码　A\n文章编号:１００６Ｇ３５３６(２０２６)０４Ｇ００３６Ｇ０５\nDOI:１０．\n１９８１７/j．\ncnki．\nissn１００６Ｇ３５３６．\n２０２６．\n０４．\n０４２\nResearchprogressinprotonexchangemembranepreparationtechnologies\nfromtheperspectiveofpatents\nWeiTao\n１　HuangYe\n１　ZhengHuaan\n１,２　ShiTongqiang\n１　ZhangXu\n１\n(１．\nShaanxiHydrogenEnergyResearchInstituteCo．,Ltd．,Xi􀆳an７１２０４６;\n２．\nCollegeofChemicalEngineering,NorthwestUniversity,Xi􀆳an７１００６９)\nAbstract　Protonexchangemembrane(PEM)isakeycomponentofpolymerelectrolytemembranefuelcells\nandelectrolyticcells．Theoveralltrend,patentconcentration,regionaldistribution,majorpatentapplicants,andthe\ntechnicalcharacteristicsofprotonexchangemembranepreparationtechnologypatentsheldbymajorapplicationswere\nanalyzedthroughapatentdatabase．Thisreviewanalyzedthecurrentsituationofsomeimportantapplicantsathomeand\nabroadinimprovingprotonconductivity,mechanicalproperties (includingdimensionalstability),stability,easeof\noperation,andlowcostprotonexchangepreparationtechnologiesin２０２３and２０２４,inordertoprovidereferenceand\ninspirationforthedevelopmentofrelatedindustries．\nKeywords　protonexchangemembrane,preparation,patent,effect,analysis\n收稿日期:２０２５Ｇ１０Ｇ１５;修回日期:２０２５Ｇ１１Ｇ１８\n基金项目:陕西省重点研发计划项目(２０２５CYＧYBXMＧ４７０)\n作者简介:魏涛(１９８３Ｇ),男,硕士,高级工程师,从事数字氢能及PEM 燃料电池以及电解水制氢系统的材料、工艺、电堆研究工作,EＧmail:weitao_\n３３３＠qq．\ncom.\n质子交换膜(PEM)是聚合物电解质膜燃料电\n池及电解池的关键部件[１Ｇ２],质子通过PEM 从阳极\n传递到阴极,同时电子通过外路传递到阴极,在阴极\n与O２反应生成水.PEM 作为PEM 燃料电池的核\n心部件直接影响其性能与使用寿命[３].目前,主流\n的质子交换膜为全氟磺酸膜(PFSA),其具有优异\n的化学稳定性、机械强度、热稳定性、防气体渗透性\n以及良好质子电导率[４].PFSA 以疏水的聚四氟乙\n烯碳氟骨架作为主链,而侧链的末端修饰了传输质\n子的亲水性磺酸基团,有利于水合后亲水相聚集形\n成离子簇网络传输质子[５Ｇ６].但PFSA 膜在使用中\n仍存在一部分问题[７Ｇ８],其合成工艺复杂,成本高,商\n业化限制更大[９Ｇ１０].开发制备工艺简单、分子结构\n明确、质子电导率高的低成本质子导电膜是新的迫\n切要求.已有许多研究在寻找另一种碳氢聚合物膜\n作为全氟磺酸质子交换膜的替代品.Zeng等[１１]评\n价了不同类型的工程聚合物,并确定了能够承受\nPEM 水电解槽条件的类型膜.\n１　PEM 制备技术专利总体情况分析\n研究的专利数据来源于智慧芽专利检索平台,\n采用主题词与专利分类号相结合构建检索式进行检\n索,检索的范围不包括实用新型专利,样本采集的时\n间截至２０２５年５月１２日,在１７０个受理局中,搜索\n􀅰\n６\n３\n􀅰",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "第４期\n魏　涛等:专利视角下质子交换膜制备技术研究进展\n出４５２条专利文本.\n１􀆰１　专利总体态势\nPEM 制备技术全球年度申请专利数量及年度\n授权专利数量如图１所示.从图可知,自２０２３—\n２０２４年,PEM 制备技术专利申请进入高峰期.\n图１　PEM 制备技术全球年度申请专利数量及\n年度授权专利数量图\n１􀆰２　专利集中度分析\n对检索到的PEM 制备技术专利文本总量排名\n前１０位申请人的专利文本数量占该领域总专利文\n本数量的比例进行统计,结果见图２.\n图２　PEM 制备技术专利集中度图\n由图可知,该领域专利集中度总体处于平稳趋\n势,但２０２３年和２０２４年集中度最低,说明这两年有\n较大量的新申请人进入该技术领域.\n２　专利区域分布地图\n２􀆰１　各个国(地区)专利份额比较\nPEM 制备技术全球国家(地区)专利文本数量\n统计图见图３.\n图３　PEM 制备技术全球国家(地区)专利文本数量\n统计图\n由图可知,PEM 制备技术主要申请国为中国,\n占据总申请量的４５􀆰３７％,其次为美国２２􀆰２２％,排\n名第三位的是日本(９􀆰５７％).\n２􀆰２　市场分布\nPEM 制备技术主要专利国家专利全球布局情\n况见图４.\n图４　PEM 制备技术主要专利国家专利全球布局情况图\n由图可知,中国作为专利申请第一大国家,除在\n本国申请外,在国外市场的保护力度却相对较弱,美\n国和日本作为PEM 制备技术主要申请国,专利布\n局很充分,在中国、欧洲和韩国都有布局.\n２􀆰３　专利主要申请人分析\n对位于前１０名的申请人进行统计分析,结果见\n图５.\n图５　PEM 制备技术前１０名的申请人统计图\n由图可知,中国申请人都为大学,外国申请人皆\n为企业,这说明该项技术目前国内处于产业追赶阶\n段,与国外申请人在产业上存在差距.\n３　PEM 制备技术专利技术功效分析\n３􀆰１　专利技术功效分析\n对PEM 制备技术进行专利技术功效分析,结\n果见图６.\n由图可知,PEM 制备技术专利技术效果主要关\n注点在于提高质子电导率,提高机械性能(包括尺寸\n稳定性),提高稳定性,操作方便成本低等.更短磺\n酸侧链的全氟聚合物材料,有助于提高热稳定\n性[１２].较短的磺酸侧链增加了结晶度,具有更高的\n水合程度并提升了离子交换能力,具有更高的燃料\n􀅰\n７\n３\n􀅰",
+      "images": [
+        {
+          "path": "data/processed\\专利视角下质子交换膜制备技术研究进展_魏涛_p1_i0.png",
+          "width": 1890,
+          "height": 874,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\专利视角下质子交换膜制备技术研究进展_魏涛_p1_i1.jpx",
+          "width": 1890,
+          "height": 827,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\专利视角下质子交换膜制备技术研究进展_魏涛_p1_i2.jpx",
+          "width": 1890,
+          "height": 969,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\专利视角下质子交换膜制备技术研究进展_魏涛_p1_i3.jpx",
+          "width": 1890,
+          "height": 874,
+          "page": 1
+        },
+        {
+          "path": "data/processed\\专利视角下质子交换膜制备技术研究进展_魏涛_p1_i4.jpx",
+          "width": 1890,
+          "height": 945,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "text": "化工新型材料\n第５４卷\n图６　PEM 制备技术专利技术功效分析图\n电池性能与使用寿命[１３Ｇ１４].共混改性的方法目前常\n用于提升PFSA 机械强度、提升质子交换膜阻醇性\n能[１５].无机粒子改性剂由于其本身的物理性质,引\n入PEM 后一定程度上改善了尺寸稳定性.部分氟\n化质子交换膜可以避免质子交换膜价格高、工作温\n度低等缺点.主链上采用含苯环的聚芳醚砜、聚芳\n醚酮等芳香族聚合物进行磺化制备可以提高膜的热\n稳定性和机械强度.\n３􀆰２　近三年专利技术功效特点分析\n对２０２３年、２０２４年及２０２５年的重要申请人最\n新专利进行技术功效分析,以便掌握最新提高质子\n交换膜性能的技术动态.\n３􀆰２􀆰１　提高稳定性\nUSAFORTESCUEIPINC\n[１６]公开了一种被\n磷酸化质子交换聚合物的疏水和亲水性块的多活性\n共聚物,质子交换聚合物与磷酸官能团具有高温稳\n定性,并且可以在交叉链接上机械耐用.复旦大学\n(CN１１９７９８８９２A)\n[１７]公开了一种基于改性Nafion\n离聚物的PEM 电解水膜电极及其制备方法. 该\n发明提供的改性Nafion离聚物,是对Nafion离聚\n物或固体膜进行掺杂改性得到,掺杂剂为\nCF３(CF２)\nnCH２OH;相比原来的Nafion 具有更好\n的稳定性.上海交通大学(CN１１８２０６６８１A)\n[１８]公开\n了一种耐高温膦酸Ｇ磺酸多元共聚物及其制备方法\n和应用.所述耐高温膦酸Ｇ磺酸多元共聚物,由乙烯\n基卤代烷单体、全氟烯烃单体、全氟乙烯基醚磺酰氟\n单体共聚制备前驱体共聚物,再将前驱体共聚物进\n行膦酸酯化及水解酸化而得到.所制备的耐高温膦\n酸Ｇ磺酸多元共聚物,在较高温度下能保持良好的结\n构稳定性、机械性能和化学性能.嘉庚创新实验室\n(CN１１８３０４７７１A)\n[１９]公开了一种质子交换聚合物包\n含具有疏水性和亲水性嵌段的聚降冰片烯共聚物,\n其可以被膦酸化,并产生用于质子交换的膦酸官能\n团.此外,聚合物可以交联在侧链上形成季铵基\n团.质子交换聚合物具有膦酸官能团的高温稳定\n性,并且通过交联可以具有机械耐久性.华为技\n术有限公司及中国科学院长春应用化学研究所\n(CN１１９５２８７７７A)\n[２０]公开了磺化单体及其制备方\n法、聚合物、质子交换膜,该磺化单体包括:第一苯\n基、含吸电子基团链段和第二苯基;当利用该磺化单\n体聚合形成磺化聚合物时,高活性的氟基使磺化单\n体呈间位聚合,解决了现有技术中使用强酸的问题,\n提高了磺化聚合物的柔韧性和物理稳定性.中国科\n学院赣江创新研究院(CN１１９６８５８７９A)\n[２１]公开了一\n种CeＧMOF掺杂的Nafion复合质子交换膜及其制\n备方法和用途,所述CeＧMOF掺杂的Nafion复合质\n子交换膜包括Nafion复合质子交换膜和CeＧMOF;\n该发明通过利用Ce作为自由基猝灭剂,抑制聚合\n物链化学降解,有利于提高质子交换膜的耐久性.\n３􀆰２􀆰２　提高质子电导率\n陕西科技大学(CN１１７６２４６２９A)\n[２２]公开了一种\n具有超高质子传导性的氢键有机框架材料,该材料具\n有丰富的氢键,具有高度各项异性的超高超质子电导\n率,制备成质子交换膜后,电导率和功率密度也比重铸\nNafion膜有所提高.Dinakaran等(IN２０２３４１０３５６５３)\n[２３]\n将制备好的苯并嗪(APBOs)单体与２Ｇ丙烯酰氨\n基Ｇ２Ｇ甲基丙磺酸(AMS)饱和单体的混合物聚合,使\n用自由基引发剂偶氮二异丁腈(AIBN)形成AMSＧ\nAPBOs共聚物,通过水热法将MoS２负载于该共聚\n物上,得到负载MoS２的AMSＧAPBOs共聚物,以\n烯丙基双酚A 基自由基聚苯并嗪(AMSＧPAPＧ\nBOs)和AMSＧPAPBOsＧ双酚A 二缩水甘油醚\n(DGEBA)为原料,通过研磨法合成了一系列单官能\nPAPBOs单体,解决了燃料电池中质子电导率的挑\n战.俄罗斯联邦国家预算教育机构伊尔库茨克国立\n研究技术大学(RU２０２３１０１１３７)\n[２４]公开了用于固体\n聚合物燃料电池的质子传导聚合物膜.由基于４Ｇ\n苯乙烯磺酸钠和N,NＧ亚甲基双丙烯酰胺的共聚物\n组成的质子传导膜,以及一种制备质子传导膜的方\n法,包括存在过硫酸钾,冷却生成的反应物质,使其\n均匀分布在玻璃或拉桑基材表面,然后通过干燥反\n应物质进行膜结构化,利用盐酸溶液将它们转化为\n酸性形式.实现了在不使用溶剂和沉淀剂的情况下\n增加所得质子传导膜的比电导率.南方科技大学\n(US１８/２５０６５４)\n[２５]公开了一种含水的材料,所述含\n水材料为由亲水性聚合物提供的聚合物链段,质子\n载体组移植到聚合物链节段,增强了水的保留率,并\n通过跳跃机制促进质子转移,从而减少了电湿阻力.\n􀅰\n８\n３\n􀅰",
+      "images": [
+        {
+          "path": "data/processed\\专利视角下质子交换膜制备技术研究进展_魏涛_p2_i0.jpx",
+          "width": 1890,
+          "height": 1016,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_num": 3,
+      "text": "第４期\n魏　涛等:专利视角下质子交换膜制备技术研究进展\n３􀆰２􀆰３　提高机械性能\n江苏大学(CN１１９７３５８４３A)\n[２６]公开了一种磺化\n聚醚醚酮质子交换膜的制备方法,通过旋涂法将金\n属有机框架阵列与磺化聚醚醚酮质子交换膜复合,\n得到所述金属有机框架阵列改性磺化聚醚醚酮质子\n交换膜.该发明制备的质子交换膜实现把磺化聚\n醚醚酮封锁在金属有机框架阵列内部,通过微区\n限域这一方式提高其尺寸稳定性. 天津大学\n(CN１１８２９０８９５A)[２７]公开了一种磺化聚醚醚酮\n(SPEEK)/两性离子共价有机框架复合质子交换\n膜,以SPEEK 为主体,添加两性离子COF 材料为\n填充物,充分混合后通过流延法制备得到兼具高传\n导率与优异机械性能的SPEEK/COF 复合质子交\n换膜.武汉氢能与燃料电池产业技术研究院有限公\n司(CN１１７３４３３６９A)\n[２８]公开了一种全氟磺酸复合质\n子交换膜材料的制备方法,包括以下步骤:①将全氟\n磺酸树脂溶液先涂布到底膜上,再覆盖一层多孔膜,\n依次重复直至全氟磺酸树脂自然凝固,制备得到第\n一复合膜;②第一复合膜经过辊压处理得到第二复\n合膜;③第二复合膜经过辐照交联处理,得到全氟磺\n酸复合质子交换膜材料.制得的全氟磺酸复合质子\n交换膜填充度高,具有良好的力学性能.中国科学\n院大连化学物理研究所(CN１１７３２５３６２A)\n[２９]公开了\n一种水电解用交联型质子交换膜的制备方法,交换\n膜主链采用芳基吡啶聚合物,将杂多酸铯盐制成凝\n胶态,并与铸膜液以全面覆盖的方式相互铺设制膜,\n之后通过加热使凝胶态融化并伴随液体汽化/溶剂\n挥发过程,杂多酸铯盐能够更加全面地渗入还未成\n型的膜中,最后随膜一同成型,可以使杂多酸铯盐在\n膜内的分布以及结合非常的全面均匀,极大保证了\n成品膜的均一性. 华电重工股份有限公司\n(CN１１５９４８０１２A)\n[３０]公开了一种电解水制氢用纤维\n增强的质子交换膜及其制备方法,所述质子交换膜,\n包括增强材料,全氟磺酸树脂,在增强材料上成膜用\n于气体阻隔和质子传导;所得增强质子交换膜的尺\n寸稳定性更好.\n３􀆰２􀆰４　操作方便成本低\n国家电投集团氢能科技发展有限公司\n(CN１１７７３６３５６A)\n[３１]公开了一种改性全氟磺酸树\n脂、质子交换膜及其制备方法和应用,该发明利用价\n格低廉的羟基苯磺酸在温和的反应条件下即可对全\n氟磺酸树脂的侧链结构进行优化,合成工艺路线具\n有连续化、可大规模化与产业化优势.中国科学院\n宁波材料技术与工程研究所(CN１１８７０２９０９A)\n[３２]提\n供了一种全氟磺酸聚合物及其制备方法、质子交换\n膜和应用;所述全氟磺酸聚合物由卤代聚氧杂蔥通\n过接枝侧链碟代全氟磺酸悝盐制备得到.将上述全\n氟磺酸聚合物应用于制备质子交换膜中,具有制备\n方法简单、条件温和、易于操作、制备成本低等特点.\n株式会社电装(JP２０２１１０３２１６)\n[３３]公开了一种质子\n传导膜的制造方法,包括压制工艺、水解工艺和剥离\n工艺,解决了高平整度和密度方面面临的挑战,解决\n了膜质量和生产率的挑战.\n４　结语\n质子交换膜制备技术国内的专利主要申请人以\n高校和科研院所为主,国外主要申请人以企业为主,\n质子交换膜备技术专利技术效果主要关注点在于提\n稳定性、质子电导率、机械性能等,操作方便、成本\n低.我国质子交换膜制备技术的发展方向在于提高\n质子交换膜的综合性能,简化工艺,降低成本,从而\n实现对国外的产业追赶与超越.\n参考文献\n[１]　QuE,HaoX,Xiao M,etal．Protonexchangemembranesfor\nhightemperatureprotonexchangemembranefuelcells:chalＧ\nlengesandperspectives[J]．\nJournalofPowerSources,２０２２,\n５３３(４):２３１３８６Ｇ２３１４０６．\n[２]　Parekh A．Recentdevelopmentsofproton exchange memＧ\nbranesforPEMFC:areview[J]．Frontiersin Energy ReＧ\nsearch,２０２２(１０):９５６１３２Ｇ９５６１４５．\n[３]　ShiD,CaiL,ZhangC,etal．Fabrication methods,structure\ndesignanddurabilityanalysisofadvancedsealingmaterialsin\nprotonexchangemembranefuelcells[J]．ChemicalEngineerＧ\ningJournal,２０２３,４５４(１０):１３９９９５Ｇ１４０００９．\n[４]　万年坊．质子交换膜水电解制氢膜电极研究进展[J]．化工进\n展,２０２２,４１(１２):６３８５Ｇ６３９４．\n[５]　RenH,TengY,MengX,etal．\nIonomernetworkofcatalyst\nlayersforprotonexchangemembranefuelcell[J]．\nJournalof\nPowerSources,２０２１,５０６(６):２３０１８６Ｇ２３０１９６．\n[６]　ChenZ,GuoL,Pan L,etal．Advancesinoxygenevolution\nelectrocatalystsforprotonexchangemembranewaterelectroＧ\nlyzers[J]．Advanced Energy Materials,２０２２,１２(１４):\n２１０３６７０Ｇ２１０３７１７．\n[７]　JamilA,RafiqS,IqbalT,etal．\nCurrentstatusandfutureperＧ\nspectivesofprotonexchange membranesforhydrogenfuel\ncells[J]．\nChemosphere,２０２２,３０３(３):１３５２０４Ｇ１３５２１５．\n[８]　NgW W,Thiam H S,PangY L,etal．AstateＧofＧartonthe\ndevelopmentofNafionbasedmembraneforPerformanceImＧ\nprovementindirectmethanolfuelcells[J]．Membranes(BaＧ\nsel),２０２２,１２(５):１２０５０５０６Ｇ１２０５０５４４．\n[９]　LiuL,YinL,ChengD,etal．\nSurfaceＧmediatedconstructionof\n􀅰\n９\n３\n􀅰",
+      "images": []
+    },
+    {
+      "page_num": 4,
+      "text": "化工新型材料\n第５４卷\nultrathinfreeＧstandingcovalentorganicframeworkmembrane\nforefficientprotonconduction[J]．AngewandteChemie,２０２１,\n６０(２７):１４８７５Ｇ１４８８０．\n[１０]　NicholasJ,JamesR,ThomasB,etal．MorphologicaldifferＧ\nencesinshortsidechainandlongsidechainperfluorosulfonic\nacidprotonexchangemembranesatlowandhighwaterconＧ\ntents[J]．\nECSMeetingAbstracts,２０１３,３(４２):１９５２５Ｇ１９５３２．\n[１１]　ZengH,LiuS,WangJ,etal．HydrophilicSPEEK/PEScomＧ\npositemembraneforpervaporationdesalination[J]．\nSeparation\nandPurificationTechnology,２０２０,２５０:１１７２６５．\n[１２]　LuoX,HoldcroftS,ManiA,etal．Waterprotonandoxygen\ntransportinhighIEC,shortsidechainPFSAionomermemＧ\nbranes:consequencesofafrustrated network[J]．Physical\nChemistryChemicalPhysics,２０１１,１３(４０):１８０５５Ｇ１８０６２．\n[１３]　PrimachenkoO N,MarinenkoEA,OdinokovAS,etal．\nState\noftheartandprospectsinthedevelopmentofprotonＧconducＧ\ntingperfluorinated membraneswithshortsidechains:areＧ\nview[J]．PolymersforAdvancedTechnologies,２０２０,３２(４):\n１３８６Ｇ１４０８．\n[１４]　SoS,Kang H,ChoiD,etal．TunableaggregationofshortＧ\nsideＧchainperfluorinatedsulfonicacidionomersforthecataＧ\nlystlayerinpolymerelectrolytemembranefuelcells[J]．\nInＧ\nternationalJournalof Hydrogen Energy,２０２０,４５(３８):\n１９８９１Ｇ１９８９９．\n[１５]　HwangS,LeeH,JeongY G,etal．\nPolymerelectrolytememＧ\nbranescontainingfunctionalizedorganic/inorganiccomposite\nforpolymerelectrolytemembranefuelcellapplications[J]．\nInＧ\nternationalJournalof Molecular Sciences,２０２２,２３(２２):\n１４２５２Ｇ１４２７６．\n[１６]　MengJC,QiuYZ,BaharB,etal．PolynorborneneＧbasedion\nexchangemembranesderivedfromphosphonatedpolymerand\nmethodsofmakingsame:US２０２５０１２８２５０A１[P]．\n２０２３Ｇ０４Ｇ１２．\n[１７]　张波,颜奇胜．一种基于改性Nafion离聚物的PEM 电解水膜\n电极及其制备方法:CN１１９７９８８９２A[P]．\n２０２４Ｇ１２Ｇ２０．\n[１８]　姜学松,徐梦达,张永明,等．一种耐高温膦酸Ｇ磺酸多元共聚\n物及其制备方法和应用:CN１１８２０６６８１A[P]．\n２０２４Ｇ０５Ｇ１５．\n[１９]　胡博,康浩健,谢含光．质子交换膜及其制备方法和应用:\nCN１１８３０４７７１A[P]．\n２０２４Ｇ０４Ｇ０８．\n[２０]　马文佳,郑吉富,贺挺,等．磺化单体及其制备方法、聚合物、质\n子交换膜:CN１１９５２８７７７A[P]．\n２０２３Ｇ０８Ｇ３１．\n[２１]　王均凤,黎婉琳,张洪华,等．一种CeＧMOF 掺杂的Nafion复\n合质子交换膜及其制备方法和用途:CN１１９６８５８７９A[P]．\n２０２４Ｇ１２Ｇ１９．\n[２２]　曹丽慧,曹萧杰,陈绪永,等．一种具有超高质子传导性的氢键\n有机框架材料及其制备方法和应用:CN１１７６２４６２９A[P]．\n２０２３Ｇ１２Ｇ０７．\n[２３]　DinakaranK,SenthilT,PrabukanthanP,etal．\nProcessforthe\npreparation of proton exchange membranes from MoS２\nnanosheetembedded,sulfonicacidfunctionalizedpolybenzoxＧ\nazine and epoxy resin inter crosslinked composites:\nIN２０２３４１０３５６５３[P]．\n２０２３Ｇ０５Ｇ２３．\n[２４]　BadanovSV,UrumovAV,ShaglaevaNS．\nProtonＧconducting\npolymer membranes and method of their production:\nRU２０２３１０１１３７[P]．\n２０２３Ｇ０１Ｇ２０．\n[２５]　ZouJ,Wang M,WangH．WaterＧretainingmaterial,waterＧreＧ\ntainingprotonexchange membrane,preparation methodand\napplicationthereof:US１８/２５０６５４[P]．\n２０２２Ｇ１２Ｇ３０．\n[２６]　郭弈,李敬怡,于卿,等．一种磺化聚醚醚酮质子交换膜的制备\n方法[P]．\nCN１１９７３５８４３A[P]．\n２０２５Ｇ０１Ｇ０７．\n[２７]　吴洪,朱诗怡,姜忠义．磺化聚醚醚酮/两性离子共价有机框架\n复合质子交换膜及其制备方法:CN１１８２９０８９５A[P]．\n２０２４Ｇ０４Ｇ\n１９．\n[２８]　高凌峰,刘会轩,陈琛,等．一种全氟磺酸复合质子交换膜材料\n的制备方法:CN１１７３４３３６９A[P]．\n２０２３Ｇ１２Ｇ０４．\n[２９]　郝金凯,张洪杰,邵志刚．一种水电解用交联型质子交换膜的\n制备方法:CN１１７３２５３６２A[P]．\n２０２３Ｇ０９Ｇ２８．\n[３０]　白建明,李磊,叶阜．一种电解水制氢用纤维增强的质子交换\n膜及其制备方法:CN１１５９４８０１２A[P]．\n２０２２Ｇ１１Ｇ３０．\n[３１]　杨静波,万婷婷,夏丰杰,等．一种改性全氟磺酸树脂、质子交\n换膜及其制备方法和应用:CN１１７７３６３５６A[P]．\n２０２３Ｇ１２Ｇ１９．\n[３２]　薛博欣,阎敬灵,王震,等．一种全氟磺酸聚合物及其制",
+      "images": []
+    }
+  ]
+}

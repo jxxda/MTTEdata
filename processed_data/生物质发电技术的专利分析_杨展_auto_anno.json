@@ -1,0 +1,190 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\生物质发电技术的专利分析_杨展_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\生物质发电技术的专利分析_杨展_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\生物质发电技术的专利分析_杨展_merged.json",
+    "page_num": 2,
+    "image_index": 1,
+    "thought": "论文聚焦于生物质发电技术的专利布局与技术发展现状，核心围绕‘纤维组分清洁分离与高值化利用’这一主线展开。文中强调该技术是生物质资源高值化利用的重要手段，涉及农业、林业、能源、环保、机械制造及电力工程等多领域交叉；技术链条包括原料选择→预处理（含纤维组分清洁分离）→发电转化（热化学/生物化学路径）→系统集成与设备优化。专利类型分析显示：发明专利主导（65.26%），聚焦装置、工艺与方法；实用新型侧重设备与零部件结构；外观设计极少。主要创新主体包括中国高校（华北电力大学）、企业（江苏朝阳液压、西安热工院、中节能宿迁）、日本机构（电力中央研究所、三菱重工），反映‘产学研用’协同体系。地域分布以中国绝对领先，政策驱动显著。因此，技术体系应以‘生物质资源高值化利用’为根节点，下分原料端、转化端、系统端与支撑体系四大支柱。",
+    "tree": {
+      "root": "生物质资源高值化利用技术体系",
+      "children": [
+        {
+          "name": "1. 原料端：纤维组分清洁分离与预处理",
+          "children": [
+            {
+              "name": "1.1 原料选择与分类",
+              "children": [
+                "农业废弃物",
+                "林业剩余物",
+                "能源植物",
+                "城市有机垃圾"
+              ]
+            },
+            {
+              "name": "1.2 清洁分离技术",
+              "children": [
+                "机械破碎与筛分",
+                "化学/生物脱木质素",
+                "酶解纤维素提取",
+                "物理-化学联合分离"
+              ]
+            },
+            {
+              "name": "1.3 预处理工艺",
+              "children": [
+                "干燥与除杂",
+                "压缩成型（颗粒/压块）",
+                "热解预炭化",
+                "蒸汽爆破"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 转化端：发电核心技术路径",
+          "children": [
+            {
+              "name": "2.1 热化学转化",
+              "children": [
+                "直接燃烧发电",
+                "气化发电（固定床/流化床）",
+                "热解-合成气发电",
+                "共燃（与煤混烧）"
+              ]
+            },
+            {
+              "name": "2.2 生物化学转化",
+              "children": [
+                "厌氧消化产沼气发电",
+                "微生物燃料电池（新兴方向）"
+              ]
+            },
+            {
+              "name": "2.3 关键反应器与过程控制",
+              "children": [
+                "高效锅炉/气化炉设计",
+                "焦油裂解与净化系统",
+                "在线监测与智能调控"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 系统集成与装备端",
+          "children": [
+            {
+              "name": "3.1 核心设备",
+              "children": [
+                "生物质给料系统",
+                "燃烧/气化核心装置",
+                "余热回收系统",
+                "烟气净化系统（除尘、脱硫、脱硝）"
+              ]
+            },
+            {
+              "name": "3.2 电力输出与并网",
+              "children": [
+                "汽轮机/燃气轮机耦合",
+                "变电与升压系统",
+                "微电网与分布式接入"
+              ]
+            },
+            {
+              "name": "3.3 智能化与模块化",
+              "children": [
+                "数字孪生运维",
+                "远程监控平台",
+                "标准化模块设计"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 支撑体系与生态协同",
+          "children": [
+            {
+              "name": "4.1 政策与标准",
+              "children": [
+                "国家双碳战略",
+                "可再生能源补贴机制",
+                "排放与能效标准"
+              ]
+            },
+            {
+              "name": "4.2 创新主体网络",
+              "children": [
+                "高校科研机构（如华北电力大学）",
+                "龙头企业（如江苏朝阳液压、西安热工院）",
+                "能源集团（如中节能）",
+                "国际协作（如日本电力中央研究所）"
+              ]
+            },
+            {
+              "name": "4.3 多领域融合",
+              "children": [
+                "农业-能源耦合",
+                "环保-资源循环",
+                "机械制造-装备国产化",
+                "电力工程-系统集成"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\生物质发电技术的专利分析_杨展_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\生物质发电技术的专利分析_杨展_merged.json",
+    "page_num": 3,
+    "image_index": 1,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

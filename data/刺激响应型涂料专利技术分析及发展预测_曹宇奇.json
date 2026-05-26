@@ -1,0 +1,87 @@
+{
+  "title": "刺激响应型涂料专利技术分析及发展预测_曹宇奇",
+  "source_pdf": "data/raw\\刺激响应型涂料专利技术分析及发展预测_曹宇奇.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "探索研究RESEARCH AND DEVELOPMENT\n刺激响应型涂料专利技术分析及发展预测\n曹宇奇\n1，刘璐\n2，宗军\n1，李璐\n1，张发荣\n1，吕博彦\n1，王晓轲\n1，卢俊锋\n3\n（1. 天津职业大学生物与环境工程学院，天津300410；2. 国家知识产权局专利局专利审查协作天津中心，材料部，天\n津300308；3. 天津中科化工有限公司，天津300455）\nPatent Analysis and Development Forecast of Stimuli\nResponsive Materials in Coatings\n摘要：刺激响应型荧光材料因在防伪、压力传感、信息储存、生物传感以及OLED 等领域的广阔应用而得到\n人们的普遍关注。本研究系统考察了全球申请人针对传统刺激响应型和聚集诱导发光刺激响应型涂料的专\n利申请情况，并对申请量、申请人、重点专利技术领域进行定性和定量的分析。同时，通过对相关领域的部分\n重点专利提炼总结后，勾勒出我国刺激响应型涂料的发展脉络，并从理论和策略上对刺激响应型涂料发展滞\n后的原因进行分析并对发展方向提供有益参考。\n关键词：专利；刺激响应；聚集诱导发光；涂料\n中图分类号：TQ630\n文献标识码：A\n文章编号：2096-8639(2023)11-0016-07\nCao Yuqi\n1，Liu Lu\n2，Zong Jun\n1, Li Lu\n1, Zhang Farong\n1, Lv Boyan\n1,Wang Xiaoke1\n1,\nLu Junfeng\n3\n(1.School of Biological and Environmental Engineering, Tianjin Vocational Institute, Tianjin 300410,\nChina; 2. Patent Examination Cooperation (Tianjin) Center of the Patent Office, Materials Department,\nTianjin 300308, China; 3. Tianjin Zhongke Chemical Co., Ltd., Tianjin 300455, China)\n0 引言\n刺激响应荧光材料是在外界条件刺激下本身颜\n色发生改变的一类智能材料，目前可具体分为传统型\n刺激响应材料和新型聚集诱导发光型刺激响应材料\n两大类。由于刺激响应型荧光材料可对热\n[1]、溶剂\n[2]、\n压力\n[3-4]、pH\n[5]、光\n[6-7]以及电\n[8]等多重刺激产生响应，因\n此，在防伪、压力传感、数据记录与储存以及OLED 等\n诸多领域成为研究热点，是一种极具应用前景的智能\n材料。相比于传统型刺激响应材料，聚集诱导发光刺\nAbstract: Stimuli responsive fluorescent materials have attracted intensive attention by virtue\nof their promising applications in anti- counterfeiting, pressure sensing，information storage，bio-\nsensing and OLED, etc. In this paper, patent applications among global applicants are studied\nsystematically in regard to practical applications of traditional and aggregation induced emissive\nstimuli responsive coatings, wherein qualitative and quantitative analysis are used to analyze patent\napplication volume, applicants and core technology. Moreover, some key patents in related fields\nare finely analyzed to form the development situation of stimuli responsive coatings in China. The\nunderdeveloped situation of stimuli responsive coatings are analyzed and its future trend is given.\nKeywords：patent; stimuli responsive; aggregation induced emission; coatings\n涂层与防护\n第44卷第11期\n2023年11月\nVol.44 No.11\nNov.2023\nCOATING AND PROTECTION\n16",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "探索研究RESEARCH AND DEVELOPMENT\n激响应材料由于能有效克服聚集诱导猝灭效应\n[9-10]而\n展现出更高的应用价值。\n随着聚集诱导发光材料的问世，科研工作者主要\n致力于研究其在生物、化学传感\n[11-12]、光电器件\n[13-14]、\n信息储存与防伪\n[15]、酸碱指示\n[16]、压力传感\n[17]、荧光探\n针\n[18-21]等前沿领域中的应用，在工业上的实际应用研\n究甚少。如何将新型材料“生活化”也成为亟待解决\n的问题。\n本研究致力于分析刺激响应型材料在涂料领域\n中的“下沉式”应用及其发展趋势。从专利视角出发，\n考察全球专利布局特点、核心技术分布，以期通过对\n相应专利文献的挖掘，帮助我国科研人员迅速把握刺\n激响应型涂料发展脉络，为相关科研开拓思路，实现\n技术突破，从而促进相关高校、企业制定合理的研究\n发展策略。\n1 传统刺激响应型变色涂料在全球范\n围内的专利情况分析\n本研究选择中国专利摘要库（CNABS）和德温特\n世界专利文摘翻译库（DWPI），采用国际专利分类号\n（IPC）结合关键词，首先对2023 年1 月前全球范围内\n刺激响应型变色涂料相关申请进行全面检索。主要\n检索词为：刺激响应、涂料、聚集诱导发光等，IPC 分\n类号为C09D 和B32B。通过考察专利申请量、申请\n人、重点专利技术3 方面，分析国内外传统刺激响应\n型变色涂料领域中存在的差距。此外，特别对新型刺\n激响应——聚集诱导发光型涂料进行检索，由于文献\n数量较少，仅在技术研究路线一节中与传统刺激响应\n型涂料进行比较分析。\n1.1 全球和中国专利申请量发展趋势分析\n图1 为刺激响应型变色涂料全球/国内专利\n2001—2022 年申请量变化趋势图。由于聚集诱导发\n光现象于2001 年才被发现，因此，为了便于对比，将\n检索最初年份限定为2001 年。由图1 可见，总体来说\n国内外关于刺激响应型涂料研究量较少。直至2010\n年，国内专利文献申请数量依旧处于较低的水平，相\n关产业发展相对缓慢。相反，国外对于刺激响应变色\n材料在涂料中的应用则进行了较为深入的研究。\n2001 年，相关专利申请数量为35 篇，相较于我国布下\n了“先手棋”。随后的10 a，我国相关产业申请数量开\n始增加，进入了快速增长期，直到2015 年我国与外国\n的申请量基本持平。近年来，相关专利的申请数量甚\n至超过外国。相对而言，国外专利申请量则保持相对\n稳定的趋势，到2017 年达到研究高峰，近年来发展较\n缓。2022 年，相关专利的申请量有小幅度回升，预示\n着新技术的突破。综合来看，虽然我国对于新型刺激\n响应材料在涂料中的工业化应用研究起步较晚，但是\n由于国家加大了对新材料在工业化领域的应用研究\n力度，同时提高了对知识产权的重视程度，也取得了\n刺激响应型涂料的突破性进展。\n图1\n国内外专利申请量变化趋势\nFig.1 Trend of domestic and international patent\napplications\n1.2 专利申请人分析\n通过对全球专利申请人进行分析（见图2），不难\n发现美国、日本等发达国家的专利申请数量远远高于\n我国和其他国家，基本占据了相关产业的半壁江山。\n我国和韩国的申请数量相当，约占整个申请量的八分\n之一，占比相对较小。同时，通过对世界范围内申请\n量数据分析发现，除我国外，该产业几乎全部集中于\n发达国家中。相比于发达国家，我国对于刺激响应材\n料的研究应用主要集中于尖端领域，而忽视了新材料\n的工业应用价值。同时，在相关产业中产学研结合能\n力相对薄弱，因此，对于刺激响应变色材料在涂料中\n的应用研究相对匮乏。\n同时，图3 表明，对于刺激响应变色型涂料的研\n究主要集中在企业中，大专院校和科研单位的研究相\n对较少。一般而言，新材料问世后，首先需要对其进\n行充分的理论研究，再对其进行应用研究。基于刺激\n曹宇奇，等：刺激响应型涂料专利技术分析及发展预测\n17",
+      "images": [
+        {
+          "path": "data/processed\\刺激响应型涂料专利技术分析及发展预测_曹宇奇_p1_i1.jpx",
+          "width": 655,
+          "height": 483,
+          "page": 1
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "text": "探索研究RESEARCH AND DEVELOPMENT\n响应变色材料的应用主要集中在医药、生物、荧光探\n针、压力传感等高科技领域，对于其“下沉式”研究少\n之又少。由于缺乏高校及科研院所对相关材料在涂\n料领域的研究支持，企业在相关材料的应用上出现了\n断层，这也是我国在申请量和申请质量上产生差距的\n主要原因。\n图3 中国申请人类型分布\nFig.3 Classification by patent applicant in China\n图4 和图5 分别反映了国内外涉及刺激相应变色\n涂料专利的主要申请人。不难发现，美、日企业\nTOKUYAMA CORP、TRANSITIONS OPTICAL INC、\nPPG IND OHIO INC 占据了国外市场的绝大份额。我\n国关于刺激响应涂料的研究主要集中在佛山市高明\n区尚润盈科技有限公司、河北晨阳工贸集团有限公司\n以及苏州吉人高新材料股份有限公司这3 个企业\n中。同时，中国科学院上海硅酸盐研究所和中国人民\n解放军国防科技大学也是相关领域的佼佼者。另外，\n依旧是美、日企业——光学转变公司、株式会社德山、\nPPG 工业俄亥俄公司更是以“掠夺性”优势霸占了国\n内市场。这一现象说明，我国对于新材料在涂料领域\n中的创新性研究水平相对较弱，过度依赖进口技术支\n持。因此，亟待提高相关领域的自主研发能力，进一\n步推进产学研一体化的进程，达到“理论推动应用，应\n用克服壁垒”的技术效果，打出“ 深化理论-拓展应\n用”的组合拳。\n图4 国内主要申请人分布\nFig.4 Distribution of patent applicant in China\n图5 国外主要申请人分布\nFig.5 Distribution of foreign patent applicant\n1.3 重点专利技术领域\n为了展现刺激响应涂料技术的整体分布情况，对\n公开文本IPC 主分类号进行统计分析（见图6），进而\n挖掘研发的重心和热点。对于检索到的专利文献按\n照IPC 主分类进行整理发现，本领域主要专利集中在\nC09D 小类，即涂料领域。同时，还分布于高分子化合\n物、光学元件、系统或仪器、层状产品等一系列领域，\n总共3 个部（C 部、G 部、B 部）。可见，该技术应用领\n域分布广泛，是高度复杂的融合性技术，这与其特殊\n的刺激响应性能有着密不可分的关系。\n2 刺激响应型涂料的技术研究路线\n为了研究刺激响应型变色涂料的专利发展动态，\n本研究以热致变色、光致变色、压致变色、pH 变色以\n及湿度变色等刺激响应效果为主线，分别对国内传统\n型刺激响应涂料以及聚集诱导发光型涂料进行检索\n图2 专利申请国别分布\nFig.2 Patent classification by nation\n曹宇奇，等：刺激响应型涂料专利技术分析及发展预测\n18",
+      "images": [
+        {
+          "path": "data/processed\\刺激响应型涂料专利技术分析及发展预测_曹宇奇_p2_i1.jpx",
+          "width": 816,
+          "height": 375,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\刺激响应型涂料专利技术分析及发展预测_曹宇奇_p2_i2.jpx",
+          "width": 583,
+          "height": 401,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\刺激响应型涂料专利技术分析及发展预测_曹宇奇_p2_i3.jpx",
+          "width": 1226,
+          "height": 812,
+          "page": 2
+        },
+        {
+          "path": "data/processed\\刺激响应型涂料专利技术分析及发展预测_曹宇奇_p2_i4.jpx",
+          "width": 1220,
+          "height": 785,
+          "page": 2
+        }
+      ]
+    },
+    {
+      "page_num": 3,
+      "text": "探索研究RESEARCH AND DEVELOPMENT\n与分析，列举出典型案例，以获得相应的演进路线。\n2.1 传统刺激响应型变色涂料技术发展概况\n2.1.1 热致变色型涂料\n2013 年，浙江大学开发出一种温敏变色隔热涂料\n（CN103214905A）。通过向成膜乳液中添加温敏可逆\n变色材料从而获得一种温敏变色隔热涂料，可提供彩\n色（冬季）与白色（夏季）之间的可逆变色效应，从而实\n现更高的节能效果。该涂料可用于建筑外表面、金属\n屋顶、化工储罐等领域，易于操作控制以及工业化大\n规模生产。\n2016年，四川嘉宝莉涂料有限公司开发出一种水性\n感温变色艺术涂料（CN106047017A）。通过加入微胶\n囊温感色粉来调节涂料的颜色，从而达到在不同温度\n条件下，漆膜显示出不同颜色的效果，使得墙面颜色\n能随心所欲发生变化，达到装饰装修个性化和艺术化\n的需要。\n2018 年，江苏新亿源环保科技有限公司采用无机\n热致变色材料与有机热致变色材料结合的方式\n（CN108410242A），利用无机热致变色材料的晶型转变\n结合有机热致变色材料中醌式结构与内酯环结构之\n间的可逆转换，两种机制引起颜色变化，形成一种有\n效调节温变涂料颜色的途径。\n2.1.2 光致变色型涂料\n吉林建筑工程学院于2012 年研究出一种光致变\n色丙烯酸聚氨酯清漆的制备方法（CN102627910A），\n通过向羟基丙烯酸树脂、高羟基饱和聚酯树脂中加入\n1,3,3-三甲基-3H-螺吲哚啉萘并噁嗪，利用该物质在\n紫外光辐照和去辐照条件下，发生的可逆性化学键断\n裂和形成，实现快速呈色和褪色效应。目前，该变色\n清漆在各种防伪标志、光信息储存、光开关、防复印纸\n张等高科技领域具有广泛的应用前景。\n2014年，中国中化股份有限公司公开了一种光致变\n色组合物的专利技术（CN105602230A）。通过向水性\n聚氨酯中添加一种萘并吡喃类光致变色化合物，特定\n的光致变色化合物与聚氨酯具有较强的匹配性从而\n显著提升涂料耐光牢度的效果。\n2.1.3 压致变色型涂料\n2019 年，武汉纺织大学设计了一种以螺吡喃为交\n联剂的自修复型丙烯酸涂料（CN110551134A）。该涂\n料具有紫外光敏变色及机械力敏变色等多重刺激响\n应的功能，进而对外界环境条件进行预警，可以对各\n种结构件进行实时的结构健康监测，防止结构件发生\n灾难性损伤。\n2020 年，华中科技大学研发出一种力致变色涂层\n（CN111925723A）。先将聚合物基体材料和纳米粒子\n分散在溶剂中，形成前驱体分散液，再去除溶剂得到\n具有力致变色能力的色彩涂层。利用纳米粒子部分\n有序的排列产生光子带隙，从而调控光子运动，能够\n使所述结构涂层表现出色彩。同时，所述色彩能够随\n着所述结构涂层上的外力作用发生变化，当外力撤去\n即可恢复颜色。\n2.1.4 pH 致变色型涂料\n2019 年，山东大学公开了一种针对挥发性小的强\n酸警示涂料（CN110804350A）。以耐强酸树脂作为成\n膜物质，加入特种变色剂、辅助变色组分、填料、助剂\n等，制备得到涂料混合物。特种变色剂常态下颜色较\n淡，在遇强酸后显示深红色。该混合物涂装后，变色明\n显、迅速，能够起到快速示警作用，且变色可逆（经过\n水冲洗可恢复初态），能反复使用。该涂料可与环氧、\n丙烯酸、聚氨酯等绝大多数涂层配套使用，应用广泛。\n2.1.5 湿敏变色型涂料\n2017 年，华南理工大学开发了一种绿色生态湿敏\n变色功能型干粉涂料（CN107629612A）。将一种或多\n种湿敏变色体添加到可再分散性聚合物乳胶粉中，能\n够实现涂料的颜色随着空气的相对湿度变化而变化\n的效果，且颜色色差大、变色明显，长时间变色循环不\n失效，可逆性高。上述涂料可以搭配偶氮着色剂实现\n浅紫色到孔雀蓝色、浅黄色到翠绿色、橙黄色到咖啡\n色等多种颜色的变化。当空气中的相对湿度降低时，\n在空气对流的作用下，变色体将结合的水分子脱除，\n图6 主要IPC 小类分布\nFig.6 Distribution of IPC categories\n中国\n欧洲专利局（EPO）\n世界知识产权组织\n加拿大\n美国\n韩国\n日本\n德国\n澳大利亚\n法国\n曹宇奇，等：刺激响应型涂料专利技术分析及发展预测\n19",
+      "images": [
+        {
+          "path": "data/processed\\刺激响应型涂料专利技术分析及发展预测_曹宇奇_p3_i1.jpx",
+          "width": 768,
+          "height": 432,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_num": 4,
+      "text": "探索研究RESEARCH AND DEVELOPMENT\n变色体又变回原来的颜色。\n2.2 聚集诱导发光型刺激响应变色涂料发展\n概况\n聚集诱导发光材料由于其分子的特殊性以及应\n用条件所限，并未广泛应用于变色涂料领域中。国内\n外对其研究甚少，在专利摘要数据库中仅仅检索到不\n到20 篇相关文献，下面选择部分典型专利文献进行\n具体分析。\n2015 年，苏州吉人高新材料股份有限公司通过分\n散聚合法制备四苯乙烯型荧光聚合物微球水分散液\n（CN105646765A）。由于共价键的固定及聚合物链段\n的包裹作用，聚合物微球中乙烯四苯基衍生物分子运\n动受到束缚，根据聚集诱导发光机理，紫外线辐照可\n实现光致发光。\n陕西师范大学于2018 年开发了一种聚集诱导发\n光型超薄溶菌酶荧光纳米薄膜（CN109370430A）。通\n过简单的一步自组装，将水溶性聚集诱导发光分子参\n与到溶菌酶的相转变自组装过程中，得到聚集诱导发\n光型超薄溶菌酶荧光纳米薄膜。该荧光纳米薄膜具\n有良好的稳定性、粘附性、生物相容性及优异的光学\n透明度，同时具有荧光性能，且能够稳定地粘附于各\n种基体表面，适用于各种商品的防伪需求，具有广泛\n的普适性。\n2019 年，湘潭大学将聚集诱导发光材料四苯乙烯\n合成了多种酸酐类化合物并将其运用于环氧树脂固\n化剂的制备中（CN110343081A）。该类化合物具有聚\n集诱导发光性质，作为环氧树脂固化剂使用时，该类\n固化剂与环氧树脂相容性好、毒性低、固化效率高，能\n广泛用于各类环氧树脂的固化过程，该类化合物不仅\n能单独或两种及以上混合使用，还可以跟其他各类固\n化剂混合使用，固化后的环氧树脂具有聚集诱导发光\n性质，在紫外光下能够发出强烈的荧光，能应用于高\n级防伪涂料领域，拓宽了环氧树脂的应用。\n常州大学于2020 年开发出一种具有聚集诱导发\n光效应的超分子聚合物（CN111875811A）。该超分子\n化合物由主体化合物和仲铵盐客体通过主客体非共\n价作用组装而成，并可以发射出暖色调的光。而且由\n于主客体作用的动态可逆性而拥有自修复能力，可以\n应用于寒冷地区智能窗玻璃材料中，其不仅能吸收紫\n外线，而且还能增加暖色调的金黄色荧光，提高居住\n的温馨感。\n2021 年天津理工大学开拓思路，以纳米碳材料薄\n膜为基底，在其表面沉积一层厚度为10~30 nm 的聚\n集诱导发光材料薄膜，获得纳米碳-聚集诱导发光分\n子复合材料（CN112410024A）。利用不同溶剂对该复\n合材料表面进行处理，能实现AIE 材料在纳米碳材料\n薄膜表面的聚集状态（薄膜状、颗粒状）的转换，进而\n实现聚集诱导发光材料荧光猝灭与发射的可逆转换。\n2022 年天津职业大学设计合成了一种聚集诱导\n发光脲醛树脂微胶囊，并将其用于涂料领域\n（CN116004060A）。将聚集诱导发光材料制备成微胶\n囊可以更有效地隔绝外界干扰从而保护聚集诱导发\n光分子，增加其对压力的灵敏度，进而可实现对外界\n压力刺激的迅速响应。随着涂层表面压力的增大，添\n加了不同聚集诱导发光材料的涂层在紫外灯的显影\n下可实现特异性的变色效果，表现出不同的灵敏度以\n及变色现象，可实现对外界压力的及时预警。\n以上为传统刺激响应材料以及新型聚集诱导发\n光材料在涂料中的应用发展概况，具体技术演进路线\n如图7 所示。\n由图7 可知，传统的刺激响应型涂料发展情况相\n对均衡。从2015 年以来，随着对聚集诱导发光材料\n性能研究的进步一深入，我国开始加大对聚集诱导\n发光涂料的研究力度。但是，聚集诱导发光型涂料\n的研究单位主要集中在大专院校，而企业研究相对\n较少，应加大校企合作，尽快实现新材料真正的产业\n化应用。\n3 总结与前景分析\n通过检索获取2001 年至2023 年1 月前传统刺激\n响应型变色涂料以及聚集诱导发光刺激响应变色涂\n料的专利技术数据，发现刺激响应材料在涂料领域中\n已具有一定程度的应用，但是申请数量不多，发展相\n对比较缓慢。综合考虑专利计量及分析背景，本研究\n提出以下原因分析及发展建议。\n相比于其他类型的涂料，刺激响应型涂料发展速\n度相对缓慢，申请数量较少，可能有如下原因：（1）刺\n激响应材料作用机理相对复杂，特别是聚集诱导发光\n材料易受溶剂、温度、压力、聚集状态等多重因素的影\n响，与树脂及其他颜填料混合后可能会影响其本身性\n曹宇奇，等：刺激响应型涂料专利技术分析及发展预测\n20",
+      "images": []
+    },
+    {
+      "page_num": 5,
+      "text": "探索研究RESEARCH AND DEVELOPMENT\n质进而影响变色效果的考察；（2）聚集诱导发光材料\n在外界刺激下变色后难以自动恢复原色，在实际生活\n中的应用存在困难，往往使指示效果变成“一次性”；\n（3）新材料的研究往往更多停留在实验室阶段，校企\n结合力度不够，产学研分崩离析，难以实现新材料的\n工业化研究应用。\n虽然对于刺激响应型变色涂料的研究较少，但是\n依旧能看到刺激响应型涂料处于快速发展的阶段，\n尤其是新型的聚集诱导发光型刺激性应涂料在近几\n年来成为了后起之秀。在此背景下，本研究提出了\n促进刺激响应材料发展的几点建议：（1）加强、扩大\n与国际之间的交流合作，支持我国企业与国际涂料\n巨头之间的人才与技术交流，及时洞察涂料前沿技\n术，采用引进-理解-再创新的发展模式；（2）大力促\n进产学研一体化，让新材料的理论研究从实验室“走\n出去”，开展“企业进高校，高校下企业”的研发模式，\n用高校科研工作者对新材料研究的扎实理论去支撑\n企业工业化的研究开发，用企业强大的平台去促进\n理论研究的实际应用落地；（3）加大资金支持力度，\n提高刺激响应型涂料的知识产权创造力。在新材料\n日新月异的今天，政府除了要加大研发的资金扶持，\n更要引导企业、高校对知识产权的保护与重视。针\n对重要技术，不但要提高专利的保护意识，做到及时\n申请，对于核心专利技术更要及时注意通过PCT 途\n径进行国外专利的申请。\n参考文献\n[1] CUI S Q, WANG B W, TENG Y, et al. Highly sensitive\n图7 传统刺激响应涂料以及新型聚集诱导发光涂料的技术演进路线\nFig.7 Technical route of traditional simuli responsive coatings and novel aggregation induced emissive stimuli\nresponsive coatings\n曹宇奇，等：刺激响应型涂料专利技术分析及发展预测\n21",
+      "images": [
+        {
+          "path": "data/processed\\刺激响应型涂料专利技术分析及发展预测_曹宇奇_p5_i1.jpx",
+          "width": 1965,
+          "height": 1597,
+          "page": 5
+        }
+      ]
+    },
+    {
+      "page_num": 6,
+      "text": "探索研究RESEARCH AND DEVELOPMENT\nsensing of polarity,temperature, and acid gases by a smart\nfluorescent\nmolecule\n[J].\nSensors\nand\nActuators:\nB.\nChemical, 2021, 344: 130120- 130129.\n[2] ZHANG Y P, LI D D, LI Y, et al. Solvatochromic AIE\nluminogens as supersensitive water detectors in organic\nsolvents and highly efficient cyanide chemosensors in\nwater [J]. Chemical Science, 2014, 5: 2710-2716.\n[3] TENG M J, JIA X R, YANG S, et al. Reversible tuning\nluminescent color and emission intensity: a dipeptide-\nbased light- emitting material [J]. Advanced Materials,\n2012, 24: 1255-1261.\n[4] CUI S Q, WANG B W, YAN X L, et al. A novel\nemitter: sensing mechanical stimuli and monitoring total\npolar materials in frying oil [J]. Dyes and Pigments, 2020,\n174: 108020-108029.\n[5] PARK Y K, OH B M, JO A R, et al. Fabrication of\ncolorimetric textile sensor based on rhodamine dye for\nacidic gas detection [J]. Polymers, 2020, 12: 431-443.\n[6] DOU X Y, ZHU T W, WANG Z S, et al. Color-\ntunable,\nexcitation- dependent,\nand\ntime- dependent\nafterglows from pure organic amorphous polymers [J],\nAdvanced Materials, 2020, 32: 2004768-2004776.\n[7] ZHANG Y F, GAO L, ZHENG X, Z. et al. Ultraviolet\nirradiation-\nresponsive\ndynamic\nultralong\norganic\nphosphorescence\nin\npolymeric\nsystems[J].\nNature\nCommunications, 2021, 12 : 2297-2306.\n[8] CHEN M, NIE H, SONG B, et al. Triphenylamine-\nfunctionalized tetraphenylpyrazine: facile preparation and\nmultifaceted\nfunctionalities\n[J].\nJournal\nof\nmaterials\nChemistry C, 2016, 4: 2901-2908.\n[9] GONG Y Y, ZHANG Y R, YUAN W Z, et al. D- A\nsolid\nemitter\nwith\ncrowded\nand\nremarkably\ntwisted\nconformations\nexhibiting\nmultifunctionality\nand\nmulticolor\nmechanochromism\n[J].\nJournal\nof\nPhysical\nChemistry C, 2014, 118: 10998-1005.\n[10]\nLI\nD,\nZHANG\nY,\nFAN\nZ,\net\nal.\nCoupling\nof\nchromophores\nwith\nexactly\nopposite\nluminescence\nbehaviours\nin\nmesostructured\norganosilicas\nfor\nhigh-\nefficiency\nmulticolour\nemission[J].\nChemical\nScience,\n2015, 6(11): 6097-6101.\n[11] QIAN Y, LIU H, TIAN H, et al. A novel water-soluble\nfluorescence\nprobe\nwith\nwash- free\ncellular\nimaging\ncapacity based on AIE characteristics[J]. Macromolecular\nRapid Communications, 2017, 38(10): 1600684-1600691.\n[12] CHENG Y, SUN C, OU X, et al. Dual- targeted\npeptide- conjugated\nmultifunctional\nfluorescent\nprobe\nwith AIEgen for efficient nucleus- specific imaging and\nlong- term tracing of cancer cells[J]. Chemical Science,\n2017, 8(6): 4571-4578.\n[13] QIN W, LAM J W Y, YANG Z, et al. Red emissive\nAIE luminogens with high hole- transporting properties\nfor\nefficient\nnon-\ndoped\nOLEDs[J].\nChemical\nCommunication, 2015, 51(34): 7321-7324.\n[14]\nLIN\nY,\nCHEN\nG,\nZHAO\nL,\net\nal.\nDiethylamino\nfunctionalized\ntetraphenylethenes:\nstructural\nand\nelectronic\nmodulation\nof\nphotophysical\nproperties,\nimplication for the CIE mechanism and application to\ncell imaging[J]. Journal of Materials Chemistry C, 2015, 3\n(3): 112-120.\n[15] JIANG Y, LI G, CHE W, et al. A neutral dinuclear Ir\n(III) complex for anti-counterfeiting and data encryp",
+      "images": []
+    }
+  ]
+}

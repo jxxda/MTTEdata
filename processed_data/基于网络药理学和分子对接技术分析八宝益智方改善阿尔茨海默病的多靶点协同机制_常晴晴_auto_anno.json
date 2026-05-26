@@ -1,0 +1,590 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析八宝益智方改善阿尔茨海默病的多靶点协同机制_常晴晴_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "该论文描述的是中药复方（八宝益智方）治疗阿尔茨海默病（AD）的系统药理学研究流程，其技术体系围绕‘成分-靶点-通路-验证’主线展开：首先通过数据库挖掘获取中药活性成分及预测靶点；其次整合疾病相关靶点，筛选交集共同靶点；进而构建网络模型并进行功能富集分析（GO/KEGG）；最后通过分子对接进行机制验证。核心环节包括：1）数据获取与整合（PubChem、PDB、Swiss Target Prediction、GeneCards等）；2）生物信息学分析（韦恩图交集、Cytoscape网络构建、GO/KEGG富集）；3）结构生物学验证（分子对接：受体预处理→配体准备→对接计算→互作解析）。整个体系体现‘多组学整合+网络药理学+结构验证’的现代中医药研究范式。",
+    "tree": {
+      "root": "中药复方治疗AD的系统药理学研究技术体系",
+      "children": [
+        {
+          "name": "1. 数据获取与整合",
+          "children": [
+            {
+              "name": "1.1 中药成分挖掘",
+              "children": [
+                {
+                  "name": "PubChem（配体结构）"
+                },
+                {
+                  "name": "TCMSP / 非结构化文献整理（成分列表）"
+                }
+              ]
+            },
+            {
+              "name": "1.2 靶点预测与收集",
+              "children": [
+                {
+                  "name": "Swiss Target Prediction（药物靶点预测）"
+                },
+                {
+                  "name": "GeneCards / OMIM / TTD（AD疾病靶点）"
+                }
+              ]
+            },
+            {
+              "name": "1.3 共同靶点筛选",
+              "children": [
+                {
+                  "name": "Venny 2.1.0（韦恩图交集分析）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 网络构建与功能分析",
+          "children": [
+            {
+              "name": "2.1 网络建模",
+              "children": [
+                {
+                  "name": "Cytoscape 3.8.0（中药-成分-靶点网络）"
+                }
+              ]
+            },
+            {
+              "name": "2.2 功能富集分析",
+              "children": [
+                {
+                  "name": "DAVID / clusterProfiler（GO富集）"
+                },
+                {
+                  "name": "KEGG通路分析"
+                },
+                {
+                  "name": "微生信平台（可视化展示）"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 分子机制验证",
+          "children": [
+            {
+              "name": "3.1 结构准备",
+              "children": [
+                {
+                  "name": "PDB（蛋白晶体结构）"
+                },
+                {
+                  "name": "PyMOL 2.4（去溶剂化、杂原子移除）"
+                },
+                {
+                  "name": "Chem3D（配体构象优化与能量最小化）"
+                }
+              ]
+            },
+            {
+              "name": "3.2 分子对接",
+              "children": [
+                {
+                  "name": "AutoDock Tools 1.5.7（受体修饰：加氢、电荷分配、pdbqt转换）"
+                },
+                {
+                  "name": "AutoDock Vina 1.1.2（半柔性对接计算）"
+                }
+              ]
+            },
+            {
+              "name": "3.3 结果解析",
+              "children": [
+                {
+                  "name": "PyMOL 2.4（复合物建模与互作模式分析：氢键、疏水作用）"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析八宝益智方改善阿尔茨海默病的多靶点协同机制_常晴晴_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "该论文围绕中药复方‘八宝益智方’治疗阿尔茨海默病（AD）的机制研究，采用网络药理学与分子对接相结合的方法。核心技术体系可归纳为：以‘中药-活性成分-靶点’网络为核心枢纽，向上延伸至功能富集分析（GO/KEGG），向下支撑分子对接验证；其中，靶点筛选依赖PPI网络与度值排序，活性成分选择基于网络拓扑特征（节点度值）。整体构成‘成分挖掘→靶点预测→通路注释→结构验证’的四层递进式技术链，体现现代中医药研究中‘多成分-多靶点-多通路’整合策略。",
+    "tree": {
+      "root": "八宝益智方治疗AD的网络药理学研究体系",
+      "children": [
+        {
+          "name": "1. 中药活性成分挖掘",
+          "children": [
+            {
+              "name": "1.1 中药数据库检索（如TCMSP、ETCM）",
+              "children": []
+            },
+            {
+              "name": "1.2 成分筛选（ADME/T性质：OB, DL等）",
+              "children": []
+            },
+            {
+              "name": "1.3 核心活性成分识别（基于网络节点度值排序）",
+              "children": [
+                {
+                  "name": "3,4,5-三甲氧基肉桂酸",
+                  "children": []
+                },
+                {
+                  "name": "人参皂苷-Rh4_qt",
+                  "children": []
+                },
+                {
+                  "name": "山奈酚",
+                  "children": []
+                },
+                {
+                  "name": "普热醌C",
+                  "children": []
+                },
+                {
+                  "name": "潘杜莱汀",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 靶点预测与网络构建",
+          "children": [
+            {
+              "name": "2.1 疾病靶点收集（AD相关基因库如DisGeNET、OMIM）",
+              "children": []
+            },
+            {
+              "name": "2.2 ‘中药-成分-靶点’网络构建（图2）",
+              "children": []
+            },
+            {
+              "name": "2.3 PPI网络构建与核心靶点筛选",
+              "children": [
+                {
+                  "name": "AKT1",
+                  "children": []
+                },
+                {
+                  "name": "TP53",
+                  "children": []
+                },
+                {
+                  "name": "IL6",
+                  "children": []
+                },
+                {
+                  "name": "TNF",
+                  "children": []
+                },
+                {
+                  "name": "IL1β",
+                  "children": []
+                },
+                {
+                  "name": "BCL2",
+                  "children": []
+                },
+                {
+                  "name": "CASP3",
+                  "children": []
+                },
+                {
+                  "name": "STAT3",
+                  "children": []
+                },
+                {
+                  "name": "EGFR",
+                  "children": []
+                },
+                {
+                  "name": "JUN",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 功能与通路富集分析",
+          "children": [
+            {
+              "name": "3.1 GO富集分析",
+              "children": [
+                {
+                  "name": "生物过程（BP）：蛋白质磷酸化、炎症反应、缺氧反应等",
+                  "children": []
+                },
+                {
+                  "name": "细胞组分（CC）：细胞质、神经元胞体、树突等",
+                  "children": []
+                },
+                {
+                  "name": "分子功能（MF）：ATP结合、激酶活性、蛋白结合等",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3.2 KEGG通路富集分析",
+              "children": [
+                {
+                  "name": "鞘脂信号通路",
+                  "children": []
+                },
+                {
+                  "name": "IL-17信号通路",
+                  "children": []
+                },
+                {
+                  "name": "FoxO信号通路",
+                  "children": []
+                },
+                {
+                  "name": "T细胞受体信号通路",
+                  "children": []
+                },
+                {
+                  "name": "Th17细胞分化",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 分子对接验证",
+          "children": [
+            {
+              "name": "4.1 对接对象：Top5成分 ↔ Top5靶点",
+              "children": []
+            },
+            {
+              "name": "4.2 结合能评估（< -0 kcal/mol视为稳定结合）",
+              "children": []
+            },
+            {
+              "name": "4.3 机制解释：支持‘多成分-多靶点-多通路’协同作用假说",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析八宝益智方改善阿尔茨海默病的多靶点协同机制_常晴晴_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "该论文聚焦于中药复方‘八宝益智方’治疗阿尔茨海默病（AD）的分子机制研究，采用系统药理学与网络药理学方法。核心技术链包括：(1) 基于成分-靶点预测（如分子对接，结合能<-5 kcal/mol判定有效结合）筛选活性成分与关键靶点（AKT1、TP53、IL6等）；(2) 构建蛋白质-蛋白质相互作用（PPI）网络（图3），识别核心枢纽基因；(3) 通过GO功能富集分析（图5）和KEGG通路注释，揭示其调控的生物学过程（BP）、细胞组分（CC）与分子功能（MF）；(4) 利用Cytoscape可视化（图4）整合网络与富集结果。整体构成‘成分→靶点→网络→功能→通路’的多层级技术体系，体现‘多成分-多靶点-多通路’的中医整体观。",
+    "tree": {
+      "root": "中药复方治疗AD的系统药理学技术体系",
+      "children": [
+        {
+          "name": "1. 活性成分筛选与靶点预测",
+          "children": [
+            {
+              "name": "分子对接模拟",
+              "children": [
+                "结合能阈值判定（<-5 kcal/mol）",
+                "Pymol可视化"
+              ]
+            },
+            {
+              "name": "候选靶点识别",
+              "children": [
+                "AKT1",
+                "TP53",
+                "IL6",
+                "TNF",
+                "IL1β"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 蛋白质互作网络构建",
+          "children": [
+            {
+              "name": "PPI网络分析",
+              "children": [
+                "节点度值中心性评估",
+                "枢纽基因识别"
+              ]
+            },
+            {
+              "name": "Cytoscape可视化",
+              "children": [
+                "网络拓扑结构展示",
+                "模块聚类分析"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 功能与通路富集分析",
+          "children": [
+            {
+              "name": "GO富集分析",
+              "children": [
+                "生物过程（BP）",
+                "细胞组分（CC）",
+                "分子功能（MF）"
+              ]
+            },
+            {
+              "name": "通路注释",
+              "children": [
+                "KEGG通路映射",
+                "疾病相关通路挖掘"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 中医理论整合与机制阐释",
+          "children": [
+            {
+              "name": "病机对应",
+              "children": [
+                "髓海不足",
+                "神机失司",
+                "病位在脑"
+              ]
+            },
+            {
+              "name": "经典引证",
+              "children": [
+                "《黄帝内经》心-意-志-思-虑-智理论",
+                "《灵枢·海论》髓海理论"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析八宝益智方改善阿尔茨海默病的多靶点协同机制_常晴晴_merged.json",
+    "page_num": 4,
+    "image_index": 1,
+    "thought": "该论文片段聚焦于中药复方‘八宝益智方’治疗阿尔茨海默病（AD）的分子机制研究，采用网络药理学与分子对接技术进行系统验证。核心技术点包括：(1) 蛋白质-蛋白质相互作用（PPI）网络构建（图3、图4），用于识别核心靶点；(2) GO功能富集分析（图5），揭示靶点在生物过程（BP）、细胞组分（CC）和分子功能（MF）层面的功能特征；(3) 分子对接验证（文中提及对接分数＜-5 kcal/mol为有效结合），确认活性成分与关键靶点（如AKT1、TP53、IL6、TNF、IL1β）的结合能力；(4) 可视化工具（如Cytoscape、PyMOL）支撑网络与结构分析。整体技术体系以‘疾病-靶点-通路-成分’为逻辑主线，属于中医药现代化研究中的‘网络药理学+结构生物学’融合范式。",
+    "tree": {
+      "root": "中药复方治疗AD的网络药理学与分子机制研究体系",
+      "children": [
+        {
+          "name": "1. 疾病表型与中医理论建模",
+          "children": [
+            {
+              "name": "AD中医病机阐释（髓海不足、神机失司）",
+              "children": []
+            },
+            {
+              "name": "核心症状关联（呆病、痴呆）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 多靶点识别与PPI网络构建",
+          "children": [
+            {
+              "name": "靶点筛选（基于文献/数据库）",
+              "children": []
+            },
+            {
+              "name": "PPI网络构建与拓扑分析（图3、图4）",
+              "children": [
+                {
+                  "name": "节点度值分析（度值越大越关键）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "核心靶点识别（如AKT1、TP53、IL6、TNF、IL1β）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3. 功能富集与通路解析",
+          "children": [
+            {
+              "name": "GO富集分析（BP/CC/MF）（图5）",
+              "children": [
+                {
+                  "name": "-log10(p-value)显著性评估",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "KEGG通路富集（隐含于PPI背景中）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4. 成分-靶点互作验证",
+          "children": [
+            {
+              "name": "活性成分筛选（八宝益智方化学成分）",
+              "children": []
+            },
+            {
+              "name": "分子对接模拟",
+              "children": [
+                {
+                  "name": "结合能阈值判定（＜-5 kcal/mol为有效结合）",
+                  "children": []
+                },
+                {
+                  "name": "构象选择与可视化（PyMOL 2.6，图7）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5. 工具与平台支撑",
+          "children": [
+            {
+              "name": "Cytoscape（PPI网络可视化）",
+              "children": []
+            },
+            {
+              "name": "PyMOL（分子结构可视化）",
+              "children": []
+            },
+            {
+              "name": "AutoDock/Vina等对接软件（隐含）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析八宝益智方改善阿尔茨海默病的多靶点协同机制_常晴晴_merged.json",
+    "page_num": 4,
+    "image_index": 2,
+    "thought": "该论文聚焦于中药复方‘八宝益智方’治疗阿尔茨海默病（AD）的分子机制研究，采用多组学与计算生物学整合策略：首先通过网络药理学构建‘成分-靶点-通路’关系（图3 PPI网络），继而进行GO功能富集分析（图5气泡图，分BP/CC/MF三类），并结合分子对接验证关键成分与核心靶点（如AKT1、TP53、IL6等）的结合活性（结合能＜-5 kcal/mol）。技术流程体现‘数据驱动→网络构建→功能注释→结构验证’的递进逻辑：从化学成分筛选出发，经靶点预测与PPI网络拓扑分析（度值反映关键靶点），到GO富集揭示生物学过程、细胞组分与分子功能，最终以分子对接提供结构层面的机制支撑。整体构成中医药现代化研究中典型的‘网络药理学+分子对接’技术体系。",
+    "tree": {
+      "root": "中药复方治疗AD的机制解析技术体系",
+      "children": [
+        {
+          "name": "1. 成分与靶点挖掘",
+          "children": [
+            {
+              "name": "1.1 中药化学成分数据库检索",
+              "children": []
+            },
+            {
+              "name": "1.2 AD相关疾病靶点库整合",
+              "children": []
+            },
+            {
+              "name": "1.3 成分-靶点相互作用预测",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 网络构建与拓扑分析",
+          "children": [
+            {
+              "name": "2.1 PPI网络构建（如图3）",
+              "children": []
+            },
+            {
+              "name": "2.2 关键靶点识别（基于度值等拓扑参数）",
+              "children": []
+            },
+            {
+              "name": "2.3 Cytoscape可视化（如图4）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "3. 功能富集与通路注释",
+          "children": [
+            {
+              "name": "3.1 GO富集分析（BP/CC/MF三类）",
+              "children": [
+                {
+                  "name": "3.1.1 生物学过程（BP）",
+                  "children": []
+                },
+                {
+                  "name": "3.1.2 细胞组分（CC）",
+                  "children": []
+                },
+                {
+                  "name": "3.1.3 分子功能（MF）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "3.2 KEGG通路富集分析",
+              "children": []
+            },
+            {
+              "name": "3.3 气泡图可视化（如图5）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "4. 分子对接与结构验证",
+          "children": [
+            {
+              "name": "4.1 核心靶点三维结构获取（如AKT1, TP53等）",
+              "children": []
+            },
+            {
+              "name": "4.2 小分子构象生成与对接计算",
+              "children": []
+            },
+            {
+              "name": "4.3 结合能评估（阈值＜-5 kcal/mol）",
+              "children": []
+            },
+            {
+              "name": "4.4 PyMOL可视化（如图7）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

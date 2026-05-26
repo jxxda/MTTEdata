@@ -1,0 +1,28 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\高校战略性新兴产业专利创新分析及优化建议——以山东科技大学为例_邢苗_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\高校战略性新兴产业专利创新分析及优化建议——以山东科技大学为例_邢苗_merged.json",
+    "page_num": 1,
+    "table_index": 1,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

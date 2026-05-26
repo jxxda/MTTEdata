@@ -1,0 +1,148 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\智能化数控机床在汽车制造中的数字电子技术分析_冯志成_merged.json",
+    "page_num": 0,
+    "image_index": 0,
+    "thought": "论文指出智能化数控机床是汽车制造核心装备，其智能化升级依赖数字电子技术的三大支撑：高性能计算（如数控装置的实时解码与控制）、高精度传感（位置/状态检测实现闭环控制）、通信技术（系统间数据交互）。结合其四大基础模块（机械、控制、驱动、辅助系统），可推导出技术体系结构：以‘智能化数控机床’为根节点；第一层子系统对应四大物理模块；第二层进一步细化各模块中由数字电子技术赋能的关键技术组件，尤其在控制系统中体现为计算、传感、通信三支柱，并延伸至智能监测与故障诊断等高级功能。图中工业机器人协同加工场景印证了系统级集成与实时通信的重要性。",
+    "tree": {
+      "root": "智能化数控机床",
+      "children": [
+        {
+          "name": "机械系统",
+          "children": [
+            {
+              "name": "床身与立柱",
+              "children": []
+            },
+            {
+              "name": "主轴单元",
+              "children": []
+            },
+            {
+              "name": "工作台",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "控制系统",
+          "children": [
+            {
+              "name": "数控装置（高性能计算）",
+              "children": [
+                {
+                  "name": "CAD/CAM接口",
+                  "children": []
+                },
+                {
+                  "name": "代码解码与路径规划",
+                  "children": []
+                },
+                {
+                  "name": "实时控制算法",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "输入/输出接口",
+              "children": []
+            },
+            {
+              "name": "操作面板",
+              "children": []
+            },
+            {
+              "name": "通信技术支撑",
+              "children": [
+                {
+                  "name": "现场总线（如EtherCAT）",
+                  "children": []
+                },
+                {
+                  "name": "工业以太网",
+                  "children": []
+                },
+                {
+                  "name": "设备间协同通信",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "智能监测与故障诊断",
+              "children": [
+                {
+                  "name": "多源传感数据融合",
+                  "children": []
+                },
+                {
+                  "name": "边缘计算分析",
+                  "children": []
+                },
+                {
+                  "name": "预测性维护模型",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "驱动系统",
+          "children": [
+            {
+              "name": "伺服电机",
+              "children": []
+            },
+            {
+              "name": "滚珠丝杠",
+              "children": []
+            },
+            {
+              "name": "直线导轨",
+              "children": []
+            },
+            {
+              "name": "高精度运动控制",
+              "children": [
+                {
+                  "name": "闭环反馈控制",
+                  "children": []
+                },
+                {
+                  "name": "位置/速度/力矩协同控制",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "辅助系统",
+          "children": [
+            {
+              "name": "冷却系统",
+              "children": []
+            },
+            {
+              "name": "润滑系统",
+              "children": []
+            },
+            {
+              "name": "排屑系统",
+              "children": []
+            },
+            {
+              "name": "状态感知与联动控制",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于全球黄瓜分子育种专利技术的创新态势分析_王玲燕_merged.json",
+    "page_num": 4,
+    "table_index": 0,
+    "thought": "表格及上下文明确列出了黄瓜分子育种领域的四类核心技术：转基因（Transgene）、分子标记辅助育种（molecular marker assisted selection breeding）、基因编辑（gene editing）和全基因组选择（genomic selection）。其中，图4及文本中给出的专利占比数据（转基因81.5%、分子标记辅助育种17%、基因编辑3.3%、全基因组选择0.3%）表明这四者是并列的主流技术分支，属于同一层级的技术类别。所有技术均服务于‘黄瓜分子育种’这一核心目标，因此根节点应为‘黄瓜分子育种技术’，其下直接包含这四个子类。无证据显示存在更细的二级分类（如具体基因编辑工具CRISPR未单独列为子类），故各子节点children为空数组。",
+    "tree": {
+      "root": "黄瓜分子育种技术",
+      "children": [
+        {
+          "name": "转基因技术",
+          "children": []
+        },
+        {
+          "name": "分子标记辅助育种",
+          "children": []
+        },
+        {
+          "name": "基因编辑",
+          "children": []
+        },
+        {
+          "name": "全基因组选择",
+          "children": []
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

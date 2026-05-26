@@ -1,0 +1,597 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析人参通过抑制铁死亡改善糖尿病心肌病的潜在机制_周之壹_merged.json",
+    "page_num": 0,
+    "image_index": 0,
+    "thought": "该论文采用‘网络药理学+分子对接’的整合策略研究中药（人参）治疗糖尿病心肌病（DCM）的机制，核心逻辑为：从中药成分出发 → 筛选活性成分 → 预测靶点 → 交集分析（DCM + 铁死亡通路）→ 构建PPI网络筛选核心基因 → 功能与通路富集分析 → 分子对接验证关键成分-靶点结合能力。技术体系呈‘数据驱动、多源整合、层层递进’特征：上游依赖多个生物信息数据库（TCMSP、PharmMapper、UniProt、GeneCards、STRING），中游使用R语言进行统计与富集分析（GO/KEGG），下游用AutoDock Vina进行结构生物学验证。整个流程构成‘成分-靶点-通路-机制’闭环，聚焦于‘铁死亡’这一新兴细胞死亡机制在DCM中的干预路径。",
+    "tree": {
+      "root": "中药网络药理学与分子对接整合分析框架",
+      "children": [
+        {
+          "name": "1. 成分挖掘与筛选",
+          "children": [
+            {
+              "name": "1.1 中药化学成分获取",
+              "children": [
+                "TCMSP数据库"
+              ]
+            },
+            {
+              "name": "1.2 活性成分筛选",
+              "children": [
+                "口服利用度(OB)",
+                "类药性(DL)阈值过滤"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 靶点预测与交集分析",
+          "children": [
+            {
+              "name": "2.1 成分靶点预测",
+              "children": [
+                "PharmMapper",
+                "UniProt"
+              ]
+            },
+            {
+              "name": "2.2 疾病靶点收集",
+              "children": [
+                "GeneCards（DCM靶点）",
+                "铁死亡相关靶点库"
+              ]
+            },
+            {
+              "name": "2.3 关键靶点筛选",
+              "children": [
+                "韦恩图交集分析（人参成分靶点 ∩ DCM靶点 ∩ 铁死亡靶点）"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 网络与功能解析",
+          "children": [
+            {
+              "name": "3.1 蛋白质互作网络(PPI)",
+              "children": [
+                "STRING数据库",
+                "核心基因筛选（如AKT1等8个）"
+              ]
+            },
+            {
+              "name": "3.2 功能与通路富集",
+              "children": [
+                "GO分析（BP/CC/MF）",
+                "KEGG通路分析（如PI3K-Akt信号通路）",
+                "R语言DeliverProPlayer包"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 分子机制验证",
+          "children": [
+            {
+              "name": "4.1 分子对接模拟",
+              "children": [
+                "AutoDock Vina 1.2.3",
+                "结合能评估（< -7 kcal/mol）"
+              ]
+            },
+            {
+              "name": "4.2 关键成分-靶点对验证",
+              "children": [
+                "苯甲酰乌头原碱→AKT1/ALB/HSP90AA1/EGFR",
+                "阿朴莨菪碱等其他成分"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "5. 机制整合与生物学解释",
+          "children": [
+            {
+              "name": "5.1 核心通路机制",
+              "children": [
+                "抑制铁死亡 → 改善DCM"
+              ]
+            },
+            {
+              "name": "5.2 关键靶点功能关联",
+              "children": [
+                "AKT1（PI3K-Akt通路调控）",
+                "GSK3B（铁死亡调控）",
+                "HSP90AA1（蛋白稳态）",
+                "ANXA5（膜修复/铁代谢）"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析人参通过抑制铁死亡改善糖尿病心肌病的潜在机制_周之壹_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "该论文聚焦于中药人参通过抑制铁死亡（ferroptosis）改善糖尿病心肌病（DCM）的机制研究，采用网络药理学与分子对接技术。核心技术体系围绕‘药物-成分-靶点-疾病’四元网络展开：根节点为‘人参改善DCM的铁死亡抑制机制’；第一层包括四大核心模块：（1）药物源（人参）及其活性成分（如苯甲酰乌头原碱等10种）；（2）疾病表型（DCM）；（3）关键生物学过程（铁死亡）；（4）核心靶点网络（以AKT1、ALB、HSP90AA1、EGFR等8个高连接度基因为中心的蛋白互作网络）。其中，核心靶点既是成分作用的直接对象，又构成调控铁死亡通路的关键节点（如AKT1调控GPX4、SLC7A11等铁死亡相关分子），并通过PPI网络形成功能模块。分子对接验证了成分与靶点的结合可行性，拓扑分析（连接度、中介中心性等）筛选出枢纽基因，体现‘成分→靶点→通路→表型’的因果链条。",
+    "tree": {
+      "root": "人参抑制铁死亡改善DCM的机制研究",
+      "children": [
+        {
+          "name": "药物输入层",
+          "children": [
+            {
+              "name": "人参（Radix Ginseng）",
+              "children": []
+            },
+            {
+              "name": "活性成分（10种）",
+              "children": [
+                {
+                  "name": "苯甲酰乌头原碱"
+                },
+                {
+                  "name": "阿朴莨菪碱"
+                },
+                {
+                  "name": "细叶远志皂苷A"
+                },
+                {
+                  "name": "高丽槐素（马卡因）"
+                },
+                {
+                  "name": "吉九里香碱"
+                },
+                {
+                  "name": "蓝堇碱"
+                },
+                {
+                  "name": "马尔坎古宁"
+                },
+                {
+                  "name": "苏木内酯"
+                },
+                {
+                  "name": "花生四烯酸"
+                },
+                {
+                  "name": "豆甾醇"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "疾病表型层",
+          "children": [
+            {
+              "name": "糖尿病心肌病（DCM）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "关键生物学过程",
+          "children": [
+            {
+              "name": "铁死亡（Ferroptosis）",
+              "children": [
+                {
+                  "name": "脂质过氧化"
+                },
+                {
+                  "name": "GPX4失活"
+                },
+                {
+                  "name": "SLC7A11抑制"
+                },
+                {
+                  "name": "铁积累"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "核心靶点与网络层",
+          "children": [
+            {
+              "name": "枢纽靶点（8个核心基因）",
+              "children": [
+                {
+                  "name": "AKT1（高连接度/中介性）"
+                },
+                {
+                  "name": "ALB（白蛋白）"
+                },
+                {
+                  "name": "HSP90AA1"
+                },
+                {
+                  "name": "EGFR"
+                },
+                {
+                  "name": "ESR1"
+                },
+                {
+                  "name": "MMP2"
+                },
+                {
+                  "name": "ANXA5"
+                },
+                {
+                  "name": "GSK3B"
+                }
+              ]
+            },
+            {
+              "name": "靶点互作网络（PPI）",
+              "children": [
+                {
+                  "name": "AKT1-HSP90AA1-EGFR轴"
+                },
+                {
+                  "name": "ALB-ESR1-MMP2模块"
+                },
+                {
+                  "name": "ANXA5-GSK3B调控环"
+                }
+              ]
+            },
+            {
+              "name": "验证方法",
+              "children": [
+                {
+                  "name": "分子对接（结合能 < -7 kcal/mol）"
+                },
+                {
+                  "name": "拓扑分析（连接度、中介中心性等）"
+                },
+                {
+                  "name": "可视化网络构建"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析人参通过抑制铁死亡改善糖尿病心肌病的潜在机制_周之壹_merged.json",
+    "page_num": 3,
+    "image_index": 1,
+    "thought": "该论文聚焦于中药人参通过抑制铁死亡（ferroptosis）改善糖尿病心肌病（DCM）的机制研究。核心技术路径为：以‘药物-成分-靶点-疾病’网络为核心框架，整合网络药理学（拓扑分析、可视化）、分子对接验证与通路机制解析。关键节点包括：1）药物层：人参；2）成分层：10种活性成分（如苯甲酰乌头原碱等）；3）靶点层：核心基因（AKT1、ALB、HSP90AA1、EGFR等），其中AKT1等被证实为多成分共同作用枢纽；4）疾病层：DCM；5）机制层：铁死亡通路。图2网络与表2拓扑指标（高连接度、中介中心性等）表明AKT1等是关键枢纽靶点；分子对接进一步验证成分-靶点结合能力；最终形成‘人参→活性成分→核心靶点（如AKT1）→抑制铁死亡→改善DCM’的因果链条。技术体系呈层级递进结构：从宏观网络构建到微观分子互作验证。",
+    "tree": {
+      "root": "人参抗DCM的铁死亡调控机制研究体系",
+      "children": [
+        {
+          "name": "1. 网络药理学建模",
+          "children": [
+            {
+              "name": "1.1 药物-成分-靶点-疾病（DCTD）网络构建",
+              "children": []
+            },
+            {
+              "name": "1.2 核心靶点筛选与拓扑分析",
+              "children": [
+                {
+                  "name": "连接度（Degree）",
+                  "children": []
+                },
+                {
+                  "name": "中介中心性（Betweenness）",
+                  "children": []
+                },
+                {
+                  "name": "紧密中心性（Closeness）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "1.3 可视化分析",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "2. 分子互作验证",
+          "children": [
+            {
+              "name": "2.1 分子对接模拟",
+              "children": [
+                {
+                  "name": "结合能计算（< -7 kcal/mol）",
+                  "children": []
+                },
+                {
+                  "name": "关键成分-靶点对验证（如苯甲酰乌头原碱-AKT1）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3. 机制通路解析",
+          "children": [
+            {
+              "name": "3.1 铁死亡抑制通路",
+              "children": []
+            },
+            {
+              "name": "3.2 核心靶点功能注释",
+              "children": [
+                {
+                  "name": "AKT1：丝氨酸/苏氨酸激酶，调控细胞存活与铁代谢",
+                  "children": []
+                },
+                {
+                  "name": "HSP90AA1：分子伴侣，稳定铁死亡相关蛋白",
+                  "children": []
+                },
+                {
+                  "name": "EGFR / ALB / GSK3B / MMP2 / ANXA5 / ESR1：多靶协同调控氧化应激与脂质过氧化",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4. 数据整合与生物学解释",
+          "children": [
+            {
+              "name": "4.1 成分-靶点-疾病交集分析（紫色节点）",
+              "children": []
+            },
+            {
+              "name": "4.2 通路富集与机制推演",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析人参通过抑制铁死亡改善糖尿病心肌病的潜在机制_周之壹_merged.json",
+    "page_num": 3,
+    "image_index": 2,
+    "thought": "该论文聚焦于中药人参通过抑制铁死亡（ferroptosis）改善糖尿病心肌病（DCM）的机制研究，采用网络药理学与分子对接相结合的方法。核心技术体系包含四个层次：（1）药物层：人参及其10种活性成分；（2）靶点层：以AKT1、ALB、HSP90AA1、EGFR等为核心基因/蛋白靶点，这些靶点在‘药物-成分-靶点-疾病’网络中具有高连接度与中心性，是关键枢纽；（3）机制层：铁死亡通路（ferroptosis），作为连接靶点与疾病的生物学过程；（4）疾病层：糖尿病心肌病（DCM）。图2的网络结构显示‘人参→活性成分→多靶点→铁死亡通路→DCM’的级联调控路径，表2的拓扑指标（如中介中心性、连接度）进一步验证了核心靶点的枢纽地位；分子对接结果（结合能＜−7 kcal/mol）则从结构层面支持成分-靶点相互作用的可靠性。因此，技术体系是以网络药理学为框架、多组学数据整合为支撑、分子对接为验证的‘成分-靶点-通路-疾病’四阶递进式结构。",
+    "tree": {
+      "root": "人参抗糖尿病心肌病（DCM）的网络药理学与机制研究",
+      "children": [
+        {
+          "name": "1. 药物与成分层",
+          "children": [
+            {
+              "name": "人参（Panax ginseng）"
+            },
+            {
+              "name": "活性成分（10种）",
+              "children": [
+                {
+                  "name": "苯甲酰乌头原碱"
+                },
+                {
+                  "name": "阿朴莨菪碱"
+                },
+                {
+                  "name": "细叶远志皂苷A"
+                },
+                {
+                  "name": "高丽槐素（马卡因）"
+                },
+                {
+                  "name": "吉九里香碱"
+                },
+                {
+                  "name": "蓝堇碱"
+                },
+                {
+                  "name": "马尔坎古宁"
+                },
+                {
+                  "name": "苏木内酯"
+                },
+                {
+                  "name": "花生四烯酸"
+                },
+                {
+                  "name": "豆甾醇"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2. 靶点层（核心基因/蛋白）",
+          "children": [
+            {
+              "name": "AKT1（高连接度39，关键枢纽）"
+            },
+            {
+              "name": "ALB（连接度35）"
+            },
+            {
+              "name": "HSP90AA1（连接度33）"
+            },
+            {
+              "name": "EGFR（连接度32）"
+            },
+            {
+              "name": "ESR1（连接度27）"
+            },
+            {
+              "name": "MMP2（连接度27）"
+            },
+            {
+              "name": "ANXA5（连接度22）"
+            },
+            {
+              "name": "GSK3B（连接度22）"
+            }
+          ]
+        },
+        {
+          "name": "3. 机制通路层",
+          "children": [
+            {
+              "name": "铁死亡（Ferroptosis）"
+            },
+            {
+              "name": "AKT信号通路（由AKT1介导）"
+            },
+            {
+              "name": "氧化应激与脂质过氧化调控"
+            },
+            {
+              "name": "细胞膜稳定性与铁代谢调节"
+            }
+          ]
+        },
+        {
+          "name": "4. 疾病终点层",
+          "children": [
+            {
+              "name": "糖尿病心肌病（DCM）"
+            }
+          ]
+        },
+        {
+          "name": "5. 方法学支撑层",
+          "children": [
+            {
+              "name": "‘药物-成分-靶点-疾病’网络构建"
+            },
+            {
+              "name": "拓扑分析（连接度、中介中心性等）"
+            },
+            {
+              "name": "可视化分析（Cytoscape等）"
+            },
+            {
+              "name": "分子对接（结合能＜−7 kcal/mol验证）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于网络药理学和分子对接技术分析人参通过抑制铁死亡改善糖尿病心肌病的潜在机制_周之壹_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "该论文聚焦于人参通过抑制铁死亡（ferroptosis）改善糖尿病心肌病（DCM）的分子机制研究。核心技术路径为：1）筛选核心靶基因（如AKT1、ALB、HSP90AA1、EGFR）；2）通过分子对接验证人参活性成分与靶蛋白的结合能力；3）GO功能富集分析揭示其参与的生物过程（如响应雌激素刺激、小RNA调控等）、分子功能与细胞组分；4）KEGG通路富集指向PI3K-Akt信号通路等关键通路；5）结合文献证据，阐明HSP90AA1和EGFR在心血管保护与铁死亡抑制中的作用。整体构成‘天然药物→活性成分→靶蛋白→信号通路→细胞表型（铁死亡抑制）→疾病改善（DCM）’的技术体系。",
+    "tree": {
+      "root": "人参抗糖尿病心肌病（DCM）的铁死亡抑制机制",
+      "children": [
+        {
+          "name": "1. 核心靶点识别",
+          "children": [
+            {
+              "name": "AKT1"
+            },
+            {
+              "name": "ALB（白蛋白）"
+            },
+            {
+              "name": "HSP90AA1（热休克蛋白90α）"
+            },
+            {
+              "name": "EGFR（表皮生长因子受体）"
+            }
+          ]
+        },
+        {
+          "name": "2. 活性成分-靶点互作验证",
+          "children": [
+            {
+              "name": "分子对接分析"
+            },
+            {
+              "name": "结合能计算（kcal/mol）"
+            },
+            {
+              "name": "代表性成分：苯甲酰乌头原碱、阿朴莨菪碱、细叶远志皂苷A、高丽槐素"
+            }
+          ]
+        },
+        {
+          "name": "3. 功能富集分析",
+          "children": [
+            {
+              "name": "GO分析"
+            },
+            {
+              "name": "BP（生物过程）：如 gland morphogenesis, response to estradiol, miRNA-mediated gene silencing"
+            },
+            {
+              "name": "MF（分子功能）"
+            },
+            {
+              "name": "CC（细胞组分）"
+            },
+            {
+              "name": "KEGG通路富集：PI3K-Akt信号通路、癌症中的蛋白多糖等"
+            }
+          ]
+        },
+        {
+          "name": "4. 机制通路整合",
+          "children": [
+            {
+              "name": "铁死亡抑制通路"
+            },
+            {
+              "name": "HSP90AA1介导的心肌保护（抗应激、抗炎、促重塑、调节VSMC）"
+            },
+            {
+              "name": "EGFR介导的ROS减少与心肌重构抑制"
+            },
+            {
+              "name": "PI3K-Akt信号轴调控"
+            },
+            {
+              "name": "FOXO/ERK1/2/P38等下游效应通路"
+            }
+          ]
+        },
+        {
+          "name": "5. 疾病表型终点",
+          "children": [
+            {
+              "name": "糖尿病心肌病（DCM）改善"
+            },
+            {
+              "name": "心肌损伤减轻"
+            },
+            {
+              "name": "心功能保护"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

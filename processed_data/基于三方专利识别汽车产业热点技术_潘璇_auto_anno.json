@@ -1,0 +1,674 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于三方专利识别汽车产业热点技术_潘璇_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "论文聚焦于技术趋势分析与新兴技术识别，核心方法包括：(1) 基于泊松回归的时间序列建模（用β系数量化词频增长趋势）；(2) 包络图可视化（以包络面积表征专利数量规模，颜色深浅表征增长速率β值）；(3) 专家研判（对机器识别结果进行人工验证与深化）。技术体系以‘技术主题’为顶层分类（如图2所示13个主题），每个主题下聚合多个具体‘技术点’（关键词/专利簇），形成‘领域→主题→技术点’三级结构。图2显示该领域为汽车/动力系统相关技术（含自动控制、动力系统、智能网联、新能源等子域），技术点按功能/部件/材料等维度聚类。因此，技术体系根节点应为‘技术趋势智能识别与评估体系’，其下分三支柱：数据建模层（泊松回归）、可视化层（包络图）、决策支持层（专家研判），而底层支撑是‘技术主题-技术点’知识图谱结构。",
+    "tree": {
+      "root": "技术趋势智能识别与评估体系",
+      "children": [
+        {
+          "name": "数据建模层",
+          "children": [
+            {
+              "name": "泊松回归时间序列建模",
+              "children": [
+                {
+                  "name": "因变量：非负整数词频Y"
+                },
+                {
+                  "name": "自变量：时间t"
+                },
+                {
+                  "name": "模型：log(P(Y|t)) = α + βt"
+                },
+                {
+                  "name": "趋势判据：β > 0 上升；β < 0 下降；β ≈ 0 稳定"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "可视化层",
+          "children": [
+            {
+              "name": "技术主题包络图",
+              "children": [
+                {
+                  "name": "包络：代表一个技术主题"
+                },
+                {
+                  "name": "最小圆形单元：代表单个技术点"
+                },
+                {
+                  "name": "包络面积：表征该主题专利总量规模"
+                },
+                {
+                  "name": "颜色深浅：映射β值大小，表征增长速率"
+                },
+                {
+                  "name": "热点识别规则：深色+小面积 → 高速增长萌芽技术"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "决策支持层",
+          "children": [
+            {
+              "name": "专家研判机制",
+              "children": [
+                {
+                  "name": "问卷调研与专家访谈"
+                },
+                {
+                  "name": "专题讨论与深度研究"
+                },
+                {
+                  "name": "机器结果人工校验与价值评估"
+                },
+                {
+                  "name": "输出：高潜力技术方向推荐"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "知识基底层",
+          "children": [
+            {
+              "name": "技术主题-技术点知识图谱",
+              "children": [
+                {
+                  "name": "13个技术主题（如：自动控制、动力系统、智能网联、新能源等）"
+                },
+                {
+                  "name": "185个关键词/技术点（按功能/部件/材料聚类）"
+                },
+                {
+                  "name": "层级关系：主题 ⊃ 技术点"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于三方专利识别汽车产业热点技术_潘璇_merged.json",
+    "page_num": 3,
+    "image_index": 0,
+    "thought": "论文描述了一个融合数据驱动与专家知识的新兴技术识别与研判框架：首先通过专利数据库（如incoPat）获取高质量技术文献；继而运用NLP技术（Doc2vec）进行文本特征抽取，生成高维向量表示；再采用无监督聚类算法（Agglomerative clustering with Ward distance）对技术主题进行自动发现与分组；最终将机器聚类结果交由领域专家进行人工校验与融合，形成技术主题图谱（如图3所示的圆形包裹图），并输出趋势预测与政策建议。核心是‘数据→特征提取→聚类发现→专家校订→决策支持’的闭环流程，体现‘人机协同’的技术体系。",
+    "tree": {
+      "root": "人机协同的新兴技术识别与研判体系",
+      "children": [
+        {
+          "name": "数据层",
+          "children": [
+            {
+              "name": "专利数据库（如incoPat同族专利）",
+              "children": []
+            },
+            {
+              "name": "高质量检索式构建（专家参与）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "特征工程层",
+          "children": [
+            {
+              "name": "文本预处理（标题/摘要）",
+              "children": []
+            },
+            {
+              "name": "深度表征学习（Doc2vec模型）",
+              "children": []
+            },
+            {
+              "name": "100维特征向量生成",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "智能分析层",
+          "children": [
+            {
+              "name": "无监督聚类（Agglomerative + Ward距离）",
+              "children": []
+            },
+            {
+              "name": "技术主题自动发现与分组",
+              "children": []
+            },
+            {
+              "name": "可视化呈现（圆形包裹图等）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "专家协同层",
+          "children": [
+            {
+              "name": "专家研判与校订",
+              "children": []
+            },
+            {
+              "name": "技术主题融合确认",
+              "children": []
+            },
+            {
+              "name": "关键技术点提炼",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "决策支持层",
+          "children": [
+            {
+              "name": "发展趋势预测",
+              "children": []
+            },
+            {
+              "name": "产业影响评估",
+              "children": []
+            },
+            {
+              "name": "政策建议生成",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于三方专利识别汽车产业热点技术_潘璇_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "论文通过专利与文献关键词分析，提炼出汽车技术领域的13个宏观技术主题（如动力系统、自动驾驶等），并进一步细化为185个具体技术点。技术架构图（图4）呈现了层级聚类关系：顶层为13个主题（部分在图中标注为大圆区域），中层为各主题下的子类/技术簇（如‘动力系统’下含internal combustion engine、electric motor等），底层为具体技术关键词（如battery、control valve）。其中，‘动力系统’‘电动化’‘控制系统’‘自动驾驶’构成当前研发核心；传统内燃机相关技术仍占较大比重，体现技术演进的过渡性特征。整体结构呈放射状层次聚类，以功能系统为一级划分，再按组件、材料、控制逻辑等维度细分。",
+    "tree": {
+      "root": "汽车技术体系",
+      "children": [
+        {
+          "name": "动力系统",
+          "children": [
+            {
+              "name": "内燃机",
+              "children": [
+                "internal combustion engine",
+                "combustion",
+                "gas turbine engine",
+                "drive shaft"
+              ]
+            },
+            {
+              "name": "混合动力",
+              "children": [
+                "hybrid pressure",
+                "drive unit",
+                "power supply"
+              ]
+            },
+            {
+              "name": "燃料电池",
+              "children": [
+                "fuel cell"
+              ]
+            },
+            {
+              "name": "电动化",
+              "children": [
+                "battery",
+                "electric motor",
+                "electric vehicle",
+                "electric power"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "控制系统",
+          "children": [
+            {
+              "name": "控制单元",
+              "children": [
+                "control system",
+                "control unit",
+                "control valve",
+                "control apparatus"
+              ]
+            },
+            {
+              "name": "执行与传感",
+              "children": [
+                "steering",
+                "clutch",
+                "magnetic field",
+                "energy storage"
+              ]
+            },
+            {
+              "name": "通信与感知",
+              "children": [
+                "sensor",
+                "communication"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "自动驾驶",
+          "children": [
+            {
+              "name": "感知系统",
+              "children": [
+                "sensor"
+              ]
+            },
+            {
+              "name": "决策与通信",
+              "children": [
+                "communication"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "制动系统",
+          "children": [
+            {
+              "name": "制动执行",
+              "children": [
+                "braking",
+                "pneumatic tire",
+                "rubber composition"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "轻量化",
+          "children": [
+            {
+              "name": "材料",
+              "children": [
+                "plastic",
+                "alloy",
+                "composite",
+                "vehicle body"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "零部件",
+          "children": [
+            {
+              "name": "执行部件",
+              "children": [
+                "control device",
+                "fuel nozzle",
+                "heat sink",
+                "temperature sensor"
+              ]
+            },
+            {
+              "name": "舒适部件",
+              "children": [
+                "vehicle seat"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "空气净化",
+          "children": [
+            {
+              "name": "排放处理",
+              "children": [
+                "catalyst",
+                "exhaust gas"
+              ]
+            },
+            {
+              "name": "舱内净化",
+              "children": [
+                "display device",
+                "laminated glass"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "影像显示",
+          "children": [
+            {
+              "name": "人机交互",
+              "children": [
+                "display device",
+                "laminated glass"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "通用材料",
+          "children": [
+            {
+              "name": "结构材料",
+              "children": [
+                "plastic",
+                "alloy",
+                "composite",
+                "laminated glass"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "舒适性",
+          "children": [
+            {
+              "name": "座舱体验",
+              "children": [
+                "vehicle seat",
+                "comfort"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于三方专利识别汽车产业热点技术_潘璇_merged.json",
+    "page_num": 5,
+    "image_index": 0,
+    "thought": "论文聚焦于汽车产业技术热点识别，核心方法是基于三方专利数据的量化分析与专家研判融合。关键技术体系包含三个层级：（1）底层数据层：以三方专利为高价值数据源；（2）分析层：结合泊松回归（β变化率）、包络图可视化、NLP与大数据统计，将185个细粒度技术点聚类为13个技术主题；（3）决策层：通过德尔菲法整合机器算法结果与产业专家经验，最终确认电动化、自动驾驶、轻量化等热点方向。图5进一步揭示‘自动驾驶’主题下各关键词（如map data, sensor device, optical system等）的词频增长与β值趋势，体现技术点级动态演化。整体架构呈现‘数据驱动→算法聚类→专家校准’的闭环技术体系。",
+    "tree": {
+      "root": "汽车产业热点技术识别技术体系",
+      "children": [
+        {
+          "name": "数据层",
+          "children": [
+            {
+              "name": "三方专利数据",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "分析层",
+          "children": [
+            {
+              "name": "专利计量分析",
+              "children": [
+                {
+                  "name": "泊松回归拟合（β变化率）",
+                  "children": []
+                },
+                {
+                  "name": "包络图可视化",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "文本与大数据处理",
+              "children": [
+                {
+                  "name": "自然语言处理（NLP）",
+                  "children": []
+                },
+                {
+                  "name": "技术点聚类（185→13主题）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "决策层",
+          "children": [
+            {
+              "name": "专家-算法融合研判",
+              "children": [
+                {
+                  "name": "德尔菲法",
+                  "children": []
+                },
+                {
+                  "name": "产业专家校正（车企/学会）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "热点技术输出",
+              "children": [
+                {
+                  "name": "电动化",
+                  "children": []
+                },
+                {
+                  "name": "自动驾驶",
+                  "children": [
+                    {
+                      "name": "map data",
+                      "children": []
+                    },
+                    {
+                      "name": "sensor device",
+                      "children": []
+                    },
+                    {
+                      "name": "optical system",
+                      "children": []
+                    },
+                    {
+                      "name": "driving assistance",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "轻量化",
+                  "children": []
+                },
+                {
+                  "name": "空气净化",
+                  "children": []
+                },
+                {
+                  "name": "燃料电池",
+                  "children": []
+                },
+                {
+                  "name": "动力系统",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于三方专利识别汽车产业热点技术_潘璇_merged.json",
+    "page_num": 6,
+    "image_index": 0,
+    "thought": "论文明确指出通过专家研判遴选出汽车产业最重要的3个热点技术主题：电动化、自动驾驶、影像显示。结合图6中列出的12个技术主题（包括控制系统、零部件、动力系统等）及文中对电动化与自动驾驶的详细展开，可推断出该领域技术体系以‘整车智能化与绿色化’为核心目标，分为三大支柱：1）电动化（含动力系统、电池、充电等子技术点）；2）自动驾驶（含感知、决策、执行及网联支撑技术）；3）人机交互与体验（以影像显示为代表，关联舒适性、空气净化等）。其余如轻量化、通用材料、混合动力、燃料电池等属于支撑性或并行技术路径，而制动系统、控制系统、零部件则为底层共性基础模块。技术架构呈现‘底层基础→核心系统→上层应用/体验’的层次关系。",
+    "tree": {
+      "root": "汽车产业核心技术体系",
+      "children": [
+        {
+          "name": "电动化",
+          "children": [
+            {
+              "name": "动力系统",
+              "children": []
+            },
+            {
+              "name": "电池技术",
+              "children": [
+                {
+                  "name": "负极",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "电动装置",
+              "children": []
+            },
+            {
+              "name": "电动机",
+              "children": []
+            },
+            {
+              "name": "充电基础设施",
+              "children": [
+                {
+                  "name": "充电站",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "电子控制器",
+              "children": []
+            },
+            {
+              "name": "燃料电池",
+              "children": []
+            },
+            {
+              "name": "混合动力",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "自动驾驶",
+          "children": [
+            {
+              "name": "感知系统",
+              "children": [
+                {
+                  "name": "传感器装置",
+                  "children": []
+                },
+                {
+                  "name": "光学系统",
+                  "children": []
+                },
+                {
+                  "name": "光学元件",
+                  "children": []
+                },
+                {
+                  "name": "激光",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "通信与网联",
+              "children": [
+                {
+                  "name": "通信技术",
+                  "children": []
+                },
+                {
+                  "name": "通信设备",
+                  "children": []
+                },
+                {
+                  "name": "位置信息",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "决策与控制",
+              "children": [
+                {
+                  "name": "控制系统",
+                  "children": []
+                },
+                {
+                  "name": "无人驾驶",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "零部件",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "人机交互与驾乘体验",
+          "children": [
+            {
+              "name": "影像显示",
+              "children": []
+            },
+            {
+              "name": "舒适性",
+              "children": []
+            },
+            {
+              "name": "空气净化",
+              "children": []
+            },
+            {
+              "name": "制动系统",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "基础支撑技术",
+          "children": [
+            {
+              "name": "轻量化",
+              "children": []
+            },
+            {
+              "name": "通用材料",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "type": "table",
+    "merged_json": "data/merged\\高校学科均衡发展与重要研究论文及专利成果特征分析_杨祖国_merged.json",
+    "page_num": 3,
+    "table_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\高校学科均衡发展与重要研究论文及专利成果特征分析_杨祖国_merged.json",
+    "page_num": 4,
+    "table_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\高校学科均衡发展与重要研究论文及专利成果特征分析_杨祖国_merged.json",
+    "page_num": 4,
+    "table_index": 1,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\高校学科均衡发展与重要研究论文及专利成果特征分析_杨祖国_merged.json",
+    "page_num": 5,
+    "table_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

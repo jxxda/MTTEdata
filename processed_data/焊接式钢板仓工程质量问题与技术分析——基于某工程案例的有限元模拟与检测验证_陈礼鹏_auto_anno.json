@@ -1,0 +1,15 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\焊接式钢板仓工程质量问题与技术分析——基于某工程案例的有限元模拟与检测验证_陈礼鹏_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

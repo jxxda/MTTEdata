@@ -1,0 +1,367 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于深度学习的单目6D物体位姿估计的研究_廖文华_merged.json",
+    "page_num": 0,
+    "image_index": 0,
+    "thought": "论文题目为《基于深度学习的单目6D物体位姿估计的研究》，表明该研究聚焦于计算机视觉中的6D位姿估计任务，核心是利用深度学习方法从单张RGB图像中预测物体的3D位置（x, y, z）和3D旋转（通常用四元数、欧拉角或旋转矩阵表示）。尽管提供的图片仅为论文封面页，未包含技术架构图或正文内容，但根据领域常识可推断其技术体系结构：根节点为‘单目6D物体位姿估计’；主要分支包括输入数据（单目RGB图像）、关键挑战（如遮挡、光照变化、对称性）、主流方法范式（如基于关键点回归、基于模板匹配、基于隐式表示/神经辐射场、基于直接回归），以及典型网络架构（如CNN主干+回归头、Transformer编码器-解码器、几何约束模块等）。由于缺乏具体图示与正文细节，本推理严格基于题目与领域标准知识构建通用技术树。",
+    "tree": {
+      "root": "单目6D物体位姿估计",
+      "children": [
+        {
+          "name": "输入模态",
+          "children": [
+            {
+              "name": "单目RGB图像"
+            },
+            {
+              "name": "可选辅助信息（如深度图、语义分割掩码）"
+            }
+          ]
+        },
+        {
+          "name": "核心方法范式",
+          "children": [
+            {
+              "name": "关键点回归法（如PVNet, DenseFusion）"
+            },
+            {
+              "name": "模板匹配法（如SSD-6D, Pix2Pose）"
+            },
+            {
+              "name": "直接回归法（如YOLO6D, RTM3D）"
+            },
+            {
+              "name": "隐式表示/NeRF-based方法（如Nerf6D, Objaverse-6D）"
+            },
+            {
+              "name": "基于2D-3D对应关系的方法（如DeepIM, EPN）"
+            }
+          ]
+        },
+        {
+          "name": "关键技术组件",
+          "children": [
+            {
+              "name": "特征提取主干网络（ResNet, EfficientNet, Swin Transformer）"
+            },
+            {
+              "name": "几何约束模块（如PnP求解器、ICP优化）"
+            },
+            {
+              "name": "损失函数设计（如L1/L2位姿损失、对称性感知损失、重投影误差）"
+            },
+            {
+              "name": "数据增强与合成训练（如BlenderProc, Domain Randomization）"
+            }
+          ]
+        },
+        {
+          "name": "挑战与应对",
+          "children": [
+            {
+              "name": "遮挡处理（注意力机制、多视角推理）"
+            },
+            {
+              "name": "对称物体歧义性（对称不变表示、多假设输出）"
+            },
+            {
+              "name": "尺度与光照鲁棒性（归一化、对比学习）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于深度学习的单目6D物体位姿估计的研究_廖文华_merged.json",
+    "page_num": 1,
+    "image_index": 0,
+    "thought": "论文题目为‘基于深度学习的单目6D物体位姿估计的研究’，明确指向计算机视觉中的一个具体任务：从单张RGB图像中估计物体的6自由度（3D位置+3D旋转）位姿。该任务属于三维视觉与机器人感知的核心问题，其技术体系依赖于深度学习方法（如CNN、Transformer等）作为主干网络，结合几何约束、关键点检测、模板匹配、隐式表示或直接回归等策略实现位姿求解。典型技术路径包括：1）基于关键点/特征点的方法（如通过2D-3D对应关系用PnP求解）；2）基于直接回归的方法（端到端输出位姿）；3）基于隐式表示/神经辐射场（NeRF）的生成式位姿估计；4）结合渲染与对比学习的自监督/弱监督范式。整体架构可归纳为：输入（单目图像）→ 深度特征提取 → 位姿表征建模 → 几何求解/优化 → 输出6D位姿。因此，技术体系应以‘单目6D物体位姿估计’为根节点，下分数据驱动、几何推理、模型架构三大支柱。",
+    "tree": {
+      "root": "单目6D物体位姿估计",
+      "children": [
+        {
+          "name": "数据驱动方法",
+          "children": [
+            {
+              "name": "直接回归法",
+              "children": []
+            },
+            {
+              "name": "关键点/特征点检测法",
+              "children": []
+            },
+            {
+              "name": "渲染-对比学习法",
+              "children": []
+            },
+            {
+              "name": "自监督/弱监督学习",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "几何推理方法",
+          "children": [
+            {
+              "name": "PnP求解器",
+              "children": []
+            },
+            {
+              "name": "深度图辅助几何约束",
+              "children": []
+            },
+            {
+              "name": "对称性/先验建模",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "模型架构设计",
+          "children": [
+            {
+              "name": "CNN主干网络",
+              "children": []
+            },
+            {
+              "name": "Transformer编码器",
+              "children": []
+            },
+            {
+              "name": "多任务联合学习",
+              "children": []
+            },
+            {
+              "name": "隐式神经表示（如NeRF变体）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于深度学习的单目6D物体位姿估计的研究_廖文华_merged.json",
+    "page_num": 1,
+    "image_index": 1,
+    "thought": "论文题目为‘基于深度学习的单目6D物体位姿估计的研究’，表明该研究聚焦于计算机视觉中的6D位姿估计任务，核心是利用深度学习方法从单张RGB图像中预测物体的3D位置（x, y, z）和3D朝向（roll, pitch, yaw 或四元数等），即6自由度（6D）位姿。虽未提供完整技术架构图，但根据领域共识与题目可推断其技术体系：以单目图像输入为起点，经特征提取（如CNN或Transformer）、关键点/像素级回归/隐式表示建模，最终输出6D位姿；常见范式包括：1）直接回归法（如PoseNet）；2）关键点+PnP法（如BB8、PVNet）；3）隐式/模板匹配法（如NOCS、DenseFusion）；4）基于渲染的迭代优化（如E2E-6D）。整体技术栈依赖于深度学习模型、3D几何约束、数据增强与合成数据生成（如BlenderProc）、评估指标（ADD, ADD-S, MPJPE等）。因此，技术体系应以‘单目6D位姿估计’为根，下分输入、骨干网络、位姿求解策略、训练与数据、评估五大支柱。",
+    "tree": {
+      "root": "单目6D物体位姿估计",
+      "children": [
+        {
+          "name": "输入与预处理",
+          "children": [
+            {
+              "name": "单目RGB图像"
+            },
+            {
+              "name": "图像增强（翻转/裁剪/光照）"
+            },
+            {
+              "name": "合成数据生成（Blender/Unity）"
+            }
+          ]
+        },
+        {
+          "name": "深度特征提取骨干网络",
+          "children": [
+            {
+              "name": "CNN主干（ResNet, EfficientNet）"
+            },
+            {
+              "name": "Vision Transformer（ViT, Swin）"
+            },
+            {
+              "name": "多尺度特征融合（FPN, U-Net结构）"
+            }
+          ]
+        },
+        {
+          "name": "位姿求解策略",
+          "children": [
+            {
+              "name": "直接回归法（全连接层输出6D）"
+            },
+            {
+              "name": "关键点检测 + PnP（2D-3D对应）"
+            },
+            {
+              "name": "像素级位姿图（Pixel-wise 6D）"
+            },
+            {
+              "name": "隐式表示法（NOCS, DenseFusion）"
+            },
+            {
+              "name": "渲染-优化闭环（Differentiable Rendering）"
+            }
+          ]
+        },
+        {
+          "name": "训练与优化",
+          "children": [
+            {
+              "name": "损失函数设计（L1/L2, Geometric Loss, Reprojection Loss）"
+            },
+            {
+              "name": "自监督/半监督训练"
+            },
+            {
+              "name": "域自适应（Real-to-Sim）"
+            },
+            {
+              "name": "端到端联合优化"
+            }
+          ]
+        },
+        {
+          "name": "评估与基准",
+          "children": [
+            {
+              "name": "标准数据集（LINEMOD, YCB-Video, T-LESS）"
+            },
+            {
+              "name": "评价指标（ADD, ADD-S, MPJPE, 5cm5°）"
+            },
+            {
+              "name": "实时性与鲁棒性分析"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于深度学习的单目6D物体位姿估计的研究_廖文华_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "论文标题为‘Monocular 6D object pose estimation based on deep learning’，表明该研究聚焦于单目图像下的6D物体位姿估计任务，核心方法是深度学习。虽然提供的片段仅为封面页（无正文或架构图），但根据领域常识可推断：该技术体系以‘单目6D位姿估计’为顶层目标，其下依赖三大支柱：(1) 输入处理（单目RGB图像预处理与特征提取），(2) 深度学习模型架构（如基于CNN/Transformer的回归网络、关键点检测、隐式表示等主流范式），(3) 位姿求解与优化（如PnP、几何约束、迭代 refinement）。典型子方向包括：2D-3D对应建模（关键点/像素级匹配）、直接回归（6D参数端到端输出）、隐式表示（如Object-Centric Representation）、以及数据增强与合成训练策略。由于缺乏具体架构图，本推理基于该任务的标准技术栈进行合理归纳。",
+    "tree": {
+      "root": "单目6D物体位姿估计（Deep Learning-based）",
+      "children": [
+        {
+          "name": "输入与预处理",
+          "children": [
+            "单目RGB图像输入",
+            "图像增强与归一化",
+            "目标检测与裁剪（如YOLO/CenterNet前置模块）"
+          ]
+        },
+        {
+          "name": "深度学习模型架构",
+          "children": [
+            "特征提取主干网络（ResNet, EfficientNet, Swin Transformer）",
+            "位姿回归头（全连接/MLP输出平移+旋转）",
+            "关键点检测分支（2D-3D对应点预测）",
+            "隐式表示编码器（如Object-Centric Embedding）",
+            "多任务联合学习（分类+关键点+位姿）"
+          ]
+        },
+        {
+          "name": "位姿求解与优化",
+          "children": [
+            "PnP / EPnP 几何求解",
+            "迭代优化模块（如ICP、Refinement Network）",
+            "几何一致性约束（深度/法向量/对称性）",
+            "不确定性建模与置信度估计"
+          ]
+        },
+        {
+          "name": "训练策略与数据",
+          "children": [
+            "合成数据生成（Blender, Unity, CAD模型渲染）",
+            "域自适应与真实-合成迁移",
+            "自监督/弱监督学习（利用深度/视频时序）",
+            "损失函数设计（L1/L2 + 角度损失 + 对称性损失）"
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于深度学习的单目6D物体位姿估计的研究_廖文华_merged.json",
+    "page_num": 2,
+    "image_index": 1,
+    "thought": "论文标题为‘基于深度学习的单目6D物体位姿估计’，表明该研究聚焦于计算机视觉中的6D位姿估计任务，核心方法是深度学习，输入为单目图像（即单一RGB相机）。虽然未提供完整技术架构图，但从领域常识可推断：该任务的技术体系以‘单目6D位姿估计’为根节点；其下主要分为三类主流技术路径：(1) 基于关键点/特征匹配的方法（如通过检测2D关键点并结合PnP求解6D位姿）；(2) 直接回归法（端到端CNN直接输出旋转和平移）；(3) 基于模板/渲染的隐式表示方法（如利用可微分渲染进行优化）。此外，支撑层包括数据集与标注、损失函数设计、骨干网络选择（如ResNet、EfficientNet）、后处理模块（如ICP refinement）等。本论文作为硕士论文，应属于上述某一支路的改进或融合方案。",
+    "tree": {
+      "root": "单目6D物体位姿估计",
+      "children": [
+        {
+          "name": "基于关键点/2D-3D对应的方法",
+          "children": [
+            {
+              "name": "2D关键点检测网络"
+            },
+            {
+              "name": "PnP / EPnP 求解器"
+            },
+            {
+              "name": "关键点匹配与优化（如RANSAC）"
+            }
+          ]
+        },
+        {
+          "name": "端到端直接回归方法",
+          "children": [
+            {
+              "name": "旋转表示学习（如四元数、轴角、矩阵）"
+            },
+            {
+              "name": "平移回归头"
+            },
+            {
+              "name": "多任务损失设计（分类+回归）"
+            }
+          ]
+        },
+        {
+          "name": "基于渲染/隐式表示的方法",
+          "children": [
+            {
+              "name": "可微分渲染模块"
+            },
+            {
+              "name": "隐式形状表示（如SDF、NeRF）"
+            },
+            {
+              "name": "迭代优化（如梯度下降优化位姿）"
+            }
+          ]
+        },
+        {
+          "name": "支撑技术组件",
+          "children": [
+            {
+              "name": "骨干网络（CNN / Transformer）"
+            },
+            {
+              "name": "数据集与合成数据增强"
+            },
+            {
+              "name": "损失函数（L1/L2、Geodesic loss、RepLoss等）"
+            },
+            {
+              "name": "后处理（ICP refinement、NMS）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

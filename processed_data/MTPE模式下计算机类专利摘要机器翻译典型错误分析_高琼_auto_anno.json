@@ -1,0 +1,43 @@
+[
+  {
+    "type": "table",
+    "merged_json": "data/merged\\MTPE模式下计算机类专利摘要机器翻译典型错误分析_高琼_merged.json",
+    "page_num": 1,
+    "table_index": 0,
+    "thought": "表格数据反映的是机器翻译中冠词使用错误的统计情况，具体聚焦于可数名词前冠词‘a/an’与定冠词‘the’的误用问题。频次列显示：56次为‘a the’（应为‘a’或‘the’，但混用），224次为‘an the’（明显语法错误），2544为总出现次数（a/an）。结合上下文【例4】分析，问题本质是机翻将本应为复数的可数名词（如operation states）错误保留为单数，进而导致冠词搭配不当（如用‘a’或‘an’修饰本应带‘the’的特指名词，或在需复数时仍用单数冠词结构）。因此，该技术问题属于‘语法错误’大类下的‘冠词误用’子类，进一步可细分为‘不定冠词与定冠词混用’和‘冠词与名词单复数不匹配’两类。",
+    "tree": {
+      "root": "机器翻译语法错误",
+      "children": [
+        {
+          "name": "冠词误用",
+          "children": [
+            {
+              "name": "不定冠词与定冠词混用",
+              "children": [
+                {
+                  "name": "a the",
+                  "children": []
+                },
+                {
+                  "name": "an the",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "冠词与名词单复数不匹配",
+              "children": [
+                {
+                  "name": "单数冠词用于复数名词",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

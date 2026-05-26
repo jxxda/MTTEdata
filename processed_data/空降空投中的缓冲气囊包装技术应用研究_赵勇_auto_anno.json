@@ -1,0 +1,28 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\空降空投中的缓冲气囊包装技术应用研究_赵勇_merged.json",
+    "page_num": 0,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\空降空投中的缓冲气囊包装技术应用研究_赵勇_merged.json",
+    "page_num": 0,
+    "image_index": 1,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]

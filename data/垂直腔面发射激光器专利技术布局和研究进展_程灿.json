@@ -1,0 +1,122 @@
+{
+  "title": "垂直腔面发射激光器专利技术布局和研究进展_程灿",
+  "source_pdf": "data/raw\\垂直腔面发射激光器专利技术布局和研究进展_程灿.pdf",
+  "pages": [
+    {
+      "page_num": 0,
+      "text": "第62卷 第2期\n微纳电子技术\nVol.62 No.2\n2025年2月\nMicronanoelectronic\nTechnology\nFebruary\n2025\n020102- 1\n■■■■■\n■\n■■■■■\n■■\n■\n■\n■\n技术论坛\nDOI:10.13250/j.cnki.wndz.25020102\n引用格式:程灿,王治华,孙曙旭,等.垂直腔面发射激光器专利技术布局和研究进展[J].微纳电子技术,2025,62(2):020102.\nCHENG\nC,\nWANG\nZ\nH,\nSUN\nS\nX,\net\nal.Patent\ntechnology\nlayout\nand\nresearch\nadvances\nin\nvertical\ncavity\nsurface\nemitting\nlaser\n[J].Micronanoelectronic\nTechnology,2025,62(2):020102.\n收稿日期:2024-05-22\n垂直腔面发射激光器专利技术布局和研究进展\n程 灿,王治华,孙曙旭,吴 博\n(国家知识产权局\n专利局\n光电技术发明审查部,北京 100081)\n摘要:垂直腔面发射激光器(VCSEL)具有体积小、调制响应快、光束质量好、效率高、功耗\n低、易于集成为大面积阵列等诸多优点,广泛应用于光通信、光传感、激光显示、激光照明、激\n光雷达、消费电子如面部识别等领域,VCSEL技术成为一个备受关注的新兴技术。基于此,结\n合中国专利全文数据库(CNTXT)中\n2000—2022年间申请的涉及VCSEL技术的专利文献,分\n析了专利申请概况和主要申请人的专利申请布局策略。通过对该领域的专利技术分析,提出了目\n前VCSEL技术面临着不断提高光功率密度、改善光束质量、降低能耗和成本的挑战,介绍了目\n前VCSEL主要的技术发展,并对VCSEL未来的市场前景和技术发展方向进行展望,希望为我\n国VCSEL技术的产业发展和知识产权保护提供一些启示和参考。\n关键词:激光器;垂直腔面发射激光器(VCSEL);高功率;光束质量;专利分析\n中图分类号:TN248.4;G306\n文献标识码:A 文章编号:1671-4776 (2025)02-020102\nPatent\nTechnology\nLayout\nand\nResearch\nAdvances\nin\nVertical\nCavity\nSurface\nEmitting\nLaser\nCheng\nCan,\nWang\nZhihua,\nSun\nShuxu,\nWu\nBo\n(Optics\nand\nElectronics\nTechnology\nInvention\nExamination\nDepartment,\nPatent\nOffice,\nChina\nNational\nIntellectual\nProperty\nAdministration,\nBeijing\n100081,\nChina)\nAbstract:Vertical\ncavity\nsurface\nemitting\nlasers\n(VCSELs)\nhave\nthe\nadvantages\nof\na\nsmall\nvolume,\nfast\nmodulation\nresponse,\ngood\nbeam\nquality,\nhigh\nefficiency,\nlow\npower\nconsumption,\nease\nof\nintegration\ninto\nlarge\narea\narrays,and\nso\non.\nVCSELs\nare\nwidely\nused\nin\nthe\nfields\nof\nlight\ncommunication,\nlight\nsensing,\nlaser\ndisplay,\nlaser\nillumination,\nlaser\nradar,\nconsumer\nelectronics\nsuch\nas\nfacial\nrecognition,\netc.\nVCSEL\ntechnology\nbecomes\nan\nemerging\ntechnology\nof\ngreat\ninterest.\nBased\non\nthis,\nthe\npatent\napplication\noutline\nand\nthe\npatent\napplication\nlayout\nstrategy\nof\nthe\nmain\napplicant\nwere\nanalyzed\nin\ncombination\nwith\npatent\nliterature\nrelating\nto\nVCSEL\ntechnology\napplied\n2000—2022\nin\nthe\nChinese\npatent\nfull\ndatabase\n(CNTXT).\nThrough\nthe\npatent\ntechnology\nanalysis\nof\nthe\nfield,\nit\nis\nproposed\nherein\nthat\ncurrent\nVCSEL\ntechnology\nfaces\nthe\nchallenges\nof\nincreasing\noptical\npower\ndensity,\nimproving\nbeam\nquality\nand\nreducing",
+      "images": []
+    },
+    {
+      "page_num": 1,
+      "text": "微\n纳\n电\n子\n技\n术\n020102- 2\nenergy\nconsumption\nand\ncost,\nthe\nmain\ntechnological\ndevelopments\nof\ncurrent\nVCSELs\nare\nintroduced,\nand\nthe\nfuture\nmarket\nprospects\nand\ntechnological\ndevelopments\nof\nVCSELs\nare\nexpected,\nhoping\nto\nprovide\nsome\nmotivations\nand\nreferences\nfor\ntechnological\ndevelopment\nand\nintellectual\nproperty\nprotection\nof\nVCSEL\ntechnology\nindustry\nin\nChina.\nKey\nwords:laser;vertical\ncavity\nsurface\nemitting\nlaser (VCSEL);high\npower;beam\nquality;\npatent\nanalysis\nEEACC:2560H;4320J\n0 引 言\n20世纪70年代末到80年代初,垂直腔面发\n射激光器(VCSEL)的概念被提出[1],VCSEL是\n一种半导体激光器,其激光垂直于芯片表面射出。\nVCSEL主要由上下的分布布拉格反射镜(distri-\nbuted\nBragg\nreflector,DBR)、中心的发光区结构\n组成,DBR为周期性的半导体材料对,主要作用\n为提供高的反射率与导电,一般由与衬底晶格一致\n的半导体材料组成,发光区由多量子阱或量子点等\n增益材料组成[2-4]。20世纪80年代中期开始进行\n初步的研究和开发,20世纪90年代,VCSEL技\n术取得了重要进展,在一些应用中开始崭露头角。\n21世纪以来,随着技术的不断完善,VCSEL因其\n具有体积小、调制响应快、光束质量好(圆形对称\n光斑)、效率高、功耗低、激光光谱窄及二维可集\n成等独特优势,在光通信、光传感、激光显示、激\n光照明、激光雷达、消费电子如3D智能感知中得\n到了广泛应用[5]。据研究机构Yole\nGroup于2022\n年更新的对VCSEL市场的预测,2022年VCSEL\n市场整体规模达到16亿美元,2027年则将达到39\n亿美元体量,2022—2027年复合年增长率预计达\n到19.2%\n[6]。目前对VCSEL需求最大的两个行业\n是移动和消费电子应用市场、数据通信市场。此\n外,随着万物互联感知以及自动驾驶技术的不断发\n展,未来有望实现更低成本、更小体积与更高功率\n密度的VCSEL\n[7-9]。\n垂直腔面发射激光器与传统边发射激光器不同\n的结构带来了许多优势:小的发散角和圆形对称的\n远、近场分布使其与光纤的耦合效率大大提高,而\n不需要复杂昂贵的光束整形系统,现已证实与多模\n光纤的耦合效率大于90%;光腔长度极短,导致\n其纵模间距拉大,可在较宽的温度范围内实现单纵\n模工作,动态调制频率高;腔体积减小使得其自发\n辐射因子较普通端面发射激光器高几个数量级,这\n导致许多物理特性大为改善;可以在片测试,极大\n地降低了开发成本;出光方向垂直于衬底,可以很\n容易地实现高密度二维面阵的集成,实现更高功率\n输出,并且因为在垂直于衬底的方向上可并行排列\n多个激光器,所以非常适合应用在并行光传输以及\n并行光互连等领域。最吸引人的是它的制造工艺与\n发光二极管(LED)兼容,大规模制造的成本\n很低。\n作为科研成果的风向标,专利文献常常能够体\n现出相关技术领域中技术发展的方向和脉络。研究\n了垂直腔面发射激光器技术中的中国专利申请概况\n和主要申请人的中国专利申请布局策略,本文旨在\n通过审视该技术领域的头部企业的专利技术布局,\n全面介绍VCSEL技术的现状和进展。本文将系统\n介绍各种VCSEL技术的发展方向;总结当前VC-\nSEL技术面临的主要问题,分析这些技术的优势\n及局限性,为我国垂直腔面发射激光器技术的产业\n发展和知识产权保护提供参考。\n1 专利申请趋势分析\n对中国专利全文数据库(CNTXT)中2000—\n2022年申请并公开的(2023年因可能涉及部分尚\n未被公开的专利申请无法被统计而未计入)垂直腔\n面发射激光器技术(IPC 分类号H01S5/183下)\n的中国专利进行统计,如图1所示,从2016年开\n始,专利文献数量逐年攀升,在2018—2022年的\n专利文献数量是之前的数倍之多,这段时间正是\nVCSEL技术快速发展更新的阶段。对这一阶段的\n申请人做了进一步统计,如图2所示,专利文献数",
+      "images": []
+    },
+    {
+      "page_num": 2,
+      "text": "程 灿等:垂直腔面发射激光器专利技术布局和研究进展\n020102- 3\n量排名前五(大于50件)的申请人分别是索尼\n(包括索尼公司、索尼株式会社以及索尼半导体解\n决方案公司)、北京工业大学、常州纵慧芯光半导\n体科技有限公司、朗美通(包括朗美通经营有限责\n任公司、朗美通株式会社)和中国科学院半导体所\n(由高到低排序);精工爱普生株式会社、富士施乐\n株式会社、三星电子株式会社、苹果公司等业内知\n名公司也在VCSEL技术领域积极地进行中国专利\n布局;国内高校以及科研院所主要是北京工业大学\n和中国科学院半导体所两家的专利申请数量比较\n多,他们在半导体激光器领域的研究深耕多年,在\n国内相应技术领域比较先进。专利申请数量居首位\n的常州纵慧芯光半导体科技有限公司,在中国\nVCSEL技术相关专利近百件,其VCSEL芯片在\n智能手机等消费类电子产品和汽车电子等领域具有\n广泛应用。\n图1 2000年以来历年的VCSEL技术\n中国专利申请趋势图\nFig.1 Chinese\npatent\napplication\ntrend\ndiagram\nfor\nVCSEL\ntechnology\nsince\n2000\n图2 VCSEL技术领域的中国专利申请主要申请人\n(2000年以来专利文献数量排名前二十)\nFig.2 Chinese\npatent\napplication\nmain\napplicants\nin\nthe\nfield\nof\nVCSEL\ntechnology\n(top\n20\nof\nthe\nnumber\nof\npatent\ndocuments\nsince\n2000)\n2 垂直腔面发射激光器技术发展方向\n为了迎合市场应用需求,VCSEL技术将会不\n断向更高性能、更低成本的方向发展。垂直腔面发\n射激光器技术当前面临的主要挑战是:首先,必须\n解决如何提高光功率密度和光束质量的问题;其\n次,如何提高发光器件的可靠性以及降低能耗和制\n造成本。VCSEL技术的发展方向:提高光功率密\n度、改善光束质量、提高器件的可靠性、降低能耗\n和制造成本,这是其商业化进程的基础。通过对\n2000—2022年与VCSEL技术相关的中国专利申请\n文献进行分析,VCSEL技术的研究发展路线主要\n分为以下几个方向:多结VCSEL技术和VCSEL\n二维阵列技术,旨在提高VCSEL阵列发光功率密\n度;VCSEL与微光学器件集成技术,旨在改善光\n束质量;VCSEL芯片结构的优化设计,旨在改善\n器件的可靠性/稳定性等;VCSEL的热管理技术,\n旨在降低能耗、提高器件寿命。这些技术各有特\n色,是从多种角度对结构设计、制备方法及封装方\n法进行改进,从而为VCSEL技术的发展提供了多\n样化的选择和可能性。\n2.1 多结VCSEL技术\n目前主流VCSEL芯片主要采用单结VCSEL,\n单孔出光功率一般是5~10\nmW;但是,对于大型\n三维传感应用场景,例如基于激光雷达的无人驾驶\n领域,单结结构的VCSEL已无法满足需求,需要\n大功率和高效率的激光器;为了达到更大出光功\n率,通常考虑增大芯片发光面积,这种做法增加了\n发光面尺寸、物料成本,对光学设计的难度增加,\n而且也让终端产品尺寸难以小型化。作为垂直腔面\n发射激光器的新一轮发展,多结VCSEL技术成为\n了研究热点。\n传统的氧化限制VCSEL只有一个氧化孔径\n或在器件的p侧和n侧分别设置一个氧化孔,起\n到电学和光学限制的作用。当采用一个氧化孔\n时,器件的寄生电容为氧化物电容与来自氧化物\n孔下面有源区电容的串联,单氧化层厚度薄,电\n容大,影响器件的高速性能。另一方面,单氧化\n层影响电流注入的均匀性,产生空间烧孔现象和\n热透镜效应,从而降低VCSEL的性能。采用两",
+      "images": []
+    },
+    {
+      "page_num": 3,
+      "text": "微\n纳\n电\n子\n技\n术\n020102- 4\n个氧化孔时,对量子阱的钳制作用也无法达到最\n佳的单模输出效果。\n为了实现更好的光电限制,在多结VCSEL中\n设置多个氧化层,通过同步氧化来实现垂直方向上\n多个氧化孔的构建。例如深圳瑞识智能科技有限公\n司2020年提交的专利申请[10]的背景技术中提到的\n多结VCSEL 的常见结构,如图3所示,VCSEL\n100包括多结有源区域101、顶部反射器区域102\n和底部反射器区域103,多结有源区域101包含多\n量子阱(MQW)有源区域、氧化物层和至少一个\n隧道结结构。多结有源区域101可以包括MQW\n有源区域105、106和107,氧化物层108、109和\n110以及隧道结结构111和112。氧化物层108、\n109和110被配置形成三个氧化物孔,例如由氧化\n物层108形成的氧化物孔113。多结VCSEL通常\n也被称为级联VCSEL,其堆叠了多个活性区,并\n且必须利用反向隧道结将活性区电耦合在一起,在\n多个活性区之间有隧道电流通过。隧穿过程也被称\n为载流子再循环过程,由此来自一个活性区的载流\n子被注入到下一个活性区,从而可以实现更高的斜\n率效率和更高的功率VCSEL。多结VCSEL的输\n出功率可以成倍增加,还可以提高器件的内量子效\n率,同时降低载流子密度,从而获得更高增益。多\n结VCSEL还具有许多明显优势,例如,更高的效\n率可以降低整体热负荷,更高的功率密度使芯片和\n封装尺寸大大减小,从而简化了光学设计和系统架\n构。然而,由于活性区的堆叠,VCSEL也需要更\n高的工作电压。在VCSEL操作期间,大部分的热\n115\n104\n101\n103\n116\n114\n113\n102\n110\n112\n109\n111\n108\n114\n116\nVCSEL 100\n107\n106\n105\n图3 多结VCSEL的截面结构示意图[10]\nFig.3 Cross-sectional\nstructure\ndiagram\nof\nmulti-junction\nVCSEL\n[10]\n来自有源区域。对于具有多个有源区域的多结\nVCSEL,在VCSEL中产生的热可能与有源区域的\n数目大致呈比例。\n目前多结VCSEL技术研究现状主要是通过\n改进VCSEL单元的氧化孔以及其他外延层材料、\n结构、制备工艺等,以实现提高发光功率密度或\n者改善光束质量。例如苏州镓港半导体有限公司\n于2022年提交的专利申请[11]提出了一种三氧化\n孔垂直腔面发射激光器及其制作方法,如图4和\n图5所示,三个氧化孔限制层结构全部置于激光\n谐振腔内光场形成的驻波振荡的波节位置,其中\n量子阱两侧的λ/4 (λ 为波长)光学厚度处的第\n一和第二氧化限制层,对量子阱形成较强的光学\n和电学限制,高铝组分氧化限制层可以对量子阱\n内电子形成更高的势垒阻挡,可有效阻挡量子阱\n内电子外泄,同时通过氧化孔径的高阻并联结构\n进一步限制电流注入区域,可提高量子阱内部区\n域电流注入的均匀性。在光学方面,第一和第二\n处氧化孔形成类似折射率引导型光纤,氧化孔区\n域等效为光纤包覆层可初步限制高阶模的产生,\n通过相对第一和第二氧化孔径更小的第三氧化孔\n径进一步控制高阶模的产生,可有效控制输出激\n光的单模特性。同时兼顾光学和电学限制条件两\n方面优势,制备的垂直腔面发射激光器实现的性\n能更具优势。\n衬底11\n缓冲层12\nn 型DBR 层13\n空间层141\n第一过渡层146\n量子阱有源区143\n第二过渡层147\n第三过渡层148\np 型DBR 层15\n接触层16\n142\n14\n144\n145\n}\n图4 多结VCSEL截面结构示意图[11]\nFig.4 Cross-sectional\nstructure\ndiagram\nof\nmulti-junction\nVCSEL\n[11]",
+      "images": [
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p3_i0.jpx",
+          "width": 566,
+          "height": 504,
+          "page": 3
+        },
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p3_i1.jpx",
+          "width": 1586,
+          "height": 1663,
+          "page": 3
+        }
+      ]
+    },
+    {
+      "page_num": 4,
+      "text": "程 灿等:垂直腔面发射激光器专利技术布局和研究进展\n020102- 5\n光场分布\n导带底\np 型DBR\n第三氧\n化限制层\n量子阱有源区\n第二氧\n化限制层\n第一氧\n化限制层\nSpacer 层\nn 型DBR\n4/λ+mλ/2，m=1\n2/λ\n4/λ\n4/λ\n图5 多结VCSEL的导带底结构与对应光场示意图[11]\nFig.5 Schematic\nof\nconduction\nband\nbottom\nstructure\nand\ncorre-\nsponding\noptical\nfield\nof\nmulti-junction\nVCSEL\n[11]\n2.2 VCSEL二维阵列技术\n除了多结VCSEL技术以外,另一种提高VC-\nSEL输出功率的常见技术方案是VCSEL阵列,采\n用多个VCSEL 单元密集排列而成的二维排列组\n合,每个单元都是一个独立的垂直腔面发射激光\n器,主要用于提供高功率的激光输出[8-9]。VC-\nSEL阵列因其结构优势被广泛应用于激光泵浦、\n光存储、三维传感、光探测、激光雷达等领域,所\n提供的高功率光源对于消费电子产品的传感器、手\n势识别、3D扫描设备尤为重要。目前的技术研究\n现状主要是通过改进VCSEL单元的电极、台面、\n氧化结构等设计,使相邻阵列单元的发光孔间距进\n一步缩小,提高发光功率密度[12-15]。\n例如,纵慧芯光半导体科技有限公司于2021年\n提交的专利申请[16]提出了一种垂直腔面发射激光器\n阵列,包括:衬底10;阵列排布的发光单元20,发\n光单元位于衬底10的表面,其中,发光单元20设\n置有发光孔21、第一通孔22和氧化沟槽23;发光\n孔21用于出射光线;第一通孔22围绕发光孔21设\n置;氧化沟槽23围绕发光孔21设置;第一通孔22\n或氧化沟槽23被至少两个发光单元20共用,如图6\n所示,能够减小发光单元之间的尺寸。\n22\n21\n10\n23\n图6 垂直腔面发射激光器阵列的俯视图[16]\nFig.6 Top\nview\nof\nVCSEL\narray\n[16]\n纵慧芯光半导体科技有限公司于2021年提交\n的专利申请[17]提出了一种垂直腔面发射激光器阵\n列,包括衬底、多个台型结构和多个沟道,每个台\n型结构形成于衬底上且包括一发光孔,台型结构为\n正多边形结构,如图7所示,发光孔为对应的正多\n边形发光孔。从而,垂直腔面发射激光器在排列时\n可以无缝拼接,避免垂直腔面发射激光器之间留\n白,浪费空间,进而增大了垂直腔面发射激光器在\n激光器芯片上的填充率,提高了VCSEL阵列的出\n光功率密度。\n109\n108\n101\n113\nH6\nH11\nH7\nH10\nH9\nH8\n图7 VCSEL单元的出光面示意图[17]\nFig.7 Schematic\nof\nlight\nexit\nsurface\nof\nVCSEL\ncell\n[17]\nVCSEL阵列器件通常并联或串联组合,在并\n联布置中,单个衬底上的多个VCSEL通常通过芯\n片连接,并且激光器与公共阴极并联电连接。然\n而,附加体电容是VCSEL并联工作的限制因素,\n并联布置可能不是大电流脉冲驱动电路的理想阻抗\n匹配。R.F.Carson等人[18]于2016年提出通过串\n联多个管芯可以获得更高的光功率。与单个并联的\nVCSEL阵列相比,尤其是在低占空比脉冲电流源\n下工作时,串联的VCSEL阵列在给定电流下大大\n提高了输出光功率。这种高功率脉冲光源特别适用\n于激光雷达和短程近红外照明等应用。\n在许多当前的串联配置中,每个VCSEL阵列\n包括一组布置在单个芯片上的平行VCSEL元件,\n以及由短接触点形成的公共阴极路径,该公共阴极\n路径连接到芯片上的导电层。多个芯片被结合在公\n共的衬底上,并被布置成串联结构。在倒装芯片布\n置中,每个芯片的阳极连接到衬底上的公共电极,\n每个芯片上的公共阴极连接到衬底布置上的下一个\n芯片的阳极。由于这种配置在每个芯片上使用共同",
+      "images": [
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p4_i0.jpx",
+          "width": 1890,
+          "height": 1230,
+          "page": 4
+        },
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p4_i1.jpx",
+          "width": 539,
+          "height": 391,
+          "page": 4
+        },
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p4_i2.jpx",
+          "width": 945,
+          "height": 757,
+          "page": 4
+        }
+      ]
+    },
+    {
+      "page_num": 5,
+      "text": "微\n纳\n电\n子\n技\n术\n020102- 6\n的阴极布置,需要在共同的衬底上“平铺”多个芯\n片以实现串联配置。但是平铺多个管芯所需的额外\n半导体管芯面积导致成本增加和封装问题。此外,\n由于匹配的特性来自安装在同一芯片上的VCSEL\n元件,在实际应用中波长的控制要求需要串联使用\n的VCSEL元件具有几乎相同的发射特性时,这种\n封装结构就不再具有优势。\n为此,郎美通经营有限责任公司于2020年提\n交的专利申请[19]提出了一种VCSEL阵列结构,可\n以实现在同一衬底上的多个VCSEL串联,通过电\n极结构以及绝缘结构的设置,获得高可靠性的\nVCSEL阵列,如图8所示,垂直腔面发射激光器\n阵列装置100 包括多个VCSEL 阵列102,例如\nVCSEL阵列102-1和相邻的VCSEL阵列102-2以\n及其他VCSEL阵列。VCSEL阵列102各自包括\n多个VCSEL\n104,例如VCSEL\n104-1、VCSEL\n104-2。VCSEL\n104形成在装置100中的衬底106\n124-2\n120-2\n126\n124-1\n120-1\n114-2\n112-2\n114-1\n112-1\n106\n108\n116-2\n118-2\n104-2\n110\n116-1\n118-1\n122\n104-1\n102-2\n102-1\n100\nw\nw\n图8 包括多个VCSEL阵列和绝缘结构装置的俯视图\n和沿w-w切面线的截面图[19]\nFig.8 Top\nview\nand\ncross-sectional\nview\nalong\nthe\nw-w\ntangent\nline\nof\nthe\ndevice\ncomprising\nmultiple\nVCSEL\narrays\nand\ninsulating\nstructures\n[19]\n上。装置100包括多个过孔阵列,每个过孔阵列包\n括多个过孔124。每个过孔阵列与从包括在VC-\nSEL阵列102中的多个VCSEL\n104到相邻VC-\nSEL阵列102中的多个VCSEL\n104的连接相关\n联。底部阴极120-1在过孔124-1中电连接到VC-\nSEL\n104-2的顶部阳极118-2,并且使得电流从底\n部阴极120-1 流向顶部阳极118-2。这样,过孔\n124-1允许VCSEL\n104-1和VCSEL\n104-2串联电\n连接。此外,过孔124允许装置100的其他VC-\nSEL串联电连接,允许装置100的VCSEL 阵列\n102-1、VCSEL阵列102-2串联电连接。装置100\n包括绝缘结构126,其位于装置100中包括的VC-\nSEL阵列102-1和其他VCSEL阵列102之间,提\n高了VCSEL 阵列102的质量以及可靠性,允许\nVCSEL阵列102在同一衬底106上串联电连接。\n2.3 VCSEL与微光学器件的集成技术\n在众多智慧设备比如智慧手机中,对平顶红外\n(IR)照明投影模块有巨大的市场需求,该模块在\n飞行时间(TOF)测量、安全摄像设备等具体应\n用中发挥着至关重要的作用,垂直腔面发射激光器\n则是平顶红外照明投影模块中最为核心的器件。\nVCSEL的光束质量会直接影响到其应用系统的性\n能参数。现有技术中通常是外部光学元件来实现所\n需要的光束性能,例如激光的等效光束质量因子\nM2在通过相关衍射光学元件调制后可小于1,并\n根据设计需求不同,产生不同发散角和不同横截面\n强度分布的出射激光。但是这种技术方案较难实现\n器件小型化和芯片化,可靠性差,成本高。\n为解决上述问题,通常采用在VCSEL上集成\n光学元件,如透镜、光栅、光子晶体等,以获得更\n高光束质量的激光输出,提高可靠性、降低能耗和\n成本[20-22]。例如:纵慧芯光半导体科技有限公司\n2020年提交的专利申请[23]提出了一种具有透明顶\n衬与背面正负电极的VCSEL,如图9所示,包括\n外延层上的氧化沟道和通过氧化层限定出的VC-\nSEL单元台面结构、位于所述外延层上的透明顶\n衬;所述光学元件(20)包括漫射器、超表面、透\n镜、光栅、衍射光学组件等。通过在VCSEL上集\n成光学元件(如超表面、衍射光学元件等),设置\n光学元件(20)的方式可以为纳米压印、灰度光刻\n或光刻胶回流。光学元件用于改变VCSEL芯片出",
+      "images": [
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p5_i0.jpx",
+          "width": 1890,
+          "height": 2412,
+          "page": 5
+        }
+      ]
+    },
+    {
+      "page_num": 6,
+      "text": "程 灿等:垂直腔面发射激光器专利技术布局和研究进展\n020102- 7\n射激光的光学特性,可以根据所需要的光束性能进\n行设计,易于实现器件小型化、芯片化,在半导体\n工艺下制成,不需要外部的光学元件。这种VC-\nSEL集成器件可广泛应用于手机感测、车用感测、\n医疗激光、光纤通信、量子计算机、距离感测和安\n全系统应用感测。\n18\n16\n14\n13\n17\n16\n5\n20\n图9 具有透明顶衬与背面正负电极的VCSEL\n[23]\nFig.9 VECSEL\nwith\ntop\ntransparent\nsubstrate,\nbackside\nnega-\ntive\nelectrode\nand\npassive\nelectrode\n[23]\n2.4 VCSEL芯片结构优化\n垂直腔面发射激光器的制备需要采用多种微纳\n加工技术,如光刻显影、选择性氧化、刻蚀等工艺\n步骤。为了提高器件的可靠性和良率,通常是通过\n优化制备工艺步骤,如选择氧化结构、刻蚀、腔面\n镀膜等步骤或者优化电极的材料、结构[24-25] 以改\n善阵列产品的性能、降低能耗和成本。例如,纵慧\n芯光半导体科技有限公司2021年提交的专利申\n请[26]提出了一种垂直腔面发射激光器,如图10所\n示,垂直腔面发射激光器包括第一腔面1、周期性\n分布反馈结构2和第二腔面3;沿第一方向,设置\n周期性分布反馈结构包括多个分布反馈结构12,\n且分布反馈结构包括氧化层121、有源区122和隧\n道结123,隧道结123串联有源层122,增加分布\n反馈结构12的数量,可以提高垂直分布反馈面发\n射激光器的输出功率,通过设置多个氧化层替代二\n阶光栅调节光均匀分布,同时设置氧化层为高阻抗\n结构,控制电流流经方向,提高出光功率,设置周\n期性分布反馈结构的周期为垂直腔面发射激光器的\n有效出射波长的半波长的整数倍,限定激光器的出\n射波长范围,减小光谱线宽,提高激光器的波长稳\n定性,解决了现有技术中激光器的波长稳定性差、\n功率密度较低、结构较复杂,难以实现大量生产以\n及窄线宽应用要求的技术问题。\n1\n12\n12\n12\n12\n12\n123\n122\n121\n3\n2\n12\n1222\nX\nY\nO\n122\nA\nL2\nL1\n1221\n1222\n1223\n}\n{\n图10 VCSEL的截面结构示意图[26]\nFig.10 Cross-sectional\nstructure\ndiagram\nof\nVCSEL\n[26]\n2.5 VCSEL热管理技术\n随着VCSEL的高功率激光输出和集成小型化\n的应用需求不断提高,VCSEL器件的光功率密度\n不断增大,器件尺寸不断减小,VCSEL的热管理\n变得尤为重要。例如多结VCSEL,在输出功率增\n加的同时,多结有源区域中产生的热也会增加,这\n可能会使多结VCSEL中的过热问题比具有单个多\n量子阱(MQW)有源区域的VCSEL中的过热问\n题更加严重。而高密度集成的VCSEL阵列的激光\n功率可以达到瓦级乃至数十瓦,VCSEL阵列在工\n作时会产生大量的热量,导致器件温度升高,影响\n性能,例如,可能会引起阈值电流升高、波长红\n移、输出光功率下降以及转换效率降低等问\n题[27-29]。因此,热管理是VCSEL 阵列设计和使\n用时的一个重要考虑因素。基于该应用需求,亟需\n通过设计新型的封装集成方式尤其是散热结构以改\n善产品的散热性能,从而降低能耗和成本。例如,\n朗美通经营有限责任公司于2021年提交的专利申\n请[30]提出了一种VCSEL阵列,如图11所示,包\n括两个或多个VCSEL单元,对每个VCSEL单元,\n通过镀覆沉积厚金属,以形成热沉124。与常见的\n将热沉材料设置在台面顶部的散热技术方案相比,\n采用厚散热材料完全包住台面,由于台面的活性区\n更靠近形成厚散热材料的边缘,因此具有良好的热\n传导性,从而能够有效且高效地移除由那些活性区\n产生的热量。通过使用厚的热沉层并增加热沉衬底\n上的n衬底接地电位和p接触平面之间的距离,随",
+      "images": [
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p6_i0.jpx",
+          "width": 945,
+          "height": 405,
+          "page": 6
+        },
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p6_i1.jpx",
+          "width": 827,
+          "height": 687,
+          "page": 6
+        }
+      ]
+    },
+    {
+      "page_num": 7,
+      "text": "微\n纳\n电\n子\n技\n术\n020102- 8\n着热沉层的高度增加而降低系统的寄生电容,除了\n减少热量,额外材料的积累增加了频率响应。电介\n质层114将激光台面103与镀覆金属覆盖物和热沉\n124绝缘,使得来自阳极触点202的电流将流过金\n属层126、124和120,然后流过半导体结,从而\n发光。电介质层114的沉积通常通过等离子体增强\n化学气相沉积(PECVD)来完成,但是也可以使\n用其他技术,例如原子层沉积(ALD)。\n204\n124\n102\n105\n100\n122\n103\n200\n202\n126\n124\n114\n104\n120\n126\n图11 VCSEL阵列的截面图[30]\nFig.11 Cross-sectional\nview\nof\nVCSEL\narray\n[30]\n3 VCSEL技术发展面临的问题\n为了满足消费电子产品的需要,垂直腔面发射\n激光器不仅要做到体积小,还需要满足高效率、低\n功耗、低成本。上面这些方法都是为了实现垂直腔\n面发射器件高性能的关键技术,每种技术都是为了\n满足不同应用需求,各有其独特的优点。多结\nVCSEL技术和VCSEL阵列技术,可以提高输出\n功率密度,但是其制造需要高精度的工艺和设备,\n增加了制造成本和难度;多结VCSEL技术和VC-\nSEL阵列输出功率密度高,散热成为关键问题,\n如果散热不良,会导致输出激光波长漂移,最终影\n响器件的性能和寿命;多结VCSEL的波长取决于\n串联的多个量子阱有源区,VCSEL阵列的波长取\n决于每个VCSEL单元的有源区,VCSEL的波长\n稳定性对于某些应用非常重要,如光通信。受限于\n制备工艺和环境因素的影响,波长需要进行精确的\n控制和补偿。VCSEL与微光学器件的集成具有小\n型化、芯片化的技术优势,但是集成需要高性能的\n工艺和设备,会受到光学性能如光斑质量、光束整\n形的限制,同时需要考虑VCSEL产生的热量对光\n学器件的影响,如热透镜效应等,可能需要精确的\n控制和补偿,增加了制造成本和难度。VCSEL芯\n片结构优化技术提高了器件的稳定性和可靠性,但\n是增加了芯片制备的工艺步骤,引入了更为复杂的\n芯片结构,提高了制造成本和难度。VCSEL热管\n理是保障器件工作可靠性和寿命的关键技术,但是\n由于VCSEL应用对更高输出功率的要求,VCSEL\n的热管理面临着更大的挑战,需要不断地改善高功\n率VCSEL的散热设计,以获得更高性能的器件,\n并且降低能耗和成本。\n总的来说,随着技术的不断进步,这些技术都\n还在进一步的优化,研究人员和工程师正在努力改\n进制造工艺、结构设计,解决散热问题,提高光学\n性能,降低集成难度、能耗和成本,以推动VC-\nSEL的进一步发展和应用。\n4 结 语\n垂直腔面发射半导体激光器作为一种新兴的\n光学器件,以其体积小,调制响应快、光束质量\n好、效率高、功耗低、易于集成为大面积阵列等\n诸多优点,广泛应用于光通信、光传感、激光显\n示、激光照明、激光雷达、消费电子等领域。随\n着国内产品开发速度的加快和新技术、产业政策\n的双轮驱动,市场预计将迎来新的发展机遇。同\n时,全球VCSEL市场规模也将持续保持平稳增\n长的态势。目前对VCSEL需求最大的两个行业\n是移动和消费电子应用市场、数据通信市场。随\n着激光雷达、3D传感技术、增强现实(AR)/虚\n拟现实(VR)新产品的持续推出,对作为关键器\n件的VCSEL提出了更高性能的要求[31-33]。本文\n总结了VCSEL 的几种主流专利技术研究路线,\n旨在概述这一领域的技术进展,推动VCSEL的\n进一步应用和发展。未来,随着对VCSEL技术\n研究的深入,相信其在各个领域的应用前景将会\n越来越广阔,更高效、更稳定、更长寿命的VC-\nSEL有望在不久的将来面世。\n参考文献:\n[1] IGA\nK.\nSurface-emitting\nlaser-its\nbirth\nand\ngeneration\nof\nnew",
+      "images": [
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p7_i0.jpx",
+          "width": 827,
+          "height": 530,
+          "page": 7
+        }
+      ]
+    },
+    {
+      "page_num": 8,
+      "text": "程 灿等:垂直腔面发射激光器专利技术布局和研究进展\n020102- 9\noptoelectronics\nfield\n[J].\nIEEE\nJournal\nof\nSelected\nTopics\nin\nQuantum\nElectronics,\n2000,\n6 (6):\n1201-1215.\n[2] ZHANG\nJ\nY,\nZHANG\nJ\nW,\nZHANG\nZ,\net\nal.\nHigh-power\nvertical\nexternal-cavity\nsurface-emitting\nlaser\nemitting\nswi-\ntchable\nwavelengths\n[J].\nOptics\nExpress,\n2020,\n28 (22):\n32612-32619.\n[3] LEE\nY\nH,\nJEWELL\nJ\nL,\nSCHERER\nA,\net\nal.\nRoom-tem-\nperature\ncontinuous-wave\nvertical-cavity\nsingle-quantum-well\nmicrolaser\ndiodes\n[J].\nElectronics\nLetters,\n1989,\n25 (20):\n1377-1378.\n[4] LOTT\nJ\nA,\nLEDENTSOV\nN\nN,\nUSTINOV\nV\nM,\net\nal.\nInAs-InGaAs\nquantum\ndot\nVCSELs\non\nGaAs\nsubstrates\nemitting\nat\n1.3\nμm\n[J].\nElectronics\nLetters,\n2000,\n36 (16):\n1384-1385.\n[5] 王立军,\n宁永强,\n秦莉,\n等.\n大功率半导体激光器研究进展\n[J].\n发光学报,\n2015,\n36 (1):\n1-19.\nWANG\nL\nJ,\nNING\nY\nQ,\nQIN\nL,\net\nal.\nDevelopment\nof\nhigh\npower\ndiode\nlaser\n[J].\nChinese\nJournal\nof\nLuminescence,\n2015,\n36 (1):\n1-19 (\nin\nChinese).\n[6] 梁浩斌.\nVCSEL 市场份额格局的发展趋势[EB/OL].\n(2022-09-26)\n[2024-05-08].\nhttps://m.elecfans.\ncom/article/1898206.html.\n[7] 闫观鑫,\n郝永芹.\n高光束质量大功率垂直腔面发射激光器\n[J].\n中国激光,\n2024,\n51 (8):0801001.\nYAN\nG\nX,\nHAO\nY\nQ.\nHigh-beam-quality\nhigh-power\nverti-\ncal-cavity\nsurface-emitting\nlaser\n[J].\nChinese\nJournal\nof\nLa-\nsers,\n2024,\n51 (8):0801001 (\nin\nChinese).\n[8] 朱子军,\n刘玉东,\n惠武,\n等.\n垂直腔面发射激光器阵列光束\n的空间传输特性[J].\n光子学报,\n2022,\n51\n(12):56-63.\nZHU\nZ\nJ,LIU\nY\nD,HUI\nW,et\nal.\nBeam\nspace\npropaga-\ntion\ncharacteristics\nof\nvertical\ncavity\nsurface\nemitting\nlaser\nar-\nrays [J].\nActa\nPhotonica\nSinica,2022,\n51\n(12):56-63\n(\nin\nChinese).\n[9] KHAN\nZ,\nSHIH\nJ\nC,\nCHAO\nR\nL,\net\nal.\nHigh-brightness\nand\nhigh-speed\nvertical-cavity\nsurface-emitting\nlaser\narrays\n[J].\nOptica,\n2020,\n7 (4):\n267-275.\n[10] 深圳瑞识智能科技有限公司.\n底发射多结VCSEL 阵列:\n202080063283.8 [P].\n2020-05-22.\n[11] 苏州镓港半导体有限公司.\n三氧化孔垂直腔面发射激光器\n及其制作方法:202210700473.7 [P].2022-06-20.\n[12] 陈中标,崔碧峰,郑翔瑞,等.\n垂直腔面发射半导体激光\n器氧化优化研究[J].\n中国激光,2024,\n51 (8):\n0801003.\nCHEN\nZ\nB,\nCUI\nB\nF,\nZHENG\nX\nR,\net\nal.\nOptimization\nof\noxidation\nfor\nvertical\ncavity\nsurface\nemitting\nsemiconductor\nlasers [J].\nChinese\nJournal\nof\nLasers,2024,\n51 (8):\n0801003 (\nin\nChinese).\n[13] ZHANG\nF,\nCUI\nN,\nYANG\nJ\nW,\net\nal.\nHigh-beam-quality\nlow-resistance\nvertical-cavity\nsurface-emitting\nlaser\narray\nwith\ngraphene\nelectrode\n[J].\nOptics\nExpress,\n2024,\n32\n(5):\n8205-8213.\n[14] LARISCH\nG,\nMOSER\nP,\nLOTT\nJ\nA,\net\nal.\nImpact\nof\npho-\nton\nlifetime\non\nthe\ntemperature\nstability\nof\n50\nGb/s\n980\nnm\nVCSELs\n[J].\nIEEE\nPhotonics\nTechnology\nLetters,\n2016,\n28 (21):\n2327-2330.\n[15] LIU\nM,\nWANG\nC\nY,\nFENG\nM,\net\nal.\n850\nnm\noxide-con-\nfined\nVCSELs\nwith\n50\nGb/s\nerror-free\ntransmission\nopera-\nting\nup\nto\n85\n℃\n[C]//Proceedings\nof\nConference\non\nLasers\nand\nElectro-Optics\n(CLEO).\nSan\nJose,\nUSA,\n2016:\n1-2.\n[16] 常州纵慧芯光半导体科技有限公司.\n一种垂直腔面发射激\n光器以及制备方法:202111331298.0 [P].\n2021-11-11.\n[17] 常州纵慧芯光半导体科技有限公司.\n垂直腔面发射激光器、\n激光器芯片和激光器发射模组:202110384310.8 [P].\n2021-04-09.\n[18] CARSON\nR\nF,\nWARREN\nM\nE,\nDACHA\nP,\net\nal.\nPro-\ngress\nin\nhigh-power\nhigh-speed\nVCSEL\narrays\n[C]//Pro-\nceedings\nof\nVertical-Cavity\nSurface-Emitting\nLasers\nXX.\nSan\nFrancisco,\nUSA,\n2016:\n97660B.\n[19] 朗美通经营有限责任公司.\n电绝缘垂直发射装置:\n",
+      "images": []
+    },
+    {
+      "page_num": 9,
+      "text": "微\n纳\n电\n子\n技\n术\n020102-10\n发射激光器及其制备方法:202111037142.1 [P].\n2021-\n09-06.\n[27] 金冬月,洪福临,张万荣,等.垂直腔面发射激光器阵列的\n热设计研究进展[J].激光技术,\n2024,48 (6):777-789.\nJIN\nD\nY,\nHONG\nF\nL,\nZHANG\nW\nR,\net\nal.\nAdvances\nin\nthermal\ndesign\nof\nvertical\ncavity\nsurface\nemitting\nlaser\narray\n[J].\nLaser\nTechnology,\n2024,48 (6):777-789 (\nin\nChi-\nnese).\n[28] 闫观鑫,郝永芹,张秋波.\n高功率垂直腔面发射激光器阵\n列热特性[J].\n物理学报,2024,\n73 (5):\n054204.\nYAN\nG\nX,\nHAO\nY\nQ,\nZHANG\nQ\nB.\nThermal\ncharacteris-\ntics\nof\nhigh-power\nvertical\ncavity\nsurface\nemitting\nlaser\narray\n[J].\nActa\nPhysica\nSinica,\n2024,\n73 (5):\n054204 (in\nChi-\nnese).\n[29] 潘智鹏,李伟,戚宇轩,等.\n光子晶体垂直腔面发射激光\n器的设计分析[J].\n光学学报,\n2022,\n42 (14):\n1414002.\nPAN\nZ\nP,\nLI\nW,\nQI\nY\nX,\net\nal.\nDesign\nand\nanalysis\nof\npho-\ntonic\ncrystal\nvertical-cavity\nsurface-emitting\nlasers [J].Ac-\nta\nOptica\nSinica,\n2022,\n42 (14):\n1414002 (\nin\nChinese).\n[30] 朗美通经营有限责任公司.\n具有多个堆叠活性区的VCSEL\n设备:202110733243.6 [P].\n2021-06-29.\n[31] 张建伟,宁永强,张星,等.\n高温工作垂直腔面发射半导\n体激光器现状与未来(特邀) [J].光子学报,2022,\n51\n(2):\n0251201.\nZHANG\nJ\nW,NING\nY\nQ,ZHANG\nX,et\nal.\nDevelop-\nment\nand\nfuture\nof\nvertical\ncavity\nsurface\nemitting\nlasers\noperated\nat\nhigh\ntemperatures (\ninvited)[J].\nActa\nPhotoni-\nca\nSinica,2022,\n51 (2):\n0251201 (\nin\nChinese).\n[32] 张继业,李雪,张建伟,等.\n垂直腔面发射激光器研究进\n展[J].\n发光学报,2020,\n41 (12):1443-1459.\nZHANG\nJ\nY,LI\nX,ZHANG\nJ\nW,et\nal.\nResearch\npro-\ngress\nof\nvertical-cavity\nsurface-emitting\nlaser [J].\nChinese\nJournal\nof\nLuminescence,2020,\n41 (2):1443-1459 (in\nChinese).\n[33] 应磊莹,梅洋,张保平.\nGaN 基垂直腔面发射激光器的研\n究进展[J].\n厦门大学学报(自然科学版),\n2021,\n60 (3):\n472-483.\nYING\nL\nY,\nMEI\nY,\nZHANG\nB\nP.\nProgress\nof\nGaN\nbased\nvertical\ncavity\nsurface\nemitting\nlasers [J].\nJournal\nof\nXia-\nmen\nUniversity (Natural\nScience),\n2021,\n60 (3):472-\n483 (\nin\nChinese).\n作者简介:\n程\n灿（1983—），女，河南泌阳人，\n硕士，国家知识产权局专利局光电发明\n审查部审查员，主要从事激光器以及激\n光的相位、脉冲等特性测量技术领域的\n专利审查。",
+      "images": [
+        {
+          "path": "data/processed\\垂直腔面发射激光器专利技术布局和研究进展_程灿_p9_i0.jpx",
+          "width": 295,
+          "height": 413,
+          "page": 9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于多层语言特征的辞格多标签分类方法研究_黄欢_merged.json",
+    "page_num": 4,
+    "image_index": 0,
+    "thought": "该论文提出MRMSSLL模型用于辞格多标签分类，其技术体系以多粒度语言特征融合为核心。底层输入为分词后的文本（Jieba分词），经DDParser生成语法依存树（A^st）；同时通过BERT获取字粒度语义表示（融合Token/Segment/Position Embedding）。中层构建双路径特征提取：(1) 词粒度路径：Word Embedding → BiLSTM → 语法图卷积（H^st）与语义图卷积（H^sm）→ 加权融合（Weighted Fusion）；(2) 字粒度路径：BERT输出 → Self-Attention → 与BiLSTM输出（H^L）在文本标签融合模块中通过Cross Attention交互。最终所有特征拼接后经Sigmoid输出多标签结果。整体呈现‘输入预处理→多粒度特征编码→图结构建模→跨粒度注意力融合→分类’的层次化架构。",
+    "tree": {
+      "root": "辞格多标签分类技术体系",
+      "children": [
+        {
+          "name": "输入预处理层",
+          "children": [
+            {
+              "name": "中文分词",
+              "children": [
+                "Jieba分词"
+              ]
+            },
+            {
+              "name": "句法分析",
+              "children": [
+                "DDParser生成依存句法树（A^st）"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "多粒度特征编码层",
+          "children": [
+            {
+              "name": "字粒度编码",
+              "children": [
+                "BERT预训练模型",
+                "Input Embedding（Token+Segment+Position）",
+                "Self-Attention提取字级语义"
+              ]
+            },
+            {
+              "name": "词粒度编码",
+              "children": [
+                "Word Embedding",
+                "BiLSTM序列建模"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "结构化特征增强层",
+          "children": [
+            {
+              "name": "图卷积建模",
+              "children": [
+                "语法图卷积（基于依存树A^st）→ H^st",
+                "语义图卷积（基于语义关系）→ H^sm"
+              ]
+            },
+            {
+              "name": "注意力机制",
+              "children": [
+                "Self-Attention Score（词内自注意）",
+                "Cross Attention（字-词/字-句跨粒度交互）"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "多源特征融合层",
+          "children": [
+            {
+              "name": "词粒度语义语法融合模块",
+              "children": [
+                "Weighted Fusion（V^st, V^sm加权融合）"
+              ]
+            },
+            {
+              "name": "文本标签融合模块",
+              "children": [
+                "Cross Attention（F, H^L, S交互）",
+                "Self-Attention"
+              ]
+            },
+            {
+              "name": "特征拼接",
+              "children": [
+                "concat（E, O等向量拼接）"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "输出层",
+          "children": [
+            "Sigmoid多标签分类"
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于多层语言特征的辞格多标签分类方法研究_黄欢_merged.json",
+    "page_num": 5,
+    "image_index": 0,
+    "thought": "论文描述了一个面向中文文本理解的多粒度、多模态（语法/语义）融合技术体系。核心流程为：(1) 基于BERT（12层Transformer Encoder）获取字粒度向量E_tok；(2) 分别通过图卷积网络（GCN）提取语法特征H_st与语义特征H_sm；(3) 利用平均池化生成中间向量H_mst/H_msm；(4) 采用交叉注意力机制实现语法-语义双向融合，得到v_st与v_sm；(5) 引入可学习权重α_y对两类融合特征加权求和，得词级向量O；(6) 将字粒度向量E与词级向量O拼接后输入自注意力模块，生成最终融合向量F；(7) 最终通过CLS头进行下游任务（如分类）。架构图显示S_CLS/S_i为输入表示（可能对应字/词嵌入），T_CLS/T_rm为各层Transformer输出（含CLS token），体现分层编码与跨层聚合结构。",
+    "tree": {
+      "root": "多粒度语法语义融合文本表示框架",
+      "children": [
+        {
+          "name": "基础编码层",
+          "children": [
+            {
+              "name": "BERT字编码器（12层Transformer Encoder）",
+              "children": [
+                {
+                  "name": "字粒度向量E_tok"
+                }
+              ]
+            },
+            {
+              "name": "图卷积网络（GCN）",
+              "children": [
+                {
+                  "name": "语法特征H_st"
+                },
+                {
+                  "name": "语义特征H_sm"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "特征融合层",
+          "children": [
+            {
+              "name": "平均池化模块",
+              "children": [
+                {
+                  "name": "语法中间向量H_mst"
+                },
+                {
+                  "name": "语义中间向量H_msm"
+                }
+              ]
+            },
+            {
+              "name": "交叉注意力融合模块",
+              "children": [
+                {
+                  "name": "语法→语义注意力v_sm"
+                },
+                {
+                  "name": "语义→语法注意力v_st"
+                }
+              ]
+            },
+            {
+              "name": "加权融合模块",
+              "children": [
+                {
+                  "name": "可学习权重α_语法, α_语义"
+                },
+                {
+                  "name": "词级向量O = Σ α_y v_y"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "多粒度融合层",
+          "children": [
+            {
+              "name": "字-词拼接（Concat[E, O]）",
+              "children": []
+            },
+            {
+              "name": "自注意力融合模块",
+              "children": [
+                {
+                  "name": "最终文本向量F"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "任务输出层",
+          "children": [
+            {
+              "name": "CLS分类头"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "image",
+    "merged_json": "data/merged\\基于多层语言特征的辞格多标签分类方法研究_黄欢_merged.json",
+    "page_num": 5,
+    "image_index": 1,
+    "thought": "论文描述了一个多层次、多粒度的文本表征融合架构：1）底层使用BERT（12层Transformer Encoder）生成字级向量E_tok; 2）并行提取语法特征H_st（可能来自依存/句法图结构，结合GCN层数N）和语义特征H_sm；3）通过平均池化得到中间向量H_mst/H_msm；4）采用交叉注意力机制（H_y ↔ H_mx）实现语法-语义双向融合，生成增强特征v_y；5）再通过可学习权重α_y加权融合语法/语义特征得词级表示O；6）最后将字级E与词级O拼接后输入自注意力模块（Multi-Head Attention + Feed Forward + Add&Norm）生成最终融合向量F。技术体系以‘融合特征V_y’为输出目标，核心是分层特征提取→池化→交叉注意力→加权融合→跨粒度自注意力整合。",
+    "tree": {
+      "root": "多粒度语法语义融合文本表征框架",
+      "children": [
+        {
+          "name": "基础特征提取层",
+          "children": [
+            {
+              "name": "字级语义编码",
+              "children": [
+                {
+                  "name": "BERT（12层Transformer Encoder）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "词级语法特征提取",
+              "children": [
+                {
+                  "name": "图卷积网络（GCN）建模句法结构",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "词级语义特征提取",
+              "children": [
+                {
+                  "name": "上下文语义编码器（如BERT中间层或独立编码）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "中间表示生成层",
+          "children": [
+            {
+              "name": "平均池化压缩",
+              "children": [
+                {
+                  "name": "语法中间向量 H_mst",
+                  "children": []
+                },
+                {
+                  "name": "语义中间向量 H_msm",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "跨特征融合层",
+          "children": [
+            {
+              "name": "交叉注意力机制",
+              "children": [
+                {
+                  "name": "语法→语义注意力（H_sm ← H_mst）",
+                  "children": []
+                },
+                {
+                  "name": "语义→语法注意力（H_st ← H_msm）",
+                  "children": []
+                },
+                {
+                  "name": "加权残差融合 v_y = attn_yx + H_y",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "特征加权融合",
+              "children": [
+                {
+                  "name": "可学习权重 α_y = Softmax(tanh(W1·v_y + b1))",
+                  "children": []
+                },
+                {
+                  "name": "加权平均得词级表示 O = Σ α_y v_y",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "跨粒度融合层",
+          "children": [
+            {
+              "name": "字-词拼接",
+              "children": [
+                {
+                  "name": "Concat(E, O) → S",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "自注意力融合",
+              "children": [
+                {
+                  "name": "Multi-Head Attention（Q=Linear(H^y), K/V=Linear(H^mx)）",
+                  "children": []
+                },
+                {
+                  "name": "Feed Forward + Add & Norm 残差连接",
+                  "children": []
+                },
+                {
+                  "name": "最终融合特征 V_y",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于多层语言特征的辞格多标签分类方法研究_黄欢_merged.json",
+    "page_num": 6,
+    "table_index": 0,
+    "thought": "表格实际呈现的是实验数据的来源分布，按学段（小学、初中、高中）和年级划分的样本数量统计，而非技术分类体系。上下文描述的是‘基于多层语言特征的辞格多标签分类方法’，其核心技术模块包括：1) 多层语言特征建模（字/词粒度）、2) 文本标签融合模块（含Word Embedding、BiLSTM、注意力机制）、3) 多标签分类输出（Sigmoid + BCEWithLogitsLoss）。因此，技术分类应依据方法论结构提取层级：根节点为‘辞格多标签分类方法’，下分三大核心模块；其中‘文本标签融合模块’可进一步细分为子组件。表格中的年级数据仅用于说明数据集构成，不参与技术分类。",
+    "tree": {
+      "root": "辞格多标签分类方法",
+      "children": [
+        {
+          "name": "多层语言特征建模",
+          "children": [
+            {
+              "name": "字粒度特征提取"
+            },
+            {
+              "name": "词粒度特征提取"
+            }
+          ]
+        },
+        {
+          "name": "文本标签融合模块",
+          "children": [
+            {
+              "name": "标签编码（Word Embedding）"
+            },
+            {
+              "name": "标签语义融合（BiLSTM）"
+            },
+            {
+              "name": "注意力机制融合（文本-标签交互）"
+            }
+          ]
+        },
+        {
+          "name": "多标签分类与优化",
+          "children": [
+            {
+              "name": "输出层（Sigmoid激活）"
+            },
+            {
+              "name": "损失函数（BCEWithLogitsLoss）"
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于多层语言特征的辞格多标签分类方法研究_黄欢_merged.json",
+    "page_num": 8,
+    "table_index": 0,
+    "thought": "表格中列出的模型可分为三类：(1) 基础预训练模型（如BERT）；(2) 基于BERT的改进结构组合模型（如BERT+CNN、BERT+CL+KNN、TLA-BERT），体现特征融合或任务适配策略；(3) 本文提出的多层语言特征融合模型MRMSSLL，其核心创新在于整合字粒度、词粒度的语法（syn）、语义（sem）特征及自注意力机制。消融实验进一步揭示技术分类维度：按特征粒度（字/词）、特征类型（语法/语义/词形/标签信息）、融合方式（CNN/CL/KNN/自注意力）进行分层设计。因此，技术分类体系应以‘语言特征表示方法’为根节点，下设‘特征粒度’与‘特征类型’两大主干，再结合‘融合/增强机制’形成层级结构。",
+    "tree": {
+      "root": "语言特征表示方法",
+      "children": [
+        {
+          "name": "特征粒度",
+          "children": [
+            {
+              "name": "字粒度特征",
+              "children": []
+            },
+            {
+              "name": "词粒度特征",
+              "children": [
+                {
+                  "name": "词形特征（char-level / word-level surface）",
+                  "children": []
+                },
+                {
+                  "name": "语义特征（semantic）",
+                  "children": []
+                },
+                {
+                  "name": "语法特征（syntactic）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "特征融合与增强机制",
+          "children": [
+            {
+              "name": "神经网络融合",
+              "children": [
+                {
+                  "name": "CNN（局部模式提取）",
+                  "children": []
+                },
+                {
+                  "name": "自注意力（跨粒度交互）",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "外部知识/约束引入",
+              "children": [
+                {
+                  "name": "对比学习（CL）",
+                  "children": []
+                },
+                {
+                  "name": "KNN（邻近标签推理）",
+                  "children": []
+                },
+                {
+                  "name": "标签信息融合",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "任务适配结构",
+              "children": [
+                {
+                  "name": "TLA（Task-Linked Adaptation）",
+                  "children": []
+                },
+                {
+                  "name": "多层多视角融合（MRMSSLL）",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "基础模型架构",
+          "children": [
+            {
+              "name": "预训练语言模型（如BERT）",
+              "children": []
+            },
+            {
+              "name": "图神经网络（如LDGN）",
+              "children": []
+            },
+            {
+              "name": "传统分类器（如CB, SGM）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  },
+  {
+    "type": "table",
+    "merged_json": "data/merged\\基于多层语言特征的辞格多标签分类方法研究_黄欢_merged.json",
+    "page_num": 8,
+    "table_index": 1,
+    "thought": "表格为消融实验结果，模型名称中的'w/o'表示'without'，即移除某类特征或模块后的变体。根据上下文描述及模型命名规则，可识别出技术分类围绕多层语言特征展开：1）粒度层级（字/词）；2）特征类型（语义sem、语法syn、字符cha、词形word）；3）结构建模组件（self-atttn自注意力模块）；4）标签信息（label）。其中，'cha'对应字符级特征，'word'对应词级表面形式（可能指词向量输入），'sem'为词级语义特征，'syn'为词级语法特征（由句法依存分析获得），'self-attn'为跨粒度融合的自注意力机制，'label'为标签嵌入信息。消融组合表明这些模块是正交且可分离的组件，构成一个层次化特征融合体系。",
+    "tree": {
+      "root": "多层语言特征融合体系",
+      "children": [
+        {
+          "name": "粒度层级",
+          "children": [
+            {
+              "name": "字符级（cha）",
+              "children": []
+            },
+            {
+              "name": "词级（word）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "特征类型",
+          "children": [
+            {
+              "name": "语义特征（sem）",
+              "children": []
+            },
+            {
+              "name": "语法特征（syn）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "结构建模模块",
+          "children": [
+            {
+              "name": "自注意力融合模块（self-attn）",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "辅助信息",
+          "children": [
+            {
+              "name": "标签信息（label）",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "auto_annotated": true,
+    "needs_review": true
+  }
+]

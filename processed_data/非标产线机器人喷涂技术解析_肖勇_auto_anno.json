@@ -1,0 +1,15 @@
+[
+  {
+    "type": "image",
+    "merged_json": "data/merged\\非标产线机器人喷涂技术解析_肖勇_merged.json",
+    "page_num": 2,
+    "image_index": 0,
+    "thought": "自动标注失败：400 Client Error: Bad Request for url: https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+    "tree": {
+      "root": "待修正",
+      "children": []
+    },
+    "auto_annotated": false,
+    "needs_review": true
+  }
+]
